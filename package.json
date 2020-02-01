@@ -1,0 +1,29 @@
+{
+  "name": "rikverse-poetry-site",
+  "version": "1.0.0",
+  "licence": "MIT",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "start": "sirv public --single"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^11.0.0",
+    "@rollup/plugin-node-resolve": "^7.0.0",
+    "postcss": "^7.0.26",
+    "postcss-load-config": "^2.1.0",
+    "rollup": "^1.20.0",
+    "rollup-plugin-livereload": "^1.0.0",
+    "rollup-plugin-svelte": "^5.0.3",
+    "rollup-plugin-terser": "^5.1.2",
+    "svelte": "^3.0.0",
+    "svelte-preprocess": "^3.3.1",
+    "tailwindcss": "^1.1.4"
+  },
+  "dependencies": {
+    "@fullhuman/postcss-purgecss": "^2.0.5",
+    "sirv-cli": "^0.4.4",
+    "typeface-roboto": "^0.0.75",
+    "typeface-roboto-slab": "^1.1.3"
+  }
+}
