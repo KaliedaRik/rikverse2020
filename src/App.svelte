@@ -1,6 +1,3 @@
-<script>
-</script>
-
 <style global>
 	@tailwind base;
 
@@ -70,10 +67,36 @@
 	@tailwind utilities;
 </style>
 
-<main>
-	<h1>This is header 1</h1>
-	<h2>This is header 2</h2>
-	<h3>This is header 3</h3>
-	<p>This is normal paragraph text, with <b>added bold</b> and <i>added italic</i> to check that they are being correctly rendered too.</p>
-</main>
+<script>
+	import {router, startRouter, routes } from './routes.js';
 
+	import Navigation from './components/Navigation.svelte';
+	import Footer from './components/Footer.svelte';
+
+	let page, params,
+		loc = window.location;
+
+	// Build routes
+	routes.forEach(route => {
+
+		router(
+			route.path, 
+
+			(ctx, next) => {
+				params = ctx.params;
+				next();
+			},
+
+			() => page = route.component
+		);
+	});
+
+	// Set up the router to start and actively watch for changes
+	startRouter();
+</script>
+
+<Navigation />
+
+<svelte:component this={page} params={params} />
+
+<Footer />
