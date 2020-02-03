@@ -1,9 +1,12 @@
 <style global>
     @tailwind base;
 
+    html {
+        font-size: 14px;
+    }
+
     body {
         @apply font-sans bg-blue-100 p-0;
-        font-size: 14px;
         line-height: 1.25;
     }
     main {
@@ -13,7 +16,7 @@
     }
 
     h1, h2, h3 {
-        @apply font-serif font-semibold mb-4 pt-4;
+        @apply font-serif mb-4 pt-4;
     }
     h1 {
         @apply text-3xl; 
@@ -27,15 +30,18 @@
 
     p {
         @apply mb-4;
+        line-height: 1.5;
     }
     a {
         @apply text-green-700;
     }
 
     @media (min-width: 768px) {
+        html {
+            font-size: 16px;
+        }
         body {
             @apply bg-indigo-100 p-4;
-            font-size: 16px;
         }
         main {
             @apply rounded-lg;
@@ -43,7 +49,7 @@
         }
     }
     @media (min-width: 1024px) {
-        body {
+        html {
             font-size: 18px;
         }
         main {
@@ -81,7 +87,6 @@
     startRouter();
 
     import Navigation from './components/Navigation.svelte';
-    import Footer from './components/Footer.svelte';
 
     // this handles external links into the site
     // - because the site is essentially a single page app
@@ -106,8 +111,4 @@
 
 <Navigation />
 
-<main>
-    <svelte:component this={page} params={params} />
-</main>
-
-<Footer />
+<svelte:component this={page} params={params} />

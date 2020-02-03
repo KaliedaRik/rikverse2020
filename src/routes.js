@@ -4,22 +4,27 @@ const startRouter = router.start;
 
 import Home from "./pages/Home.svelte";
 import About from "./pages/About.svelte";
+
 import Blog from "./pages/Blog.svelte";
+import BlogPost from "./pages/BlogPost.svelte";
+
 import PoemsIndex from "./pages/PoemsIndex.svelte";
+
 import Publications from "./pages/Publications.svelte";
+
 import CookieConsents from "./pages/CookieConsents.svelte";
 import Privacy from "./pages/Privacy.svelte";
 import ErrorPage from "./pages/ErrorPage.svelte";
 
 const routes = [
     {
-        // The landing page, which will show a random poem to the user
-        path: '/',
-        component: Home
-    }, {
         // The Author page - because "Every ass loves to hear himself bray"
         path: '/about',
         component: About
+    }, {
+        // Blog post page
+        path: '/blog/:slug',
+        component: BlogPost
     }, {
         // Index of links to individual blog posts
         path: '/blog',
@@ -40,6 +45,10 @@ const routes = [
         // A dedicated privacy/security page, because every website needs one
         path: '/privacy-and-security',
         component: Privacy
+    }, {
+        // The landing page, which will show a random poem to the user
+        path: '/',
+        component: Home
     }, {
         // The catch-all route, to serve an error page
         path: '*',

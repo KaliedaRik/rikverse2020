@@ -1,7 +1,6 @@
 console.log('page builder called');
 
 import fs from 'fs';
-import pageData from './src/data/pageData.mjs';
 
 // index.html template
 const buildIndexFile = (data) => {
@@ -59,29 +58,42 @@ const checkDirectory = (dir) => {
 };
 
 // This function generates index pages
-const writeIndexFile = (data) => {
+const writeIndexFile = (data, directory) => {
 
     return new Promise((resolve, reject) => {
 
-        fs.open(`${data.directory}/index.html`, 'wx', (fileError, fd) => {
+        fs.open(`${directory}/index.html`, 'wx', (fileError, fd) => {
 
-            if (fileError && fileError.code !== 'EEXIST') reject(`error for ${data.directory}/index.html - ${fileError.code}, ${fileError.message}`);
+            if (fileError && fileError.code !== 'EEXIST') reject(`error for ${directory}/index.html - ${fileError.code}, ${fileError.message}`);
 
-            fs.writeFile(`${data.directory}/index.html`, buildIndexFile(data), 'utf8', (writeError) => {
+            fs.writeFile(`${directory}/index.html`, buildIndexFile(data), 'utf8', (writeError) => {
 
-                if (writeError) reject(`failed to write ${data.directory}/index.html file: ${writeError.code}, ${writeError.message}`);
+                if (writeError) reject(`failed to write ${directory}/index.html file: ${writeError.code}, ${writeError.message}`);
 
-                else resolve(`${data.directory}/index.html file updated`)
+                else resolve(`${directory}/index.html file updated`)
             });
          });
     });
 };
 
 // Process the router base pages index files
+import pageData from './src/data/pageData.mjs';
 pageData.forEach(page => {
 
-    checkDirectory(page.directory)
-    .then(res => writeIndexFile(page))
+    checkDirectory(`./public/${page.id}`)
+    .then(res => writeIndexFile(page, `./public/${page.id}`))
+    .then(res => console.log(res))
+    .catch(err => console.log(err));
+});
+
+console.log('\npage builder completed');
+
+// Process the blogpost files
+import blogpostData from './src/data/blogpostData.mjs';
+blogpostData.forEach(post => {
+
+    checkDirectory(`./public/blog/${post.id}`)
+    .then(res => writeIndexFile(post, `./public/blog/${post.id}`))
     .then(res => console.log(res))
     .catch(err => console.log(err));
 });

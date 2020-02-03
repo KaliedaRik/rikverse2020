@@ -1,7 +1,13 @@
-<script></script>
+<script>
+    import Footer from '../components/Footer.svelte';
+</script>
 
 <style></style>
 
-<h3>This will be the Landing page</h3>
+<main>
+    <h3>This will be the Landing page</h3>
 
-<p>It will display a randomly selected poem</p>
+    <p>It will display a randomly selected poem</p>
+</main>
+
+<Footer />
