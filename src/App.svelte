@@ -56,14 +56,13 @@
 </style>
 
 <script>
-    import {router, startRouter, routes } from './routes.js';
-
-    import Navigation from './components/Navigation.svelte';
-    import Footer from './components/Footer.svelte';
-
+    // Svelte variables
     let page, params;
 
-    // Build routes
+    // Page.js routing functionality
+    import {router, startRouter, routes } from './routes.js';
+
+    // Build Page.js routes
     routes.forEach(route => {
 
         router(
@@ -78,8 +77,31 @@
         );
     });
 
-    // Set up the router to start and actively watch for changes
+    // Start the Page.js router and watch for changes
     startRouter();
+
+    import Navigation from './components/Navigation.svelte';
+    import Footer from './components/Footer.svelte';
+
+    // this handles external links into the site
+    // - because the site is essentially a single page app
+    // - the server will give a '404' not found error if browser tries to load http://site.com/blog
+    // - thus external links should be in the form http://site.com/?p=blog
+    let loc = window.location;
+    if (loc.search) {
+
+        let searchParams = new URLSearchParams(loc.search.substring(1)),
+            redirect = searchParams.get('p');
+
+        // Page.js router is listening for anchor clicks
+        // - so use it to trigger a redirect to the correct path
+        // - create anchor; add it to the DOM; click it
+        let a = document.createElement('a');
+        a.href = `/${redirect}`;
+
+        document.body.appendChild(a);
+        a.click();
+    }
 </script>
 
 <Navigation />

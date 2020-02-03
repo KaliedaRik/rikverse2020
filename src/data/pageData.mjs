@@ -1,0 +1,67 @@
+const pageData = [
+    {
+        id: 'about',
+        directory: './public/about',
+        productionPath: 'http://rikverse2020.rikweb.org.uk/about',
+        title: 'RikVerse Author page',
+        description: 'Details about Rik Roots',
+        productionImageUrl: 'http://rikverse2020.rikweb.org.uk/images/RV-author_share.png',
+        imageText: 'Image advertising the RikVerse Author page',
+    }, 
+    {
+        id: 'blog',
+        directory: './public/blog',
+        productionPath: 'http://rikverse2020.rikweb.org.uk/blog',
+        title: 'RikVerse blog index',
+        description: 'Blog post listings and links',
+        productionImageUrl: 'http://rikverse2020.rikweb.org.uk/images/RV-blog_share.png',
+        imageText: 'Image advertising the RikVerse Blog page',
+    }, 
+    {
+        id: 'cookies',
+        directory: './public/cookies',
+        productionPath: 'http://rikverse2020.rikweb.org.uk/cookies',
+        title: 'RikVerse Cookie Consents page',
+        description: 'User choices for allowing cookie usage on the RikVerse site',
+        productionImageUrl: 'http://rikverse2020.rikweb.org.uk/images/RV-home_share.png',
+        imageText: 'Image advertising the RikVerse Cookie Consents page',
+    }, 
+    {
+        id: 'error',
+        directory: './public/error',
+        productionPath: 'http://rikverse2020.rikweb.org.uk/error',
+        title: 'RikVerse Error page',
+        description: 'Failed to find page, or load page resources',
+        productionImageUrl: 'http://rikverse2020.rikweb.org.uk/images/RV-error_share.png',
+        imageText: 'Image advertising the RikVerse Error page',
+    }, 
+    {
+        id: 'index',
+        directory: './public/index',
+        productionPath: 'http://rikverse2020.rikweb.org.uk/index',
+        title: 'RikVerse Poems index page',
+        description: 'Listing poems written by Rik Roots',
+        productionImageUrl: 'http://rikverse2020.rikweb.org.uk/images/RV-poems_share.png',
+        imageText: 'Image advertising the RikVerse Poems index page',
+    }, 
+    {
+        id: 'privacy-and-security',
+        directory: './public/privacy-and-security',
+        productionPath: 'http://rikverse2020.rikweb.org.uk/privacy-and-security',
+        title: 'RikVerse Security and Privacy page',
+        description: 'Detailing the security and privacy provisions made by the RikVerse website',
+        productionImageUrl: 'http://rikverse2020.rikweb.org.uk/images/RV-home_share.png',
+        imageText: 'Image advertising the RikVerse Security and Privacy page',
+    }, 
+    {
+        id: 'publications',
+        directory: './public/publications',
+        productionPath: 'http://rikverse2020.rikweb.org.uk/publications',
+        title: 'RikVerse Publications index page',
+        description: 'Listing books written by Rik Roots',
+        productionImageUrl: 'http://rikverse2020.rikweb.org.uk/images/RV-publications_share.png',
+        imageText: 'Image advertising the RikVerse Publications index page',
+    } 
+];
+
+export default pageData;

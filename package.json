@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "licence": "MIT",
   "scripts": {
-    "build": "rollup -c",
+    "build": "node --experimental-modules pageBuilder.mjs && rollup -c",
     "dev": "rollup -c -w",
     "start": "sirv public --single"
   },

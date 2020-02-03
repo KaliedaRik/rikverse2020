@@ -1,4 +1,13 @@
 /node_modules/
+
 /public/build/
+
+/public/about/
+/public/blog/
+/public/cookies/
+/public/error/
+/public/index/
+/public/privacy-and-security/
+/public/publications/
 
 .DS_Store
