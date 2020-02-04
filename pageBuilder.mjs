@@ -13,7 +13,7 @@ const buildIndexFile = (data) => {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>${data.title}</title>
+    <title>${data.tabTitle}</title>
 
     <!-- to prevent caching -->
     <meta http-equiv="cache-control" content="max-age=0">
@@ -33,7 +33,8 @@ const buildIndexFile = (data) => {
 </head>
 <body>
     <script>
-        location.href = ${indexfileLocation};
+        if (location.pathname) location.href = ${indexfileLocation};
+        else location.href = location.origin;
     </script>
 </body>
 </html>`;
@@ -86,8 +87,6 @@ pageData.forEach(page => {
     .catch(err => console.log(err));
 });
 
-console.log('\npage builder completed');
-
 // Process the blogpost files
 import blogpostData from './src/data/blogpostData.mjs';
 blogpostData.forEach(post => {
@@ -97,5 +96,3 @@ blogpostData.forEach(post => {
     .then(res => console.log(res))
     .catch(err => console.log(err));
 });
-
-console.log('\npage builder completed');
