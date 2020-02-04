@@ -2,6 +2,7 @@ const blogpostData = [
     {
         id: "copyrights",
         title: "[sticky] The RikVerse Creative Commons licences",
+        tabTitle: "RikVerse blog post",
         description: "... Using Rik's poems in your own creative work, for free.",
         publishdate: "Today",
         imageUrl: '/images/RV-blog_share.png',
@@ -10,6 +11,7 @@ const blogpostData = [
     {
         id: "cookies",
         title: "[sticky] RikVerse Cookies",
+        tabTitle: "RikVerse blog post",
         description: "... Paypal, YouTube and Google cookies on the RikVerse site.",
         publishdate: "Today",
         imageUrl: '/images/RV-blog_share.png',
@@ -18,6 +20,7 @@ const blogpostData = [
     {
         id: "giving-books-away-for-free",
         title: "Why do you give your books away for free, Rik?",
+        tabTitle: "RikVerse blog post",
         description: "... Seriously, why do that?",
         publishdate: "2014-12-02",
         imageUrl: '/images/RV-blog_share.png',
@@ -26,6 +29,7 @@ const blogpostData = [
     {
         id: "current-publishing-scene-hate",
         title: "Things I hate about the current publishing scene",
+        tabTitle: "RikVerse blog post",
         description: "... An off-the-cuff list of things I'm currently hating about the publishing scene (with added profanity).",
         publishdate: "2013-07-16",
         imageUrl: '/images/RV-blog_share.png',
@@ -34,6 +38,7 @@ const blogpostData = [
     {
         id: "poet-five-step-plan",
         title: "Rik's five-step plan for becoming a poet",
+        tabTitle: "RikVerse blog post",
         description: "... Rik's patented, guaranteed five step program on how to become a poet. In five steps.",
         publishdate: "2011-04-08",
         imageUrl: '/images/RV-blog_share.png',
@@ -42,6 +47,7 @@ const blogpostData = [
     {
         id: "ten-questions-poets-tech",
         title: "Ten questions for Poets about technology",
+        tabTitle: "RikVerse blog post",
         description: "... How Rik thinks modern technology is affecting Poetry.",
         publishdate: "2010-06-15",
         imageUrl: '/images/RV-blog_share.png',
@@ -50,6 +56,7 @@ const blogpostData = [
     {
         id: "costs-of-independent-publishing",
         title: "The costs of independent publishing",
+        tabTitle: "RikVerse blog post",
         description: "... How much it cost Rik to publish his book, 'The Gods in the Jungle'.",
         publishdate: "2010-03-18",
         imageUrl: '/images/RV-blog_share.png',
@@ -58,6 +65,7 @@ const blogpostData = [
     {
         id: "bored-of-poetry",
         title: "Why I'm bored of poetry",
+        tabTitle: "RikVerse blog post",
         description: "... 'Why are you wasting my time with this?' is the most common question. 'Where's the goods, the payoff?' is another, and 'have you ever heard of having some fun?'",
         publishdate: "2009-09-01",
         imageUrl: '/images/RV-blog_share.png',
@@ -66,6 +74,7 @@ const blogpostData = [
     {
         id: "mapping-the-soq",
         title: "Mapping the SoQ (and beyond)",
+        tabTitle: "RikVerse blog post",
         description: "... Mad ideas have started bubbling in Rik's head.",
         publishdate: "2009-01-26",
         imageUrl: '/images/RV-blog_share.png',
@@ -74,6 +83,7 @@ const blogpostData = [
     {
         id: "write-poems-for-audience",
         title: "Should a poet write poems for an audience?",
+        tabTitle: "RikVerse blog post",
         description: "... In which Rik identifies some surprising audiences for whom Poets should write their poems.",
         publishdate: "2009-01-06",
         imageUrl: '/images/RV-blog_share.png',
@@ -82,6 +92,7 @@ const blogpostData = [
     {
         id: "alan-david-roots",
         title: "Alan David Roots",
+        tabTitle: "RikVerse blog post",
         description: "... Rik's eulogy for his brother, Alan.",
         publishdate: "2008-10-18",
         imageUrl: '/images/RV-blog_share.png',
@@ -90,6 +101,7 @@ const blogpostData = [
     {
         id: "monkeys-learn-to-sing",
         title: "The Monkeys who Learned to Sing",
+        tabTitle: "RikVerse blog post",
         description: "... What’s the point of inventing a better arrowhead if you can’t boast about it?",
         publishdate: "2007-10-01",
         imageUrl: '/images/RV-blog_share.png',
@@ -98,6 +110,7 @@ const blogpostData = [
     {
         id: "all-is-vanity",
         title: "All is vanity",
+        tabTitle: "RikVerse blog post",
         description: "... Rik's reasons for self-publishing his poetry are not quite the same as for other people.",
         publishdate: "2007-07-02",
         imageUrl: '/images/RV-blog_share.png',
@@ -106,6 +119,7 @@ const blogpostData = [
     {
         id: "14-mins-to-save-internet-poetry",
         title: "We've only got 14 minutes to save internet poetry!",
+        tabTitle: "RikVerse blog post",
         description: "... How can we improve the reputation of internet poetry?",
         publishdate: "2007-06-21",
         imageUrl: '/images/RV-blog_share.png',
@@ -114,6 +128,7 @@ const blogpostData = [
     {
         id: "poets-in-residence",
         title: "Poets-in-residence? Or parasites-at-lunch?",
+        tabTitle: "RikVerse blog post",
         description: "... Spend the poetry pound on the kiddies, not the poets. You know it makes sense.",
         publishdate: "2007-01-14",
         imageUrl: '/images/RV-blog_share.png',
@@ -122,6 +137,7 @@ const blogpostData = [
     {
         id: "posterity",
         title: "Posterity",
+        tabTitle: "RikVerse blog post",
         description: "... But what is this Posterity Thing that people think is a good reason to publish their work?",
         publishdate: "2006-05-12",
         imageUrl: '/images/RV-blog_share.png',
@@ -130,6 +146,7 @@ const blogpostData = [
     {
         id: "why-of-poetry-3",
         title: "The Why of Poetry (part 3)",
+        tabTitle: "RikVerse blog post",
         description: "... Patronage and the poet.",
         publishdate: "2006-03-09",
         imageUrl: '/images/RV-blog_share.png',
@@ -138,6 +155,7 @@ const blogpostData = [
     {
         id: "why-of-poetry-2",
         title: "The Why of Poetry (part 2)",
+        tabTitle: "RikVerse blog post",
         description: "... Concerning 'Social' and 'Commercial' poetry.",
         publishdate: "2006-03-07",
         imageUrl: '/images/RV-blog_share.png',
@@ -146,6 +164,7 @@ const blogpostData = [
     {
         id: "why-of-poetry-1",
         title: "The Why of Poetry (part 1)",
+        tabTitle: "RikVerse blog post",
         description: "... Rik tries to work out why the poetry market sucks.",
         publishdate: "2006-03-06",
         imageUrl: '/images/RV-blog_share.png',
@@ -154,6 +173,7 @@ const blogpostData = [
     {
         id: "mad-ideas",
         title: "Mad ideas",
+        tabTitle: "RikVerse blog post",
         description: "... Where Rik counts up the mad ideas he's had over the years for promoting online poetry - and considers future ventures.",
         publishdate: "2006-02-24",
         imageUrl: '/images/RV-blog_share.png',
@@ -162,6 +182,7 @@ const blogpostData = [
     {
         id: "every-poem-i-write",
         title: "Every poem I write",
+        tabTitle: "RikVerse blog post",
         description: "... Some of the poems that Rik enjoys reading the most are Flawed Poems",
         publishdate: "2006-01-22",
         imageUrl: '/images/RV-blog_share.png',
@@ -170,6 +191,7 @@ const blogpostData = [
     {
         id: "nine-poet-questions",
         title: "Nine Poet Questions",
+        tabTitle: "RikVerse blog post",
         description: "... Rik discovers some profound poetical questions online and attempts to answer them.",
         publishdate: "2005-12-24",
         imageUrl: '/images/RV-blog_share.png',
@@ -178,6 +200,7 @@ const blogpostData = [
     {
         id: "poetry-journals",
         title: "Poetry journals",
+        tabTitle: "RikVerse blog post",
         description: "... On the birth of Magma Magazine, and Rik's small part in that miracle.",
         publishdate: "2005-12-20",
         imageUrl: '/images/RV-blog_share.png',
@@ -186,6 +209,7 @@ const blogpostData = [
     {
         id: "poetic-corruption",
         title: "(Poetic) Corruption",
+        tabTitle: "RikVerse blog post",
         description: "... In the world of poetry there is not much money to be made. Superstars are far and few between.",
         publishdate: "2005-12-01",
         imageUrl: '/images/RV-blog_share.png',
@@ -194,6 +218,7 @@ const blogpostData = [
     {
         id: "my-problems-with-like",
         title: "My problems with \"like\"",
+        tabTitle: "RikVerse blog post",
         description: "... Rik has always had a bit of a problem with similes and metaphors.",
         publishdate: "2005-11-17",
         imageUrl: '/images/RV-blog_share.png',
@@ -202,6 +227,7 @@ const blogpostData = [
     {
         id: "fantasy-publishing-internet-poetry",
         title: "Fantasy publishing: a brief history of internet poetry",
+        tabTitle: "RikVerse blog post",
         description: "... In which Rik plays a game of fantasy publishing.",
         publishdate: "2005-09-03",
         imageUrl: '/images/RV-blog_share.png',
@@ -210,6 +236,7 @@ const blogpostData = [
     {
         id: "new-sincerity",
         title: "New Sincerity?",
+        tabTitle: "RikVerse blog post",
         description: "... Can a turbine engine be sincere? Is a dying leaf sincere?",
         publishdate: "2005-08-22",
         imageUrl: '/images/RV-blog_share.png',

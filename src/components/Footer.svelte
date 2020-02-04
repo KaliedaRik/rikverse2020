@@ -1,9 +1,14 @@
 <script>
+    import NavigationLinks from './NavigationLinks.svelte';
 
     const setupPayPalAction = (e) => {
 
-        let loc = window.location;
-        loc.assign(`${loc.origin}/cookies`);
+        let a = document.createElement('a');
+        a.href = '/cookies';
+
+        document.body.appendChild(a);
+        a.click();
+        a.remove();
     };
 </script>
 
@@ -19,7 +24,6 @@
     }
     a {
         @apply inline-block text-center m-0 text-gray-200 no-underline;
-        font-family: "Roboto Slab", Georgia, Cambria, "Times New Roman", Times, serif;
         transition: color 0.5s;
     }
     a:hover {
@@ -46,13 +50,7 @@
 </style>
 
 <footer>
-    <div class="nav-grid">
-        <a href="/index">Poems</a>
-        <a href="/publications">Books</a>
-        <a href="/blog">Blog</a>
-        <a href="/about">About Rik</a>
-        <a href="/cookies">Cookies</a>
-    </div>
+    <NavigationLinks />
 
     <button on:click={setupPayPalAction}>
         <img src="/images/donate-button.png" alt="Image button for PayPal donations to support the RikVerse website" />

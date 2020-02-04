@@ -6,25 +6,24 @@
         scrollToTopOnLoad, 
         updateMetadata } from '../utilities.js';
 
-    import Footer from '../components/Footer.svelte';
-
     export let params;
 
-    let post = {
-        title: '',
-    };
+    let post = '';
 
     let postData = blogpostData.filter(item => item.id === params.slug);
 
+    console.log(postData);
+
     if (postData.length) {
+
+        postData = postData[0];
 
         updateMetadata(postData);
 
-        fetch(`/posts/${params.slug}.json`)
-        .then(res => res.json())
+        fetch(`/posts/${params.slug}.html`)
+        .then(res => res.text())
         .then(res => {
 
-            res.publishdate = prettifyDate(res.publishdate);
             post = res;
 
             scrollToTopOnLoad();
@@ -43,21 +42,13 @@
 </style>
 
 <svelte:head>
-	<title>RikVerse Blog</title>
+	<title>{postData.tabTitle}</title>
 </svelte:head>
 
-<main>
-	{#if post.title}
-		<h1>{post.title}</h1>
+<h1>{postData.title}</h1>
 
-		<p class="summary">{post.summary}</p>
+<p class="summary">{postData.description}</p>
 
-		<p class="publishdate">Published: {post.publishdate}</p>
+<p class="publishdate">Published: {prettifyDate(postData.publishdate)}</p>
 
-		{@html post.post}
-	{:else}
-		<p>Retrieving article</p>
-	{/if}
-</main>
-
-<Footer />
+{@html post}

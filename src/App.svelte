@@ -33,7 +33,10 @@
         line-height: 1.5;
     }
     a {
-        @apply text-green-700;
+        @apply font-serif text-green-700;
+    }
+    a:visited {
+        @apply font-serif text-green-700;
     }
 
     @media (min-width: 768px) {
@@ -87,6 +90,7 @@
     startRouter();
 
     import Navigation from './components/Navigation.svelte';
+    import Footer from './components/Footer.svelte';
 
     // this handles external links into the site
     // - because the site is essentially a single page app
@@ -100,15 +104,20 @@
 
         // Page.js router is listening for anchor clicks
         // - so use it to trigger a redirect to the correct path
-        // - create anchor; add it to the DOM; click it
+        // - create anchor; add it to the DOM; click it; remove it
         let a = document.createElement('a');
         a.href = `/${redirect}`;
 
         document.body.appendChild(a);
         a.click();
+        a.remove();
     }
 </script>
 
 <Navigation />
 
-<svelte:component this={page} params={params} />
+<main>
+    <svelte:component this={page} params={params} />
+</main>
+
+<Footer />

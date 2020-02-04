@@ -2,6 +2,7 @@ const pageData = [
     {
         id: 'about',
         title: 'RikVerse Author page',
+        tabTitle: 'RikVerse Author page',
         description: 'Details about Rik Roots',
         imageUrl: '/images/RV-author_share.png',
         imageText: 'Image advertising the RikVerse Author page',
@@ -9,6 +10,7 @@ const pageData = [
     {
         id: 'blog',
         title: 'RikVerse blog index',
+        tabTitle: 'RikVerse blog index',
         description: 'Blog post listings and links',
         imageUrl: '/images/RV-blog_share.png',
         imageText: 'Image advertising the RikVerse Blog page',
@@ -16,6 +18,7 @@ const pageData = [
     {
         id: 'cookies',
         title: 'RikVerse Cookie Consents page',
+        tabTitle: 'RikVerse Cookie Consents page',
         description: 'User choices for allowing cookie usage on the RikVerse site',
         imageUrl: '/images/RV-home_share.png',
         imageText: 'Image advertising the RikVerse Cookie Consents page',
@@ -23,6 +26,7 @@ const pageData = [
     {
         id: 'error',
         title: 'RikVerse Error page',
+        tabTitle: 'RikVerse Error page',
         description: 'Failed to find page, or load page resources',
         imageUrl: '/images/RV-error_share.png',
         imageText: 'Image advertising the RikVerse Error page',
@@ -30,6 +34,7 @@ const pageData = [
     {
         id: 'index',
         title: 'RikVerse Poems index page',
+        tabTitle: 'RikVerse Poems index page',
         description: 'Listing poems written by Rik Roots',
         imageUrl: '/images/RV-poems_share.png',
         imageText: 'Image advertising the RikVerse Poems index page',
@@ -37,6 +42,7 @@ const pageData = [
     {
         id: 'privacy-and-security',
         title: 'RikVerse Security and Privacy page',
+        tabTitle: 'RikVerse Security and Privacy page',
         description: 'Detailing the security and privacy provisions made by the RikVerse website',
         imageUrl: '/images/RV-home_share.png',
         imageText: 'Image advertising the RikVerse Security and Privacy page',
@@ -44,6 +50,7 @@ const pageData = [
     {
         id: 'publications',
         title: 'RikVerse Publications index page',
+        tabTitle: 'RikVerse Publications index page',
         description: 'Listing books written by Rik Roots',
         imageUrl: '/images/RV-publications_share.png',
         imageText: 'Image advertising the RikVerse Publications index page',

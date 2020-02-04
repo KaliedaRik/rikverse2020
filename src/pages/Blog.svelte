@@ -3,7 +3,6 @@
     import blogpostData from '../data/blogpostData.mjs';
 
     import BlogListing from '../components/BlogListing.svelte';
-    import Footer from '../components/Footer.svelte';
 
     let pageMetadata = pageData.filter(item => item.id === 'blog')[0];
 
@@ -29,25 +28,21 @@
 </style>
 
 <svelte:head>
-    <title>{pageMetadata.title}</title>
+    <title>{pageMetadata.tabTitle}</title>
 </svelte:head>
 
-<main>
-    <h1>The RikVerse Blog</h1>
+<h1>The RikVerse Blog</h1>
 
-    <p>Where Rik contemplates stuff about poetry, writing, publishing and occasional dragon sightings.</p>
+<p>Where Rik contemplates stuff about poetry, writing, publishing and occasional dragon sightings.</p>
 
-    {#each topPosts as listing}
-        <div>
-            <BlogListing {listing} />
-        </div>
-    {/each}
+{#each topPosts as listing}
+    <div>
+        <BlogListing {listing} />
+    </div>
+{/each}
 
-    {#each posts as listing}
-        <div>
-            <BlogListing {listing} />
-        </div>
-    {/each}
-</main>
-
-<Footer />
+{#each posts as listing}
+    <div>
+        <BlogListing {listing} />
+    </div>
+{/each}
