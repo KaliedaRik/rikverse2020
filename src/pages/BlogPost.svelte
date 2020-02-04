@@ -12,8 +12,6 @@
 
     let postData = blogpostData.filter(item => item.id === params.slug);
 
-    console.log(postData);
-
     if (postData.length) {
 
         postData = postData[0];
