@@ -1,6 +1,8 @@
 <script>
     import { prettifyDate } from '../utilities.js';
 
+    // Svelte uses 'export' to identify attributes that this component can import and use
+    // - in this case, we're expecting to import a Javascript object
     export let listing;
 </script>
 
@@ -22,18 +24,18 @@
     h3 {
         @apply mb-0;
     }
-    .firstline {
+    summary {
         @apply italic whitespace-pre-wrap m-0 mb-4;
     }
-    .date {
-        @apply text-sm whitespace-pre-wrap m-0;
+    time {
+        @apply block text-sm whitespace-pre-wrap m-0;
     }
 </style>
 
 <div>
-  <a href="/blog/{listing.id}" {listing}>
-    <h3>{listing.title}</h3>
-    <p class="date">{prettifyDate(listing.publishdate)}</p>
-    <p class="firstline">{listing.description}</p>
-  </a>
+    <a href="/blog/{listing.id}">
+        <h3>{listing.title}</h3>
+        <time datetime="{listing.publishdate}">{prettifyDate(listing.publishdate)}</time>
+        <summary>{listing.description}</summary>
+    </a>
 </div>

@@ -88,9 +88,28 @@ const scrollToTopOnLoad = () => {
     }
 };
 
+// Page.js only watches for anchor link clicks. 
+// - we need to create and trigger a click event on an anchor element
+//   to make sure the required navigation happens
+const navigateTo = (destination) => {
+
+    // sanitize the passed-in value
+    destination = destination || '/';
+
+    if (destination.indexOf('/') !== 0) destination = `/${destination}`;
+
+    let a = document.createElement('a');
+    a.href = destination;
+
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+};
+
 export {
     prettifyDate,
     prettifyMonthDate,
     updateMetadata,
     scrollToTopOnLoad,
+    navigateTo,
 }

@@ -6,11 +6,15 @@
 
     let pageMetadata = pageData.filter(item => item.id === 'blog')[0];
 
-    // Exclude future-dated blog posts
+    // We store dates in the format 'YYYY-MM-DD'
+    // - this gives us today's date in the same format
     let date = new Date();
     date = date.toISOString().split('T')[0];
 
+    // "Sticky" posts (identified with 'publishdate' == 'today') go at the top of the listing
     let topPosts = blogpostData.filter(item => item.publishdate.indexOf('Today') >= 0);
+
+    // All other posts, excluding future-dated ones
     let posts = blogpostData.filter(item => item.publishdate <= date);
 
     // Sort top posts alphabetically, blogposts by date descending - most recent first
@@ -36,13 +40,13 @@
 <p>Where Rik contemplates stuff about poetry, writing, publishing and occasional dragon sightings.</p>
 
 {#each topPosts as listing}
-    <div>
-        <BlogListing {listing} />
-    </div>
+<div>
+    <BlogListing {listing} />
+</div>
 {/each}
 
 {#each posts as listing}
-    <div>
-        <BlogListing {listing} />
-    </div>
+<div>
+    <BlogListing {listing} />
+</div>
 {/each}

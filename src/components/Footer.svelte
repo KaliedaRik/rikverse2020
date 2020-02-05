@@ -1,45 +1,33 @@
 <script>
     import NavigationLinks from './NavigationLinks.svelte';
 
-    const setupPayPalAction = (e) => {
+    import { navigateTo } from '../utilities.js';
 
-        let a = document.createElement('a');
-        a.href = '/cookies';
-
-        document.body.appendChild(a);
-        a.click();
-        a.remove();
-    };
+    const setupPayPalAction = (e) => navigateTo('/cookies');
 </script>
 
 <style>
     footer {
         @apply bg-blue-800 py-4;
     }
-    .nav-grid {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-        grid-gap: 0 0;
-        justify-items: center;
-    }
-    a {
-        @apply inline-block text-center m-0 text-gray-200 no-underline;
-        transition: color 0.5s;
-    }
-    a:hover {
-        @apply underline;
-        color: #fffc00;
-    }
     p {
         @apply text-sm text-center text-gray-500 m-0 mt-4 pt-4;
         border-top: 1px solid rgba(200, 200, 200, 0.3);
     }
     button {
-        @apply block w-full mt-5 border-0;
+        @apply bg-blue-800 block w-full mt-5 border-0 outline-none;
     }
     button img {
-        @apply block mx-auto;
+        @apply block mx-auto border-0 outline-none;
         height: 40px;
+    }
+    a {
+        @apply text-gray-200 no-underline;
+        transition: color 0.5s;
+    }
+    a:hover {
+        @apply underline;
+        color: #fffc00;
     }
 
     @media (min-width: 768px) {

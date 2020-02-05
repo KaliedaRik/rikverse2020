@@ -17,7 +17,7 @@
     }
 </style>
 
-<div class="nav-grid">
+<div>
     <a href="/index">Poems</a>
     <a href="/publications">Books</a>
     <a href="/blog">Blog</a>

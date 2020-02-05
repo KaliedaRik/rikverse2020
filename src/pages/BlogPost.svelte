@@ -3,21 +3,22 @@
 
     import { 
         prettifyDate, 
-        scrollToTopOnLoad, 
-        updateMetadata } from '../utilities.js';
+        scrollToTopOnLoad,
+        navigateTo } from '../utilities.js';
 
+    // This line lets us access the :slug value which Page.js has supplied to the component
     export let params;
 
     let post = '';
 
     let postData = blogpostData.filter(item => item.id === params.slug);
 
+    // Sanity check - does the post exist?
     if (postData.length) {
 
         postData = postData[0];
 
-        updateMetadata(postData);
-
+        // Fetch the blog post's content (stored on the server in an html file)
         fetch(`/posts/${params.slug}.html`)
         .then(res => res.text())
         .then(res => {
@@ -28,25 +29,35 @@
         })
         .catch(error => console.log(error.message));
     }
+    else navigateTo('/error');
+
 </script>
 
 <style>
-    .summary {
-        @apply text-blue-700 italic mb-1;
+    summary {
+        @apply text-blue-700 italic mb-2;
     }
-    .publishdate {
-        @apply text-sm m-0 mb-4 pb-4 border-b;
+    time {
+        @apply block text-sm m-0 mb-4 pb-4 border-b;
     }
 </style>
 
 <svelte:head>
-	<title>{postData.tabTitle}</title>
+    <title>{postData.tabTitle}</title>
 </svelte:head>
 
-<h1>{postData.title}</h1>
+{#if postData.publishdate}
+    <h1>{postData.title}</h1>
 
-<p class="summary">{postData.description}</p>
+    <summary>{postData.description}</summary>
 
-<p class="publishdate">Published: {prettifyDate(postData.publishdate)}</p>
+    <time datetime="{postData.publishdate}">Published: {prettifyDate(postData.publishdate)}</time>
 
-{@html post}
+    <!-- 
+        This is dangerous! 
+        Never output raw html markup from an untrusted source! 
+    -->
+    <article>
+        {@html post}
+    </article>
+{/if}
