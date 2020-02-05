@@ -9,9 +9,12 @@
     button {
         @apply bg-blue-800 block w-full mt-5 border-0 outline-none;
     }
-    button img {
+    button img, input[type="image"] {
         @apply block mx-auto border-0 outline-none;
         height: 40px;
+    }
+    form {
+        @apply pt-6;
     }
     a {
         @apply text-gray-200 no-underline;
@@ -42,10 +45,15 @@
     <NavigationLinks />
 
     {#if $paypalCookies === 'yes'}
-    <p>USER LIKES COOKIES! PayPal functionality will go here!!</p>
-    {:else if $paypalCookies === 'no'}
-    <p>User does not want any cookies - PayPal functionality will be blocked</p>
-    {:else}
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+        <input type="hidden" name="cmd" value="_donations" />
+        <input type="hidden" name="business" value="FXAG4C2P2YE7A" />
+        <input type="hidden" name="item_name" value="To keep the RikVerse website up-and-running" />
+        <input type="hidden" name="currency_code" value="GBP" />
+        <input type="image" src="http://rikverse2020.rikweb.org.uk/images/donate-button.png" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+        <img alt="" border="0" src="https://www.paypal.com/en_GB/i/scr/pixel.gif" width="1" height="1" />
+    </form>
+    {:else if $paypalCookies !== 'no'}
     <button on:click={setupPayPalAction}>
         <img src="/images/donate-button.png" alt="Image button for PayPal donations to support the RikVerse website" />
     </button>
