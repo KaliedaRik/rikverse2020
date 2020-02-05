@@ -92,32 +92,22 @@
     import Navigation from './components/Navigation.svelte';
     import Footer from './components/Footer.svelte';
 
-    // this handles external links into the site
-    // - because the site is essentially a single page app
-    // - the server will give a '404' not found error if browser tries to load http://site.com/blog
-    // - thus external links should be in the form http://site.com/?p=blog
-    let loc = window.location;
-    if (loc.search) {
+    import { navigateTo } from './utilities.js';
 
-        let searchParams = new URLSearchParams(loc.search.substring(1)),
+    let search = window.location.search;
+    if (search) {
+
+        let searchParams = new URLSearchParams(search.substring(1)),
             redirect = searchParams.get('p');
 
-        // Page.js router is listening for anchor clicks
-        // - so use it to trigger a redirect to the correct path
-        // - create anchor; add it to the DOM; click it; remove it
-        let a = document.createElement('a');
-        a.href = `/${redirect}`;
-
-        document.body.appendChild(a);
-        a.click();
-        a.remove();
+        navigateTo(`/${redirect}`);
     }
 </script>
 
 <Navigation />
 
 <main>
-    <svelte:component this={page} params={params} />
+    <svelte:component this={page} {params} />
 </main>
 
 <Footer />

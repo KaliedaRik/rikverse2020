@@ -1,11 +1,3 @@
-<script>
-    import NavigationLinks from './NavigationLinks.svelte';
-
-    import { navigateTo } from '../utilities.js';
-
-    const setupPayPalAction = (e) => navigateTo('/cookies');
-</script>
-
 <style>
     footer {
         @apply bg-blue-800 py-4;
@@ -37,12 +29,27 @@
     }    
 </style>
 
+<script>
+    import NavigationLinks from './NavigationLinks.svelte';
+
+    import { navigateTo } from '../utilities.js';
+    import { paypalCookies } from '../handleCookies.js';
+
+    const setupPayPalAction = (e) => navigateTo('/cookies');
+</script>
+
 <footer>
     <NavigationLinks />
 
+    {#if $paypalCookies === 'yes'}
+    <p>USER LIKES COOKIES! PayPal functionality will go here!!</p>
+    {:else if $paypalCookies === 'no'}
+    <p>User does not want any cookies - PayPal functionality will be blocked</p>
+    {:else}
     <button on:click={setupPayPalAction}>
         <img src="/images/donate-button.png" alt="Image button for PayPal donations to support the RikVerse website" />
     </button>
+    {/if}
 
     <p>&copy;2020 Rik Roots. Site built and maintained by RikWorks.<br />
         Tech: <a href="https://svelte.dev/">Svelte</a> scaffold, <a href="https://visionmedia.github.io/page.js/">Page.js</a> routing, <a href="https://tailwindcss.com/">Tailwind</a> css</p>
