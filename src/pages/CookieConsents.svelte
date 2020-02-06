@@ -38,8 +38,6 @@
 <script>
     import pageData from '../data/pageData.mjs';
 
-    let pageMetadata = pageData.filter(item => item.id === 'cookies')[0];
-
     import { 
         multisession,
 
@@ -57,8 +55,13 @@
 
     import { 
         scrollToTopOnLoad,
+        updateMetadata,
         navigateBack } from '../utilities.js'
 
+    let pageMetadata = pageData.filter(item => item.id === 'cookies')[0];
+
+    updateMetadata(pageMetadata);
+    
     // Big buttons
     const multisession_allcookies_YES_action = () => {
 

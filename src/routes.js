@@ -11,16 +11,20 @@ import BlogPost from "./pages/BlogPost.svelte";
 import PoemsIndex from "./pages/PoemsIndex.svelte";
 
 import Publications from "./pages/Publications.svelte";
+import Book from "./pages/Book.svelte";
+import ReadBook from "./pages/ReadBook.svelte";
 
 import CookieConsents from "./pages/CookieConsents.svelte";
 import Privacy from "./pages/Privacy.svelte";
 import ErrorPage from "./pages/ErrorPage.svelte";
 
 const routes = [
+
     {
         // The Author page - because "Every ass loves to hear himself bray"
         path: '/about',
         component: About
+
     }, {
         // Blog post page
         path: '/blog/:slug',
@@ -29,14 +33,33 @@ const routes = [
         // Index of links to individual blog posts
         path: '/blog',
         component: Blog
+
     }, {
         // Index of links to each of Rik's books
         path: '/publications',
         component: Publications
     }, {
+        // Book details and download page
+        path: '/book/:slug',
+        component: Book
+    }, {
+        // Book details and download page
+        path: '/book',
+        component: Publications
+    }, {
+        // "Read the book" page
+        path: '/read/:slug',
+        component: ReadBook
+    }, {
+        // "Read the book" page
+        path: '/read',
+        component: Publications
+
+    }, {
         // Index of links to individual poems
         path: '/index',
         component: PoemsIndex
+
     }, {
         // A dedicated cookie conbsents page, where users can make appropriate choices
         path: '/cookies',
@@ -45,6 +68,7 @@ const routes = [
         // A dedicated privacy/security page, because every website needs one
         path: '/privacy-and-security',
         component: Privacy
+
     }, {
         // The landing page, which will show a random poem to the user
         path: '/',

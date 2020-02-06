@@ -6,32 +6,40 @@ const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 
 // Exported functions for making human-readable dates
 const prettifyDate = (inputString) => {
 
-    let [y, m, d] = [...inputString.split('-')];
+    if (inputString && inputString.substring) {
 
-    if (m) {
+        let [y, m, d] = [...inputString.split('-')];
 
-        m--;
+        if (m) {
 
-        let myDate = new Date(y, m, d);
+            m--;
 
-        return `${days[myDate.getDay()]} ${myDate.getDate()} ${months[myDate.getMonth()]},  ${myDate.getFullYear()}`;
+            let myDate = new Date(y, m, d);
+
+            return `${days[myDate.getDay()]} ${myDate.getDate()} ${months[myDate.getMonth()]},  ${myDate.getFullYear()}`;
+        }
+        else return inputString;
     }
-    else return inputString;
+    else return '';
 };
 
 const prettifyMonthDate = (inputString) => {
 
-    let [y, m, d] = [...inputString.split('-')];
+    if (inputString && inputString.substring) {
 
-    if (m) {
+        let [y, m, d] = [...inputString.split('-')];
 
-        m--;
+        if (m) {
 
-        let myDate = new Date(y, m, d);
+            m--;
 
-        return `${months[myDate.getMonth()]} ${myDate.getFullYear()}`;
+            let myDate = new Date(y, m, d);
+
+            return `${months[myDate.getMonth()]} ${myDate.getFullYear()}`;
+        }
+        else return inputString;
     }
-    else return inputString;
+    else return '';
 };
 
 const checkCopyright = (updated, complete) => {

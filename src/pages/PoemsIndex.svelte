@@ -1,7 +1,11 @@
 <script>
     import pageData from '../data/pageData.mjs';
 
+    import { updateMetadata } from '../utilities.js'
+
     let pageMetadata = pageData.filter(item => item.id === 'index')[0];
+
+    updateMetadata(pageMetadata);
 </script>
 
 <style></style>

@@ -4,6 +4,7 @@
     import { 
         prettifyDate, 
         scrollToTopOnLoad,
+        updateMetadata,
         navigateTo } from '../utilities.js';
 
     // This line lets us access the :slug value which Page.js has supplied to the component
@@ -17,6 +18,8 @@
     if (postData.length) {
 
         postData = postData[0];
+
+        updateMetadata(postData);
 
         // Fetch the blog post's content (stored on the server in an html file)
         fetch(`/posts/${params.slug}.html`)
@@ -46,18 +49,16 @@
     <title>{postData.tabTitle}</title>
 </svelte:head>
 
-{#if postData.publishdate}
-    <h1>{postData.title}</h1>
+<h1>{postData.title}</h1>
 
-    <summary>{postData.description}</summary>
+<summary>{postData.description}</summary>
 
-    <time datetime="{postData.publishdate}">Published: {prettifyDate(postData.publishdate)}</time>
+<time datetime="{postData.publishdate}">Published: {prettifyDate(postData.publishdate)}</time>
 
-    <!-- 
-        This is dangerous! 
-        Never output raw html markup from an untrusted source! 
-    -->
-    <article>
-        {@html post}
-    </article>
-{/if}
+<!-- 
+    This is dangerous! 
+    Never output raw html markup from an untrusted source! 
+-->
+<article>
+    {@html post}
+</article>

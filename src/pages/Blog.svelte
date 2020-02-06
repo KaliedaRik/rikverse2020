@@ -4,7 +4,11 @@
 
     import BlogListing from '../components/BlogListing.svelte';
 
+    import { updateMetadata } from '../utilities.js';
+
     let pageMetadata = pageData.filter(item => item.id === 'blog')[0];
+
+    updateMetadata(pageMetadata);
 
     // We store dates in the format 'YYYY-MM-DD'
     // - this gives us today's date in the same format

@@ -24,7 +24,7 @@
     h3 {
         @apply mb-0;
     }
-    summary {
+    p {
         @apply italic whitespace-pre-wrap m-0 mb-4;
     }
     time {
@@ -36,6 +36,6 @@
     <a href="/blog/{listing.id}">
         <h3>{listing.title}</h3>
         <time datetime="{listing.publishdate}">{prettifyDate(listing.publishdate)}</time>
-        <summary>{listing.description}</summary>
+        <p>{listing.description}</p>
     </a>
 </div>

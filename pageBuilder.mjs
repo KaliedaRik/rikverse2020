@@ -96,3 +96,15 @@ blogpostData.forEach(post => {
     .then(res => console.log(res))
     .catch(err => console.log(err));
 });
+
+// Process the book files
+import bookData from './src/data/bookData.mjs';
+bookData.forEach(book => {
+
+    checkDirectory(`./public/book/${book.id}`)
+    .then(res => writeIndexFile(book, `./public/book/${book.id}`))
+    .then(res => checkDirectory(`./public/read/${book.id}`))
+    .then(res => writeIndexFile(book, `./public/read/${book.id}`))
+    .then(res => console.log(res))
+    .catch(err => console.log(err));
+});
