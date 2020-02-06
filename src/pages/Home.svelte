@@ -2,6 +2,4 @@
 
 <style></style>
 
-<h3>This will be the Landing page</h3>
-
-<p>It will display a randomly selected poem</p>
+<p>[Random poem panel to go here]</p>

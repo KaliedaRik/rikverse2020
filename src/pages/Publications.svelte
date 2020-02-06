@@ -10,6 +10,6 @@
     <title>{pageMetadata.tabTitle}</title>
 </svelte:head>
 
-<h3>This will be the publication listings page</h3>
+<h1>This will be the publication listings page</h1>
 
 <p>Each listing will link to an individual book page</p>

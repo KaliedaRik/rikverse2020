@@ -39,6 +39,8 @@
     import { paypalCookies } from '../handleCookies.js';
 
     const setupPayPalAction = (e) => navigateTo('/cookies');
+
+    const myPayPalAction = (e) => window.location = 'https://www.paypal.me/RichardRoots?locale.x=en_GB';
 </script>
 
 <footer>
@@ -53,9 +55,13 @@
         <input type="image" src="http://rikverse2020.rikweb.org.uk/images/donate-button.png" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
         <img alt="" border="0" src="https://www.paypal.com/en_GB/i/scr/pixel.gif" width="1" height="1" />
     </form>
-    {:else if $paypalCookies !== 'no'}
+    {:else if $paypalCookies === 'no'}
+    <button on:click={myPayPalAction}>
+        <img src="/images/donate-button.png" alt="Visit Rik's PayPal.me page to give him a donation" />
+    </button>
+    {:else}
     <button on:click={setupPayPalAction}>
-        <img src="/images/donate-button.png" alt="Image button for PayPal donations to support the RikVerse website" />
+        <img src="/images/donate-button.png" alt="You need to decide whether to accept/refuse cookies before you can give Rik a donation" />
     </button>
     {/if}
 

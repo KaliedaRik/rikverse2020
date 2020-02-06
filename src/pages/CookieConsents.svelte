@@ -4,7 +4,7 @@
         grid-template-columns: 1fr 1fr;
         grid-gap: 1em 1em;
         grid-auto-flow: row;
-        @apply mb-4 border-gray-400 border-t-2 border-b-2 py-4;
+        @apply mb-4 border-gray-400 border-b pb-4;
     }
 
     button {
@@ -108,9 +108,9 @@
 
 <h1>Cookie consents on the RikVerse site</h1>
 
-<p>You're (probably) seeing this page because you've either attempted to <b>view a RikVerse video</b>, or <b>share a RikVerse page</b> to social media, or <b>make a donation</b> to help Rik keep the RikVerse website going (thank you!)</p>
+<p>You're (probably) seeing this page because you've either attempted to <b>share a RikVerse page</b> to social media, or <b>make a donation</b> to help Rik keep the RikVerse website going (thank you!)</p>
 
-<p>Before you can complete these actions, <b>you need to agree</b> to let YouTube/Google, Facebook, Twitter and/or PayPal <b>add some cookies to your device</b> so they can keep track of what is going on.</p>
+<p>Before you can complete these actions, <b>you need to agree</b> to let Facebook, Twitter and/or PayPal <b>add some cookies to your device</b> so they can keep track of what is going on.</p>
 
 <p>The RikVerse website blocks all Third Party cookies by default, until you agree to them - <b>click or tap on some buttons</b> below to make your choices known.</p>
 
@@ -128,25 +128,11 @@
 
 <h3>Individual cookie choices</h3>
 
+<p><b>PayPal donation button</b> - The donate button that appears at the bottom of every page on this site will, if you agree to cookies, take you to the PayPal site where you can make a donation - it may also try to log you into their site automatically. Details on what PayPal use their cookies for is scant, but I assume it's something to do with protecting us both when you try to give me some money. </p>
+
+<p>If you decide against PayPal cookies, the button will instead take you to my <a href="https://paypal.me/RichardRoots?locale.x=en_GB">PayPal.me</a> page to make a donation. If you do chose to donate - thank you! If not, that's fine too: please continue to enjoy my work (for £free) on this site.</p>
+
 <div>
-    <!-- YouTube/Google video cookies -->
-    {#if $youtubeCookies === 'no'}
-    <button class="choice-button-no">YouTube cookies blocked</button>
-    {:else}
-    <button class="choice-button" on:click={youtube_NO_action}>
-        I don't need to watch no <i>steenkin'</i> videos!
-    </button>
-    {/if}
-
-    {#if $youtubeCookies === 'yes'}
-    <button class="choice-button-yes">YouTube cookies allowed</button>
-    {:else}
-    <button class="choice-button" on:click={youtube_YES_action}>
-        Yes I would like to see videos of Rik reading his poems
-    </button>
-    {/if}
-
-    <!-- PayPal donation cookies -->
     {#if $paypalCookies === 'no'}
     <button class="choice-button-no">PayPal cookies blocked</button>
     {:else}
@@ -162,8 +148,11 @@
         Yes I would like the opportunity to give Rik some money
     </button>
     {/if}
+</div>
 
-    <!-- Facebook social media share cookies -->
+<p><b>Facebook social media share button</b> - the Facebook share buttons on this site won't work until you accept Facebook cookies. If you choose not to allow those cookies, the share buttons will be hidden. I have absolutely no idea what data Facebook gathers about you via their cookies; here's a link to the <a href="https://www.facebook.com/business/m/one-sheeters/gdpr-developer-faqs:">Facebook GDPR page</a> where they try to explain it themselves.</p>
+
+<div>
     {#if $facebookCookies === 'no'}
     <button class="choice-button-no">Facebook cookies blocked</button>
     {:else}
@@ -179,7 +168,11 @@
         Yes I would like to share RikVerse pages with my Facebook Friends
     </button>
     {/if}
+</div>
 
+<p><b>Twitter social media tweet button</b> - As part of its Tweeting mechanism, Twitter will add cookies to this site to make their Tweet button work. If you choose to disable these cookies, the Tweet buttons will disappear from your view of this site. Twitter supply some good information on what they use their cookies for <a href="https://help.twitter.com/en/rules-and-policies/twitter-cookies">on their website</a>.</p>
+
+<div>
     {#if $twitterCookies === 'no'}
     <button class="choice-button-no">Twitter cookies blocked</button>
     {:else}
@@ -188,7 +181,6 @@
     </button>
     {/if}
 
-    <!-- Twitter social media share cookies -->
     {#if $twitterCookies === 'yes'}
     <button class="choice-button-yes">Twitter cookies allowed</button>
     {:else}
@@ -197,6 +189,11 @@
     </button>
     {/if}
 
+</div>
+
+<p><b>Remembering your cookie choices</b> - if you want, we can save your cookie choices in your browser's  local storage so that the site automatically remembers them the next time you visit.</p>
+
+<div>
     {#if $multisession === 'no'}
     <button class="choice-button-no">Local storage disabled</button>
     {:else}

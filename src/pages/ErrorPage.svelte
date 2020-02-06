@@ -10,4 +10,8 @@
     <title>{pageMetadata.tabTitle}</title>
 </svelte:head>
 
-<h3>This will be the error page</h3>
+<h1>Deepest apologies!</h1>
+
+<p>it looks like we encountered an 'issue' while attempting to find the page you were looking for. As compensation, please enjoy this randomly selected poem instead:</p>
+
+<p>[Random poem panel to go here]</p>
