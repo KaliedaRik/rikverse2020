@@ -4,11 +4,13 @@
 
 /public/about/
 /public/blog/
+/public/book/
 /public/cookies/
 /public/error/
 /public/index/
 /public/privacy-and-security/
 /public/publications/
+/public/read/
 /public/video/
 
 .DS_Store

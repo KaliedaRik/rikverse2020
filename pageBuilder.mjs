@@ -5,6 +5,7 @@ import fs from 'fs';
 // index.html template
 const buildIndexFile = (data) => {
 
+    let domain = 'https://rikverse2020.rikweb.org.uk';
     let indexfileLocation = '`${location.origin}/?p=${location.pathname.substring(1)}`';
 
     return `<!DOCTYPE html>
@@ -27,8 +28,19 @@ const buildIndexFile = (data) => {
     <meta name="description" content="${data.title} - ${data.description}">
 
     <!-- Facebook metadata -->
+    <meta property="fb:app_id" content="210285656772999" />
+    <meta property="og:url" content="${domain}/${data.path}" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="${data.title}" />
+    <meta property="og:description" content="${data.description}" />
+    <meta property="og:image" content="${domain}${data.imageUrl}" />
 
     <!-- Twitter metadata -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="${data.title}">
+    <meta name="twitter:description" content="${data.description}">
+    <meta name="twitter:image" content="${domain}${data.imageUrl}">
+    <meta name="twitter:image:alt" content="${data.imageText}">
 
 </head>
 <body>
@@ -67,7 +79,7 @@ const writeIndexFile = (data, directory) => {
 
             if (fileError && fileError.code !== 'EEXIST') reject(`error for ${directory}/index.html - ${fileError.code}, ${fileError.message}`);
 
-            fs.writeFile(`${directory}/index.html`, buildIndexFile(data), 'utf8', (writeError) => {
+            fs.writeFile(`${directory}/index.html`, buildIndexFile(data, directory), 'utf8', (writeError) => {
 
                 if (writeError) reject(`failed to write ${directory}/index.html file: ${writeError.code}, ${writeError.message}`);
 
@@ -81,6 +93,8 @@ const writeIndexFile = (data, directory) => {
 import pageData from './src/data/pageData.mjs';
 pageData.forEach(page => {
 
+    page.path = page.id;
+
     checkDirectory(`./public/${page.id}`)
     .then(res => writeIndexFile(page, `./public/${page.id}`))
     .then(res => console.log(res))
@@ -90,6 +104,8 @@ pageData.forEach(page => {
 // Process the blogpost files
 import blogpostData from './src/data/blogpostData.mjs';
 blogpostData.forEach(post => {
+
+    post.path = `blog/${post.id}`;
 
     checkDirectory(`./public/blog/${post.id}`)
     .then(res => writeIndexFile(post, `./public/blog/${post.id}`))
@@ -101,10 +117,16 @@ blogpostData.forEach(post => {
 import bookData from './src/data/bookData.mjs';
 bookData.forEach(book => {
 
+    book.path = `book/${book.id}`;
+
     checkDirectory(`./public/book/${book.id}`)
     .then(res => writeIndexFile(book, `./public/book/${book.id}`))
     .then(res => checkDirectory(`./public/read/${book.id}`))
-    .then(res => writeIndexFile(book, `./public/read/${book.id}`))
+    .then(res => {
+
+        book.path = `read/${book.id}`;
+        return writeIndexFile(book, `./public/read/${book.id}`);
+    })
     .then(res => console.log(res))
     .catch(err => console.log(err));
 });
