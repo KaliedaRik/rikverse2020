@@ -3,8 +3,9 @@
 
     import { 
         scrollToTopOnLoad,
-        updateMetadata,
         navigateTo } from '../utilities.js';
+
+    import { updateMetadata } from '../handleMetadata.js';
 
     export let params;
 

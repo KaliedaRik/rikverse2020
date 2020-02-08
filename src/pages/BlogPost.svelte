@@ -4,8 +4,9 @@
     import { 
         prettifyDate, 
         scrollToTopOnLoad,
-        updateMetadata,
         navigateTo } from '../utilities.js';
+
+    import { updateMetadata } from '../handleMetadata.js';
 
     // This line lets us access the :slug value which Page.js has supplied to the component
     export let params;

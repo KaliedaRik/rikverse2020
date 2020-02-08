@@ -44,7 +44,6 @@
         paypalCookies,
         facebookCookies,
         twitterCookies,
-        youtubeCookies,
 
         allCookiesMultiYes,
         allCookiesSingleYes,
@@ -55,8 +54,9 @@
 
     import { 
         scrollToTopOnLoad,
-        updateMetadata,
         navigateBack } from '../utilities.js'
+
+    import { updateMetadata } from '../handleMetadata.js';
 
     let pageMetadata = pageData.filter(item => item.id === 'cookies')[0];
 

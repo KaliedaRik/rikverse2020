@@ -4,7 +4,7 @@
 
     import PublicationCard from '../components/PublicationCard.svelte';
 
-    import { updateMetadata } from '../utilities.js'
+    import { updateMetadata } from '../handleMetadata.js';
 
     let pageMetadata = pageData.filter(item => item.id === 'publications')[0];
 

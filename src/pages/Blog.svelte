@@ -4,7 +4,7 @@
 
     import BlogListing from '../components/BlogListing.svelte';
 
-    import { updateMetadata } from '../utilities.js';
+    import { updateMetadata } from '../handleMetadata.js';
 
     let pageMetadata = pageData.filter(item => item.id === 'blog')[0];
 

@@ -90,6 +90,7 @@
     startRouter();
 
     import Navigation from './components/Navigation.svelte';
+    import SocialMedia from './components/SocialMedia.svelte';
     import Footer from './components/Footer.svelte';
 
     import { navigateTo } from './utilities.js';
@@ -105,6 +106,8 @@
 </script>
 
 <Navigation />
+
+<SocialMedia />
 
 <main>
     <svelte:component this={page} {params} />

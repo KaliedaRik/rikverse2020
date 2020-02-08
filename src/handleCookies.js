@@ -75,14 +75,12 @@ function createCookieJar (id) {
 let paypalCookies = createCookieJar('paypal');
 let facebookCookies = createCookieJar('facebook');
 let twitterCookies = createCookieJar('twitter');
-let youtubeCookies = createCookieJar('youtube');
 
 const allCookiesMultiYes = () => {
 
     paypalCookies.setTo('yes');
     facebookCookies.setTo('yes');
     twitterCookies.setTo('yes');
-    youtubeCookies.setTo('yes');
     useLocalStore(true);
 };
 const allCookiesSingleYes = () => {
@@ -90,7 +88,6 @@ const allCookiesSingleYes = () => {
     paypalCookies.setTo('yes');
     facebookCookies.setTo('yes');
     twitterCookies.setTo('yes');
-    youtubeCookies.setTo('yes');
     useLocalStore(false);
 };
 const allCookiesSingleNo = () => {
@@ -98,7 +95,6 @@ const allCookiesSingleNo = () => {
     paypalCookies.setTo('no');
     facebookCookies.setTo('no');
     twitterCookies.setTo('no');
-    youtubeCookies.setTo('no');
     useLocalStore(false);
 };
 
@@ -114,7 +110,6 @@ export {
     paypalCookies,
     facebookCookies,
     twitterCookies,
-    youtubeCookies,
 
     multisession,
 
