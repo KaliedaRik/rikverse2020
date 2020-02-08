@@ -43,7 +43,7 @@ const routes = [
         path: '/book/:slug',
         component: Book
     }, {
-        // Book details and download page
+        // Redirect to the publications page on this dead end
         path: '/book',
         component: Publications
     }, {
@@ -51,7 +51,7 @@ const routes = [
         path: '/read/:slug',
         component: ReadBook
     }, {
-        // "Read the book" page
+        // Redirect to the publications page on this dead end
         path: '/read',
         component: Publications
 
