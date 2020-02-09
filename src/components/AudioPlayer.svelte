@@ -2,8 +2,7 @@
     import { 
         audioFile,
         setAudioController,
-        audioIsPlaying,
-        audioController } from '../handleMedia.js';
+        audioIsPlaying } from '../handleMedia.js';
 
     const getAudioController = () => {
 
@@ -18,7 +17,7 @@
         else timeout = window.setTimeout(getAudioController, 400);
     };
 
-    if (!audioController) getAudioController();
+    getAudioController();
 
 </script>   
 

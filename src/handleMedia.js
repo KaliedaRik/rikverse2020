@@ -1,7 +1,6 @@
 import { writable } from 'svelte/store';
 
 // Video content
-
 const videoFile = writable('');
 const videoIsPlaying = writable(0);
 
@@ -31,7 +30,6 @@ const setVideoController = (el) => videoController = el;
 
 
 // Audio content
-
 const audioFile = writable('');
 const audioIsPlaying = writable(0);
 
@@ -60,14 +58,12 @@ const setAudioController = (el) => audioController = el;
 
 export {
     videoFile,
-    videoController,
     setVideoController,
     videoIsPlaying,
     startVideo,
     stopVideo,
 
     audioFile,
-    audioController,
     setAudioController,
     audioIsPlaying,
     startAudio,

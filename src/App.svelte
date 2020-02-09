@@ -93,6 +93,7 @@
     import SocialMedia from './components/SocialMedia.svelte';
     import Footer from './components/Footer.svelte';
 
+    // Functionality to handle page redirects from "partial static" site pages
     import { navigateTo } from './utilities.js';
 
     let search = window.location.search;

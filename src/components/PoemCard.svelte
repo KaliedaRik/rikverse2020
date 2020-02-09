@@ -33,6 +33,7 @@
 </style>
 
 {#if copy}
+    <!-- poem title -->
     <h1>{poemData.title}</h1>
 
     <!-- top image, if required -->

@@ -1,9 +1,7 @@
-// HUMAN-READABLE DATES FUNCTIONALITY
-// String arrays for use with human-readable date functions
+// Human-readable dates functionality
 const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
 const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 
-// Exported functions for making human-readable dates
 const prettifyDate = (inputString) => {
 
     if (inputString && inputString.substring) {
@@ -42,6 +40,10 @@ const prettifyMonthDate = (inputString) => {
     else return '';
 };
 
+// Creative Commons licence checker
+// - all completed poems published > 15 years are "cc-by" licence
+// - all other completed poems are "cc-by_nc_nd" licence
+// - poems not marked as completed excluded from CC licences
 const checkCopyright = (updated, complete) => {
 
     if (updated && complete) {
@@ -65,7 +67,7 @@ const checkCopyright = (updated, complete) => {
 };
 
 
-// RANDOM POEM
+// Random poem picker
 import poemData from './data/poemData.mjs';
 let showcasePoems = poemData.filter(item => item.showcase),
     showcaseLength = showcasePoems.length;
@@ -73,8 +75,7 @@ let showcasePoems = poemData.filter(item => item.showcase),
 const getRandomPoem = () => showcasePoems[Math.floor(Math.random() * showcaseLength)];
 
 
-// PAGE LOAD MANIPULATION FUNCTIONALITY
-// Exported function to make poem or blog post scroll to top of page when it first loads
+// Page load manipulation functionality
 const scrollToTopOnLoad = () => {
 
     if (window.scrollY > 0) {
@@ -105,6 +106,8 @@ const navigateTo = (destination) => {
     a.remove();
 };
 
+// Use navigateTo() in preference to navigateBack()
+// - will remove this function from build in due course
 const navigateBack = () => {
 
     let h = window.history;
@@ -121,6 +124,7 @@ const navigateBack = () => {
 export {
     prettifyDate,
     prettifyMonthDate,
+
     checkCopyright,
 
     getRandomPoem,

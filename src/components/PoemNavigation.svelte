@@ -9,22 +9,13 @@
         videoIsPlaying, 
         startVideo,
         stopVideo,
-        setVideoController,
 
         audioFile, 
         audioIsPlaying,
         startAudio,
-        stopAudio,
-        setAudioController } from '../handleMedia.js';
+        stopAudio } from '../handleMedia.js';
 
-    const backAction = () => {
-
-        // prevent a pile up of media by getting rid of the media element handle reference
-        setVideoController();
-        setAudioController();
-
-        navigateTo('/index');
-    }
+    const backAction = () => navigateTo('/index');
 
     const videoAction = () => {
 

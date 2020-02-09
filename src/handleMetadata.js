@@ -1,10 +1,4 @@
-//Svelte writable stores to handle metadata (specifically for twitter share buttons)
 import { writable } from 'svelte/store';
-
-const metaTitle = writable('');
-const metaDescription = writable('');
-
-const poemIndexHash = writable('');
 
 // JS object which will hold handles to DOM metadata elements
 let metadataHandles;
@@ -65,6 +59,14 @@ const updateMetadata = (data) => {
         metadataHandles.twitterImageAlt.setAttribute('content', data.imageText);
     }
 };
+
+// Used entirely by ./pages/PoemsIndex.svelte to keep track of current index filter
+const poemIndexHash = writable('');
+
+// Used by ./components/TwitterButton.svelte to help build the Twitter anchor's href string
+// - set here by updateMetadata()
+const metaTitle = writable('');
+const metaDescription = writable('');
 
 export {
     updateMetadata,

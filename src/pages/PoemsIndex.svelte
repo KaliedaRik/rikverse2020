@@ -4,11 +4,11 @@
 
     import PoemListing from '../components/PoemListing.svelte';
 
-    // Update page metadata
     import { 
         updateMetadata,
         poemIndexHash } from '../handleMetadata.js';
 
+    // Update page metadata
     let pageMetadata = pageData.filter(item => item.id === 'index')[0];
     updateMetadata(pageMetadata);
 
@@ -18,6 +18,8 @@
     taglist.sort();
 
     // Function to filter poems by tag
+    let filteredPoems, completedPoems, draftPoems;
+
     const filterPoems = (tag) => {
 
         if (tag && tag.indexOf('#') == 0) tag = tag.substring(1);
@@ -30,8 +32,6 @@
 
         poemIndexHash.set(tag);
     }
-
-    let filteredPoems, completedPoems, draftPoems;
 
     filterPoems($poemIndexHash);
 

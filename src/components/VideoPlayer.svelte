@@ -2,8 +2,7 @@
     import { 
         videoFile,
         setVideoController,
-        videoIsPlaying,
-        videoController } from '../handleMedia.js';
+        videoIsPlaying } from '../handleMedia.js';
 
     const getVideoController = () => {
 
@@ -18,7 +17,7 @@
         else timeout = window.setTimeout(getVideoController, 400);
     };
 
-    if (!videoController) getVideoController();
+    getVideoController();
 
 </script>   
 
