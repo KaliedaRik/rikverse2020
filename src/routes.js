@@ -9,6 +9,7 @@ import Blog from "./pages/Blog.svelte";
 import BlogPost from "./pages/BlogPost.svelte";
 
 import PoemsIndex from "./pages/PoemsIndex.svelte";
+import Poem from "./pages/Poem.svelte";
 
 import Publications from "./pages/Publications.svelte";
 import Book from "./pages/Book.svelte";
@@ -58,6 +59,14 @@ const routes = [
     }, {
         // Index of links to individual poems
         path: '/index',
+        component: PoemsIndex
+    }, {
+        // Display a poem
+        path: '/poem/:slug',
+        component: Poem
+    }, {
+        // Redirect to the index of links to individual poems
+        path: '/poem',
         component: PoemsIndex
 
     }, {

@@ -4,6 +4,7 @@ import { writable } from 'svelte/store';
 const metaTitle = writable('');
 const metaDescription = writable('');
 
+const poemIndexHash = writable('');
 
 // JS object which will hold handles to DOM metadata elements
 let metadataHandles;
@@ -70,4 +71,6 @@ export {
 
     metaTitle,
     metaDescription,
+
+    poemIndexHash,
 }

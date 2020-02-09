@@ -1,11 +1,19 @@
 <script>
     import pageData from '../data/pageData.mjs';
 
+    import PoemCard from '../components/PoemCard.svelte'
+
+    import { 
+        getRandomPoem,
+        scrollToTopOnLoad } from '../utilities.js'
+
     import { updateMetadata } from '../handleMetadata.js';
 
     let pageMetadata = pageData.filter(item => item.id === 'privacy-and-security')[0];
 
     updateMetadata(pageMetadata);
+
+    scrollToTopOnLoad();
 </script>
 
 <style></style>
@@ -28,4 +36,4 @@
 
 <h3>Thank you for your time and attention. Please now enjoy this randomly selected poem:</h3>
 
-<p>[Random poem panel to go here]</p>
+<PoemCard poemData={getRandomPoem()} />

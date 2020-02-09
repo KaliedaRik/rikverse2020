@@ -1,6 +1,10 @@
 <script>
     import pageData from '../data/pageData.mjs';
 
+    import PoemCard from '../components/PoemCard.svelte'
+
+    import { getRandomPoem } from '../utilities.js'
+
     import { updateMetadata } from '../handleMetadata.js';
 
     let pageMetadata = pageData.filter(item => item.id === 'error')[0];
@@ -18,4 +22,4 @@
 
 <p>it looks like we encountered an 'issue' while attempting to find the page you were looking for. As compensation, please enjoy this randomly selected poem instead:</p>
 
-<p>[Random poem panel to go here]</p>
+<PoemCard poemData={getRandomPoem()} />

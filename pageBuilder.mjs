@@ -130,3 +130,16 @@ bookData.forEach(book => {
     .then(res => console.log(res))
     .catch(err => console.log(err));
 });
+
+// Process the poem files
+import poemData from './src/data/poemData.mjs';
+poemData.forEach(poem => {
+
+    poem.path = `poem/${poem.id}`;
+
+    checkDirectory(`./public/poem/${poem.id}`)
+    .then(res => writeIndexFile(poem, `./public/poem/${poem.id}`))
+    .then(res => console.log(res))
+    .catch(err => console.log(err));
+});
+

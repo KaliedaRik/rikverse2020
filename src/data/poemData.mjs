@@ -3231,13 +3231,13 @@ const poems = [
     imageText: "Rachel: The Ewe Seeks Her Lambs - a poem by Rik Roots",
     statusText: "NaPoWriMo 2010 first draft",
     tags: ["napo-2010", 'End-Time'],
-    showcase: false,
-    complete: false
     audiofile: "",
     videofile: "",
     imagefile: "",
     imageCaption: "",
-    imagePosition: ""
+    imagePosition: "",
+    showcase: false,
+    complete: false
   },
   {
     id: "rain-in-venice",

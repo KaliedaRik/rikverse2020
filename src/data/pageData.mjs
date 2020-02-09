@@ -40,6 +40,14 @@ const pageData = [
         imageText: 'Image advertising the RikVerse Poems index page',
     }, 
     {
+        id: 'poem',
+        title: 'RikVerse Poems index',
+        tabTitle: 'RikVerse Poems index',
+        description: 'Listing poems written by Rik Roots',
+        imageUrl: '/images/RV-poems_share.png',
+        imageText: 'Image advertising the RikVerse Poems index page',
+    }, 
+    {
         id: 'privacy-and-security',
         title: 'RikVerse Security and Privacy',
         tabTitle: 'RikVerse Security and Privacy',

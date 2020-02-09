@@ -1,5 +1,9 @@
-<script></script>
+<script>
+	import PoemCard from '../components/PoemCard.svelte'
+
+	import { getRandomPoem } from '../utilities.js'
+</script>
 
 <style></style>
 
-<p>[Random poem panel to go here]</p>
+<PoemCard poemData={getRandomPoem()} />
