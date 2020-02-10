@@ -1,17 +1,15 @@
 <script>
-	import TwitterButton from './TwitterButton.svelte';
-	import FacebookButton from './FacebookButton.svelte';
+    import TwitterButton from './TwitterButton.svelte';
+    import FacebookButton from './FacebookButton.svelte';
 </script>
 
 <style>
-	div {
-		@apply w-full text-right my-2;
-	}
+    div {
+        @apply w-full text-right my-2;
+    }
 </style>
 
-<div class="social-media-bar">
-
-	<FacebookButton />
-	<TwitterButton />
-
+<div>
+    <FacebookButton />
+    <TwitterButton />
 </div>

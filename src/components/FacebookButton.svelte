@@ -31,28 +31,57 @@
     svg:hover {
         fill: #ffffff;
     }
+
+    .cookies-required {
+        @apply bg-gray-300 rounded inline-block border-0;
+    }
+    .cookies-required:hover {
+        @apply bg-gray-500;
+    }
+
+    .cookies-required svg {
+        fill: #A0AEC0;
+    }
+    .cookies-required svg:hover {
+        fill: #E2E8F0;
+    }
 </style>
 
 {#if $facebookCookies === 'yes'}
 <!-- User has given consent to Facebook cookies being placed on their device -->
 <script async defer src="https://connect.facebook.net/en_US/sdk.js"></script>
 
-<button on:click={setupFacebook} title="Share with Facebook Friends">
-    <svg viewBox="-17 -13 44 44" enable-background="new 0 0 44 44" width="44px" height="44px" aria-hidden="true" focusable="false">
+<button 
+    on:click={setupFacebook} 
+    title="Share with Facebook Friends">
+    <svg 
+        viewBox="-17 -13 44 44" 
+        enable-background="new 0 0 44 44" 
+        width="44px" height="44px" 
+        aria-hidden="true" focusable="false">
         <g>
             <path d={dPath}></path>
         </g>
     </svg>
 </button>
+
 {:else if $facebookCookies !== 'no'}
 <!-- User has not yet made a decision about Facebook cookies -->
-<button on:click={redirectToCookies} title="Share with Facebook Friends">
-    <svg viewBox="-17 -13 44 44" enable-background="new 0 0 44 44" width="44px" height="44px" aria-hidden="true" focusable="false">
+<button 
+    class="cookies-required" 
+    on:click={redirectToCookies} 
+    title="Enable Facebook cookies to share with Facebook Friends">
+    <svg 
+        viewBox="-17 -13 44 44" 
+        enable-background="new 0 0 44 44" 
+        width="44px" height="44px" 
+        aria-hidden="true" focusable="false">
         <g>
             <path d={dPath}></path>
         </g>
     </svg>
 </button>
+
 {:else}
 <!-- User has declined Facebook cookies -->
 {/if}
