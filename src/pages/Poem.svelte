@@ -23,4 +23,8 @@
 
 <style></style>
 
+<svelte:head>
+    <title>{poem.tabTitle}</title>
+</svelte:head>
+
 <PoemCard poemData={poem} />
