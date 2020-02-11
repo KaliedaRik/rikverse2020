@@ -11,14 +11,15 @@
 
 	export let params;
 
-    let poem = poemData.filter(item => item.id === params.slug)[0];
+    let poem = poemData.filter(item => item.id === params.slug);
 
-    if (!poem) navigateTo('/index');
-    else {
+    if (poem.length) {
 
+        poem = poem[0];
         updateMetadata(poem);
         scrollToTopOnLoad();
     }
+    else navigateTo('/error');
 </script>
 
 <style></style>
