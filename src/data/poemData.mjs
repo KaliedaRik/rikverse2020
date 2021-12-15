@@ -1422,6 +1422,24 @@ const poems = [
     complete: true
   },
   {
+    id: "fall-tide",
+    title: "Fall Tide",
+    tabTitle: 'RikVerse poem',
+    description: "A winter-withered wordman's remains",
+    publishdate: "2019-09-01",
+    imageUrl: '/images/RV-home_share.png',
+    imageText: "Fall Tide - a poem by Rik Roots",
+    statusText: "",
+    tags: [],
+    audiofile: "",
+    videofile: "",
+    imagefile: "",
+    imageCaption: "",
+    imagePosition: "",
+    showcase: false,
+    complete: false
+  },
+  {
     id: "fallen",
     title: "Fallen",
     tabTitle: 'RikVerse poem',
@@ -4156,6 +4174,24 @@ const poems = [
     imagePosition: "",
     showcase: false,
     complete: true
+  },
+  {
+    id: "sweetness",
+    title: "Sweetness",
+    tabTitle: 'RikVerse poem',
+    description: "Trauma, know: you're never safe!",
+    publishdate: "2021-12-15",
+    imageUrl: '/images/RV-home_share.png',
+    imageText: "Sweetness - a poem by Rik Roots",
+    statusText: "ObPoem - first draft",
+    tags: [],
+    audiofile: "",
+    videofile: "",
+    imagefile: "",
+    imageCaption: "",
+    imagePosition: "",
+    showcase: false,
+    complete: false
   },
   {
     id: "take-this-man",
