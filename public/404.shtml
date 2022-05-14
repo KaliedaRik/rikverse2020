@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>RikVerse Error</title>
+
+    <!-- to prevent caching -->
+    <meta http-equiv="cache-control" content="max-age=0">
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="expires" content="-1">
+    <meta http-equiv="expires" content="Tue, 01 Jan 1980 11:00:00 GMT">
+    <meta http-equiv="pragma" content="no-cache">
+
+    <!-- general page metadata -->
+    <meta name="author" content="Rik Roots">
+    <meta name="description" content="RikVerse Error - Failed to find page, or load page resources">
+
+    <!-- Facebook metadata -->
+    <meta property="fb:app_id" content="210285656772999" />
+    <meta property="og:url" content="https://rikverse2020.rikweb.org.uk/error" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="RikVerse Error" />
+    <meta property="og:description" content="Failed to find page, or load page resources" />
+    <meta property="og:image" content="https://rikverse2020.rikweb.org.uk/images/RV-error_share.png" />
+
+    <!-- Twitter metadata -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="RikVerse Error">
+    <meta name="twitter:description" content="Failed to find page, or load page resources">
+    <meta name="twitter:image" content="https://rikverse2020.rikweb.org.uk/images/RV-error_share.png">
+    <meta name="twitter:image:alt" content="Image advertising the RikVerse Error page">
+
+</head>
+<body>
+    <script>
+        if (location.pathname) location.href = `${location.origin}/?p=${location.pathname.substring(1)}`;
+        else location.href = location.origin;
+    </script>
+</body>
+</html>
