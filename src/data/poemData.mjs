@@ -1098,6 +1098,24 @@ const poems = [
     complete: true
   },
   {
+    id: "dieu-et",
+    title: "Dieu Et",
+    tabTitle: 'RikVerse poem',
+    description: "We knew it would happen; I know that life",
+    publishdate: "2022-09-11",
+    imageUrl: '/images/RV-home_share.png',
+    imageText: "Dieu Et - a poem by Rik Roots",
+    statusText: "ObPoem - first draft",
+    tags: [],
+    audiofile: "",
+    videofile: "",
+    imagefile: "",
+    imageCaption: "",
+    imagePosition: "",
+    showcase: false,
+    complete: false
+  },
+  {
     id: "dinosaur",
     title: "Dinosaur",
     tabTitle: 'RikVerse poem',
