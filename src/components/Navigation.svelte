@@ -5,8 +5,8 @@
 <style>
     nav {
         @apply pt-2 pb-2;
-        background: rgb(2,0,36);
-        background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 5%, rgba(173,184,236,1) 38%, rgba(185,234,244,1) 100%);
+        background: rgb(2 0 36);
+        background: linear-gradient(0deg, rgb(2 0 36) 0%, rgb(9 9 121) 5%, rgb(173 184 236) 38%, rgb(185 234 244) 100%);
     }
 
     div {
@@ -31,7 +31,7 @@
 <nav>
     <div title="Click here to see a random poem">
         <a href="/">
-            <img src="/images/rikverse-logo.png" alt="RikVerse banner logo" />
+            <img src="/images/rikverse-logo.webp" alt="RikVerse banner logo" />
         </a>
     </div>
 
