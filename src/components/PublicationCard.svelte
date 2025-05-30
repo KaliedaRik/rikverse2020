@@ -38,6 +38,13 @@
     time {
         @apply block mb-0 text-gray-700 text-sm text-center;
     }
+
+    .book-report-separator {
+        @apply block mt-4;
+    }
+    .book-report {
+        @apply block mt-4;
+    }
 </style>
 
 <div>
@@ -47,4 +54,8 @@
         <p>{book.description}</p>
         <time datetime="{book.publishdate}">Published: {prettifyMonthDate(book.publishdate)}</time>
     </a>
+    {#if book.report_link != null}
+        <hr class="book-report-separator">
+        <a href="{book.report_link}" target="_BLANK" class="book-report">Book details</a>
+    {/if}
 </div>

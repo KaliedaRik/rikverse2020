@@ -3,11 +3,11 @@ const poems = [
     id: "a-sassanid-vase",
     title: "A Sassanid Vase, at Rest",
     tabTitle: 'RikVerse poem',
-    description: "Within its clear lattice, a history of hands",
-    publishdate: "2015-04-01",
+    description: "Within its clear lattice, a history of hands:",
+    publishdate: "2025-05-01",
     imageUrl: '/images/elinor-aquitaine-vase-louvre_share.jpg',
     imageText: 'A Sassanid Vase, at Rest - a poem by Rik Roots',
-    statusText: "NaPoWriPo 2015 first draft",
+    statusText: "",
     tags: ["napo-2015", 'ten-lines'],
     audiofile: "",
     videofile: "",
@@ -15,7 +15,7 @@ const poems = [
     imageCaption: "The 'Elinor of Aquitaine' Sassanid vase, Louvre, Paris",
     imagePosition: "bottom",
     showcase: false,
-    complete: false
+    complete: true
   },
   {
     id: "a-scene-undated",
@@ -4824,6 +4824,24 @@ const poems = [
     complete: false
   },
   {
+    id: "they-shift-watermelons",
+    title: "They shift watermelons",
+    tabTitle: 'RikVerse poem',
+    description: "Moscow is jam-packed with watermelons",
+    publishdate: "2025-05-01",
+    imageUrl: '/images/RV-home_share.png',
+    imageText: "They shift watermelons - a translation by Rik Roots",
+    statusText: "from Торгуют арбузами by Andrei Voznesensky",
+    tags: ["translation"],
+    audiofile: "",
+    videofile: "",
+    imagefile: "",
+    imageCaption: "",
+    imagePosition: "",
+    showcase: false,
+    complete: true
+  },
+  {
     id: "things-i-love-about-my-bed",
     title: "Things I Love About My Bed",
     tabTitle: 'RikVerse poem',
@@ -4971,19 +4989,19 @@ const poems = [
     id: "tournesols",
     title: "Tournesols",
     tabTitle: 'RikVerse poem',
-    description: "This image is as dead as the hand",
-    publishdate: "2015-04-01",
+    description: "This image presented, dead as the hand that",
+    publishdate: "2025-05-01",
     imageUrl: '/images/Six-Sunflowers-1888_share.jpg',
     imageText: "Tournesols - a poem by Rik Roots",
-    statusText: "NaPoWriPo 2015 first draft",
-    tags: ["napo-2015", 'ten-lines'],
+    statusText: "",
+    tags: ['ten-lines'],
     audiofile: "",
     videofile: "",
     imagefile: "/images/Six-Sunflowers-1888_share.webp",
     imageCaption: "'Six Sunflowers, 1888', van Gogh - Wikimedia Commons",
     imagePosition: "bottom",
-    showcase: false,
-    complete: false
+    showcase: true,
+    complete: true
   },
   {
     id: "tower",
@@ -5458,10 +5476,10 @@ const poems = [
     title: "Woman and Man in Traffic, Imagined",
     tabTitle: 'RikVerse poem',
     description: "Meanwhile let's talk",
-    publishdate: "2007-12-01",
+    publishdate: "2025-05-01",
     imageUrl: '/images/RV-home_share.png',
     imageText: "Woman and Man in Traffic, Imagined - a poem by Rik Roots",
-    statusText: "(Draft)",
+    statusText: "",
     tags: ['characters'],
     audiofile: "",
     videofile: "",
@@ -5469,7 +5487,7 @@ const poems = [
     imageCaption: "",
     imagePosition: "",
     showcase: false,
-    complete: false
+    complete: true
   },
   {
     id: "workout",

@@ -8,7 +8,7 @@ const bookData = [
     imageUrl: "/images/22-facets-of-my-father_share.jpg",
     imageText: "Cover for '22 Facets of my Father'",
     coverimage: "/images/22-facets-of-my-father_cover.webp",
-    blurb: `<p>I first had the idea for the facets series of poems in January 2000, produced first drafts fit for criticism in March 2000, and continued to revise and review over the following months. Final drafts started to be produced late in 2000, with the last poem completed (if these things can ever be “completed”) in May 2001.</p><p>I could not have honed these poems without the helpful advice and critiques of a large group of regulars (you know who you are!) over the past year and a bit, in particular from the rec.arts.poems and alt.arts.poetry.comments newsgroups, and from the pffa and Gazebo discussion boards – thanks, peoples, for putting up with me and my old man for sooo long!</p>`,
+    blurb: `<p>In <i>22 Facets of my Father</i>, Rik Roots embarks on a poignant and often unvarnished exploration of a father-son relationship, seen through a series of twenty-two thematically distinct poems. Each poem, titled after a Major Arcana tarot card, delves into a specific "facet" or memory, ranging from formative childhood moments to the complexities of adulthood and the enduring impact of a paternal figure.</p><p>Roots employs a direct, evocative style, weaving together mundane domestic scenes with profound emotional revelations, and grounding universal experiences of family dynamics within the distinctive landscape of the Romney Marsh in Kent. Readers interested in contemporary poetry that grapples with memory, identity, and the intricate bonds of family will find a compelling and deeply personal narrative here.</p>`,
     link_smashwords: "https://www.smashwords.com/books/view/79029",
     link_ibook: "https://books.apple.com/us/book/22-facets-of-my-father/id456630802",
     link_gplay: "https://play.google.com/store/books/details/Rik_Roots_22_Facets_of_My_Father?id=yDje3znQp6AC",
@@ -17,6 +17,7 @@ const bookData = [
     download_epub: "/downloads/22-facets-of-my-father.epub",
     download_mobi: "/downloads/22-facets-of-my-father.mobi",
     download_pdf: "/downloads/22-facets-of-my-father.pdf",
+    report_link: "/reports/22-facets-of-my-father.md",
     is_chapbook: true
   },
   {
@@ -28,7 +29,7 @@ const bookData = [
     imageUrl: "/images/play-time_share.jpg",
     imageText: "Cover for 'Play Time'",
     coverimage: "/images/play-time_cover.webp",
-    blurb: `<p>Play Time is my first collection of poems. Well, that’s not strictly true as I uploaded the pdf file to the website some time after releasing 22 Facets of my Father into the wild, but that was more of a poetry sequence than a collection of poems, so this is my first proper collection.</p><p>These 22 poems are some of my earlier work, from the poems that survived the post-puberty bonfire up to around the turn of the century. There’s no over-arching theme to the poems as such, but if you look carefully you’ll be able to spot the various experiments and approaches I was trying at the time.</p>`,
+    blurb: `<p>Rik Roots' <i>Play Time</i> offers a compelling inaugural collection, demonstrating an emergent poetic voice engaged with the textures of urban existence and interior landscapes. These early poems, spanning from adolescence to the turn of the century, reveal a poet at play with form and thematic exploration, deliberately eschewing a singular overarching theme in favour of a diverse engagement with human experience.</p><p>From the raw sensuality of "Appreciation" and the visceral grit of "Commuting" to the poignant urban alienation of "Daisy" and the complex explorations of self and connection in "Menses" and "Consent", Roots navigates a contemporary sensibility. The collection often grounds abstract emotion in concrete, sometimes stark, imagery, inviting readers to witness the poet's "experiments and approaches"  as he grapples with desire, loss, identity, and the relentless pulse of metropolitan life.</p>`,
     link_smashwords: "https://www.smashwords.com/books/view/79251",
     link_ibook: "https://books.apple.com/us/book/play-time/id456605947",
     link_gplay: "https://play.google.com/store/books/details/Rik_Roots_Play_Time?id=Rv2l8pXh1N8C",
@@ -37,6 +38,7 @@ const bookData = [
     download_epub: "/downloads/play-time.epub",
     download_mobi: "/downloads/play-time.mobi",
     download_pdf: "/downloads/play-time.pdf",
+    report_link: "/reports/play-time.md",
     is_chapbook: true
   },
   {
@@ -48,7 +50,7 @@ const bookData = [
     imageUrl: "/images/from-each-skull-a-story_share.jpg",
     imageText: "Cover for 'From Each Skull, A Story'",
     coverimage: "/images/from-each-skull-a-story_cover.webp",
-    blurb: `<p>Welcome to this, my second collection of poems. This set of poems may (or may not) be about marginal people and marginal societies. None of the people described in these poems are real – they’ve all emerged fully formed from my imagination. Feel free to draw whatever conclusions you like from this admission.</p>`,
+    blurb: `<p><i>From Each Skull, A Story</i> by Rik Roots is a compelling chapbook that delves into the liminal spaces of human experience, presenting a collection of poems that explore the lives and perspectives of those often overlooked or marginalized within society. Roots masterfully crafts narratives that are at once deeply personal and broadly resonant, inviting readers to consider the interiority of characters grappling with faith, disillusionment, and the harsh realities of urban existence.</p><p>The collection's strength lies in its unflinching gaze at vulnerability and its nuanced portrayal of the everyday grotesque, challenging conventional notions of beauty and order in contemporary life. Through sharp observation and a keen ear for the cadences of lived experience, Roots navigates themes of identity, memory, and the search for meaning amidst chaos, offering a provocative and memorable read for those interested in the cutting edge of contemporary poetic inquiry.</p>`,
     link_smashwords: "https://www.smashwords.com/books/view/79477",
     link_ibook: "https://books.apple.com/us/book/from-each-skull-a-story/id456614189",
     link_gplay: "https://play.google.com/store/books/details/Rik_Roots_From_Each_Skull_A_Story?id=DjXcnXSYibwC",
@@ -57,6 +59,7 @@ const bookData = [
     download_epub: "/downloads/from-each-skull-a-story.epub",
     download_mobi: "/downloads/from-each-skull-a-story.mobi",
     download_pdf: "/downloads/from-each-skull-a-story.pdf",
+    report_link: "/reports/from-each-skull-a-story.md",
     is_chapbook: true
   },
   {
@@ -68,7 +71,7 @@ const bookData = [
     imageUrl: "/images/poems-to-quote-to-your-lover_share.jpg",
     imageText: "Cover for 'Poems to Quote to your Lover'",
     coverimage: "/images/poems-to-quote-to-your-lover_cover.webp",
-    blurb: `<p>Welcome to this, my third collection of poems. In this collection, I am proud to present you with some love. These poems deal with loves and relationships in all their wonderful and woeful manifestations. Some of the poems are a little raunchier than others, but there’s nothing offensive or smutty in them. Enjoy!</p>`,
+    blurb: `<p>Rik Roots's <i>Poems to Quote to Your Lover</i> offers an intimate and often unvarnished exploration of contemporary love and its complexities. Eschewing sentimental idealizations, Roots delves into the physical and emotional landscapes of relationships, from nascent attractions felt "barefoot across the still-wet humps of Dymchurch beach"  to the deep, sometimes challenging, currents of long-term partnership, as explored in "Language" and "Respect".</p><p>The collection navigates themes of desire, vulnerability, commitment, and the often-unspoken negotiations between lovers, presenting a frank and sensual poetic voice that resonates with the lived realities of modern romance. Readers will find reflections on intimacy, the delicate balance of trust, and the evolution of connection, all rendered with a distinctive blend of raw honesty and lyrical precision.</p>`,
     link_smashwords: "https://www.smashwords.com/books/view/79894",
     link_ibook: "https://books.apple.com/us/book/poems-to-quote-to-your-lover/id458583653",
     link_gplay: "https://play.google.com/store/books/details/Rik_Roots_Poems_to_Quote_to_Your_Lover?id=8rFFVz0T3o4C",
@@ -77,6 +80,7 @@ const bookData = [
     download_epub: "/downloads/poems-to-quote-to-your-lover.epub",
     download_mobi: "/downloads/poems-to-quote-to-your-lover.mobi",
     download_pdf: "/downloads/poems-to-quote-to-your-lover.pdf",
+    report_link: "/reports/poems-to-quote-to-your-lover.md",
     is_chapbook: true
   },
   {
@@ -88,7 +92,7 @@ const bookData = [
     imageUrl: "/images/to-posterity_share.jpg",
     imageText: "Cover for 'To Posterity'",
     coverimage: "/images/to-posterity_cover.webp",
-    blurb: `<p>Dedicated to those who are gone before their time, too many of whom I knew and loved.</p>`,
+    blurb: `<p>Rik Roots' <i>To Posterity</i> is a chapbook that navigates the intricate emotional landscapes of contemporary life, touching upon themes of loss, memory, and the often-unseen connections that bind us to our environments. The poems, a sequence rather than disparate pieces, move with a subtle yet impactful rhythm, inviting readers to consider the ordinary as imbued with profound significance. Roots employs a precise, often startling imagery — from the "dragon-axed dahlia" to "a copse of clown-trees" — to explore the fragility of existence and the persistent echoes of those who have passed.</p><p>This collection offers a contemplative engagement with the everyday, urging a closer look at the temporal and the tangible, revealing layers of meaning in domestic spaces, urban encounters, and the quiet moments of reflection.</p>`,
     link_smashwords: "https://www.smashwords.com/books/view/80210",
     link_ibook: "https://books.apple.com/us/book/to-posterity/id458566091",
     link_gplay: "https://play.google.com/store/books/details/Rik_Roots_To_Posterity?id=xTXsKVeqcmgC",
@@ -97,6 +101,7 @@ const bookData = [
     download_epub: "/downloads/to-posterity.epub",
     download_mobi: "/downloads/to-posterity.mobi",
     download_pdf: "/downloads/to-posterity.pdf",
+    report_link: "/reports/to-posterity.md",
     is_chapbook: true
   },
   {
@@ -108,7 +113,7 @@ const bookData = [
     imageUrl: "/images/snowdrop-a-story-in-verse_share.jpg",
     imageText: "Cover for 'Snowdrop'",
     coverimage: "/images/snowdrop-a-story-in-verse_cover.webp",
-    blurb: `<p>For most people, Christmas is a time of joy; for some it has become a time of lonely sorrow.</p><p>For Snowdrop, Christmas is about to become a timeless place of fear, horror – and unimaginable loss.</p><p>On the hill above the Marshes, someone watches; some thing waits ...</p>`,
+    blurb: `<p>Rik Roots' <i>Snowdrop: A Story in Verse</i>, a verse novel drafted between 2004 and 2012, plunges the reader into a Christmas that quickly devolves from festive joy into a chilling odyssey of fear and loss. The narrative unfolds across 79 poems, organized into 14 distinct sections, primarily set on the ancient, mist-shrouded Romney Marshes and the mysterious Lym Hill.</p><p>This chapbook unravels the tale of a young girl, "Snowdrop," whose seemingly ordinary Christmas visit to her Gran's cottage  in the 1980s  morphs into an unsettling encounter with a pagan, timeless realm. The poem navigates themes of displacement, the collision of ancient folklore with contemporary reality, and a protagonist's struggle for sanity amidst surreal transformations of landscape and perception.</p><p>Through evocative imagery and a narrative that blurs the lines between dream and waking, Snowdrop explores the enduring power of myth and the psychological impact of being caught between worlds, ultimately offering a poignant reflection on memory, identity, and the fluid nature of time and place.</p>`,
     link_smashwords: "https://www.smashwords.com/books/view/263892",
     link_ibook: "https://books.apple.com/us/book/snowdrop/id587879536",
     link_gplay: "https://play.google.com/store/books/details/Rik_Roots_Snowdrop?id=9L87DwAAQBAJ",
@@ -117,6 +122,7 @@ const bookData = [
     download_epub: "/downloads/snowdrop-a-story-in-verse.epub",
     download_mobi: "/downloads/snowdrop-a-story-in-verse.mobi",
     download_pdf: "/downloads/snowdrop-a-story-in-verse.pdf",
+    report_link: "/reports/snowdrop-a-story-in-verse.md",
     is_chapbook: true
   },
   {
@@ -128,7 +134,7 @@ const bookData = [
     imageUrl: "/images/paleorik_share.jpg",
     imageText: "Cover for 'PaleoRik'",
     coverimage: "/images/paleorik_cover.webp",
-    blurb: `<p>Some of Rik's earliest verses came to him one day and said: we feel neglected! We feel ignored - why should all the later poems get all of the glory. Some of us have been published, you know, in proper magazines and stuff!</p><p>And Rik, in an inexplicable episode of sympathy for the poems' plight, agreed to build a chapbook just for them. Please enjoy your time with these early (occasionally published!) works.</p>`,
+    blurb: `<p>In "PaleoRik," Rik Roots presents a curated sequence of his earlier poems, primarily penned in the late 20th century, showcasing a poet in a formative period of experimentation and discovery. This chapbook offers a compelling glimpse into the nascent stages of Roots's poetic voice, exploring themes that range from the mundane realities of urban life in London to more introspective engagements with memory, identity, and the natural world.</p><p>Readers familiar with contemporary British poetry will appreciate the collection's direct language and its often-unflinching gaze at the intersections of personal experience and broader societal observations. Roots's work in "PaleoRik" reveals an early but confident poetic sensibility, hinting at the stylistic and thematic developments that would characterize his later output.</p>`,
     link_smashwords: "https://www.smashwords.com/books/view/755619",
     link_ibook: "https://books.apple.com/us/book/paleorik/id1303936333",
     link_gplay: "https://play.google.com/store/books/details/Rik_Roots_PaleoRik?id=0L87DwAAQBAJ",
@@ -137,6 +143,7 @@ const bookData = [
     download_epub: "/downloads/paleorik.epub",
     download_mobi: "/downloads/paleorik.mobi",
     download_pdf: "/downloads/paleorik.pdf",
+    report_link: "/reports/paleorik.md",
     is_chapbook: true
   },
   {
@@ -148,7 +155,7 @@ const bookData = [
     imageUrl: "/images/and-still-i-breathe_share.jpg",
     imageText: "Cover for 'And Still I Breathe'",
     coverimage: "/images/and-still-i-breathe_cover.webp",
-    blurb: `<p>The mid-teens of the 21st century have been lean times for my poetic productivity - other things (such as coding, life, having to find paid employment) have taken priority over the Joy of Verse.</p><p>Nevertheless verse has been committed in fits and starts, and in this chapbook you will find the results. Please enjoy your time with my work!</p>`,
+    blurb: `<p>Rik Roots's <i>And Still I Breathe</i> offers a compelling sequence of poems that navigates the intricacies of contemporary existence with an unflinching gaze. Through a diverse array of forms and narrative voices, Roots explores the pervasive influence of digital interconnectivity on individual identity and societal structures. The collection deftly interweaves personal reflections on the creative impulse and the passage of time with incisive critiques of modern anxieties, from economic precarity to the insidious nature of gossip.</p><p>Roots challenges conventional notions of memory and national identity, while also engaging with universal human experiences of community, isolation, and the often-surreal nature of daily life. This collection provides a nuanced and often sardonic commentary on what it means to "still breathe" in a world increasingly mediated and defined by digital presences and disquieting realities.</p>`,
     link_smashwords: "https://www.smashwords.com/books/view/756190",
     link_ibook: "https://books.apple.com/us/book/and-still-i-breathe/id1304069732",
     link_gplay: "https://play.google.com/store/books/details/Rik_Roots_And_Still_I_Breathe?id=KMY7DwAAQBAJ",
@@ -157,6 +164,7 @@ const bookData = [
     download_epub: "/downloads/and-still-i-breathe.epub",
     download_mobi: "/downloads/and-still-i-breathe.mobi",
     download_pdf: "/downloads/and-still-i-breathe.pdf",
+    report_link: "/reports/and-still-i-breathe.md",
     is_chapbook: true
   },
   {
@@ -168,7 +176,7 @@ const bookData = [
     imageUrl: "/images/more-love-poems-innit_share.jpg",
     imageText: "Cover for 'More Love Poems Innit'",
     coverimage: "/images/more-love-poems-innit_cover.webp",
-    blurb: `<p>A sequence of love poems, written by Rik Roots. You have been warned!</p>`,
+    blurb: `<p>Rik Roots's "More Love Poems Innit" is a chapbook that delves into the multifaceted landscape of modern love and intimacy, navigating its complexities with a distinct voice that is both vulnerable and wry. This collection moves beyond conventional romantic verse, exploring the often-unspoken nuances of long-term partnership, the intoxicating initial spark of connection, and the profound sense of self that is both challenged and affirmed within a relationship.</p><p>Roots employs vivid, often visceral imagery, drawing on mundane observations and elevated moments to articulate the messy, beautiful reality of shared lives. The poems are marked by an unvarnished honesty, revealing the raw emotional undercurrents beneath everyday interactions, from the comfort of established routines to the sudden jolts of profound recognition. This collection offers a compelling and often surprising meditation on love's enduring presence amidst the shifting tides of personal history and contemporary existence.</p>`,
     link_smashwords: "https://www.smashwords.com/books/view/917773",
     link_ibook: "https://books.apple.com/us/book/more-love-poems-innit/id1449778687",
     link_gplay: "",
@@ -177,6 +185,7 @@ const bookData = [
     download_epub: "/downloads/more-love-poems-innit.epub",
     download_mobi: "/downloads/more-love-poems-innit.mobi",
     download_pdf: "/downloads/more-love-poems-innit.pdf",
+    report_link: "/reports/more-love-poems-innit.md",
     is_chapbook: true
   },
   {
@@ -188,7 +197,7 @@ const bookData = [
     imageUrl: "/images/the-gods-in-the-jungle_share.jpg",
     imageText: "Cover for 'The Gods in the Jungle'",
     coverimage: "/images/the-gods-in-the-jungle_cover.webp",
-    blurb: `<p>The jungle city of Bassakesh, the sole source of the valuable Vedegga dye, holds within its walls the keys to the future of the Vreski Empire. In the name of politics Delesse, the City Governor's daughter, must marry Loken – reluctant heir to one of the most powerful Clans in the Empire.</p><p>What neither of them expect are the guests who attend their ceremonies: pain, and betrayal; murder and plague ... and also, unexpectedly, love. But can love ever be enough when great civilisations burn and crash, and die?</p>`,
+    blurb: `<p><i>The Gods in the Jungle</i> plunges readers into the labyrinthine society of Bassakesh, a city intricately woven into the fabric of a sentient, myth-laden jungle. This novel explores a meticulously constructed world where "Tall Ones" (nobles and freemen) and "Servants" coexist, their lives governed by ancient myths, political machinations, and the tangible presence of "imps" — entities of disease and decay.</p><p>At its core, the narrative follows Delesse, a young noblewoman, as she navigates a politically charged arranged marriage intended to secure her family's wealth and status. Her journey of self-discovery intertwines with a burgeoning plague and a hidden rebellion among the Servants, led by figures like the enigmatic Story Keeper, Maeduul, and the fiercely independent Kebezzu. The novel deftly uses its fantastical elements to interrogate themes of power, freedom, belief, and the narratives that shape collective understanding.</p>`,
     link_smashwords: "https://www.smashwords.com/books/view/11163",
     link_ibook: "https://books.apple.com/us/book/the-gods-in-the-jungle/id366778694",
     link_gplay: "https://play.google.com/store/books/details/Rik_Roots_The_Gods_in_the_Jungle?id=AwQAYr7JlgAC",
@@ -197,6 +206,7 @@ const bookData = [
     download_epub: "/downloads/the-gods-in-the-jungle.epub",
     download_mobi: "/downloads/the-gods-in-the-jungle.mobi",
     download_pdf: "/downloads/the-gods-in-the-jungle.pdf",
+    report_link: "/reports/the-gods-in-the-jungle.md",
     is_chapbook: false
   },
   {
@@ -208,7 +218,7 @@ const bookData = [
     imageUrl: "/images/the-story-portraits_share.jpg",
     imageText: "Cover for 'The Story Portraits'",
     coverimage: "/images/the-story-portraits_cover.webp",
-    blurb: `<p>Welcome to this, my first collection of micro-fiction. Within these pages you will discover a range of characters looking to tell their stories – some more surreal than others – in various styles and voices. Suffer alongside Frank as he recovers in hospital from an accident; watch young Jacob discover a new form of entertainment; follow Jack as he breaks free of the confines of his bathroom.</p><p>But most importantly, enjoy these stories. After all, I wrote them for you.</p>`,
+    blurb: `<p>Rik Roots' <i>The Story Portraits</i> presents a compelling debut collection of micro and short fiction, inviting readers into a diverse array of human experiences, often tinged with the surreal and the subtly unsettling.</p><p>Across settings ranging from an English hospital ward to the vibrant, decaying streets of Havana, Roots crafts narratives that delve into the internal landscapes of his characters. Readers will encounter Frank, grappling with an unusual medical treatment and his family's eccentricities; young Jacob, navigating the complexities of family discord through a striking act of rebellion; and Jack, experiencing a profound, almost detached, post-mortem contemplation.</p><p>The collection skillfully employs varied styles and voices, exploring themes of personal freedom, memory, aging, and the perception of reality, often with an understated wit and a keen eye for the poignant detail. These "story portraits" offer intimate glimpses into moments of vulnerability, epiphany, and quiet defiance, making for an engaging read for those interested in contemporary short-form narrative.</p>`,
     link_smashwords: "https://www.smashwords.com/books/view/91940",
     link_ibook: "https://books.apple.com/us/book/the-story-portraits/id471784354",
     link_gplay: "https://play.google.com/store/books/details/Rik_Roots_The_Story_Portraits?id=ujZOsA6YYWEC",
@@ -216,7 +226,8 @@ const bookData = [
     link_lulu: "http://www.lulu.com/shop/rik-roots/the-story-portraits/paperback/product-17340798.html",
     download_epub: "/downloads/the-story-portraits.epub",
     download_mobi: "/downloads/the-story-portraits.mobi",
-    download_pdf: "",
+    download_pdf: "/downloads/the-story-portraits.pdf",
+    report_link: "/reports/the-story-portraits.md",
     is_chapbook: false
   },
   {
@@ -228,7 +239,7 @@ const bookData = [
     imageUrl: "/images/spin-trap-the-lonely-city_share.jpg",
     imageText: "Cover for 'SpinTrap: The Lonely City'",
     coverimage: "/images/spin-trap-the-lonely-city_cover.webp",
-    blurb: `<p>Kal is not having the best of times. Though the changes that have taken place since his last visit to the Outer World - and in particular London - fascinate him, the job he needs to complete is turning out to be a full set of frustrations and confusions.</p><p>The fact that his friends keep on killing themselves to escape from some horror he cannot feel only adds to his woes.</p><p>Worst of all, the man in whose head he lives knows he is there ... and has no interest at all in being told what to do.</p>`,
+    blurb: `<p><i>SpinTrap: The Lonely City</i> introduces Kal, an ancient consciousness, a "rider" inextricably linked to a mysterious artifact known as "the Band." Kal's existence is a cycle of inhabiting human "hosts", navigating the "Outer World" (our contemporary London) and retreating to one of several "stones" or alternate realities. Forced back into the modern world within the body of Sam, a young man grappling with profound grief after the suspicious deaths of his parents, Kal discovers that the fundamental rules governing the Band and the "render" process (exiting a host) have unpredictably shifted.</p><p>As Kal grapples with his diminishing control over Sam, who increasingly asserts his own awareness and fights against Kal's influence, he encounters a clandestine network of "riders" facing their own terror, a hidden sub-species of "vampires" who siphon human energy, and a shadowy organization known as "The Company" that seeks to exploit the Band's power. Roots crafts a compelling, multi-layered narrative that blends ancient mythology with gritty urban realism, probing themes of dislocated identity, the fluid nature of reality, and the unexpected challenges of navigating an evolving human landscape. The novel offers a stark, de-romanticized portrayal of immortality and the often-uncomfortable intimacy between consciousness and flesh.</p>`,
     link_smashwords: "https://www.smashwords.com/books/view/329045",
     link_ibook: "https://books.apple.com/us/book/spintrap-the-lonely-city/id667152884",
     link_gplay: "https://play.google.com/store/books/details/Rik_Roots_SpinTrap?id=BMA7DwAAQBAJ",
@@ -237,6 +248,7 @@ const bookData = [
     download_epub: "/downloads/spintrap-the-lonely-city.epub",
     download_mobi: "/downloads/spintrap-the-lonely-city.mobi",
     download_pdf: "/downloads/spintrap-the-lonely-city.pdf",
+    report_link: "/reports/spintrap-the-lonely-city.md",
     is_chapbook: false
   },
   {
@@ -248,7 +260,7 @@ const bookData = [
     imageUrl: "/images/riks-army-career_share.jpg",
     imageText: "Cover for 'Rik's Army Career'",
     coverimage: "/images/riks-army-career_cover.webp",
-    blurb: `<p>Know this: I never wanted to be a soldier! People in uniforms scared me. My brothers - who were a lot older than me - scared me and they were all in the Army Cadets. I was happiest with my nose in a book, because you know where you are when someone else is describing their adventures on an Alien Planet.</p><p>And yet in 1988 I, Richard Roots, accidentally collided with the British Army. There were triumphs, and there were tears. There was even some mud involved!</p><p>As - 30 years later - I look back on my Army career, I can't help but believe it was an adventure that was destined to happen to me. A second puberty, if you like. I can come up with no other explanation for why I did what I did. And why I abandoned it all so quickly.</p>`,
+    blurb: `<p><i>Rik's Army Career</i> offers a unique and disarmingly honest self-narration of a brief yet formative period of military service, specifically June to December 1988. Far from a typical heroic war memoir, Roots presents a granular, often sardonic, account of British Army basic training through the lens of a young man grappling with pre-existing personal eccentricities, emergent self-awareness, and the unexpected clash between his internal world and the rigid external demands of military life. The narrative is fragmented, reflecting the author's own "P Thing" (prosopagnosia)  and selective memory, as well as the disorienting nature of the training itself.</p><p>Readers will find a compelling exploration of identity formation under duress, the subversion of traditional masculinity through unexpected vulnerabilities (such as a fear of water), and the subtle, often absurd, humor found in regimented environments. Roots's prose is marked by its conversational tone, direct address to the reader, and a refreshing lack of romanticism concerning military life, offering instead a raw and unvarnished perspective on a personal "adventure holiday" that ultimately redefined his understanding of self and belonging.</p>`,
     link_smashwords: "https://www.smashwords.com/books/view/990621",
     link_ibook: "https://books.apple.com/us/book/riks-army-career/id1487838804",
     link_gplay: "https://play.google.com/store/books/details/Rik_Roots_Rik_s_Army_Career?id=kMO9DwAAQBAJ",
@@ -257,6 +269,7 @@ const bookData = [
     download_epub: "/downloads/riks-army-career.epub",
     download_mobi: "/downloads/riks-army-career.mobi",
     download_pdf: "/downloads/riks-army-career.pdf",
+    report_link: "/reports/riks-army-career.md",
     is_chapbook: false
   }
 ];

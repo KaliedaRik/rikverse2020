@@ -5,7 +5,7 @@
   "scripts": {
     "build": "node --experimental-modules pageBuilder.mjs && rollup -c",
     "dev": "rollup -c -w",
-    "start": "sirv public --single"
+    "start": "sirv public --single --port 8080"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^11.0.0",

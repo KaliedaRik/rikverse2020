@@ -151,4 +151,15 @@
         <p>Apologies - the book cannot be downloaded or purchased from other sites</p>
         {/if}
     </section>
+
+    {#if book.report_link != null}
+        <section>
+            <h3>LLM-generated academic report</h3>
+            <ul>
+                <li><a href="{book.report_link}" target="_BLANK">View in browser</a></li>
+                <li><a href="{book.report_link}" download>Download file</a></li>
+            </ul>
+            
+        </section>
+    {/if}
 </div>
