@@ -14,7 +14,7 @@ As Kal grapples with his diminishing control over Sam, who increasingly asserts 
 
 ## Academic Review: Key Themes, Critical Analysis, and Research Contributions
 
-Rik Roots' "SpinTrap: The Lonely City" offers a compelling and intricately structured narrative ripe for deep academic engagement within contemporary speculative fiction and literary theory. The novel's central premise – the existence of ancient, disembodied "Vital Breaths" or "riders" who periodically inhabit human "hosts" via a mystical artifact known as "the Band"  – provides a fertile ground for critical analysis of identity, reality, and consciousness in the posthuman age.
+Rik Roots' "SpinTrap: The Lonely City" offers a compelling and intricately structured narrative ripe for deep academic engagement within contemporary speculative fiction and literary theory. The novel's central premise - the existence of ancient, disembodied "Vital Breaths" or "riders" who periodically inhabit human "hosts" via a mystical artifact known as "the Band" - provides a fertile ground for critical analysis of identity, reality, and consciousness in the posthuman age.
 
 ### Key Themes and Issues:
 

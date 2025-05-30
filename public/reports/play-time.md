@@ -36,7 +36,7 @@ Rik Roots' Play Time, described by the author as his first "proper collection", 
 
 * **Early Works and Poetic Development:** As an acknowledged collection of "earlier work", Play Time serves as valuable primary material for studies on poetic development. Academics could trace the thematic and stylistic "experiments and approaches"  present here, comparing them to later works (within the "RikVerse"  or other publications) to chart the evolution of Roots's poetic voice and concerns.
 
-* **The Poetics of the Mundane and the Transcendent:** Roots frequently elevates everyday experiences – commuting, walking, household objects – into moments of profound introspection or surreal encounter. This blend of the mundane with the occasionally transcendent or unsettling offers a case study for analyzing how contemporary poetry finds meaning and depth within ordinary existence.
+* **The Poetics of the Mundane and the Transcendent:** Roots frequently elevates everyday experiences - commuting, walking, household objects - into moments of profound introspection or surreal encounter. This blend of the mundane with the occasionally transcendent or unsettling offers a case study for analyzing how contemporary poetry finds meaning and depth within ordinary existence.
 
 In conclusion, Play Time is more than a mere preliminary collection; it is a vital document of a poet grappling with the complexities of modern life, identity, and the very act of creation. Its directness, coupled with moments of startling imagery and thematic bravery, ensures its relevance for ongoing academic inquiry in various fields of English literature.
 

@@ -34,7 +34,7 @@ Roots' concise prose and deliberate pacing allow for an intense focus on charact
 
 * **The Everyday and the Extraordinary:** Roots skillfully elevates mundane situations - a hospital visit, cleaning a house, a museum trip - by infusing them with moments of profound realization or surreal disruption. This offers a lens for exploring the intersection of the quotidian and the fantastic in contemporary literature.
 
-* **Cultural Commentary (Cuba stories):** "Ice Cream in Havana" and "Tourist Trapped" provide a nuanced, if somewhat outsider, perspective on Cuban life beyond the tourist façade, exploring themes of economic disparity, cultural authenticity, and the ethics of tourism. These stories could contribute to postcolonial literary studies, travel writing analysis, and discussions of cross-cultural encounter.
+* **Cultural Commentary (Cuba stories):** "Ice Cream in Havana" and "Tourist Trapped" provide a nuanced, if somewhat outsider, perspective on Cuban life beyond the tourist facade, exploring themes of economic disparity, cultural authenticity, and the ethics of tourism. These stories could contribute to postcolonial literary studies, travel writing analysis, and discussions of cross-cultural encounter.
 
 Overall, The Story Portraits is a collection that rewards close reading, demonstrating Roots' capacity for psychological depth and narrative precision within constrained forms. It serves as a valuable resource for academics interested in the evolving landscape of contemporary short fiction, offering multifaceted explorations of human experience, perception, and the elusive nature of freedom.
 
