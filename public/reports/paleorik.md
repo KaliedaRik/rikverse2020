@@ -4,7 +4,13 @@ This document details an examination of the book "PaleoRik" by Rik Roots, first 
 
 ## Document Provenance
 
-This document was generated using a large language model (Google Gemini, May 2025) based on the steps outlined at the end of this document, which have been provided for the purposes of review and replication (within reason, given the randomness associated with AI predictive text models). The resulting summary and review are presented as-is from a single run of the steps in a clean, unbiased session with the LLM; the only changes made are to the style markup.
+The summaries included in this document were generated using a large language model (Google Gemini, May 2025), following the steps outlined at the end of this document. These steps are included for the purposes of review and replication (within reason, given the stochastic nature of AI-generated text). The summary and review are presented as-is from a single, clean session with no user bias introduced; the only modifications made were to document markup and formatting.
+
+**Document version:** 1 (31 May 2025)
+
+### Interpretive Note:
+
+As with human critics, LLM-generated literary analysis does not necessarily reflect authorial intent. Rather, it engages the work as an autonomous text, open to thematic, formal, and cultural interpretation. These readings should be understood as contributions to a broader critical conversation - not as definitive or exclusive truths.
 
 ## Short Summary (Blurb) for Contemporary Poetry Readers
 
@@ -34,11 +40,11 @@ Rik Roots's "PaleoRik" serves as a valuable document for scholars interested in 
 
 * **The Influence of Early Poetic Workshops:** The author's note mentions the influence of face-to-face weekly workshops in Stukeley Street on these poems. This provides valuable context for examining the impact of collaborative poetic environments on individual voice and the development of a shared aesthetic among emerging poets in a specific historical moment.
 
-* **Poetry and the Internet Age (Pre-Social Media):** While many of these poems predate widespread internet use for poetic development as we know it today, the broader context of the "RikVerse" and other related works by Roots (e.g., "From Each Skull, A Story" ) highlights a nascent engagement with digital platforms for sharing and workshopping poetry. "PaleoRik" serves as an important baseline for understanding the landscape of poetic production just before the profound shifts brought about by the internet's widespread adoption.
+* **Poetry and the Internet Age (Pre-Social Media):** While many of these poems predate widespread internet use for poetic development as we know it today, the broader context of the "RikVerse" and other related works by Roots (e.g., "From Each Skull, A Story") highlights a nascent engagement with digital platforms for sharing and workshopping poetry. "PaleoRik" serves as an important baseline for understanding the landscape of poetic production just before the profound shifts brought about by the internet's widespread adoption.
 
 * **The Poetics of the Everyday:** The collection's focus on the mundane and the ordinary invites analysis of its contribution to the poetics of the everyday in late 20th-century British verse, examining how common experiences are rendered uncanny or imbued with deeper meaning.
 
-* **Confessional Elements and Narrative in Poetry:** While Roots states that his later "22 Facets of my Father" is not intended to be "accurate or truthful" despite its confessional core, "PaleoRik" presents moments of raw personal reflection (e.g., "Scared" ). This opens a discussion on the evolving nature of confessional poetry and the interplay between lived experience and poetic construction within the collection.
+* **Confessional Elements and Narrative in Poetry:** While Roots states that his later "22 Facets of my Father" is not intended to be "accurate or truthful" despite its confessional core, "PaleoRik" presents moments of raw personal reflection (e.g., "Scared"). This opens a discussion on the evolving nature of confessional poetry and the interplay between lived experience and poetic construction within the collection.
 
 In conclusion, "PaleoRik" is more than a mere historical artifact; it is a vital early text that illuminates the foundations of a poet's ongoing engagement with language, experience, and the multifaceted nature of human existence.
 

@@ -4,7 +4,13 @@ This document details an examination of the book "More Love Poems Innit" by Rik 
 
 ## Document Provenance
 
-This document was generated using a large language model (Google Gemini, May 2025) based on the steps outlined at the end of this document, which have been provided for the purposes of review and replication (within reason, given the randomness associated with AI predictive text models). The resulting summary and review are presented as-is from a single run of the steps in a clean, unbiased session with the LLM; the only changes made are to the style markup.
+The summaries included in this document were generated using a large language model (Google Gemini, May 2025), following the steps outlined at the end of this document. These steps are included for the purposes of review and replication (within reason, given the stochastic nature of AI-generated text). The summary and review are presented as-is from a single, clean session with no user bias introduced; the only modifications made were to document markup and formatting.
+
+**Document version:** 1 (31 May 2025)
+
+### Interpretive Note:
+
+As with human critics, LLM-generated literary analysis does not necessarily reflect authorial intent. Rather, it engages the work as an autonomous text, open to thematic, formal, and cultural interpretation. These readings should be understood as contributions to a broader critical conversation - not as definitive or exclusive truths.
 
 ## Short Summary (Blurb) for Contemporary Poetry Readers
 
@@ -20,11 +26,11 @@ Rik Roots's More Love Poems Innit presents a compelling subject for critical inq
 
 * **The Body and Embodiment in Love:** Roots frequently employs visceral and corporeal imagery to articulate connection and vulnerability. Examples include hands "glove[d]", the "sweat of your palms", or descriptions of physical comfort and interaction. This highlights the physical, tangible reality of relationships, often in contrast to more ethereal notions of love.
 
-* **Time, Memory, and Enduring Connection:** The collection grapples with the passage of time within a relationship, acknowledging both the erosion of initial infatuation and the deepening of bonds. Poems like "Spring Fling"  and "Nigel"  explicitly address the longevity of connection and the role of shared history. The act of "sieving ashes for clinkers"  in "Burn" suggests a continuous engagement with memory and its impact on the present.
+* **Time, Memory, and Enduring Connection:** The collection grapples with the passage of time within a relationship, acknowledging both the erosion of initial infatuation and the deepening of bonds. Poems like "Spring Fling" and "Nigel" explicitly address the longevity of connection and the role of shared history. The act of "sieving ashes for clinkers" in "Burn" suggests a continuous engagement with memory and its impact on the present.
 
-* **Vulnerability and Self-Revelation:** The speaker consistently reveals moments of profound personal vulnerability, whether in admitting to past "sins", grappling with "prosopagnosia", or acknowledging the profound interdependence within a relationship ("without you I can risk nothing" ). This unvarnished honesty challenges idealized notions of love and self.
+* **Vulnerability and Self-Revelation:** The speaker consistently reveals moments of profound personal vulnerability, whether in admitting to past "sins", grappling with "prosopagnosia", or acknowledging the profound interdependence within a relationship ("without you I can risk nothing"). This unvarnished honesty challenges idealized notions of love and self.
 
-* **The Ineffable and the Limits of Language:** Several poems explore the difficulty of fully articulating the depth of human connection. "The It of It"  explicitly contrasts sensory experience with the inadequacy of words, culminating in "No words". This suggests a mystical or deeply intuitive dimension to love that transcends linguistic representation.
+* **The Ineffable and the Limits of Language:** Several poems explore the difficulty of fully articulating the depth of human connection. "The It of It" explicitly contrasts sensory experience with the inadequacy of words, culminating in "No words". This suggests a mystical or deeply intuitive dimension to love that transcends linguistic representation.
 
 ### Critical Analysis and Research Contributions:
 
@@ -32,9 +38,9 @@ Rik Roots's More Love Poems Innit presents a compelling subject for critical inq
 
 * **Poetics of the Domestic and Mundane:** The collection offers a rich case study for examining the poetics of the domestic, exploring how seemingly ordinary spaces and interactions become sites of profound emotional and existential meaning. This could contribute to discussions around realism, anti-romanticism, or even a new form of "intimate realism" in verse.
 
-* **Queer Poetics and Non-Normative Love:** While the collection is dedicated to "Nigel"  and contains direct references to a male partner, its exploration of love transcends explicit identity politics to focus on universal themes of intimacy and connection. However, the inclusion of "dirty old queer"  and scenes set in a gay venue  could open a valuable dialogue in queer poetics, examining how the lived experience of queer love is represented through universalizing, yet subtly specific, imagery and emotional registers.
+* **Queer Poetics and Non-Normative Love:** While the collection is dedicated to "Nigel" and contains direct references to a male partner, its exploration of love transcends explicit identity politics to focus on universal themes of intimacy and connection. However, the inclusion of "dirty old queer" and scenes set in a gay venue could open a valuable dialogue in queer poetics, examining how the lived experience of queer love is represented through universalizing, yet subtly specific, imagery and emotional registers.
 
-* **Intertextuality and Allusion:** The direct quote from Omar Khayyam in "Prowler"  invites an intertextual reading, suggesting a broader philosophical engagement with destiny and human agency within the context of interpersonal dynamics. Further research could explore other potential allusions or influences.
+* **Intertextuality and Allusion:** The direct quote from Omar Khayyam in "Prowler" invites an intertextual reading, suggesting a broader philosophical engagement with destiny and human agency within the context of interpersonal dynamics. Further research could explore other potential allusions or influences.
 
 In sum, More Love Poems Innit is more than a simple collection of verse; it is a nuanced and honest exploration of love's enduring power, its entanglements, and its grounding in the concrete realities of shared human experience. It offers fertile ground for academic inquiry into contemporary poetic forms, thematic explorations of intimacy, and the evolving nature of literary production in the digital age.
 

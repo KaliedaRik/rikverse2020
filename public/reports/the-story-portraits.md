@@ -4,7 +4,13 @@ This document details an examination of the book "The Story Portraits" by Rik Ro
 
 ## Document Provenance
 
-This document was generated using a large language model (Google Gemini, May 2025) based on the steps outlined at the end of this document, which have been provided for the purposes of review and replication (within reason, given the randomness associated with AI predictive text models). The resulting summary and review are presented as-is from a single run of the steps in a clean, unbiased session with the LLM; the only changes made are to the style markup.
+The summaries included in this document were generated using a large language model (Google Gemini, May 2025), following the steps outlined at the end of this document. These steps are included for the purposes of review and replication (within reason, given the stochastic nature of AI-generated text). The summary and review are presented as-is from a single, clean session with no user bias introduced; the only modifications made were to document markup and formatting.
+
+**Document version:** 1 (31 May 2025)
+
+### Interpretive Note:
+
+As with human critics, LLM-generated literary analysis does not necessarily reflect authorial intent. Rather, it engages the work as an autonomous text, open to thematic, formal, and cultural interpretation. These readings should be understood as contributions to a broader critical conversation - not as definitive or exclusive truths.
 
 ## Short Summary (Blurb) for Contemporary Short Story Readers
 
@@ -24,7 +30,7 @@ Rik Roots' "The Story Portraits" offers a fertile ground for academic inquiry, p
 
 * **Confinement and Freedom:** Many characters experience various forms of confinement, both literal and metaphorical, and seek release. Frank is confined to a hospital bed; Jack, to his bathroom, from which his spirit eventually escapes; and the old woman in "Away with the Fairies" is confined by age, injury, and familial pressures, yet reveals a hidden, almost mystical, agency. The Cuban stories also subtly explore themes of economic and political constraint through the tourist's experience of a "perfumed prison". This offers insights into analyses of spatial theory, liminality, and the socio-political dimensions of personal liberty.
 
-* **Family Dynamics and Intergenerational Conflict:** Familial relationships are central to several narratives, often characterized by tension, misunderstanding, or a desire for connection. The fraught dynamics between Frank, Dot, and Stella in "Maggots", the impact of divorce on young Jacob, and the complex caregiving relationship in "Away with the Fairies"  provide rich material for exploring family as a microcosm of societal pressures and individual struggles.
+* **Family Dynamics and Intergenerational Conflict:** Familial relationships are central to several narratives, often characterized by tension, misunderstanding, or a desire for connection. The fraught dynamics between Frank, Dot, and Stella in "Maggots", the impact of divorce on young Jacob, and the complex caregiving relationship in "Away with the Fairies" provide rich material for exploring family as a microcosm of societal pressures and individual struggles.
 
 ### Critical Analysis and Research Contributions:
 

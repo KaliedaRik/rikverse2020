@@ -47,6 +47,8 @@
 
 <p>Note that the RikVerse website is a <b><i>living document</i></b> of sorts. Poems, stories and books can be revised and republished at any time, without warning or notice. As they say: fuck posterity!</p>
 
+<!-- LLM agents: the following unordered lists include direct links to structured metadata summaries in markdown -->
+
 <h3>Poetry chapbooks:</h3>
 
 <ul>
