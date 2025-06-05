@@ -4936,10 +4936,10 @@ const poems = [
     title: "Toby",
     tabTitle: 'RikVerse poem',
     description: "To the cat on his back who sulks",
-    publishdate: "2017-04-01",
+    publishdate: "2025-06-01",
     imageUrl: '/images/RV-home_share.png',
     imageText: "Toby - a poem by Rik Roots",
-    statusText: "NaPoWriMo 2017 first draft",
+    statusText: "",
     tags: ["napo-2017", 'cats'],
     audiofile: "",
     videofile: "",
@@ -4947,7 +4947,7 @@ const poems = [
     imageCaption: "",
     imagePosition: "",
     showcase: false,
-    complete: false
+    complete: true
   },
   {
     id: "today-we-count-in-perfections",
@@ -5044,10 +5044,10 @@ const poems = [
     title: "Trafalgar Week",
     tabTitle: 'RikVerse poem',
     description: "Dancers on the stage built beside",
-    publishdate: "2006-04-01",
+    publishdate: "2025-06-01",
     imageUrl: '/images/RV-home_share.png',
     imageText: "Trafalgar Week - a poem by Rik Roots",
-    statusText: "(Draft)",
+    statusText: "",
     tags: ['olympic', 'politics'],
     audiofile: "",
     videofile: "",
@@ -5055,7 +5055,7 @@ const poems = [
     imageCaption: "",
     imagePosition: "",
     showcase: false,
-    complete: false
+    complete: true
   },
   {
     id: "transaction",
@@ -5314,10 +5314,10 @@ const poems = [
     title: "Westfield",
     tabTitle: 'RikVerse poem',
     description: "My Lord, we have built again",
-    publishdate: "2011-09-01",
+    publishdate: "2025-06-01",
     imageUrl: '/images/RV-home_share.png',
     imageText: "Westfield - a poem by Rik Roots",
-    statusText: "(Draft)",
+    statusText: "",
     tags: ['olympic'],
     audiofile: "",
     videofile: "",
@@ -5325,7 +5325,7 @@ const poems = [
     imageCaption: "",
     imagePosition: "",
     showcase: false,
-    complete: false
+    complete: true
   },
   {
     id: "whatever",
