@@ -166,7 +166,7 @@ const poems = [
     title: "An Office Acquaintance Offers Advice",
     tabTitle: 'RikVerse poem',
     description: "He said: love is",
-    publishdate: "2007-06-01",
+    publishdate: "2025-06-01",
     imageUrl: '/images/RV-home_share.png',
     imageText: 'An Office Acquaintance Offers Advice - a poem by Rik Roots',
     statusText: "Included in the collection 'Poems to Quote to your Lover'",
@@ -259,7 +259,7 @@ const poems = [
     publishdate: "2010-04-01",
     imageUrl: '/images/RV-home_share.png',
     imageText: 'ArcelorMittal Orbit - a poem by Rik Roots',
-    statusText: "NaPoWriMo 2010 first draft",
+    statusText: "",
     tags: ["napo-2010", 'olympic'],
     audiofile: "",
     videofile: "",
@@ -267,7 +267,7 @@ const poems = [
     imageCaption: "",
     imagePosition: "",
     showcase: false,
-    complete: false
+    complete: true
   },
   {
     id: "art",
@@ -418,10 +418,10 @@ const poems = [
     title: "Blank Vista",
     tabTitle: 'RikVerse poem',
     description: "The day my shadow left I found a scrape",
-    publishdate: "2018-04-01",
+    publishdate: "2025-06-01",
     imageUrl: '/images/RV-home_share.png',
     imageText: 'Blank Vista - a poem by Rik Roots',
-    statusText: "NaPoWriMo 2018 first draft",
+    statusText: "",
     tags: ["napo-2018"],
     audiofile: "",
     videofile: "",
@@ -429,17 +429,17 @@ const poems = [
     imageCaption: "",
     imagePosition: "",
     showcase: false,
-    complete: false
+    complete: true
   },
   {
     id: "blue",
     title: "Blue",
     tabTitle: 'RikVerse poem',
-    description: "I don't see emotions",
-    publishdate: "2008-04-01",
+    description: "Indulge me, please: I don't see emotions when I write",
+    publishdate: "2025-05-01",
     imageUrl: '/images/RV-home_share.png',
     imageText: 'Blue - a poem by Rik Roots',
-    statusText: "NaPoWriPo 2008 first draft",
+    statusText: "",
     tags: ["napo-2008"],
     audiofile: "",
     videofile: "",
@@ -447,7 +447,7 @@ const poems = [
     imageCaption: "",
     imagePosition: "",
     showcase: false,
-    complete: false
+    complete: true
   },
   {
     id: "building-for-the-future",
@@ -457,7 +457,7 @@ const poems = [
     publishdate: "2009-09-01",
     imageUrl: '/images/RV-home_share.png',
     imageText: 'Building for the Future - a poem by Rik Roots',
-    statusText: "(Draft)",
+    statusText: "",
     tags: ["napo-2006", 'olympic'],
     audiofile: "",
     videofile: "",
@@ -465,7 +465,7 @@ const poems = [
     imageCaption: "",
     imagePosition: "",
     showcase: false,
-    complete: false
+    complete: true
   },
   {
     id: "burn",
@@ -511,7 +511,7 @@ const poems = [
     publishdate: "2017-04-01",
     imageUrl: '/images/bust-of-attis_share.jpg',
     imageText: 'Cap - a poem by Rik Roots',
-    statusText: "NaPoWriPo 2017 first draft",
+    statusText: "",
     tags: ["napo-2017", 'ten-lines'],
     audiofile: "",
     videofile: "",
@@ -519,7 +519,7 @@ const poems = [
     imageCaption: "Bust of the God Attis",
     imagePosition: "bottom",
     showcase: false,
-    complete: false
+    complete: true
   },
   {
     id: "casework",
@@ -613,13 +613,13 @@ const poems = [
   },
   {
     id: "chickoan",
-    title: "Chickoan",
+    title: "Chic(k)oan",
     tabTitle: 'RikVerse poem',
     description: "I see the face of a neoglyph within a mirror's frame",
-    publishdate: "2015-04-01",
+    publishdate: "2025-06-01",
     imageUrl: '/images/RV-home_share.png',
-    imageText: 'Chickoan - a poem by Rik Roots',
-    statusText: "NaPoWriPo 2015 first draft",
+    imageText: 'Chic(k)oan - a poem by Rik Roots',
+    statusText: "",
     tags: ["napo-2015"],
     audiofile: "",
     videofile: "",
@@ -627,16 +627,16 @@ const poems = [
     imageCaption: "",
     imagePosition: "",
     showcase: false,
-    complete: false
+    complete: true
   },
   {
     id: "choice",
-    title: "Choice",
+    title: "Choice no Choice",
     tabTitle: 'RikVerse poem',
-    description: "Into the left eye mirrors a desert:",
-    publishdate: "1991-03-01",
+    description: "Into the left eye shimmers a desert",
+    publishdate: "2025-06-01",
     imageUrl: '/images/RV-home_share.png',
-    imageText: 'Choice - a poem by Rik Roots',
+    imageText: 'Choice no Choice - a poem by Rik Roots',
     statusText: "Included in the collection 'PaleoRik'",
     tags: ['PaleoRik'],
     audiofile: "",
@@ -796,10 +796,10 @@ const poems = [
     title: "Crime of Passion",
     tabTitle: 'RikVerse poem',
     description: "He is a cold witness, as chill",
-    publishdate: "2011-06-01",
+    publishdate: "2025-06-01",
     imageUrl: '/images/RV-home_share.png',
     imageText: 'Crime of Passion - a poem by Rik Roots',
-    statusText: "(Draft)",
+    statusText: "",
     tags: ["napo-2007", 'End-Time'],
     audiofile: "",
     videofile: "",
@@ -807,17 +807,17 @@ const poems = [
     imageCaption: "",
     imagePosition: "",
     showcase: false,
-    complete: false
+    complete: true
   },
   {
     id: "croutons",
     title: "Croutons",
     tabTitle: 'RikVerse poem',
     description: "I bought us salad",
-    publishdate: "2017-01-01",
+    publishdate: "2025-06-01",
     imageUrl: '/images/RV-home_share.png',
     imageText: 'Croutons - a poem by Rik Roots',
-    statusText: "NaPoWriPo 2017 first draft",
+    statusText: "",
     tags: ['love-erotic'],
     audiofile: "",
     videofile: "",
@@ -825,7 +825,7 @@ const poems = [
     imageCaption: "",
     imagePosition: "",
     showcase: false,
-    complete: false
+    complete: true
   },
   {
     id: "culling-a-dog-in-june",
@@ -940,10 +940,10 @@ const poems = [
     title: "Dear Irene",
     tabTitle: 'RikVerse poem',
     description: "How sweet of your husband to die",
-    publishdate: "2015-04-01",
+    publishdate: "2025-06-01",
     imageUrl: '/images/Irina_Pala_d-Oro_share.jpg',
     imageText: "Dear Irene - a poem by Rik Roots",
-    statusText: "NaPoWriPo 2015 first draft",
+    statusText: "",
     tags: ["napo-2015", 'ten-lines'],
     audiofile: "",
     videofile: "",
@@ -951,17 +951,17 @@ const poems = [
     imageCaption: "Irina Pala d'Oro - Wikimedia Commons",
     imagePosition: "bottom",
     showcase: false,
-    complete: false
+    complete: true
   },
   {
     id: "dear-john",
     title: "Dear John",
     tabTitle: 'RikVerse poem',
     description: "You laugh like a gutter - a whoop",
-    publishdate: "2018-04-01",
+    publishdate: "2025-06-01",
     imageUrl: '/images/RV-home_share.png',
     imageText: "Dear John - a poem by Rik Roots",
-    statusText: "NaPoWriPo 2018 first draft",
+    statusText: "",
     tags: ["napo-2018"],
     audiofile: "",
     videofile: "",
@@ -969,7 +969,7 @@ const poems = [
     imageCaption: "",
     imagePosition: "",
     showcase: false,
-    complete: false
+    complete: true
   },
   {
     id: "death",
@@ -994,10 +994,10 @@ const poems = [
     title: "Death of a Poem",
     tabTitle: 'RikVerse poem',
     description: "They dragged it from its rank cell tied to a bookshelf bier",
-    publishdate: "2018-04-01",
+    publishdate: "2025-06-01",
     imageUrl: '/images/RV-home_share.png',
     imageText: "Death of a Poem - a poem by Rik Roots",
-    statusText: "NaPoWriPo 2018 first draft",
+    statusText: "",
     tags: ["napo-2018", 'politics'],
     audiofile: "",
     videofile: "",
@@ -1005,17 +1005,17 @@ const poems = [
     imageCaption: "",
     imagePosition: "",
     showcase: false,
-    complete: false
+    complete: true
   },
   {
     id: "debate",
     title: "Debate",
     tabTitle: 'RikVerse poem',
     description: "So I sit myself on a step to wait for buses",
-    publishdate: "2015-04-01",
+    publishdate: "2025-06-01",
     imageUrl: '/images/RV-home_share.png',
     imageText: "Debate - a poem by Rik Roots",
-    statusText: "NaPoWriPo 2015 first draft",
+    statusText: "",
     tags: ["napo-2015", 'politics'],
     audiofile: "",
     videofile: "",
@@ -1023,7 +1023,7 @@ const poems = [
     imageCaption: "",
     imagePosition: "",
     showcase: false,
-    complete: false
+    complete: true
   },
   {
     id: "decorating",
@@ -1066,10 +1066,10 @@ const poems = [
     title: "Demolish Dig Design",
     tabTitle: 'RikVerse poem',
     description: "Each day a fresh terrain: dirt-yellow ants",
-    publishdate: "2009-01-01",
+    publishdate: "2025-06-01",
     imageUrl: '/images/RV-home_share.png',
     imageText: "Demolish Dig Design - a poem by Rik Roots",
-    statusText: "(Draft)",
+    statusText: "",
     tags: ["napo-2008", 'olympic'],
     audiofile: "",
     videofile: "",
@@ -1077,7 +1077,7 @@ const poems = [
     imageCaption: "",
     imagePosition: "",
     showcase: false,
-    complete: false
+    complete: true
   },
   {
     id: "devil",
@@ -1102,10 +1102,10 @@ const poems = [
     title: "Dieu Et",
     tabTitle: 'RikVerse poem',
     description: "We knew it would happen; I know that life",
-    publishdate: "2022-09-11",
+    publishdate: "2025-06-01",
     imageUrl: '/images/RV-home_share.png',
     imageText: "Dieu Et - a poem by Rik Roots",
-    statusText: "ObPoem - first draft",
+    statusText: "",
     tags: [],
     audiofile: "",
     videofile: "",
@@ -1113,7 +1113,7 @@ const poems = [
     imageCaption: "",
     imagePosition: "",
     showcase: false,
-    complete: false
+    complete: true
   },
   {
     id: "dinosaur",
@@ -1444,7 +1444,7 @@ const poems = [
     title: "Fall Tide",
     tabTitle: 'RikVerse poem',
     description: "A winter-withered wordman's remains",
-    publishdate: "2019-09-01",
+    publishdate: "2025-06-01",
     imageUrl: '/images/RV-home_share.png',
     imageText: "Fall Tide - a poem by Rik Roots",
     statusText: "",
@@ -1455,7 +1455,7 @@ const poems = [
     imageCaption: "",
     imagePosition: "",
     showcase: false,
-    complete: false
+    complete: true
   },
   {
     id: "fallen",
@@ -1480,10 +1480,10 @@ const poems = [
     title: "Fiend",
     tabTitle: 'RikVerse poem',
     description: "Now you have a voice you are a terror",
-    publishdate: "2018-04-01",
+    publishdate: "2025-06-01",
     imageUrl: '/images/RV-home_share.png',
     imageText: "Fiend - a poem by Rik Roots",
-    statusText: "NaPoWriMo 2018 first draft",
+    statusText: "",
     tags: ["napo-2018", 'cats'],
     audiofile: "",
     videofile: "",
@@ -1491,7 +1491,7 @@ const poems = [
     imageCaption: "",
     imagePosition: "",
     showcase: false,
-    complete: false
+    complete: true
   },
   {
     id: "first-love",
@@ -1606,10 +1606,10 @@ const poems = [
     title: "Fogshifts",
     tabTitle: 'RikVerse poem',
     description: "Remember the day",
-    publishdate: "2018-04-01",
+    publishdate: "2025-06-01",
     imageUrl: '/images/RV-home_share.png',
     imageText: "Fogshifts - a poem by Rik Roots",
-    statusText: "NaPoWriMo 2018 first draft",
+    statusText: "",
     tags: ["napo-2018"],
     audiofile: "",
     videofile: "",
@@ -1617,7 +1617,7 @@ const poems = [
     imageCaption: "",
     imagePosition: "",
     showcase: false,
-    complete: false
+    complete: true
   },
   {
     id: "fool",
@@ -1696,10 +1696,10 @@ const poems = [
     title: "From the Ass's Jaw",
     tabTitle: 'RikVerse poem',
     description: "Do you believe in destiny?",
-    publishdate: "2009-04-01",
+    publishdate: "2025-06-01",
     imageUrl: '/images/RV-home_share.png',
     imageText: "From the Ass's Jaw - a poem by Rik Roots",
-    statusText: "NaPoWriMo 2009 first draft",
+    statusText: "",
     tags: ["napo-2009", "End-Time"],
     audiofile: "",
     videofile: "",
@@ -1707,7 +1707,7 @@ const poems = [
     imageCaption: "",
     imagePosition: "",
     showcase: false,
-    complete: false
+    complete: true
   },
   {
     id: "garden-party",
@@ -1858,10 +1858,10 @@ const poems = [
     title: "Happening",
     tabTitle: 'RikVerse poem',
     description: "This new prefab pop-up diner is a popular show",
-    publishdate: "2015-04-01",
+    publishdate: "2025-06-01",
     imageUrl: '/images/RV-home_share.png',
     imageText: "Happening - a poem by Rik Roots",
-    statusText: "NaPoWriPo 2015 first draft",
+    statusText: "",
     tags: ["napo-2015", 'politics'],
     audiofile: "",
     videofile: "",
@@ -1869,7 +1869,7 @@ const poems = [
     imageCaption: "",
     imagePosition: "",
     showcase: false,
-    complete: false
+    complete: true
   },
   {
     id: "harry",
@@ -1948,10 +1948,10 @@ const poems = [
     title: "Hemmingway Ate Here",
     tabTitle: 'RikVerse poem',
     description: "He starts to build the fire before the sun",
-    publishdate: "2007-04-01",
+    publishdate: "2025-06-01",
     imageUrl: '/images/RV-home_share.png',
     imageText: "Hemmingway Ate Here - a poem by Rik Roots",
-    statusText: "NaPoWriPo 2007 first draft",
+    statusText: "",
     tags: ["napo-2007"],
     audiofile: "",
     videofile: "",
@@ -1959,7 +1959,7 @@ const poems = [
     imageCaption: "",
     imagePosition: "",
     showcase: false,
-    complete: false
+    complete: true
   },
   {
     id: "hero",
@@ -2056,10 +2056,10 @@ const poems = [
     title: "Hunted",
     tabTitle: 'RikVerse poem',
     description: "She hides in curtains. There's a whiff",
-    publishdate: "2018-04-01",
+    publishdate: "2025-06-01",
     imageUrl: '/images/RV-home_share.png',
     imageText: "Hunted - a poem by Rik Roots",
-    statusText: "NaPoWriPo 2018 first draft",
+    statusText: "",
     tags: ['characters'],
     audiofile: "",
     videofile: "",
@@ -2067,7 +2067,7 @@ const poems = [
     imageCaption: "",
     imagePosition: "",
     showcase: false,
-    complete: false
+    complete: true
   },
   {
     id: "hunters",
@@ -2160,6 +2160,24 @@ const poems = [
     complete: true
   },
   {
+    id: "in-deo-speramus",
+    title: "In Deo Speramus",
+    tabTitle: 'RikVerse poem',
+    description: "They say it takes a thief to catch a diamond:",
+    publishdate: "2025-06-01",
+    imageUrl: '/images/RV-home_share.png',
+    imageText: "In Deo Speramus - a poem by Rik Roots",
+    statusText: "",
+    tags: ["napo-2015", 'End-Time'],
+    audiofile: "",
+    videofile: "",
+    imagefile: "",
+    imageCaption: "",
+    imagePosition: "",
+    showcase: false,
+    complete: true
+  },
+  {
     id: "in-memoriam",
     title: "In memoriam: Rik's upper right molar",
     tabTitle: 'RikVerse poem',
@@ -2179,13 +2197,13 @@ const poems = [
   },
   {
     id: "in-the-airless-night",
-    title: "In the Airless Night, a Vigil",
+    title: "In the Airless Night",
     tabTitle: 'RikVerse poem',
     description: "A man asked me today: did you ever",
-    publishdate: "2017-04-01",
+    publishdate: "2025-06-01",
     imageUrl: '/images/RV-home_share.png',
-    imageText: "In the Airless Night, a Vigil - a poem by Rik Roots",
-    statusText: "NaPoWriPo 2017 first draft",
+    imageText: "In the Airless Night - a poem by Rik Roots",
+    statusText: "",
     tags: ["napo-2017", 'End-Time'],
     audiofile: "",
     videofile: "",
@@ -2193,17 +2211,17 @@ const poems = [
     imageCaption: "",
     imagePosition: "",
     showcase: false,
-    complete: false
+    complete: true
   },
   {
     id: "intel",
     title: "Intel",
     tabTitle: 'RikVerse poem',
     description: "Guns do not rattle. They punch through bones",
-    publishdate: "2015-04-01",
+    publishdate: "2025-06-01",
     imageUrl: '/images/RV-home_share.png',
     imageText: "Intel - a poem by Rik Roots",
-    statusText: "NaPoWriPo 2015 first draft",
+    statusText: "",
     tags: ["napo-2015", 'End-Time'],
     audiofile: "",
     videofile: "",
@@ -2211,7 +2229,7 @@ const poems = [
     imageCaption: "",
     imagePosition: "",
     showcase: false,
-    complete: false
+    complete: true
   },
   {
     id: "intermission",
@@ -2254,10 +2272,10 @@ const poems = [
     title: "Jennifer",
     tabTitle: 'RikVerse poem',
     description: "For solace, she turns to paper",
-    publishdate: "1992-02-01",
+    publishdate: "2025-06-01",
     imageUrl: '/images/RV-home_share.png',
     imageText: "Jennifer - a poem by Rik Roots",
-    statusText: "(Draft)",
+    statusText: "",
     tags: ['characters'],
     audiofile: "",
     videofile: "",
@@ -2265,17 +2283,17 @@ const poems = [
     imageCaption: "",
     imagePosition: "",
     showcase: false,
-    complete: false
+    complete: true
   },
   {
     id: "joe",
     title: "Joe",
     tabTitle: 'RikVerse poem',
     description: "Joe is invisible today. He's lowered",
-    publishdate: "2009-04-01",
+    publishdate: "2025-06-01",
     imageUrl: '/images/RV-home_share.png',
     imageText: "Joe - a poem by Rik Roots",
-    statusText: "(Draft)",
+    statusText: "",
     tags: ["napo-2015", 'characters'],
     audiofile: "",
     videofile: "",
@@ -2283,7 +2301,7 @@ const poems = [
     imageCaption: "",
     imagePosition: "",
     showcase: false,
-    complete: false
+    complete: true
   },
   {
     id: "jojo",
@@ -2308,10 +2326,10 @@ const poems = [
     title: "Joke News",
     tabTitle: 'RikVerse poem',
     description: "Did you read the news?",
-    publishdate: "2009-01-01",
+    publishdate: "2025-06-01",
     imageUrl: '/images/RV-home_share.png',
     imageText: "Joke News - a poem by Rik Roots",
-    statusText: "(Draft)",
+    statusText: "",
     tags: ['olympic'],
     audiofile: "",
     videofile: "",
@@ -2319,7 +2337,7 @@ const poems = [
     imageCaption: "",
     imagePosition: "",
     showcase: false,
-    complete: false
+    complete: true
   },
   {
     id: "joy",
@@ -2487,8 +2505,8 @@ const poems = [
     id: "little-arthur",
     title: "Little Arthur",
     tabTitle: 'RikVerse poem',
-    description: "Now the spore has touched the ant",
-    publishdate: "2007-12-01",
+    description: "Hail the spore as it kisses the ant!",
+    publishdate: "2025-06-01",
     imageUrl: '/images/RV-home_share.png',
     imageText: "Little Arthur - a poem by Rik Roots",
     statusText: "(Draft)",
@@ -2614,18 +2632,18 @@ const poems = [
     title: "Mädchen",
     tabTitle: 'RikVerse poem',
     description: "She is, above all, a drama of curves",
-    publishdate: "2015-04-01",
+    publishdate: "2025-06-01",
     imageUrl: '/images/madchen_share.jpg',
     imageText: "Mädchen - a poem by Rik Roots",
-    statusText: "NaPoWriPo 2015 first draft",
+    statusText: "",
     tags: ["napo-2015", 'ten-lines'],
     audiofile: "",
     videofile: "",
     imagefile: "/images/madchen_share.webp",
     imageCaption: "Venus of Hohle Fels - Urgeschichtliches Museum Blaubeuren",
     imagePosition: "bottom",
-    showcase: false,
-    complete: false
+    showcase: true,
+    complete: true
   },
   {
     id: "magpies",
@@ -2827,13 +2845,13 @@ const poems = [
   },
   {
     id: "nonsense",
-    title: "Nonsense",
+    title: "Onas 28 Berk",
     tabTitle: 'RikVerse poem',
-    description: "(various and sundry)",
-    publishdate: "2099-01-01",
+    description: "I crost a manch at sefan dibes",
+    publishdate: "2025-06-01",
     imageUrl: '/images/RV-home_share.png',
-    imageText: "Nonsense - a place for Rik's various nonsense snippets",
-    statusText: "A place for my various nonsense snippets",
+    imageText: "Onas 28 Berk - a poem by Rik Roots",
+    statusText: "",
     tags: [],
     audiofile: "",
     videofile: "",
@@ -2841,7 +2859,7 @@ const poems = [
     imageCaption: "",
     imagePosition: "",
     showcase: false,
-    complete: false
+    complete: true
   },
   {
     id: "not-a-good-fit",
@@ -3259,12 +3277,12 @@ const poems = [
   },
   {
     id: "rachel-the-ewe-seeks-her-lambs",
-    title: "Rachel: The Ewe Seeks Her Lambs",
+    title: "The Ewe Seeks Her Lambs",
     tabTitle: 'RikVerse poem',
     description: "She has the prim hips of one",
-    publishdate: "2010-04-01",
+    publishdate: "2025-06-01",
     imageUrl: '/images/RV-home_share.png',
-    imageText: "Rachel: The Ewe Seeks Her Lambs - a poem by Rik Roots",
+    imageText: "The Ewe Seeks Her Lambs - a poem by Rik Roots",
     statusText: "NaPoWriMo 2010 first draft",
     tags: ["napo-2010", 'End-Time'],
     audiofile: "",
@@ -3348,6 +3366,24 @@ const poems = [
     complete: false
   },
   {
+    id: "reductions",
+    title: "Reductions",
+    tabTitle: 'RikVerse poem',
+    description: "I saw you dead, a smorgasbord",
+    publishdate: "2025-06-01",
+    imageUrl: '/images/RV-home_share.png',
+    imageText: "Reductions - a poem by Rik Roots",
+    statusText: "",
+    tags: ["napo-2007"],
+    audiofile: "",
+    videofile: "",
+    imagefile: "",
+    imageCaption: "",
+    imagePosition: "",
+    showcase: false,
+    complete: true
+  },
+  {
     id: "regents-canal",
     title: "Regent's Canal",
     tabTitle: 'RikVerse poem',
@@ -3400,24 +3436,6 @@ const poems = [
     imagePosition: "",
     showcase: true,
     complete: true
-  },
-  {
-    id: "repentance",
-    title: "Repentance",
-    tabTitle: 'RikVerse poem',
-    description: "They say it takes a thief to catch",
-    publishdate: "2015-04-01",
-    imageUrl: '/images/RV-home_share.png',
-    imageText: "Repentance - a poem by Rik Roots",
-    statusText: "NaPoWriPo 2015 first draft",
-    tags: ["napo-2015", 'End-Time'],
-    audiofile: "",
-    videofile: "",
-    imagefile: "",
-    imageCaption: "",
-    imagePosition: "",
-    showcase: false,
-    complete: false
   },
   {
     id: "respect",
@@ -3640,10 +3658,10 @@ const poems = [
     title: "Second Sin",
     tabTitle: 'RikVerse poem',
     description: "He brings a harsh heat into the room",
-    publishdate: "2009-02-01",
+    publishdate: "2025-06-01",
     imageUrl: '/images/RV-home_share.png',
     imageText: "Second Sin - a poem by Rik Roots",
-    statusText: "(Draft)",
+    statusText: "",
     tags: ['End-Time'],
     audiofile: "",
     videofile: "",
@@ -3651,17 +3669,17 @@ const poems = [
     imageCaption: "",
     imagePosition: "",
     showcase: false,
-    complete: false
+    complete: true
   },
   {
     id: "seduction",
     title: "Seduction",
     tabTitle: 'RikVerse poem',
     description: "Can you hear the dogs?",
-    publishdate: "2008-04-01",
+    publishdate: "2025-06-01",
     imageUrl: '/images/RV-home_share.png',
     imageText: "Seduction - a poem by Rik Roots",
-    statusText: "NaPoWriPo 2008 first draft",
+    statusText: "",
     tags: ["napo-2008"],
     audiofile: "",
     videofile: "",
@@ -3669,7 +3687,7 @@ const poems = [
     imageCaption: "",
     imagePosition: "",
     showcase: false,
-    complete: false
+    complete: true
   },
   {
     id: "serving-the-muse",
@@ -3784,10 +3802,10 @@ const poems = [
     title: "Shoes in the Charity Shop",
     tabTitle: 'RikVerse poem',
     description: "Like a stack of footfalls they pile in tangles",
-    publishdate: "2010-04-01",
+    publishdate: "2025-06-01",
     imageUrl: '/images/RV-home_share.png',
     imageText: "Shoes in the Charity Shop - a poem by Rik Roots",
-    statusText: "NaPoWriMo 2010 first draft",
+    statusText: "",
     tags: ["napo-2010"],
     audiofile: "",
     videofile: "",
@@ -3795,7 +3813,7 @@ const poems = [
     imageCaption: "",
     imagePosition: "",
     showcase: false,
-    complete: false
+    complete: true
   },
   {
     id: "shot",
@@ -3888,24 +3906,6 @@ const poems = [
     complete: true
   },
   {
-    id: "slumber",
-    title: "Slumber",
-    tabTitle: 'RikVerse poem',
-    description: "I saw you dead, a smorgasbord",
-    publishdate: "2007-04-01",
-    imageUrl: '/images/RV-home_share.png',
-    imageText: "Slumber - a poem by Rik Roots",
-    statusText: "NaPoWriPo 2007 first draft",
-    tags: ["napo-2007"],
-    audiofile: "",
-    videofile: "",
-    imagefile: "",
-    imageCaption: "",
-    imagePosition: "",
-    showcase: false,
-    complete: false
-  },
-  {
     id: "sniper",
     title: "Sniper",
     tabTitle: 'RikVerse poem',
@@ -3982,10 +3982,10 @@ const poems = [
     title: "Spring Haiku",
     tabTitle: 'RikVerse poem',
     description: "The arch of the branch",
-    publishdate: "2006-04-01",
+    publishdate: "2025-06-01",
     imageUrl: '/images/RV-home_share.png',
     imageText: "Spring Haiku - a poem by Rik Roots",
-    statusText: "NaPoWriMo 2006 first draft",
+    statusText: "",
     tags: ["napo-2006"],
     audiofile: "",
     videofile: "",
@@ -3993,17 +3993,17 @@ const poems = [
     imageCaption: "",
     imagePosition: "",
     showcase: false,
-    complete: false
+    complete: true
   },
   {
     id: "spring-in-the-lower-lea-valley",
     title: "Spring in the Lower Lea Valley",
     tabTitle: 'RikVerse poem',
     description: "From tilled earths grow strange plants",
-    publishdate: "2010-04-01",
+    publishdate: "2025-06-01",
     imageUrl: '/images/RV-home_share.png',
     imageText: "Spring in the Lower Lea Valley - a poem by Rik Roots",
-    statusText: "NaPoWriMo 2010 first draft",
+    statusText: "",
     tags: ["napo-2010", 'olympic'],
     audiofile: "",
     videofile: "",
@@ -4011,14 +4011,14 @@ const poems = [
     imageCaption: "",
     imagePosition: "",
     showcase: false,
-    complete: false
+    complete: true
   },
   {
     id: "stanley-in-moonlight",
     title: "Stanley in Moonlight",
     tabTitle: 'RikVerse poem',
     description: "He lopes slow-motioned, each foot-stride",
-    publishdate: "2006-06-01",
+    publishdate: "2025-06-01",
     imageUrl: '/images/RV-home_share.png',
     imageText: "Stanley in Moonlight - a poem by Rik Roots",
     statusText: "Included in the collection 'From Each Skull, A Story'",
@@ -4234,10 +4234,10 @@ const poems = [
     title: "Tamarisk",
     tabTitle: 'RikVerse poem',
     description: "A feather of boughs, sweet as dawnlight",
-    publishdate: "2017-04-01",
+    publishdate: "2025-06-01",
     imageUrl: '/images/Tamarix-gallica_share.jpg',
     imageText: "Tamarisk - a poem by Rik Roots",
-    statusText: "NaPoWriPo 2017 first draft",
+    statusText: "",
     tags: ["napo-2017", 'ten-lines'],
     audiofile: "",
     videofile: "",
@@ -4245,7 +4245,7 @@ const poems = [
     imageCaption: "Tamarix gallica on a beach - Wikimedia Commons",
     imagePosition: "bottom",
     showcase: false,
-    complete: false
+    complete: true
   },
   {
     id: "team-spirit",
@@ -4594,10 +4594,10 @@ const poems = [
     title: "The Momentary Meanings of Hugh",
     tabTitle: 'RikVerse poem',
     description: "He knows the mirror lies",
-    publishdate: "2006-04-01",
+    publishdate: "2025-06-01",
     imageUrl: '/images/RV-home_share.png',
     imageText: "The Momentary Meanings of Hugh - a poem by Rik Roots",
-    statusText: "NaPoWriPo 2006 first draft",
+    statusText: "",
     tags: ["napo-2006", 'characters'],
     audiofile: "",
     videofile: "",
@@ -4605,17 +4605,17 @@ const poems = [
     imageCaption: "",
     imagePosition: "",
     showcase: false,
-    complete: false
+    complete: true
   },
   {
     id: "the-obligatory-az-poem",
     title: "The Obligatory AZ Poem",
     tabTitle: 'RikVerse poem',
     description: "April blossom comes",
-    publishdate: "2007-04-01",
+    publishdate: "2025-06-01",
     imageUrl: '/images/RV-home_share.png',
     imageText: "The Obligatory AZ Poem - a poem by Rik Roots",
-    statusText: "NaPoWriPo 2007 first draft",
+    statusText: "",
     tags: ["napo-2007"],
     audiofile: "",
     videofile: "",
@@ -4623,7 +4623,7 @@ const poems = [
     imageCaption: "",
     imagePosition: "",
     showcase: false,
-    complete: false
+    complete: true
   },
   {
     id: "the-office-as-a-form",
@@ -4699,13 +4699,13 @@ const poems = [
   },
   {
     id: "the-procrastinator",
-    title: "The Procrastinater",
+    title: "The Procrastinator",
     tabTitle: 'RikVerse poem',
     description: "My verse",
-    publishdate: "2017-04-01",
+    publishdate: "2025-06-01",
     imageUrl: '/images/RV-home_share.png',
-    imageText: "The Procrastinater - a poem by Rik Roots",
-    statusText: "NaPoWriPo 2017 first draft",
+    imageText: "The Procrastinator - a poem by Rik Roots",
+    statusText: "",
     tags: ["napo-2017"],
     audiofile: "",
     videofile: "",
@@ -4713,17 +4713,17 @@ const poems = [
     imageCaption: "",
     imagePosition: "",
     showcase: false,
-    complete: false
+    complete: true
   },
   {
     id: "the-production-line",
     title: "The Production Line",
     tabTitle: 'RikVerse poem',
     description: "Within the workshop",
-    publishdate: "2005-04-01",
+    publishdate: "2025-06-01",
     imageUrl: '/images/RV-home_share.png',
     imageText: "The Production Line - a poem by Rik Roots",
-    statusText: "NaPoWriPo 2005 first draft",
+    statusText: "",
     tags: ["napo-2005"],
     audiofile: "",
     videofile: "",
@@ -4731,17 +4731,17 @@ const poems = [
     imageCaption: "",
     imagePosition: "",
     showcase: false,
-    complete: false
+    complete: true
   },
   {
     id: "the-seer",
     title: "The Seer",
     tabTitle: 'RikVerse poem',
     description: "Beyond the dock, a shamble of shacks",
-    publishdate: "2015-04-01",
+    publishdate: "2025-06-01",
     imageUrl: '/images/RV-home_share.png',
     imageText: "The Seer - a poem by Rik Roots",
-    statusText: "NaPoWriPo 2015 first draft",
+    statusText: "",
     tags: ["napo-2015", 'End-Time'],
     audiofile: "",
     videofile: "",
@@ -4749,17 +4749,17 @@ const poems = [
     imageCaption: "",
     imagePosition: "",
     showcase: false,
-    complete: false
+    complete: true
   },
   {
     id: "the-shoppers-choice",
-    title: "The Shoppers' Choice",
+    title: "The Shopper's Choice",
     tabTitle: 'RikVerse poem',
     description: "My weighted basket",
     publishdate: "2010-04-01",
     imageUrl: '/images/RV-home_share.png',
-    imageText: "The Shoppers' Choice - a poem by Rik Roots",
-    statusText: "NaPoWriMo 2010 first draft",
+    imageText: "The Shopper's Choice - a poem by Rik Roots",
+    statusText: "",
     tags: ["napo-2010", 'politics'],
     audiofile: "",
     videofile: "",
@@ -4767,7 +4767,7 @@ const poems = [
     imageCaption: "",
     imagePosition: "",
     showcase: false,
-    complete: false
+    complete: true
   },
   {
     id: "the-tiger-hunts",
@@ -4792,10 +4792,10 @@ const poems = [
     title: "The Warrior",
     tabTitle: 'RikVerse poem',
     description: "There is no chill to the mists that lap",
-    publishdate: "2015-04-01",
+    publishdate: "2025-06-01",
     imageUrl: '/images/RV-home_share.png',
     imageText: "The Warrior - a poem by Rik Roots",
-    statusText: "NaPoWriPo 2015 first draft",
+    statusText: "",
     tags: ["napo-2015", 'End-Time'],
     audiofile: "",
     videofile: "",
@@ -4803,7 +4803,7 @@ const poems = [
     imageCaption: "",
     imagePosition: "",
     showcase: false,
-    complete: false
+    complete: true
   },
   {
     id: "the-well",
