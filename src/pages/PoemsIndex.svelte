@@ -18,7 +18,9 @@
     taglist.sort();
 
     // Function to filter poems by tag
-    let filteredPoems, completedPoems, draftPoems;
+    let filteredPoems, 
+        completedPoems = [],
+        draftPoems = [];
 
     const filterPoems = (tag) => {
 
@@ -28,7 +30,7 @@
         else filteredPoems = poemData;
 
         completedPoems = filteredPoems.filter(item => item.complete);
-        draftPoems = filteredPoems.filter(item => !item.complete);
+        if (tag) draftPoems = filteredPoems.filter(item => !item.complete);
 
         poemIndexHash.set(tag);
     }
@@ -113,8 +115,6 @@
         {#each draftPoems as listing}
             <PoemListing {listing} />
         {/each}
-    {:else}
-        <h2>No draft poems to list at this time</h2>
     {/if}
 
 {/if}

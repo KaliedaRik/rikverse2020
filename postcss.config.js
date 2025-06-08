@@ -8,6 +8,5 @@ module.exports = {
 	plugins: [
 		require('tailwindcss'),
 		...(!process.env.ROLLUP_WATCH ? [purgecss] : [])
-		// ...([])
 	]
 }
