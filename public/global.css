@@ -427,3 +427,14 @@ button:focus {
 .paragraph {
   text-indent: 2rem;
 }
+
+.listing {
+
+  & li {
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    list-style-type: disc;
+    list-style-position: outside;
+    margin-left: 1rem;
+  }
+}
