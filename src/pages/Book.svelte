@@ -29,28 +29,39 @@
         display: grid;
         grid-template-columns: 1fr;
         grid-gap: 0 0;
-        @apply mb-4;
     }
     p {
-        @apply italic;
+        font-style: italic;
     }
     img {
-        @apply block pb-4;
+        display: block;
+        padding-bottom: 1rem;
     }
 
     nav {
-        @apply text-center mt-4 mb-6;
+        text-align: center;
+        margin-top: 1rem;
+        margin-bottom: 1.5rem;
     }
     nav a {
-        @apply text-yellow-300 bg-red-700 rounded-full p-2 px-4;
+        color: rgb(250 240 137);
+        background-color: rgb(197 48 48);
+        border-radius: 9999px;
+        padding: 0.5rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
         transition: color 0.5s, background-color 0.5s;
     }
     nav a:hover {
-        @apply text-gray-100 bg-red-800 no-underline;
+        color: rgb(247 250 252);
+        background-color: rgb(155 44 44);
+    
     }
 
     time {
-        @apply text-gray-600 text-sm italic;
+        color: rgb(113 128 150);
+        font-size: 0.875rem;
+        font-style: italic;
     }
 
     @media (min-width: 700px) {
@@ -61,11 +72,11 @@
         }
 
         nav {
-            @apply mt-2;
+            margin-top: 0.5rem;
         }
 
         img {
-            @apply p-0;
+            padding: 0;
         }
     }
 </style>
@@ -156,7 +167,6 @@
         <section>
             <h3>LLM-generated academic report</h3>
             <ul>
-                <li><a href="{book.report_link}" target="_BLANK">View in browser</a></li>
                 <li><a href="{book.report_link}" download>Download file</a></li>
             </ul>
             

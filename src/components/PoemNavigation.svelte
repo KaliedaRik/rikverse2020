@@ -42,12 +42,22 @@
         grid-auto-flow: row;
     }
     button {
-        @apply block rounded-full bg-blue-200 text-green-700 border-blue-500 p-1 m-1 text-center cursor-pointer text-sm mb-4 outline-none;
+        color: rgb(47 133 90);
+        border-color: rgb(66 153 225);
+        background-color: rgb(190 227 248);
+        padding: 0.25rem;
+        margin: 0.25rem;
+        text-align: center;
+        cursor: pointer;
+        font-size: 0.875rem;
+        margin-bottom: 1rem;
         min-width: 6rem;
         transition: color 0.5s, background-color 0.5s;
+        border-radius: 9999px;
     }
     button:hover {
-        @apply bg-blue-700 text-green-200;
+        background-color: rgb(43 108 176);
+        color: rgb(198 246 213);
     }
 
 </style>

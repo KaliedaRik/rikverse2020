@@ -59,8 +59,8 @@ const checkCopyright = (updated, complete) => {
 
         let testDate = new Date(cy, cm, cd);
 
-        if (testDate > myDate) return '/images/cc-by.png';
-        else return '/images/cc-by_nc_nd.png';
+        if (testDate > myDate) return '/images/cc-by.webp';
+        else return '/images/cc-by_nc_nd.webp';
     }
 
     return '';

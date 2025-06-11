@@ -6,44 +6,61 @@
 
 <style>
     a {
-        @apply text-gray-700 no-underline;
+        color: rgb(74 85 104);
+        text-decoration: none;
         transition: color 0.5s;
     }
     a:hover {
-        @apply text-green-700 no-underline;
+        color: rgb(47 133 90);
+        text-decoration: none;
     }
 
     div {
-        height: 100%;
-        @apply p-4 bg-gray-100 border border-solid border-gray-500 rounded-lg;
+        padding: 1rem;
+        background-color: rgb(247 250 252);
+        border-width: 1px;
+        border-style: solid;
+        border-color: #a0aec0;
+        border-color: rgb(160 174 192);
+        border-radius: 0.5rem;
         transition: background-color 0.5s, border-color 0.5s;
     }
     div:hover {
-        @apply bg-gray-200 border-gray-800;
+        background-color: rgb(237 242 247);
+        border-color: rgb(45 55 72);
     }
 
     h3 {
-        @apply text-center p-0;
+        text-align: center;
+        padding: 0;
     }
 
     img {
         width: 100%;
-        @apply mb-2;
+        margin-bottom: 0.5rem;
     }
 
     p {
-        @apply mb-2 italic;
+        margin-top: 0;
+        margin-bottom: 0.5rem;
+        font-style: italic;
     }
 
     time {
-        @apply block mb-0 text-gray-700 text-sm text-center;
+        display: block;
+        margin-bottom: 0;
+        color: rgb(74 85 104);
+        font-size: 0.875rem;
+        text-align: center;
     }
 
     .book-report-separator {
-        @apply block mt-4;
+        display: block;
+        margin-top: 1rem;
     }
     .book-report {
-        @apply block mt-4;
+        display: block;
+        margin-top: 1rem;
     }
 </style>
 

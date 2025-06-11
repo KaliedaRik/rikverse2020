@@ -15,8 +15,6 @@
     });
 </script>
 
-<style></style>
-
 <svelte:head>
     <title>The RikVerse</title>
 </svelte:head>

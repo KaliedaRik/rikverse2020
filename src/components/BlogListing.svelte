@@ -7,28 +7,28 @@
 </script>
 
 <style>
-    div {
-        @apply pl-0;
-        transition: padding-left 0.5s;
-    }
-    div:hover {
-        @apply pl-2;
-    }
     a {
-        @apply text-gray-900 no-underline;
+        color: rgb(26 32 44);
+        text-decoration: none;
         transition: color 0.5s;
     }
     a:hover {
-        @apply text-green-700 no-underline pl-12;
+        color: rgb(47 133 90);
     }
     h3 {
-        @apply mb-0;
+        margin-bottom: 0;
     }
     p {
-        @apply italic whitespace-pre-wrap m-0 mb-4;
+        font-style: italic;
+        white-space: pre-wrap;
+        margin: 0;
+        margin-bottom: 1rem;
     }
     time {
-        @apply block text-sm whitespace-pre-wrap m-0;
+        display: block;
+        font-size: 0.875rem;
+        white-space: pre-wrap;
+        margin: 0;
     }
 </style>
 

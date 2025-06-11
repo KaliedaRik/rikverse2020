@@ -23,14 +23,19 @@
 
 <style>
     audio {
-        @apply mx-auto align-middle block mb-0 outline-none;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-bottom: 0;
+        outline: 2px solid transparent;
+        outline-offset: 2px;
         opacity: 0;
         height: 0;
         transition: opacity 0.6s ease-in-out, margin-bottom 0.6s ease-in-out, height 0.6s ease-in-out;
     }
 
     .audio-active {
-        @apply mb-4;
+        margin-bottom: 1rem;
         opacity: 1;
         height: 80px;
     }

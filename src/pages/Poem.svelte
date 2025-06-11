@@ -22,8 +22,6 @@
     else navigateTo('/error');
 </script>
 
-<style></style>
-
 <svelte:head>
     <title>{poem.tabTitle}</title>
 </svelte:head>

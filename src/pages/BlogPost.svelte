@@ -39,10 +39,20 @@
 
 <style>
     summary {
-        @apply text-blue-700 italic mb-2;
+        display: block;
+        color: rgb(43 108 176);
+        margin-top: -0.5rem;
+        margin-bottom: 1rem;
     }
     time {
-        @apply block text-sm m-0 mb-4 pb-4 border-b;
+        display: block;
+        font-style: italic;
+        font-size: 0.875rem;
+        margin: 0;
+        margin-bottom: 1rem;
+        padding-bottom: 1rem;
+        border-bottom-width: 1px;
+        border-bottom: 1px solid rgb(200 200 200);
     }
 </style>
 

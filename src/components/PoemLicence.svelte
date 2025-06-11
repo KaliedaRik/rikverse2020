@@ -9,20 +9,28 @@
 
 <style>
     div {
-        @apply w-full text-center border-t border-gray-500 pt-4;
+        width: 100%;
+        text-align: center;
+        border-top-width: 1px;
+        border-top-style: solid;
+        border-color: rgb(160 174 192);
+        padding-top: 1rem;
     }
     img {
         width: 100px;
-        @apply mx-auto;
+        margin-left: auto;
+        margin-right: auto;
     }
     p {
-        @apply text-sm;
+        font-size: 0.875rem;
+        margin: 0;
+        margin-bottom: 1rem;
     }
 </style>
 
 <div>
 
-    {#if creativeCommonsLicenceType == '/images/cc-by.png'}
+    {#if (creativeCommonsLicenceType.includes('cc-by.'))}
     <img 
         src="{creativeCommonsLicenceType}" 
         alt="Creative Commons creativeCommonsLicenceType 'CC BY 4.0' image" />
@@ -33,7 +41,7 @@
         </a>
     </p>
 
-    {:else if creativeCommonsLicenceType == '/images/cc-by_nc_nd.png'}
+    {:else if (creativeCommonsLicenceType.includes('cc-by_nc_nd.'))}
     <img 
         src="{creativeCommonsLicenceType}" 
         alt="Creative Commons creativeCommonsLicenceType 'CC BY-NC-ND 4.0' image" />

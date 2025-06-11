@@ -7,16 +7,35 @@
 <style>
     /* For images associated with the poem - which can go ahead, or after, the verses */
     figcaption {
-        @apply text-xs text-gray-700 italic;
+        font-size: 0.75rem;
+        color: rgb(74 85 104);
+        font-style: italic;
     }
     .top-image {
-    /* thinking of keeping all images to the bottom - except maybe where the poem IS the image? */
+        border-top-width: 1px;
+        border-color: rgb(160 174 192);
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        padding-top: 1rem;
+        text-align: center;
     }
     .bottom-image {
-        @apply border-t border-gray-500 mx-auto my-4 pt-4 text-center;
+        border-top-width: 1px;
+        border-color: rgb(160 174 192);
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        padding-top: 1rem;
+        text-align: center;
     }
     .bottom-image img {
-        @apply max-w-full block mx-auto;
+        max-width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     @media (min-width: 700px) {

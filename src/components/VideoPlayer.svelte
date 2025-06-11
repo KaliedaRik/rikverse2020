@@ -23,14 +23,17 @@
 
 <style>
     video {
-        @apply mx-auto block mb-0 outline-none;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-bottom: 0;
         opacity: 0;
         height: 0;
         transition: opacity 0.6s ease-in-out, margin-bottom 0.6s ease-in-out, height 0.6s ease-in-out;
     }
 
     .video-active {
-        @apply mb-4;
+        margin-bottom: 1rem;
         opacity: 1;
         height: 240px;
     }

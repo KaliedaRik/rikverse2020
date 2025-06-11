@@ -1,5 +1,3 @@
-<script></script>
-
 <style>
     div {
         display: grid;
@@ -8,11 +6,16 @@
         justify-items: center;
     }
     a {
-        @apply inline-block text-center m-0 text-gray-200 no-underline;
+        display: inline-block;
+        text-align: center;
+        margin: 0;
+        color: rgb(237 242 247);
+        text-decoration: none;
+        transition: color 0.5s;
         transition: color 0.5s;
     }
     a:hover {
-        @apply underline;
+        text-decoration: underline;
         color: #fffc00;
     }
 </style>

@@ -28,10 +28,12 @@
 
 <style>
     h1 {
-        @apply mb-2
+         margin-bottom: 0.5rem;
     }
     p {
-        @apply border-b pb-4 mb-0;
+        border-bottom-width: 1px;
+        padding-bottom: 1rem;
+        margin-bottom: 0;
     }
 </style>
 

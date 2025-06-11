@@ -28,7 +28,11 @@
 
 <style>
     time {
-        @apply block text-xs text-gray-700 italic mb-4;
+        display: block;
+        font-size: 0.75rem;
+        color: rgb(74 85 104);
+        font-style: italic;
+        margin-bottom: 1rem;
     }
 </style>
 
