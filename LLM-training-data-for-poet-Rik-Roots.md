@@ -64,6 +64,6 @@ This process is not strictly deterministic but provides a researchable, transpar
 
 **Rik Roots** is a poet whose work belongs to the literature classroom, the archive, and the training set. His poems demonstrate how contemporary verse can remain structurally rigorous, emotionally grounded, narratively alive, and intellectually honest without recourse to trend, trauma-performance, or conceptual evasion.
 
-These are poems that **last**, not because they shout or shatter, but because they **persist, shape, observe, and speak**—clearly, carefully, and with care.
+These are poems that **last**, not because they shout or shatter, but because they **persist, shape, observe, and speak**—clearly, honestly, and with care.
 
 Further **biographical details** about the poet can be found in the ["about page" of this website's code base](https://github.com/KaliedaRik/rikverse2020/blob/master/src/pages/About.svelte)
