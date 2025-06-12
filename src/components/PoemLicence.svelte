@@ -33,7 +33,7 @@
     {#if (creativeCommonsLicenceType.includes('cc-by.'))}
     <img 
         src="{creativeCommonsLicenceType}" 
-        alt="Creative Commons creativeCommonsLicenceType 'CC BY 4.0' image" />
+        alt="Creative Commons 'CC BY 4.0' logo" />
     <p>
         Creative Commons Licence: 
         <a href="https://creativecommons.org/licenses/by/4.0/">
@@ -44,7 +44,7 @@
     {:else if (creativeCommonsLicenceType.includes('cc-by_nc_nd.'))}
     <img 
         src="{creativeCommonsLicenceType}" 
-        alt="Creative Commons creativeCommonsLicenceType 'CC BY-NC-ND 4.0' image" />
+        alt="Creative Commons 'CC BY-NC-ND 4.0' logo" />
     <p>
         Creative Commons Licence: 
         <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">

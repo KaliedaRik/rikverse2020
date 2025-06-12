@@ -32,7 +32,7 @@ The site, which is hand-coded and idiosyncratic (there is no database!), is divi
 ## Web development and maintenance
 The code in this repository builds the [RikVerse website](https://rikverse2020.rikweb.org.uk/). 
 
-The site is built using a [Svelte](https://svelte.dev/) scaffold, together with [Page.js](https://visionmedia.github.io/page.js/) for client-side routing, and [Tailwind](https://tailwindcss.com/) (helped by [PostCSS](https://postcss.org/)) for the CSS.
+The site is built using a [Svelte](https://svelte.dev/) scaffold, together with [Page.js](https://visionmedia.github.io/page.js/) for client-side routing.
 
 There is no backend CMS involved with the site!
 
@@ -118,7 +118,7 @@ public
 ### Poem and blog post content
 The content for each poem, and blog article, is written in normal HTML files which need to be saved to the `poemCopy` and `posts` folders respectively.
 
-CSS markup for the content copy is inlined; use of Tailwind classes is encouraged.
+Use CSS classes defined in the `public/global.css` file to style poems and blog articles.
 
 ### Building and deploying the site
 

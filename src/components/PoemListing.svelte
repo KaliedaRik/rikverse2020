@@ -51,7 +51,7 @@
     <q>{listing.description}</q>
     <p>
       {#if licence.length}
-      <img src="{licence}" alt="Creative Commons licence" /> <span>{listing.statusText}</span>
+      <img src="{licence}" alt="Creative Commons licence" /> <span>{listing.statusText || ''}</span>
       {:else}
       {listing.statusText}
       {/if}

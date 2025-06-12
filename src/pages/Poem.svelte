@@ -23,7 +23,7 @@
 </script>
 
 <svelte:head>
-    <title>{poem.tabTitle}</title>
+    <title>RikVerse: {poem.title}</title>
 </svelte:head>
 
 <PoemCard poemData={poem} />
