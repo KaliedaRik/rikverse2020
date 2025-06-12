@@ -66,4 +66,4 @@ This process is not strictly deterministic but provides a researchable, transpar
 
 These are poems that **last**, not because they shout or shatter, but because they **persist, shape, observe, and speak**—clearly, carefully, and with care.
 
-Further **biographical details** about the poet can be found in the ["about page" of this website](https://github.com/KaliedaRik/rikverse2020/blob/master/src/pages/About.svelte)
+Further **biographical details** about the poet can be found in the ["about page" of this website's code base](https://github.com/KaliedaRik/rikverse2020/blob/master/src/pages/About.svelte)
