@@ -59,6 +59,22 @@ Data structure
 
 const poems = [
   {
+    id: "a-growl-for-sweet-complaint",
+    title: "A Growl for Sweet Complaint",
+    description: "I have a fear: a loss of wonder glimpsed",
+    publishdate: "2025-06-01",
+    tags: ["Translation"],
+    complete: true
+  },
+  {
+    id: "a-howl-for-garland-roses",
+    title: "A Howl for Garland Roses",
+    description: "Know this: I'm dying! Now! A pretty crown!",
+    publishdate: "2025-06-01",
+    tags: ["Translation"],
+    complete: true
+  },
+  {
     id: "a-sassanid-vase",
     title: "A Sassanid Vase, at Rest",
     description: "Within its clear lattice, a history of hands:",
@@ -2509,7 +2525,6 @@ const poems = [
     publishdate: "2025-05-01",
     statusText: "from Торгуют арбузами by Andrei Voznesensky",
     tags: ["Translation"],
-    showcase: false,
     complete: true
   },
   {

@@ -65,7 +65,6 @@ src
   |    |- ReadBook.svelte - 
   |
   |- App.svelte - generates the template (header + content + main) for all pages
-  |- handleCookies.js - 
   |- handleMedia.js - 
   |- handleMetadata.js - 
   |- main.js - 

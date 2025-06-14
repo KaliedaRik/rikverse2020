@@ -71,3 +71,8 @@
 	<li><a href="/book/spintrap-the-lonely-city">SpinTrap: The Lonely City</a> - science fiction, published June 2013 (<a href="/reports/spintrap-the-lonely-city.md" target="_BLANK">book metadata</a>)</li>
 	<li><a href="/book/riks-army-career">Rik's Army Career</a> - memoir, published December 2019 (<a href="/reports/riks-army-career.md" target="_BLANK">book metadata</a>)</li>
 </ul>
+
+<h3>The poetry of Rik Roots</h3>
+<ul>
+	<li><a href="/reports/poet-Rik-Roots.md" target="_BLANK">Poet metadata</a></li>
+</ul>
