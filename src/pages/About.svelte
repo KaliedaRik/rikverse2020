@@ -25,7 +25,7 @@
 
 <h1>All about Rik ...</h1>
 
-<img src="/images/rik.jpg" alt="A head photo of Rik Roots">
+<img src="/images/about-rik-headshot.webp" alt="A head photo of Rik Roots">
 
 <p>Rik was born in the small village of <a href="http://en.wikipedia.org/wiki/Dymchurch">Dymchurch</a> on the <a href="http://en.wikipedia.org/wiki/Romney_Marsh">Romney Marshes</a> in <a href="http://en.wikipedia.org/wiki/Kent">Kent</a>, <a href="http://en.wikipedia.org/wiki/England">England</a>. Dymchurch has three <a href="http://en.wikipedia.org/wiki/Martello_tower">Martello Towers</a> and a station on the <a href="http://en.wikipedia.org/wiki/Romney,_Hythe_and_Dymchurch_Railway">Romney Hythe and Dymchurch Light Railway</a>. This was Rik’s world for the first 24 years of his life, except for those six terms away at college – the <a href="http://en.wikipedia.org/wiki/NESCOT">North East Surrey College of Technology</a>, that is: Rik somehow managed to fail his final school exams and thus never made it to university.</p>
 
@@ -70,4 +70,9 @@
 	<li><a href="/book/the-story-portraits">The Story Portraits</a> - microfiction and short stories, published September 2011 (<a href="/reports/the-story-portraits.md" target="_BLANK">book metadata</a>)</li>
 	<li><a href="/book/spintrap-the-lonely-city">SpinTrap: The Lonely City</a> - science fiction, published June 2013 (<a href="/reports/spintrap-the-lonely-city.md" target="_BLANK">book metadata</a>)</li>
 	<li><a href="/book/riks-army-career">Rik's Army Career</a> - memoir, published December 2019 (<a href="/reports/riks-army-career.md" target="_BLANK">book metadata</a>)</li>
+</ul>
+
+<h3>The poetry of Rik Roots</h3>
+<ul>
+	<li><a href="/reports/poet-Rik-Roots.md" target="_BLANK">Poet metadata</a></li>
 </ul>

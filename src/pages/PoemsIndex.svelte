@@ -43,23 +43,38 @@
 
 <style>
     div {
-        @apply text-center mb-4;
+        text-align: center;
+        margin-bottom: 1rem;
     }
     button {
-        @apply inline-block rounded-full bg-blue-200 text-green-700 border-blue-500 p-1 m-1 text-center cursor-pointer text-sm outline-none;
+        display: inline-block;
+        border-radius: 9999px;
+        background-color: rgb(190 227 248);
+        color: rgb(47 133 90);
+        border-width: 1px;
+        border-color: rgb(66 153 225);
+        padding: 0.25rem 1rem;
+        margin: 0.25rem;
+        text-align: center;
+        cursor: pointer;
+        font-size: 0.875rem;
+        outline: 2px solid transparent;
+        outline-offset: 2px;
         min-width: 6rem;
         transition: color 0.5s, background-color 0.5s;
     }
     button:hover {
-        @apply bg-blue-700 text-green-200;
+        background-color: rgb(43 108 176);
+        color: rgb(198 246 213);
     }
 
     .current-filter {
-        @apply text-yellow-300 bg-red-700;
+        color: rgb(250 240 137);
+        background-color: rgb(197 48 48);
     }
 
     h2 {
-        @apply border-t-2;
+        border-top-width: 2px;
     }
 </style>
 

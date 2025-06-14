@@ -23,8 +23,6 @@
     else navigateTo('/error');
 </script>
 
-<style></style>
-
 <svelte:head>
     <title>{book.tabTitle}</title>
 </svelte:head>

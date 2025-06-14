@@ -5,8 +5,6 @@ const blogpostData = [
         tabTitle: "RikVerse blog post",
         description: "... Using Rik's poems in your own creative work, for free.",
         publishdate: "Today",
-        imageUrl: '/images/RV-blog_share.png',
-        imageText: 'Image advertising the RikVerse Blog page',
     },
     {
         id: "cookies",
@@ -14,8 +12,6 @@ const blogpostData = [
         tabTitle: "RikVerse blog post",
         description: "... Paypal, YouTube and Google cookies on the RikVerse site.",
         publishdate: "Today",
-        imageUrl: '/images/RV-blog_share.png',
-        imageText: 'Image advertising the RikVerse Blog page',
     },
     {
         id: "giving-books-away-for-free",
@@ -23,8 +19,6 @@ const blogpostData = [
         tabTitle: "RikVerse blog post",
         description: "... Seriously, why do that?",
         publishdate: "2014-12-02",
-        imageUrl: '/images/RV-blog_share.png',
-        imageText: 'Image advertising the RikVerse Blog page',
     },
     {
         id: "current-publishing-scene-hate",
@@ -32,8 +26,6 @@ const blogpostData = [
         tabTitle: "RikVerse blog post",
         description: "... An off-the-cuff list of things I'm currently hating about the publishing scene (with added profanity).",
         publishdate: "2013-07-16",
-        imageUrl: '/images/RV-blog_share.png',
-        imageText: 'Image advertising the RikVerse Blog page',
     },
     {
         id: "poet-five-step-plan",
@@ -41,8 +33,6 @@ const blogpostData = [
         tabTitle: "RikVerse blog post",
         description: "... Rik's patented, guaranteed five step program on how to become a poet. In five steps.",
         publishdate: "2011-04-08",
-        imageUrl: '/images/RV-blog_share.png',
-        imageText: 'Image advertising the RikVerse Blog page',
     },
     {
         id: "ten-questions-poets-tech",
@@ -50,8 +40,6 @@ const blogpostData = [
         tabTitle: "RikVerse blog post",
         description: "... How Rik thinks modern technology is affecting Poetry.",
         publishdate: "2010-06-15",
-        imageUrl: '/images/RV-blog_share.png',
-        imageText: 'Image advertising the RikVerse Blog page',
     },
     {
         id: "costs-of-independent-publishing",
@@ -59,8 +47,6 @@ const blogpostData = [
         tabTitle: "RikVerse blog post",
         description: "... How much it cost Rik to publish his book, 'The Gods in the Jungle'.",
         publishdate: "2010-03-18",
-        imageUrl: '/images/RV-blog_share.png',
-        imageText: 'Image advertising the RikVerse Blog page',
     },
     {
         id: "bored-of-poetry",
@@ -68,8 +54,6 @@ const blogpostData = [
         tabTitle: "RikVerse blog post",
         description: "... 'Why are you wasting my time with this?' is the most common question. 'Where's the goods, the payoff?' is another, and 'have you ever heard of having some fun?'",
         publishdate: "2009-09-01",
-        imageUrl: '/images/RV-blog_share.png',
-        imageText: 'Image advertising the RikVerse Blog page',
     },
     {
         id: "mapping-the-soq",
@@ -77,8 +61,6 @@ const blogpostData = [
         tabTitle: "RikVerse blog post",
         description: "... Mad ideas have started bubbling in Rik's head.",
         publishdate: "2009-01-26",
-        imageUrl: '/images/RV-blog_share.png',
-        imageText: 'Image advertising the RikVerse Blog page',
     },
     {
         id: "write-poems-for-audience",
@@ -86,8 +68,6 @@ const blogpostData = [
         tabTitle: "RikVerse blog post",
         description: "... In which Rik identifies some surprising audiences for whom Poets should write their poems.",
         publishdate: "2009-01-06",
-        imageUrl: '/images/RV-blog_share.png',
-        imageText: 'Image advertising the RikVerse Blog page',
     },
     {
         id: "alan-david-roots",
@@ -95,8 +75,6 @@ const blogpostData = [
         tabTitle: "RikVerse blog post",
         description: "... Rik's eulogy for his brother, Alan.",
         publishdate: "2008-10-18",
-        imageUrl: '/images/RV-blog_share.png',
-        imageText: 'Image advertising the RikVerse Blog page',
     },
     {
         id: "monkeys-learn-to-sing",
@@ -104,8 +82,6 @@ const blogpostData = [
         tabTitle: "RikVerse blog post",
         description: "... What’s the point of inventing a better arrowhead if you can’t boast about it?",
         publishdate: "2007-10-01",
-        imageUrl: '/images/RV-blog_share.png',
-        imageText: 'Image advertising the RikVerse Blog page',
     },
     {
         id: "all-is-vanity",
@@ -113,8 +89,6 @@ const blogpostData = [
         tabTitle: "RikVerse blog post",
         description: "... Rik's reasons for self-publishing his poetry are not quite the same as for other people.",
         publishdate: "2007-07-02",
-        imageUrl: '/images/RV-blog_share.png',
-        imageText: 'Image advertising the RikVerse Blog page',
     },
     {
         id: "14-mins-to-save-internet-poetry",
@@ -122,8 +96,6 @@ const blogpostData = [
         tabTitle: "RikVerse blog post",
         description: "... How can we improve the reputation of internet poetry?",
         publishdate: "2007-06-21",
-        imageUrl: '/images/RV-blog_share.png',
-        imageText: 'Image advertising the RikVerse Blog page',
     },
     {
         id: "poets-in-residence",
@@ -131,8 +103,6 @@ const blogpostData = [
         tabTitle: "RikVerse blog post",
         description: "... Spend the poetry pound on the kiddies, not the poets. You know it makes sense.",
         publishdate: "2007-01-14",
-        imageUrl: '/images/RV-blog_share.png',
-        imageText: 'Image advertising the RikVerse Blog page',
     },
     {
         id: "posterity",
@@ -140,8 +110,6 @@ const blogpostData = [
         tabTitle: "RikVerse blog post",
         description: "... But what is this Posterity Thing that people think is a good reason to publish their work?",
         publishdate: "2006-05-12",
-        imageUrl: '/images/RV-blog_share.png',
-        imageText: 'Image advertising the RikVerse Blog page',
     },
     {
         id: "why-of-poetry-3",
@@ -149,8 +117,6 @@ const blogpostData = [
         tabTitle: "RikVerse blog post",
         description: "... Patronage and the poet.",
         publishdate: "2006-03-09",
-        imageUrl: '/images/RV-blog_share.png',
-        imageText: 'Image advertising the RikVerse Blog page',
     },
     {
         id: "why-of-poetry-2",
@@ -158,8 +124,6 @@ const blogpostData = [
         tabTitle: "RikVerse blog post",
         description: "... Concerning 'Social' and 'Commercial' poetry.",
         publishdate: "2006-03-07",
-        imageUrl: '/images/RV-blog_share.png',
-        imageText: 'Image advertising the RikVerse Blog page',
     },
     {
         id: "why-of-poetry-1",
@@ -167,8 +131,6 @@ const blogpostData = [
         tabTitle: "RikVerse blog post",
         description: "... Rik tries to work out why the poetry market sucks.",
         publishdate: "2006-03-06",
-        imageUrl: '/images/RV-blog_share.png',
-        imageText: 'Image advertising the RikVerse Blog page',
     },
     {
         id: "mad-ideas",
@@ -176,8 +138,6 @@ const blogpostData = [
         tabTitle: "RikVerse blog post",
         description: "... Where Rik counts up the mad ideas he's had over the years for promoting online poetry - and considers future ventures.",
         publishdate: "2006-02-24",
-        imageUrl: '/images/RV-blog_share.png',
-        imageText: 'Image advertising the RikVerse Blog page',
     },
     {
         id: "every-poem-i-write",
@@ -185,8 +145,6 @@ const blogpostData = [
         tabTitle: "RikVerse blog post",
         description: "... Some of the poems that Rik enjoys reading the most are Flawed Poems",
         publishdate: "2006-01-22",
-        imageUrl: '/images/RV-blog_share.png',
-        imageText: 'Image advertising the RikVerse Blog page',
     },
     {
         id: "nine-poet-questions",
@@ -194,8 +152,6 @@ const blogpostData = [
         tabTitle: "RikVerse blog post",
         description: "... Rik discovers some profound poetical questions online and attempts to answer them.",
         publishdate: "2005-12-24",
-        imageUrl: '/images/RV-blog_share.png',
-        imageText: 'Image advertising the RikVerse Blog page',
     },
     {
         id: "poetry-journals",
@@ -203,8 +159,6 @@ const blogpostData = [
         tabTitle: "RikVerse blog post",
         description: "... On the birth of Magma Magazine, and Rik's small part in that miracle.",
         publishdate: "2005-12-20",
-        imageUrl: '/images/RV-blog_share.png',
-        imageText: 'Image advertising the RikVerse Blog page',
     },
     {
         id: "poetic-corruption",
@@ -212,8 +166,6 @@ const blogpostData = [
         tabTitle: "RikVerse blog post",
         description: "... In the world of poetry there is not much money to be made. Superstars are far and few between.",
         publishdate: "2005-12-01",
-        imageUrl: '/images/RV-blog_share.png',
-        imageText: 'Image advertising the RikVerse Blog page',
     },
     {
         id: "my-problems-with-like",
@@ -221,8 +173,6 @@ const blogpostData = [
         tabTitle: "RikVerse blog post",
         description: "... Rik has always had a bit of a problem with similes and metaphors.",
         publishdate: "2005-11-17",
-        imageUrl: '/images/RV-blog_share.png',
-        imageText: 'Image advertising the RikVerse Blog page',
     },
     {
         id: "fantasy-publishing-internet-poetry",
@@ -230,8 +180,6 @@ const blogpostData = [
         tabTitle: "RikVerse blog post",
         description: "... In which Rik plays a game of fantasy publishing.",
         publishdate: "2005-09-03",
-        imageUrl: '/images/RV-blog_share.png',
-        imageText: 'Image advertising the RikVerse Blog page',
     },
     {
         id: "new-sincerity",
@@ -239,8 +187,6 @@ const blogpostData = [
         tabTitle: "RikVerse blog post",
         description: "... Can a turbine engine be sincere? Is a dying leaf sincere?",
         publishdate: "2005-08-22",
-        imageUrl: '/images/RV-blog_share.png',
-        imageText: 'Image advertising the RikVerse Blog page',
     },
 ];
 

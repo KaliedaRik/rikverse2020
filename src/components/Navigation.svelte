@@ -4,9 +4,10 @@
 
 <style>
     nav {
-        @apply pt-2 pb-2;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
         background: rgb(2 0 36);
-        background: linear-gradient(0deg, rgb(2 0 36) 0%, rgb(9 9 121) 5%, rgb(173 184 236) 38%, rgb(185 234 244) 100%);
+        background: linear-gradient(0deg, rgb(2 0 36) 0%, rgb(9 9 121) 5%, rgb(173 184 236) 20%, rgb(185 234 244) 100%);
     }
 
     div {
@@ -15,15 +16,13 @@
     img {
         margin: 0 auto 1rem auto;
         width: 40%;
-    }
-    a {
-        @apply w-full;
+        display: block;
     }
 
     @media (min-width: 768px) {
 
         nav {
-            @apply rounded-lg;
+            border-radius: 0.5rem;
         }
     }
 </style>

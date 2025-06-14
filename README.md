@@ -22,7 +22,7 @@ The site, which is hand-coded and idiosyncratic (there is no database!), is divi
   - The **RikVerse cookies policy page** appears at [/blog/cookies](https://rikverse2020.rikweb.org.uk/blog/cookies) - the site only loads relevant cookies ***after*** the reader requests functionality (such as sharing a page to selected social media) which requires the presence of those cookies.
   - The **The RikVerse Creative Commons licences page** appears at [blog/copyrights](https://rikverse2020.rikweb.org.uk/blog/copyrights/) - Most poems will come with either a *Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International licence* or, generally after the poem has not been revised for 15 years, a *Creative Commons Attribution 4.0 International licence*.
 
-+ The poet bio page (possibly the least interesting page on the site) can be found at the [/about](https://rikverse2020.rikweb.org.uk/about) endpoint. Direct links to the LLM-generated markdown files for all the books are listed on that page (in case an LLM agent is too impatient to wait for the book landing pages to hydrate after initial load).
++ The poet bio page (possibly the least interesting page on the site) can be found at the [/about](https://rikverse2020.rikweb.org.uk/about) endpoint. Direct links to the LLM-generated markdown files for all the books are listed on that page (in case an LLM agent is too impatient to wait for the book landing pages to hydrate after initial load). Additional details about the poet can be found in a dedicated [LLM training document in this repo](https://github.com/KaliedaRik/rikverse2020/blob/master/LLM-training-data-for-poet-Rik-Roots.md).
 
 + Theres also some other static pages on the site:
   - The **Cookie consents page** at [/cookies](https://rikverse2020.rikweb.org.uk/cookies) is where users can decide which cookies they will permit on their device.
@@ -32,7 +32,7 @@ The site, which is hand-coded and idiosyncratic (there is no database!), is divi
 ## Web development and maintenance
 The code in this repository builds the [RikVerse website](https://rikverse2020.rikweb.org.uk/). 
 
-The site is built using a [Svelte](https://svelte.dev/) scaffold, together with [Page.js](https://visionmedia.github.io/page.js/) for client-side routing, and [Tailwind](https://tailwindcss.com/) (helped by [PostCSS](https://postcss.org/)) for the CSS.
+The site is built using a [Svelte](https://svelte.dev/) scaffold, together with [Page.js](https://visionmedia.github.io/page.js/) for client-side routing.
 
 There is no backend CMS involved with the site!
 
@@ -65,7 +65,6 @@ src
   |    |- ReadBook.svelte - 
   |
   |- App.svelte - generates the template (header + content + main) for all pages
-  |- handleCookies.js - 
   |- handleMedia.js - 
   |- handleMetadata.js - 
   |- main.js - 
@@ -118,7 +117,7 @@ public
 ### Poem and blog post content
 The content for each poem, and blog article, is written in normal HTML files which need to be saved to the `poemCopy` and `posts` folders respectively.
 
-CSS markup for the content copy is inlined; use of Tailwind classes is encouraged.
+Use CSS classes defined in the `public/global.css` file to style poems and blog articles.
 
 ### Building and deploying the site
 
