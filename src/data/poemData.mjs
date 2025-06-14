@@ -63,6 +63,7 @@ const poems = [
     title: "A Growl for Sweet Complaint",
     description: "I have a fear: a loss of wonder glimpsed",
     publishdate: "2025-06-01",
+    statusText: "After 'Soneto de la dulce queja' by Federico García Lorca",
     tags: ["Translation"],
     complete: true
   },
@@ -71,6 +72,7 @@ const poems = [
     title: "A Howl for Garland Roses",
     description: "Know this: I'm dying! Now! A pretty crown!",
     publishdate: "2025-06-01",
+    statusText: "After 'Soneto de la guirnalda de rosas' by Federico García Lorca",
     tags: ["Translation"],
     complete: true
   },
@@ -1590,6 +1592,15 @@ const poems = [
     complete: true
   },
   {
+    id: "on-the-wounds-of-love",
+    title: "On the Wounds of Love",
+    description: "This searchlight beam, this fire that sears and eats",
+    publishdate: "2025-06-01",
+    statusText: "After 'Llagas de amor' by Federico García Lorca",
+    tags: ["Translation"],
+    complete: true
+  },
+  {
     id: "painting",
     title: "Painting",
     description: "Walls are not blank. They soak in lives, each pore",
@@ -2523,7 +2534,7 @@ const poems = [
     title: "They shift watermelons",
     description: "Moscow is jam-packed with watermelons",
     publishdate: "2025-05-01",
-    statusText: "from Торгуют арбузами by Andrei Voznesensky",
+    statusText: "After 'Торгуют арбузами' by Andrei Voznesensky",
     tags: ["Translation"],
     complete: true
   },
@@ -2552,6 +2563,15 @@ const poems = [
     publishdate: "2017-10-01",
     statusText: "Included in the collection 'And Still I Breathe'",
     tags: ["Performance"],
+    complete: true
+  },
+  {
+    id: "to-his-love-the-poet-asks",
+    title: "To his love the poet asks: write to me",
+    description: "My bowel-nested love, my death in life",
+    publishdate: "2025-06-01",
+    statusText: "After 'El poeta pide a su amor que le escriba' by Federico García Lorca",
+    tags: ["Translation"],
     complete: true
   },
   {
