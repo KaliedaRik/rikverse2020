@@ -2463,6 +2463,33 @@ const poems = [
     complete: true
   },
   {
+    id: "the-poet-asks-his-love-about",
+    title: "The poet asks his love about the «Enchanted City» of Cuenca",
+    description: "You liked the city that by drop on drop",
+    publishdate: "2025-06-01",
+    statusText: "After 'El poeta pregunta a su amor por la «Ciudad Encantada» de Cuenca' by Federico García Lorca",
+    tags: ["Translation"],
+    complete: true
+  },
+  {
+    id: "the-poet-says-to-the-truth",
+    title: "The poet says to the truth",
+    description: "I want to weep my heart-wrecks: I say this",
+    publishdate: "2025-06-01",
+    statusText: "After 'El poeta dice la verdad' by Federico García Lorca",
+    tags: ["Translation"],
+    complete: true
+  },
+  {
+    id: "the-poet-speaks-on-the-phone",
+    title: "The poet speaks on the phone to love",
+    description: "Your voice, it watered dunes within my chest",
+    publishdate: "2025-06-01",
+    statusText: "After 'El poeta habla por teléfono con el amor' by Federico García Lorca",
+    tags: ["Translation"],
+    complete: true
+  },
+  {
     id: "the-practicalities-of-hate",
     title: "The Practicalities of Hate",
     description: "It has been eight days since the fact",
@@ -2856,6 +2883,15 @@ const poems = [
     publishdate: "1989-11-01",
     tags: ["Surreal"],
     complete: false
+  },
+  {
+    id: "with-gongorinesque-verve-a-poet-sends",
+    title: "With Gongorinesque verve a poet sends a dove to his love",
+    description: "This young Turian dove I send to you",
+    publishdate: "2025-06-01",
+    statusText: "After 'Soneto gongorino en que el poeta manda a su amor una paloma' by Federico García Lorca",
+    tags: ["Translation"],
+    complete: true
   },
   {
     id: "woman-and-man-in-traffic",
