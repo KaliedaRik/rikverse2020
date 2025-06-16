@@ -60,7 +60,7 @@ Data structure
 const poems = [
   {
     id: "a-growl-for-sweet-complaint",
-    title: "A Growl for Sweet Complaint",
+    title: "A growl for sweet complaint",
     description: "I have a fear: a loss of wonder glimpsed",
     publishdate: "2025-06-01",
     statusText: "After 'Soneto de la dulce queja' by Federico García Lorca",
@@ -69,10 +69,19 @@ const poems = [
   },
   {
     id: "a-howl-for-garland-roses",
-    title: "A Howl for Garland Roses",
+    title: "A howl for garland roses",
     description: "Know this: I'm dying! Now! A pretty crown!",
     publishdate: "2025-06-01",
     statusText: "After 'Soneto de la guirnalda de rosas' by Federico García Lorca",
+    tags: ["Translation"],
+    complete: true
+  },
+  {
+    id: "a-night-of-sleepless-love",
+    title: "A night of sleepless love",
+    description: "That night and us aloft with the full moon",
+    publishdate: "2025-06-01",
+    statusText: "After 'Noche del amor insomne' by Federico García Lorca",
     tags: ["Translation"],
     complete: true
   },
@@ -1373,6 +1382,15 @@ const poems = [
     complete: true
   },
   {
+    id: "love-lies-suspended-in-the-poets-chest",
+    title: "Love lies suspended in the poet's chest",
+    description: "Never will you know how hard I love you",
+    publishdate: "2025-06-01",
+    statusText: "After 'El amor duerme en el pecho del poeta' by Federico García Lorca",
+    tags: ["Translation"],
+    complete: true
+  },
+  {
     id: "lovers",
     title: "Lovers",
     description: "Your habits are a comfort. Tonight, Tuesday",
@@ -1593,7 +1611,7 @@ const poems = [
   },
   {
     id: "on-the-wounds-of-love",
-    title: "On the Wounds of Love",
+    title: "On the wounds of love",
     description: "This searchlight beam, this fire that sears and eats",
     publishdate: "2025-06-01",
     statusText: "After 'Llagas de amor' by Federico García Lorca",
@@ -1959,6 +1977,15 @@ const poems = [
     description: "He brings a harsh heat into the room",
     publishdate: "2025-06-01",
     tags: ["Noir", "Surreal"],
+    complete: true
+  },
+  {
+    id: "secret-voice-of-dark-held-love-you",
+    title: "Secret voice of dark-held love, you!",
+    description: "You, there! Secret voice of dark-held love!",
+    publishdate: "2025-06-01",
+    statusText: "After '¡Ay voz secreta del amor oscuro!' by Federico García Lorca",
+    tags: ["Translation"],
     complete: true
   },
   {
