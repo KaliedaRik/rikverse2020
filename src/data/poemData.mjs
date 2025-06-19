@@ -9,6 +9,7 @@ Tags:
 - Eulogy:           Commemorating the passing of things
 - Faith:            Religious and otherwise
 - Family:           Anything to do with close relations (but not lovers), childhood, etc
+- Graphic-poems:    Poems displayed on a canvas element
 - Inheritance:      Intergenerational, historical, or imposed 
 - Light:            Because not everything has to be serious or even profound (Poetry is Fun!)
 - Love:             Anything that makes the world go round
@@ -42,11 +43,14 @@ Data structure
     tags:             String[];   // Tag strings defined above
     complete:         Boolean;    // Is considered to be publishable
 
+    graphicPoem?:     Boolean     // Use a canvas to display/animate the poem
+
     showcase?:        Boolean;    // Can be randomly selected
     statusText?:      String;     // eg publication details
 
     audiofile?:       String;     // URL to audio file
     videofile?:       String;     // URL to video file
+
     imagefile?:       String;     // URL to image file
     imageCaption?:    String;     // Required if imagefile attribute is used
     imagePosition?:   String;     // 'bottom' | 'top'
@@ -54,7 +58,7 @@ Data structure
 
 */
 
-// ["Cat", "Communication", "Culture", "Ekphrasis", "Embodiment", "Eulogy", "Faith", "Family", "Inheritance", "Light", "Love", "Machine", "Noir", "Object", "Office", "Olympic", "Other-published", "Outsider", "Performance", "Power", "Rural", "Sex", "Surreal", "Translation", "Urban", "Violence", "Voyeur", "Wonder"]
+// ["Cat", "Communication", "Culture", "Ekphrasis", "Embodiment", "Eulogy", "Faith", "Family", "Graphic-poems", "Inheritance", "Light", "Love", "Machine", "Noir", "Object", "Office", "Olympic", "Other-published", "Outsider", "Performance", "Power", "Rural", "Sex", "Surreal", "Translation", "Urban", "Violence", "Voyeur", "Wonder"]
 
 
 const poems = [
@@ -732,12 +736,10 @@ const poems = [
     id: "economic-migration",
     title: "Economic Migration is an Eighty Mile Trek",
     description: "Economic Migration is an Eighty Mile Trek",
-    publishdate: "2007-04-01",
-    tags: ["Power"],
-    imagefile: "/images/economic-migration.webp",
-    imageCaption: "Economic Migration is an Eighty Mile Trek - an image poem",
-    imagePosition: "top",
-    complete: false
+    publishdate: "2025-06-01",
+    tags: ["Graphic-poems", "Power"],
+    graphicPoem: true,
+    complete: true
   },
   {
     id: "elemental-friend",

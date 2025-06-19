@@ -1,4 +1,10 @@
 <script>
+    // Scrawl-canvas - initial import
+    // - We do this here to make sure the bundler remembers to include the library in the js bundle
+    import { setContext } from 'svelte';
+    import * as scrawl from 'scrawl-canvas';
+    setContext('scrawl', scrawl);
+
     // Svelte variables
     let page, params;
 
