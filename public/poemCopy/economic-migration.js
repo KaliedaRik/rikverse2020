@@ -57,11 +57,11 @@ initPoemGraphic = (poemGraphicFunctions) => {
         rangeX: 40,
         rangeFromX: -20,
         minimumVelocityX: 10,
-        limitDirectionToAngleMultiples: 45,
+        limitDirectionToAngleMultiples: 60,
 
         artefact: scrawl.makeWheel({
             name: name('trace'),
-            radius: 2,
+            radius: 1,
         }),
 
         stampAction: function (artefact, particle, host) {

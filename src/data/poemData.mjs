@@ -2949,6 +2949,15 @@ const poems = [
     complete: true
   },
   {
+    id: "writing-verse-in-codes",
+    title: "Writing verse in codes",
+    description: "Exactly forty two lines of code",
+    publishdate: "2025-06-01",
+    tags: ["Graphic-poems"],
+    graphicPoem: true,
+    complete: true
+  },
+  {
     id: "x",
     title: "X",
     description: "This is the moment, that tick in time when",
