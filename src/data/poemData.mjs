@@ -50,10 +50,6 @@ Data structure
 
     audiofile?:       String;     // URL to audio file
     videofile?:       String;     // URL to video file
-
-    imagefile?:       String;     // URL to image file
-    imageCaption?:    String;     // Required if imagefile attribute is used
-    imagePosition?:   String;     // 'bottom' | 'top'
   },
 
 */
@@ -95,9 +91,6 @@ const poems = [
     description: "Within its clear lattice, a history of hands:",
     publishdate: "2025-05-01",
     tags: ["Culture", "Ekphrasis", "Inheritance", "Object"],
-    // imagefile: "/images/poem-a-sassanid-vase.webp",
-    // imageCaption: "The 'Elinor of Aquitaine' Sassanid vase, Louvre, Paris",
-    // imagePosition: "bottom",
     complete: true
   },
   {
@@ -168,9 +161,6 @@ const poems = [
     description: "You've taken a beating over the years",
     publishdate: "2017-04-01",
     tags: ["Ekphrasis", "Object", "Performance"],
-    imagefile: "/images/poem-an-egg-from-the-earth.webp",
-    imageCaption: "The Sutton Hoo Helm (2016) - Wikimedia Commons",
-    imagePosition: "bottom",
     complete: false
   },
   {
@@ -353,9 +343,6 @@ const poems = [
     description: "We first met when I threw the ornament",
     publishdate: "2025-06-01",
     tags: ["Ekphrasis", "Eulogy", "Faith", "Object", "Power"],
-    imagefile: "/images/poem-cap.webp",
-    imageCaption: "Bust of the God Attis",
-    imagePosition: "bottom",
     complete: true
   },
   {
@@ -577,9 +564,6 @@ const poems = [
     description: "How sweet of your husband to die",
     publishdate: "2025-06-01",
     tags: ["Culture", "Ekphrasis", "Family", "Power"],
-    imagefile: "/images/poem-dear-irene.webp",
-    imageCaption: "Irina Pala d'Oro - Wikimedia Commons",
-    imagePosition: "bottom",
     complete: true
   },
   {
@@ -892,9 +876,6 @@ const poems = [
     description: "She lets the sunlight warm her toes, and beak",
     publishdate: "2008-04-01",
     tags: ["Eulogy"],
-    imagefile: "/images/poem-float.webp",
-    imageCaption: "A former coot floating in the Lee Navigation canal",
-    imagePosition: "bottom",
     complete: false
   },
   {
@@ -1003,9 +984,6 @@ const poems = [
     publishdate: "2007-012-01",
     statusText: "Published in Magma Poetry 42 (Winter 2008)\nIncluded in the collection 'To Posterity'",
     tags: ["Communication", "Other-published"],
-    imagefile: "/images/poem-gossip.webp",
-    imageCaption: "Gossip - Instagram",
-    imagePosition: "bottom",
     showcase: true,
     complete: true
   },
@@ -1184,9 +1162,6 @@ const poems = [
     publishdate: "2007-12-01",
     statusText: "Included in the collection 'To Posterity'",
     tags: ["Inheritance", "Surreal"],
-    imagefile: "/images/poem-in-dark-places.webp",
-    imageCaption: "In dark places - Instagram",
-    imagePosition: "bottom",
     showcase: true,
     complete: true
   },
@@ -1410,9 +1385,6 @@ const poems = [
     publishdate: "2006-04-01",
     statusText: "Included in the collection 'From Each Skull, A Story'",
     tags: ["Noir", "Outsider", "Sex"],
-    imagefile: "/images/poem-lucy-plays-with-her-friends.webp",
-    imageCaption: "Lucy plays with her friends - Instagram",
-    imagePosition: "bottom",
     complete: true
   },
   {
@@ -1440,9 +1412,6 @@ const poems = [
     description: "She is, above all, a drama of curves",
     publishdate: "2025-06-01",
     tags: ["Culture", "Ekphrasis", "Inheritance", "Object"],
-    imagefile: "/images/poem-madchen.webp",
-    imageCaption: "Venus of Hohle Fels - Urgeschichtliches Museum Blaubeuren",
-    imagePosition: "bottom",
     showcase: true,
     complete: true
   },
@@ -1491,9 +1460,6 @@ const poems = [
     publishdate: "1993-05-01",
     statusText: "Published in Magma 2 (June 1994)\nIncluded in the collection 'Play Time'",
     tags: ["Office", "Other-published", "Performance", "Sex", "Urban"],
-    imagefile: "/images/poem-menses.webp",
-    imageCaption: "Menses - Instagram",
-    imagePosition: "bottom",
     complete: true
   },
   {
@@ -2208,9 +2174,6 @@ const poems = [
     tags: ["Family", "Inheritance"],
     audiofile: "/audio/strength",
     videofile: "/video/strength.mp4",
-    imagefile: "/images/poem-strength.webp",
-    imageCaption: "Strength - Instagram",
-    imagePosition: "bottom",
     showcase: true,
     complete: true
   },
@@ -2231,9 +2194,6 @@ const poems = [
     statusText: "Included in the collection '22 Facets of my Father'",
     tags: ["Communication", "Family", "Inheritance"],
     audiofile: "/audio/sun",
-    imagefile: "/images/poem-sun.webp",
-    imageCaption: "Sun - Instagram",
-    imagePosition: "bottom",
     complete: true
   },
   {
@@ -2278,9 +2238,6 @@ const poems = [
     description: "A feather of boughs, sweet as dawnlight",
     publishdate: "2025-06-01",
     tags: ["Ekphrasis", "Object"],
-    imagefile: "/images/poem-tamarisk.webp",
-    imageCaption: "Tamarix gallica on a beach - Wikimedia Commons",
-    imagePosition: "bottom",
     complete: true
   },
   {
@@ -2680,9 +2637,6 @@ const poems = [
     description: "This image presented, dead as the hand that",
     publishdate: "2025-05-01",
     tags: ["Culture", "Ekphrasis", "Violence"],
-    imagefile: "/images/poem-tournesols.webp",
-    imageCaption: "'Six Sunflowers, 1888', van Gogh - Wikimedia Commons",
-    imagePosition: "bottom",
     showcase: true,
     complete: true
   },
