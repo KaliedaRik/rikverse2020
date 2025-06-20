@@ -95,12 +95,7 @@
 
 {#if copy}
     <!-- poem title -->
-    <h1>{poemData.title}</h1>
-
-    <!-- top image, if required -->
-    {#if poemData.imagePosition === 'top'}
-        <PoemImage position="top" file={poemData.imagefile} caption={poemData.imageCaption} />
-    {/if}
+    <h1 aria-label="Poem title">{poemData.title}</h1>
 
     <!-- the poem copy goes here -->
     {@html copy}
@@ -112,11 +107,6 @@
 
     <!-- poem navigation - includes video/audio display buttons -->
     <PoemNavigation />
-
-    <!-- bottom image, if required -->
-    {#if poemData.imagePosition === 'bottom'}
-        <PoemImage position="bottom" file={poemData.imagefile} caption={poemData.imageCaption} />
-    {/if}
 
     <!-- copyright notice -->
     <PoemLicence publishdate={poemData.publishdate} complete={poemData.complete} />

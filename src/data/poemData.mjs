@@ -95,9 +95,9 @@ const poems = [
     description: "Within its clear lattice, a history of hands:",
     publishdate: "2025-05-01",
     tags: ["Culture", "Ekphrasis", "Inheritance", "Object"],
-    imagefile: "/images/poem-a-sassanid-vase.webp",
-    imageCaption: "The 'Elinor of Aquitaine' Sassanid vase, Louvre, Paris",
-    imagePosition: "bottom",
+    // imagefile: "/images/poem-a-sassanid-vase.webp",
+    // imageCaption: "The 'Elinor of Aquitaine' Sassanid vase, Louvre, Paris",
+    // imagePosition: "bottom",
     complete: true
   },
   {
@@ -2953,7 +2953,7 @@ const poems = [
     title: "Writing verse in codes",
     description: "Exactly forty two lines of code",
     publishdate: "2025-06-01",
-    tags: ["Graphic-poems"],
+    tags: ["Communication", "Culture", "Graphic-poems"],
     graphicPoem: true,
     complete: true
   },
