@@ -865,9 +865,9 @@ const poems = [
     id: "flaw",
     title: "Flaw",
     description: "Flaw sits in my cupboards",
-    publishdate: "1993-11-01",
+    publishdate: "2025-06-01",
     statusText: "Included in the collection 'PaleoRik'",
-    tags: ["Inheritance", "Surreal"],
+    tags: ["Graphic-poems", "Inheritance", "Surreal"],
     complete: true
   },
   {
