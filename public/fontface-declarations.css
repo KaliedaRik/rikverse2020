@@ -1,0 +1,231 @@
+/* 
+Non-latin fonts 
+*/
+@font-face {
+  font-family: "Noto Arabic Sans";
+  src: url("/fonts/NotoSansArabic-Regular.ttf") format("opentype");
+}
+@font-face {
+  font-family: "Noto Arabic Naskh";
+  src: url("/fonts/NotoNaskhArabic-Regular.ttf") format("opentype");
+}
+@font-face {
+  font-family: "Noto Urdu Nastaliq";
+  src: url("/fonts/NotoNastaliqUrdu-Regular.ttf") format("opentype");
+}
+@font-face {
+  font-family: "Noto Chinese Simple Sans";
+  src: url("/fonts/NotoSansSC-Regular.ttf") format("opentype");
+}
+@font-face {
+  font-family: "Noto Chinese Simple Serif";
+  src: url("/fonts/NotoSerifSC-Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "Noto Devangari Sans";
+  src: url("/fonts/NotoSansDevanagari-Regular.ttf") format("opentype");
+}
+@font-face {
+  font-family: "Noto Devangari Serif";
+  src: url("/fonts/NotoSerifDevanagari-Regular.ttf") format("opentype");
+}
+@font-face {
+  font-family: "Noto Hebrew Sans";
+  src: url("/fonts/NotoSansHebrew-Regular.ttf") format("opentype");
+}
+@font-face {
+  font-family: "Noto Hebrew Serif";
+  src: url("/fonts/NotoSerifHebrew-Regular.ttf") format("opentype");
+}
+@font-face {
+  font-family: "Noto Japanese Sans";
+  src: url("/fonts/NotoSansJP-Regular.ttf") format("opentype");
+}
+@font-face {
+  font-family: "Noto Japanese Serif";
+  src: url("/fonts/NotoSerifJP-Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "Noto Korean Sans";
+  src: url("/fonts/NotoSansKR-Regular.ttf") format("opentype");
+}
+@font-face {
+  font-family: "Noto Korean Serif";
+  src: url("/fonts/NotoSerifKR-Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "Noto Mongolian Sans";
+  src: url("/fonts/NotoSansMongolian-Regular.ttf") format("opentype");
+}
+@font-face {
+  font-family: "Noto Tai Le Sans";
+  src: url("/fonts/NotoSansTaiLe-Regular.ttf") format("opentype");
+}
+@font-face {
+  font-family: "Noto Tai Tham Sans";
+  src: url("/fonts/NotoSansTaiTham-Regular.ttf") format("opentype");
+}
+@font-face {
+  font-family: "Noto Thai Sans";
+  src: url("/fonts/NotoSansThai-Regular.ttf") format("opentype");
+}
+@font-face {
+  font-family: "Noto Thai Serif";
+  src: url("/fonts/NotoSerifThai-Regular.ttf") format("opentype");
+}
+@font-face {
+  font-family: "Noto Tirhuta Sans";
+  src: url("/fonts/NotoSansTirhuta-Regular.ttf") format("opentype");
+}
+
+/*
+Roboto (common alphabetic)
+- in Sans, Serif, Mono
+- each with regular, bold, italic and bolditalic versions
+*/
+
+@font-face {
+  font-family: "Roboto Sans";
+  src: url("/fonts/Roboto-Regular.ttf") format("opentype");
+}
+@font-face {
+  font-family: "Roboto Sans";
+  src: url("/fonts/Roboto-Bold.ttf") format("opentype");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Roboto Sans";
+  src: url("/fonts/Roboto-Italic.ttf") format("opentype");
+  font-style: italic;
+}
+@font-face {
+  font-family: "Roboto Sans";
+  src: url("/fonts/Roboto-BoldItalic.ttf") format("opentype");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Roboto Serif";
+  src: url("/fonts/RobotoSerif-Regular.ttf") format("opentype");
+}
+@font-face {
+  font-family: "Roboto Serif";
+  src: url("/fonts/RobotoSerif-Bold.ttf") format("opentype");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Roboto Serif";
+  src: url("/fonts/RobotoSerif-Italic.ttf") format("opentype");
+  font-style: italic;
+}
+@font-face {
+  font-family: "Roboto Serif";
+  src: url("/fonts/RobotoSerif-BoldItalic.ttf") format("opentype");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Roboto Mono";
+  src: url("/fonts/RobotoMono-Regular.ttf") format("opentype");
+}
+@font-face {
+  font-family: "Roboto Mono";
+  src: url("/fonts/RobotoMono-Bold.ttf") format("opentype");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Roboto Mono";
+  src: url("/fonts/RobotoMono-Italic.ttf") format("opentype");
+  font-style: italic;
+}
+@font-face {
+  font-family: "Roboto Mono";
+  src: url("/fonts/RobotoMono-BoldItalic.ttf") format("opentype");
+  font-weight: bold;
+  font-style: italic;
+}
+
+/*
+Roboto Flex (common alphabetic)
+- Variable font
+- See https://fonts.google.com/specimen/Roboto+Flex/about?query=roboto
+*/
+@font-face {
+  font-family: "Roboto Flex";
+  src: url("/fonts/RobotoFlex-VariableFont_GRAD,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,opsz,slnt,wdth,wght.ttf") format("opentype");
+  font-weight: 100 900;
+  font-stretch: 25% 150%;
+  font-style: oblique 0deg -10deg;
+}
+
+/*
+EB Garamond (common alphabetic) 
+- Serif, with regular, bold, italic and bolditalic versions
+*/
+@font-face {
+  font-family: "Garamond";
+  src: url("/fonts/EBGaramond-Regular.ttf") format("opentype");
+}
+@font-face {
+  font-family: "Garamond";
+  src: url("/fonts/EBGaramond-Bold.ttf") format("opentype");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Garamond";
+  src: url("/fonts/EBGaramond-Italic.ttf") format("opentype");
+  font-style: italic;
+}
+@font-face {
+  font-family: "Garamond";
+  src: url("/fonts/EBGaramond-BoldItalic.ttf") format("opentype");
+  font-weight: bold;
+  font-style: italic;
+}
+
+/*
+Bungee (common alphabetic) 
+- in Sans
+*/
+@font-face {
+  font-family: "Bungee";
+  src: url("/fonts/Bungee-Regular.ttf") format("opentype");
+}
+
+/*
+Bungee Spice (common alphabetic) 
+- coloured font, in Sans
+- See https://fonts.google.com/specimen/Bungee+Spice?query=bungee
+*/
+@font-face {
+  font-family: "Bungee Spice";
+  src: url("/fonts/BungeeSpice-Regular.ttf") format("opentype") tech("color-COLRv1");
+}
+
+/*
+Carter One (common alphabetic) 
+- in Sans
+*/
+@font-face {
+  font-family: "Carter One";
+  src: url("/fonts/CarterOne-Regular.ttf") format("opentype");
+}
+
+/*
+Mountains Of Christmas (common alphabetic) 
+- in Fantasy
+*/
+@font-face {
+  font-family: "Mountains Of Christmas";
+  src: url("/fonts/MountainsofChristmas-Bold.ttf") format("opentype");
+}
+
+/*
+Noto Color Emoji (emoji)
+*/
+@font-face {
+  font-family: "Noto Color Emoji";
+  src: url("/fonts/NotoColorEmoji-Regular.ttf") format("opentype");
+}
