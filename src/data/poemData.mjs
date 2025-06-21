@@ -1148,10 +1148,10 @@ const poems = [
   },
   {
     id: "ickyu",
-    title: "Ickyu",
+    title: "Ick|yu",
     description: "You can't go far wrong",
     publishdate: "2025-06-01",
-    tags: ["Faith", "Inheritance", "Light"],
+    tags: ["Inheritance", "Light"],
     showcase: true,
     complete: true
   },
@@ -1840,8 +1840,8 @@ const poems = [
   {
     id: "resurrection",
     title: "Resurrection",
-    description: "February: finger bones",
-    publishdate: "2000-02-01",
+    description: "I see a bone of still-furled crocus, brave",
+    publishdate: "2025-06-01",
     statusText: "Included in the collection 'PaleoRik'",
     tags: ["Urban", "Wonder"],
     complete: true
@@ -1975,7 +1975,7 @@ const poems = [
   },
   {
     id: "7-a-prickle-of-new-berries",
-    title: "Sevenling (A prickle of new berries)",
+    title: "Sevenling (a prickle of new berries)",
     description: "A prickle of new berries where once",
     publishdate: "2025-06-01",
     tags: ["Love"],

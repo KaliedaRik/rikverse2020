@@ -10,8 +10,6 @@
         title: 'The RikVerse',
         tabTitle: 'The RikVerse',
         description: 'Poems, stories and novels by Rik Roots',
-        imageUrl: '/images/RV-home_share.png',
-        imageText: 'Image advertising the RikVerse website landing page',
     });
 </script>
 

@@ -99,6 +99,8 @@ initPoemGraphic = (poemGraphicFunctions) => {
     });
 
     ticker.run();
+
+    console.log(scrawl.library)
   };
 
   // This code will run once when user navigates away from the poem
