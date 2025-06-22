@@ -84,7 +84,7 @@
 </script>
 
 <style>
-    time {
+    time, .unpublished {
         display: block;
         font-size: 0.75rem;
         color: rgb(74 85 104);
@@ -101,9 +101,14 @@
     {@html copy}
 
     <!-- publication / last updated date -->
+    {#if poemData.complete}
     <time datetime="{poemData.publishdate}">
         Published: {prettifyMonthDate(poemData.publishdate)}
     </time>
+    {:else}
+    <p class="unpublished">Unpublished draft</p>
+    {/if}
+
 
     <!-- poem navigation - includes video/audio display buttons -->
     <PoemNavigation />

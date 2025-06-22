@@ -188,8 +188,6 @@ initPoemGraphic = (poemGraphicFunctions) => {
       name: name('animation'),
       target: canvas,
     });
-
-console.log(scrawl.library)
   };
 
   // This code will run once when user navigates away from the poem

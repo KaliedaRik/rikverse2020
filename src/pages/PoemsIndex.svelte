@@ -6,7 +6,8 @@
 
     import { 
         updateMetadata,
-        poemIndexHash } from '../handleMetadata.js';
+        poemIndexHash,
+    } from '../handleMetadata.js';
 
     // Update page metadata
     let pageMetadata = pageData.filter(item => item.id === 'index')[0];

@@ -50,10 +50,10 @@
     <h3>{listing.title}</h3>
     <q>{listing.description}</q>
     <p>
-      {#if licence.length}
-      <img src="{licence}" alt="Creative Commons licence" /> <span>{listing.statusText || ''}</span>
+      {#if listing.complete && licence.length}
+        <img src="{licence}" alt="Creative Commons licence" /> <span>{listing.statusText || ''}</span>
       {:else}
-      {listing.statusText}
+        Unpublished draft
       {/if}
     </p>
   </a>

@@ -405,7 +405,7 @@ const poems = [
     description: "Into the left eye shimmers a desert",
     publishdate: "2025-06-01",
     statusText: "Included in the collection 'PaleoRik'",
-    tags: ["Embodiment", "Surreal", "Violence"],
+    tags: ["Embodiment", "Graphic-poems", "Surreal", "Violence"],
     complete: true
   },
   {
@@ -502,7 +502,7 @@ const poems = [
     title: "Croutons",
     description: "I bought us salad",
     publishdate: "2025-06-01",
-    tags: ["Love"],
+    tags: ["Graphic-poems", "Love"],
     complete: true
   },
   {
@@ -1304,6 +1304,7 @@ const poems = [
     publishdate: "1990-11-01",
     statusText: "Published in Magma 1 (March 1994)\nIncluded in the collection 'PaleoRik'",
     tags: ["Embodiment", "Other-published", "Sex"],
+    graphicPoem: true,
     complete: true
   },
   {
@@ -2392,7 +2393,7 @@ const poems = [
     title: "The Long Draft",
     description: "Did you hear",
     publishdate: "2010-09-01",
-    tags: ["Faith", "Machine"],
+    tags: ["Faith", "Graphic-poems", "Machine"],
     complete: false
   },
   {
@@ -2489,7 +2490,7 @@ const poems = [
     title: "The Procrastinator",
     description: "My verse",
     publishdate: "2025-06-01",
-    tags: ["Light", "Sex"],
+    tags: ["Graphic-poems", "Light", "Sex"],
     complete: true
   },
   {
@@ -2838,7 +2839,7 @@ const poems = [
     title: "When We Were Very Young",
     description: "The first posts a starting line",
     publishdate: "2017-04-01",
-    tags: ["Communication", "Machine"],
+    tags: ["Communication", "Graphic-poems", "Machine"],
     complete: false
   },
   {
