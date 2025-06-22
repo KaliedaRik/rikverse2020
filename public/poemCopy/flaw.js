@@ -72,7 +72,7 @@ initPoemGraphic = (poemGraphicFunctions) => {
 
       name: name('spaghetti-net'),
       order: 1,
-      start: [64, 20],
+      start: [64, 40],
 
       rows,
       columns,
@@ -171,7 +171,14 @@ initPoemGraphic = (poemGraphicFunctions) => {
         useLayoutTemplateAsPath: true,
         pathPosition: 0.01 + indent,
         alignTextUnitsToPath: true,
+
         breakTextOnSpaces: false,
+        textHandle: ['center', 'alphabetic'],
+
+        // Switch off accessible text 
+        // - The poem is already present in the canvas fallback content
+        // - No need to make the screen reader read out the poem twice
+        textIsAccessible: false,
       });
     });
 
