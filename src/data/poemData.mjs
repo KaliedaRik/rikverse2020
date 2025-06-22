@@ -868,6 +868,7 @@ const poems = [
     publishdate: "2025-06-01",
     statusText: "Included in the collection 'PaleoRik'",
     tags: ["Graphic-poems", "Inheritance", "Surreal"],
+    graphicPoem: true,
     complete: true
   },
   {

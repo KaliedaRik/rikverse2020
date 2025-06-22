@@ -1,36 +1,63 @@
 <style>
-    .flaw-container {
-        font-family: "Roboto Mono", monospace;
+  .canvas-wrapper {
+    width: 100%;
+    aspect-ratio: 5 / 7;
+    margin: 0 auto 1rem;
+
+    @media (min-width: 768px) {
+      width: 80%;
+    }
+    @media (min-width: 1024px) {
+      width: 60%;
+    }
+  }
+</style>
+
+<div class="canvas-wrapper">
+  <canvas 
+    id="flaw"
+    data-scrawl-canvas
+    data-is-responsive="true"
+    data-base-width="500"
+    data-base-height="700"
+    data-fit="contain"
+    data-label="A visual representation of the poem 'Flaw'"
+    data-description="The canvas offers an additional flow to the flaw; the flaw itself remains."
+  >
+
+    <style>
+      .flaw-container {
+      font-family: "Roboto Mono", monospace;
         font-weight: bold;
         font-size: 16px;
         letter-spacing: 0.05em;
         word-spacing: 0.05em;
 
         @media (min-width: 768px) {
-            font-size: 20px;
+          font-size: 20px;
         }
 
         @media (min-width: 1024px) {
-            font-size: 24px;
+          font-size: 24px;
         }
-    }
-    .poem-line {
+      }
+      .poem-line {
         display: block;
         margin-bottom: 0.15em;
         opacity: 0.4;
         transition: opacity 0.5s;
 
         &:hover {
-            opacity: 1;
+          opacity: 1;
         }
-    }
-    .flaw-indent {
+      }
+      .flaw-indent {
         margin-left: 3.3em;
-    }
-</style>
+      }
+    </style>
 
-<div aria-label="Poem body">
-    <p class="flaw-container">
+    <div aria-label="Poem body">
+      <p class="flaw-container">
         <span class="poem-line">Flaw sits in my cupboards</span>
         <span class="poem-line">Flaw stands behind doors</span>
         <span class="poem-line">Flaw hides in the curtains</span>
@@ -39,9 +66,9 @@
         <span class="poem-line">Flaw shadows my back</span>
         <span class="poem-line">Flaw skips in my nightmares &ndash;</span>
         <span class="poem-line flaw-indent">it has that knack.</span>
-    </p>
+      </p>
 
-    <p class="flaw-container">
+      <p class="flaw-container">
         <span class="poem-line">Flaw crumples my clothing</span>
         <span class="poem-line">Flaw stains my best sheets</span>
         <span class="poem-line">Flaw spits when I'm hungry</span>
@@ -50,5 +77,7 @@
         <span class="poem-line">Flaw makes you all see</span>
         <span class="poem-line">that Flaw is my partner &ndash;</span>
         <span class="poem-line flaw-indent">a true part of me.</span>
-    </p>
+      </p>
+    </div>
+  </canvas>
 </div>

@@ -1,8 +1,15 @@
 <style>
   .canvas-wrapper {
-    width: 60%;
+    width: 100%;
     aspect-ratio: 45 / 64;
     margin: 0 auto 1rem;
+
+    @media (min-width: 768px) {
+      width: 80%;
+    }
+    @media (min-width: 1024px) {
+      width: 60%;
+    }
   }
 </style>
 
