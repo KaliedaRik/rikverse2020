@@ -1,20 +1,83 @@
-<pre class="pre-sans">
-Flaw sits in my cupboards
-Flaw stands behind doors
-Flaw hides in the curtains
-          whittling its claws.
-Flaw smirks in my mirrors
-Flaw shadows my back
-Flaw skips in my nightmares &ndash;
-          it has that knack.
+<style>
+  .canvas-wrapper {
+    width: 100%;
+    aspect-ratio: 5 / 7;
+    margin: 0 auto 1rem;
 
-Flaw crumples my clothing
-Flaw stains my best sheets
-Flaw spits when I'm hungry
-          and still I eat.
-Flaw plagues my horizons
-Flaw makes you all see
-that Flaw is my partner &ndash;
-          a true part of me.
+    @media (min-width: 768px) {
+      width: 80%;
+    }
+    @media (min-width: 1024px) {
+      width: 60%;
+    }
+  }
+</style>
 
-</pre>
+<div class="canvas-wrapper">
+  <canvas 
+    id="flaw"
+    data-scrawl-canvas
+    data-is-responsive="true"
+    data-base-width="500"
+    data-base-height="700"
+    data-fit="contain"
+    data-label="A visual representation of the poem 'Flaw'"
+    data-description="The canvas offers an additional flow to the flaw; the flaw itself remains. The poem will appear to have been printed on an invisible curtain which will flap in the wind when disturbed by a mouse pointer, or a poking finger."
+  >
+
+    <style>
+      .flaw-container {
+      font-family: "Roboto Mono", monospace;
+        font-weight: bold;
+        font-size: 16px;
+        letter-spacing: 0.05em;
+        word-spacing: 0.05em;
+
+        @media (min-width: 768px) {
+          font-size: 20px;
+        }
+
+        @media (min-width: 1024px) {
+          font-size: 24px;
+        }
+      }
+      .poem-line {
+        display: block;
+        margin-bottom: 0.15em;
+        opacity: 0.4;
+        transition: opacity 0.5s;
+
+        &:hover {
+          opacity: 1;
+        }
+      }
+      .flaw-indent {
+        margin-left: 3.3em;
+      }
+    </style>
+
+    <div aria-label="Poem body">
+      <p class="flaw-container">
+        <span class="poem-line">Flaw sits in my cupboards</span>
+        <span class="poem-line">Flaw stands behind doors</span>
+        <span class="poem-line">Flaw hides in the curtains</span>
+        <span class="poem-line flaw-indent">whittling its claws.</span>
+        <span class="poem-line">Flaw smirks in my mirrors</span>
+        <span class="poem-line">Flaw shadows my back</span>
+        <span class="poem-line">Flaw skips in my nightmares &ndash;</span>
+        <span class="poem-line flaw-indent">it has that knack.</span>
+      </p>
+
+      <p class="flaw-container">
+        <span class="poem-line">Flaw crumples my clothing</span>
+        <span class="poem-line">Flaw stains my best sheets</span>
+        <span class="poem-line">Flaw spits when I'm hungry</span>
+        <span class="poem-line flaw-indent">and still I eat.</span>
+        <span class="poem-line">Flaw plagues my horizons</span>
+        <span class="poem-line">Flaw makes you all see</span>
+        <span class="poem-line">that Flaw is my partner &ndash;</span>
+        <span class="poem-line flaw-indent">a true part of me.</span>
+      </p>
+    </div>
+  </canvas>
+</div>

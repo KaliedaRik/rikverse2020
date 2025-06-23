@@ -9,6 +9,7 @@ Tags:
 - Eulogy:           Commemorating the passing of things
 - Faith:            Religious and otherwise
 - Family:           Anything to do with close relations (but not lovers), childhood, etc
+- Graphic-poems:    Poems displayed on a canvas element
 - Inheritance:      Intergenerational, historical, or imposed 
 - Light:            Because not everything has to be serious or even profound (Poetry is Fun!)
 - Love:             Anything that makes the world go round
@@ -29,6 +30,7 @@ Tags:
 - Violence:         Generally physical, sometimes emotional, occasionally spiritual
 - Voyeur:           Generally with a tourist's eye
 - Wonder:           A moment of transformation
+- Yarn:             Prose poems, microfictions, short stories, excerpts, memoir
 */
 
 /*
@@ -42,35 +44,54 @@ Data structure
     tags:             String[];   // Tag strings defined above
     complete:         Boolean;    // Is considered to be publishable
 
+    graphicPoem?:     Boolean     // Use a canvas to display/animate the poem
+
     showcase?:        Boolean;    // Can be randomly selected
     statusText?:      String;     // eg publication details
 
     audiofile?:       String;     // URL to audio file
     videofile?:       String;     // URL to video file
-    imagefile?:       String;     // URL to image file
-    imageCaption?:    String;     // Required if imagefile attribute is used
-    imagePosition?:   String;     // 'bottom' | 'top'
   },
 
 */
 
-// ["Cat", "Communication", "Culture", "Ekphrasis", "Embodiment", "Eulogy", "Faith", "Family", "Inheritance", "Light", "Love", "Machine", "Noir", "Object", "Office", "Olympic", "Other-published", "Outsider", "Performance", "Power", "Rural", "Sex", "Surreal", "Translation", "Urban", "Violence", "Voyeur", "Wonder"]
+// ["Cat", "Communication", "Culture", "Ekphrasis", "Embodiment", "Eulogy", "Faith", "Family", "Graphic-poems", "Inheritance", "Light", "Love", "Machine", "Noir", "Object", "Office", "Olympic", "Other-published", "Outsider", "Performance", "Power", "Rural", "Sex", "Surreal", "Translation", "Urban", "Violence", "Voyeur", "Wonder", "Yarn"]
 
 
 const poems = [
   {
     id: "a-growl-for-sweet-complaint",
-    title: "A Growl for Sweet Complaint",
+    title: "A growl for sweet complaint",
     description: "I have a fear: a loss of wonder glimpsed",
     publishdate: "2025-06-01",
+    statusText: "After 'Soneto de la dulce queja' by Federico García Lorca",
     tags: ["Translation"],
     complete: true
   },
   {
     id: "a-howl-for-garland-roses",
-    title: "A Howl for Garland Roses",
+    title: "A howl for garland roses",
     description: "Know this: I'm dying! Now! A pretty crown!",
     publishdate: "2025-06-01",
+    statusText: "After 'Soneto de la guirnalda de rosas' by Federico García Lorca",
+    tags: ["Translation"],
+    complete: true
+  },
+  {
+    id: "a-little-bit-of-culture",
+    title: "A Little Bit of Culture",
+    description: "John peered through the open door",
+    publishdate: "2025-06-01",
+    statusText: "Included in the collection 'The Story Portraits'",
+    tags: ["Yarn"],
+    complete: true
+  },
+  {
+    id: "a-night-of-sleepless-love",
+    title: "A night of sleepless love",
+    description: "That night and us aloft with the full moon",
+    publishdate: "2025-06-01",
+    statusText: "After 'Noche del amor insomne' by Federico García Lorca",
     tags: ["Translation"],
     complete: true
   },
@@ -80,9 +101,6 @@ const poems = [
     description: "Within its clear lattice, a history of hands:",
     publishdate: "2025-05-01",
     tags: ["Culture", "Ekphrasis", "Inheritance", "Object"],
-    imagefile: "/images/poem-a-sassanid-vase.webp",
-    imageCaption: "The 'Elinor of Aquitaine' Sassanid vase, Louvre, Paris",
-    imagePosition: "bottom",
     complete: true
   },
   {
@@ -90,7 +108,7 @@ const poems = [
     title: "A Scene, undated",
     description: "A gargoyle sits in its arch and watches",
     publishdate: "2018-04-01",
-    tags: ["Performance", "Urban", "Voyeur"],
+    tags: ["Performance", "Urban", "Voyeur", "Yarn"],
     complete: false
   },
   {
@@ -153,9 +171,6 @@ const poems = [
     description: "You've taken a beating over the years",
     publishdate: "2017-04-01",
     tags: ["Ekphrasis", "Object", "Performance"],
-    imagefile: "/images/poem-an-egg-from-the-earth.webp",
-    imageCaption: "The Sutton Hoo Helm (2016) - Wikimedia Commons",
-    imagePosition: "bottom",
     complete: false
   },
   {
@@ -235,6 +250,15 @@ const poems = [
     complete: true
   },
   {
+    id: "as-the-gloaming-reached-her-street",
+    title: "As the Gloaming Reached Her Street",
+    description: "What did you catch? Oh, Just a bird",
+    publishdate: "2025-06-01",
+    statusText: "Included in the collection 'The Story Portraits'",
+    tags: ["Yarn"],
+    complete: true
+  },
+  {
     id: "attic",
     title: "Attic",
     description: "It takes more than a ladder",
@@ -250,6 +274,15 @@ const poems = [
     publishdate: "1999-08-01",
     statusText: "Included in the collection 'Play Time'",
     tags: ["Embodiment", "Eulogy", "Outsider", "Wonder"],
+    complete: true
+  },
+  {
+    id: "away-with-the-fairies",
+    title: "Away with the Fairies",
+    description: "Snow's melted; that's a good thing",
+    statusText: "Included in the collection 'The Story Portraits'",
+    publishdate: "2025-06-01",
+    tags: ["Yarn"],
     complete: true
   },
   {
@@ -338,9 +371,6 @@ const poems = [
     description: "We first met when I threw the ornament",
     publishdate: "2025-06-01",
     tags: ["Ekphrasis", "Eulogy", "Faith", "Object", "Power"],
-    imagefile: "/images/poem-cap.webp",
-    imageCaption: "Bust of the God Attis",
-    imagePosition: "bottom",
     complete: true
   },
   {
@@ -348,7 +378,7 @@ const poems = [
     title: "Casework",
     description: "Like all happy things, my commissions come in threes",
     publishdate: "2018-01-01",
-    tags: ["Noir"],
+    tags: ["Noir", "Yarn"],
     complete: false
   },
   {
@@ -403,7 +433,7 @@ const poems = [
     description: "Into the left eye shimmers a desert",
     publishdate: "2025-06-01",
     statusText: "Included in the collection 'PaleoRik'",
-    tags: ["Embodiment", "Surreal", "Violence"],
+    tags: ["Embodiment", "Graphic-poems", "Surreal", "Violence"],
     complete: true
   },
   {
@@ -500,7 +530,7 @@ const poems = [
     title: "Croutons",
     description: "I bought us salad",
     publishdate: "2025-06-01",
-    tags: ["Love"],
+    tags: ["Graphic-poems", "Love"],
     complete: true
   },
   {
@@ -562,9 +592,6 @@ const poems = [
     description: "How sweet of your husband to die",
     publishdate: "2025-06-01",
     tags: ["Culture", "Ekphrasis", "Family", "Power"],
-    imagefile: "/images/poem-dear-irene.webp",
-    imageCaption: "Irina Pala d'Oro - Wikimedia Commons",
-    imagePosition: "bottom",
     complete: true
   },
   {
@@ -590,7 +617,7 @@ const poems = [
     title: "Death of a Poem",
     description: "They dragged it from its rank cell tied to a bookshelf bier",
     publishdate: "2025-06-01",
-    tags: ["Communication", "Culture", "Noir", "Power", "Surreal", "Violence"],
+    tags: ["Communication", "Culture", "Noir", "Power", "Surreal", "Violence", "Yarn"],
     complete: true
   },
   {
@@ -625,6 +652,15 @@ const poems = [
     description: "Each day a fresh terrain: dirt-yellow ants",
     publishdate: "2025-06-01",
     tags: ["Inheritance", "Machine", "Olympic", "Urban"],
+    complete: true
+  },
+  {
+    id: "dentist-monsters",
+    title: "Dentist Monsters",
+    description: "Stand By Your Beds - I think of those words",
+    statusText: "Included in the collection 'Rik's Army Career'",
+    publishdate: "2025-06-01",
+    tags: ["Yarn"],
     complete: true
   },
   {
@@ -721,12 +757,10 @@ const poems = [
     id: "economic-migration",
     title: "Economic Migration is an Eighty Mile Trek",
     description: "Economic Migration is an Eighty Mile Trek",
-    publishdate: "2007-04-01",
-    tags: ["Power"],
-    imagefile: "/images/economic-migration.webp",
-    imageCaption: "Economic Migration is an Eighty Mile Trek - an image poem",
-    imagePosition: "top",
-    complete: false
+    publishdate: "2025-06-01",
+    tags: ["Graphic-poems", "Power"],
+    graphicPoem: true,
+    complete: true
   },
   {
     id: "elemental-friend",
@@ -868,9 +902,10 @@ const poems = [
     id: "flaw",
     title: "Flaw",
     description: "Flaw sits in my cupboards",
-    publishdate: "1993-11-01",
+    publishdate: "2025-06-01",
     statusText: "Included in the collection 'PaleoRik'",
-    tags: ["Inheritance", "Surreal"],
+    tags: ["Graphic-poems", "Inheritance", "Surreal"],
+    graphicPoem: true,
     complete: true
   },
   {
@@ -879,9 +914,6 @@ const poems = [
     description: "She lets the sunlight warm her toes, and beak",
     publishdate: "2008-04-01",
     tags: ["Eulogy"],
-    imagefile: "/images/poem-float.webp",
-    imageCaption: "A former coot floating in the Lee Navigation canal",
-    imagePosition: "bottom",
     complete: false
   },
   {
@@ -990,9 +1022,6 @@ const poems = [
     publishdate: "2007-012-01",
     statusText: "Published in Magma Poetry 42 (Winter 2008)\nIncluded in the collection 'To Posterity'",
     tags: ["Communication", "Other-published"],
-    imagefile: "/images/poem-gossip.webp",
-    imageCaption: "Gossip - Instagram",
-    imagePosition: "bottom",
     showcase: true,
     complete: true
   },
@@ -1156,11 +1185,20 @@ const poems = [
     complete: false
   },
   {
+    id: "ice-cream-in-havana",
+    title: "Ice Cream in Havana",
+    description: "If you're pregnant, then I'll be pregnant too!",
+    statusText: "Included in the collection 'The Story Portraits'",
+    publishdate: "2025-06-01",
+    tags: ["Yarn"],
+    complete: true
+  },
+  {
     id: "ickyu",
-    title: "Ickyu",
+    title: "Ick|yu",
     description: "You can't go far wrong",
     publishdate: "2025-06-01",
-    tags: ["Faith", "Inheritance", "Light"],
+    tags: ["Faith", "Yarn"],
     showcase: true,
     complete: true
   },
@@ -1171,9 +1209,6 @@ const poems = [
     publishdate: "2007-12-01",
     statusText: "Included in the collection 'To Posterity'",
     tags: ["Inheritance", "Surreal"],
-    imagefile: "/images/poem-in-dark-places.webp",
-    imageCaption: "In dark places - Instagram",
-    imagePosition: "bottom",
     showcase: true,
     complete: true
   },
@@ -1217,6 +1252,24 @@ const poems = [
     publishdate: "2015-04-01",
     tags: ["Office"],
     complete: false
+  },
+  {
+    id: "jacks-final-contemplation",
+    title: "Jack's Final Contemplation",
+    description: "The first time Jack left his body, he had a revelation",
+    statusText: "Included in the collection 'The Story Portraits'",
+    publishdate: "2025-06-01",
+    tags: ["Yarn"],
+    complete: true
+  },
+  {
+    id: "jacobs-new-game",
+    title: "Jacob's New Game",
+    description: "Jacob, love. Look, I'm sorry",
+    publishdate: "2025-06-01",
+    statusText: "Included in the collection 'The Story Portraits'",
+    tags: ["Yarn"],
+    complete: true
   },
   {
     id: "james",
@@ -1315,6 +1368,7 @@ const poems = [
     publishdate: "1990-11-01",
     statusText: "Published in Magma 1 (March 1994)\nIncluded in the collection 'PaleoRik'",
     tags: ["Embodiment", "Other-published", "Sex"],
+    graphicPoem: true,
     complete: true
   },
   {
@@ -1371,6 +1425,15 @@ const poems = [
     complete: true
   },
   {
+    id: "love-lies-suspended-in-the-poets-chest",
+    title: "Love lies suspended in the poet's chest",
+    description: "Never will you know how hard I love you",
+    publishdate: "2025-06-01",
+    statusText: "After 'El amor duerme en el pecho del poeta' by Federico García Lorca",
+    tags: ["Translation"],
+    complete: true
+  },
+  {
     id: "lovers",
     title: "Lovers",
     description: "Your habits are a comfort. Tonight, Tuesday",
@@ -1388,9 +1451,6 @@ const poems = [
     publishdate: "2006-04-01",
     statusText: "Included in the collection 'From Each Skull, A Story'",
     tags: ["Noir", "Outsider", "Sex"],
-    imagefile: "/images/poem-lucy-plays-with-her-friends.webp",
-    imageCaption: "Lucy plays with her friends - Instagram",
-    imagePosition: "bottom",
     complete: true
   },
   {
@@ -1418,10 +1478,16 @@ const poems = [
     description: "She is, above all, a drama of curves",
     publishdate: "2025-06-01",
     tags: ["Culture", "Ekphrasis", "Inheritance", "Object"],
-    imagefile: "/images/poem-madchen.webp",
-    imageCaption: "Venus of Hohle Fels - Urgeschichtliches Museum Blaubeuren",
-    imagePosition: "bottom",
     showcase: true,
+    complete: true
+  },
+  {
+    id: "maggots",
+    title: "Maggots",
+    description: "That doctor told me Frank's got maggots in his arse, Dot!",
+    publishdate: "2025-06-01",
+    statusText: "Included in the collection 'The Story Portraits'",
+    tags: ["Yarn"],
     complete: true
   },
   {
@@ -1469,9 +1535,6 @@ const poems = [
     publishdate: "1993-05-01",
     statusText: "Published in Magma 2 (June 1994)\nIncluded in the collection 'Play Time'",
     tags: ["Office", "Other-published", "Performance", "Sex", "Urban"],
-    imagefile: "/images/poem-menses.webp",
-    imageCaption: "Menses - Instagram",
-    imagePosition: "bottom",
     complete: true
   },
   {
@@ -1533,7 +1596,7 @@ const poems = [
     title: "Nocturne",
     description: "I wish for rain",
     publishdate: "2015-04-01",
-    tags: ["Noir", "Urban"],
+    tags: ["Noir", "Urban", "Yarn"],
     complete: false
   },
   {
@@ -1587,6 +1650,24 @@ const poems = [
     description: "They start already, a !crack! as chrome",
     publishdate: "2025-06-01",
     tags: ["Communication", "Power"],
+    complete: true
+  },
+  {
+    id: "on-the-radio",
+    title: "On the radio",
+    description: "Hearing the song on the radio made her do it",
+    publishdate: "2025-06-01",
+    statusText: "Included in the collection 'The Story Portraits'",
+    tags: ["Yarn"],
+    complete: true
+  },
+  {
+    id: "on-the-wounds-of-love",
+    title: "On the wounds of love",
+    description: "This searchlight beam, this fire that sears and eats",
+    publishdate: "2025-06-01",
+    statusText: "After 'Llagas de amor' by Federico García Lorca",
+    tags: ["Translation"],
     complete: true
   },
   {
@@ -1843,8 +1924,8 @@ const poems = [
   {
     id: "resurrection",
     title: "Resurrection",
-    description: "February: finger bones",
-    publishdate: "2000-02-01",
+    description: "I see a bone of still-furled crocus, brave",
+    publishdate: "2025-06-01",
     statusText: "Included in the collection 'PaleoRik'",
     tags: ["Urban", "Wonder"],
     complete: true
@@ -1951,6 +2032,15 @@ const poems = [
     complete: true
   },
   {
+    id: "secret-voice-of-dark-held-love-you",
+    title: "Secret voice of dark-held love, you!",
+    description: "You, there! Secret voice of dark-held love!",
+    publishdate: "2025-06-01",
+    statusText: "After '¡Ay voz secreta del amor oscuro!' by Federico García Lorca",
+    tags: ["Translation"],
+    complete: true
+  },
+  {
     id: "seduction",
     title: "Seduction",
     description: "Can you hear the dogs?",
@@ -1969,7 +2059,7 @@ const poems = [
   },
   {
     id: "7-a-prickle-of-new-berries",
-    title: "Sevenling (A prickle of new berries)",
+    title: "Sevenling (a prickle of new berries)",
     description: "A prickle of new berries where once",
     publishdate: "2025-06-01",
     tags: ["Love"],
@@ -2168,9 +2258,6 @@ const poems = [
     tags: ["Family", "Inheritance"],
     audiofile: "/audio/strength",
     videofile: "/video/strength.mp4",
-    imagefile: "/images/poem-strength.webp",
-    imageCaption: "Strength - Instagram",
-    imagePosition: "bottom",
     showcase: true,
     complete: true
   },
@@ -2191,9 +2278,6 @@ const poems = [
     statusText: "Included in the collection '22 Facets of my Father'",
     tags: ["Communication", "Family", "Inheritance"],
     audiofile: "/audio/sun",
-    imagefile: "/images/poem-sun.webp",
-    imageCaption: "Sun - Instagram",
-    imagePosition: "bottom",
     complete: true
   },
   {
@@ -2238,9 +2322,6 @@ const poems = [
     description: "A feather of boughs, sweet as dawnlight",
     publishdate: "2025-06-01",
     tags: ["Ekphrasis", "Object"],
-    imagefile: "/images/poem-tamarisk.webp",
-    imageCaption: "Tamarix gallica on a beach - Wikimedia Commons",
-    imagePosition: "bottom",
     complete: true
   },
   {
@@ -2259,6 +2340,15 @@ const poems = [
     statusText: "Included in the collection '22 Facets of my Father'",
     tags: ["Family"],
     audiofile: "/audio/temperance",
+    complete: true
+  },
+  {
+    id: "terror",
+    title: "Terror",
+    description: "It all starts with the word 'terror'",
+    statusText: "Included in the collection 'Rik's Army Career'",
+    publishdate: "2025-06-01",
+    tags: ["Yarn"],
     complete: true
   },
   {
@@ -2322,7 +2412,7 @@ const poems = [
     title: "The Fire and the Ice",
     description: "Some nights I daydream of a life beyond the City",
     publishdate: "2018-01-01",
-    tags: ["Noir"],
+    tags: ["Noir", "Yarn"],
     complete: false
   },
   {
@@ -2332,6 +2422,15 @@ const poems = [
     publishdate: "2012-07-01",
     statusText: "From 'Snowdrop - a story in verse'",
     tags: ["Noir", "Rural", "Surreal"],
+    complete: true
+  },
+  {
+    id: "the-hunter",
+    title: "The Hunter",
+    description: "So have I caught any? It's a bit of a strange question",
+    statusText: "Included in the collection 'The Story Portraits'",
+    publishdate: "2025-06-01",
+    tags: ["Yarn"],
     complete: true
   },
   {
@@ -2394,7 +2493,7 @@ const poems = [
     title: "The Long Draft",
     description: "Did you hear",
     publishdate: "2010-09-01",
-    tags: ["Faith", "Machine"],
+    tags: ["Faith", "Graphic-poems", "Machine"],
     complete: false
   },
   {
@@ -2452,6 +2551,33 @@ const poems = [
     complete: true
   },
   {
+    id: "the-poet-asks-his-love-about",
+    title: "The poet asks his love about the «Enchanted City» of Cuenca",
+    description: "You liked the city that by drop on drop",
+    publishdate: "2025-06-01",
+    statusText: "After 'El poeta pregunta a su amor por la «Ciudad Encantada» de Cuenca' by Federico García Lorca",
+    tags: ["Translation"],
+    complete: true
+  },
+  {
+    id: "the-poet-says-to-the-truth",
+    title: "The poet says to the truth",
+    description: "I want to weep my heart-wrecks: I say this",
+    publishdate: "2025-06-01",
+    statusText: "After 'El poeta dice la verdad' by Federico García Lorca",
+    tags: ["Translation"],
+    complete: true
+  },
+  {
+    id: "the-poet-speaks-on-the-phone",
+    title: "The poet speaks on the phone to love",
+    description: "Your voice, it watered dunes within my chest",
+    publishdate: "2025-06-01",
+    statusText: "After 'El poeta habla por teléfono con el amor' by Federico García Lorca",
+    tags: ["Translation"],
+    complete: true
+  },
+  {
     id: "the-practicalities-of-hate",
     title: "The Practicalities of Hate",
     description: "It has been eight days since the fact",
@@ -2464,7 +2590,7 @@ const poems = [
     title: "The Procrastinator",
     description: "My verse",
     publishdate: "2025-06-01",
-    tags: ["Light", "Sex"],
+    tags: ["Graphic-poems", "Light", "Sex"],
     complete: true
   },
   {
@@ -2523,7 +2649,7 @@ const poems = [
     title: "They shift watermelons",
     description: "Moscow is jam-packed with watermelons",
     publishdate: "2025-05-01",
-    statusText: "from Торгуют арбузами by Andrei Voznesensky",
+    statusText: "After 'Торгуют арбузами' by Andrei Voznesensky",
     tags: ["Translation"],
     complete: true
   },
@@ -2552,6 +2678,15 @@ const poems = [
     publishdate: "2017-10-01",
     statusText: "Included in the collection 'And Still I Breathe'",
     tags: ["Performance"],
+    complete: true
+  },
+  {
+    id: "to-his-love-the-poet-asks",
+    title: "To his love the poet asks: write to me",
+    description: "My bowel-nested love, my death in life",
+    publishdate: "2025-06-01",
+    statusText: "After 'El poeta pide a su amor que le escriba' by Federico García Lorca",
+    tags: ["Translation"],
     complete: true
   },
   {
@@ -2599,14 +2734,20 @@ const poems = [
     complete: true
   },
   {
+    id: "tourist-trapped",
+    title: "Tourist Trapped",
+    description: "Another hot day in Havana. This morning I remember to put on",
+    statusText: "Included in the collection 'The Story Portraits'",
+    publishdate: "2025-06-01",
+    tags: ["Yarn"],
+    complete: true
+  },
+  {
     id: "tournesols",
     title: "Tournesols",
     description: "This image presented, dead as the hand that",
     publishdate: "2025-05-01",
     tags: ["Culture", "Ekphrasis", "Violence"],
-    imagefile: "/images/poem-tournesols.webp",
-    imageCaption: "'Six Sunflowers, 1888', van Gogh - Wikimedia Commons",
-    imagePosition: "bottom",
     showcase: true,
     complete: true
   },
@@ -2807,7 +2948,7 @@ const poems = [
     title: "When We Were Very Young",
     description: "The first posts a starting line",
     publishdate: "2017-04-01",
-    tags: ["Communication", "Machine"],
+    tags: ["Communication", "Graphic-poems", "Machine"],
     complete: false
   },
   {
@@ -2838,6 +2979,15 @@ const poems = [
     complete: false
   },
   {
+    id: "with-gongorinesque-verve-a-poet-sends",
+    title: "With Gongorinesque verve a poet sends a dove to his love",
+    description: "This young Turian dove I send to you",
+    publishdate: "2025-06-01",
+    statusText: "After 'Soneto gongorino en que el poeta manda a su amor una paloma' by Federico García Lorca",
+    tags: ["Translation"],
+    complete: true
+  },
+  {
     id: "woman-and-man-in-traffic",
     title: "Woman and Man in Traffic, Imagined",
     description: "Meanwhile let's talk",
@@ -2861,6 +3011,15 @@ const poems = [
     statusText: "Included in the collection '22 Facets of my Father'",
     tags: ["Family", "Inheritance"],
     audiofile: "/audio/worlds",
+    complete: true
+  },
+  {
+    id: "writing-verse-in-codes",
+    title: "Writing verse in codes",
+    description: "Exactly forty two lines of code",
+    publishdate: "2025-06-01",
+    tags: ["Communication", "Culture", "Graphic-poems"],
+    graphicPoem: true,
     complete: true
   },
   {

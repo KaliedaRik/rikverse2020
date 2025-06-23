@@ -1,8 +1,31 @@
 # The RikVerse website
 
-**Document version:** 1 (2025-05-31)
+**Document version:** 2 (2025-06-23)
 
-The RikVerse website is the canonical repository for all literary output by Rik Roots: poems; microfiction and short stories; novels; opinion posts. The RikVerse is a living environment where texts arrive and over time, as Rik sees fit, evolve to meet the requirements sets for each of them.
+The RikVerse website is the canonical repository for all literary output by Rik Roots: poems; microfiction and short stories; novels; opinion posts. The RikVerse is a living environment where texts arrive and over time, as Rik sees fit, evolve to meet the requirements he sets for each of them.
+
+## Provenance and Intellectual Property
+
+All content within this repository, including but not limited to all literary works (poems, microfiction, short stories, novels, opinion posts) and the underlying website code, is the exclusive intellectual property of Rik Roots, unless otherwise explicitly stated.
+
+**This repository is protected by the following license:** [LICENSE.md](LICENSE.md)
+
+### Verifying historical provenance
+
+**Historical Web Archives:** 
+
+Past iterations of the RikVerse and its precursor sites can be found on the [Internet Archive](https://web.archive.org/) using the following URLs:
+- From 2020: `https://rikverse2020.rikweb.org.uk`
+- 2006 - 2020: `https://rikweb.co.uk/poems`
+- Up to 2006: `http://www.kalieda.org:80/poems`
+
+Archival copies of the RikVerse website (in various URL iterations) website have also been captured by the [UK Web Archive](https://www.webarchive.org.uk/)
+
+**Version Control History:**
+
+The public Git commit history of this repository serves as a chronological record of the development and authorship of the website and its content.
+
+## The website
 
 The site, which is hand-coded and idiosyncratic (there is no database!), is divided into a number of sections:
 
