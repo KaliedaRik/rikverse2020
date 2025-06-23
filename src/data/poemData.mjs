@@ -60,81 +60,6 @@ Data structure
 
 const poems = [
   {
-    id: "a-little-bit-of-culture",
-    title: "A Little Bit of Culture",
-    description: "John peered through the open door",
-    publishdate: "2025-06-01",
-    statusText: "Included in the collection 'The Story Portraits'",
-    tags: ["Yarn"],
-    complete: true
-  },
-  {
-    id: "as-the-gloaming-reached-her-street",
-    title: "As the Gloaming Reached Her Street",
-    description: "What did you catch? Oh, Just a bird",
-    publishdate: "2025-06-01",
-    statusText: "Included in the collection 'The Story Portraits'",
-    tags: ["Yarn"],
-    complete: true
-  },
-  {
-    id: "away-with-the-fairies",
-    title: "Away with the Fairies",
-    description: "Snow's melted; that's a good thing",
-    statusText: "Included in the collection 'The Story Portraits'",
-    publishdate: "2025-06-01",
-    tags: ["Yarn"],
-    complete: true
-  },
-  {
-    id: "jacks-final-contemplation",
-    title: "Jack's Final Contemplation",
-    description: "The first time Jack left his body, he had a revelation",
-    statusText: "Included in the collection 'The Story Portraits'",
-    publishdate: "2025-06-01",
-    tags: ["Yarn"],
-    complete: true
-  },
-  {
-    id: "jacobs-new-game",
-    title: "Jacob's New Game",
-    description: "Jacob, love. Look, I'm sorry",
-    publishdate: "2025-06-01",
-    statusText: "Included in the collection 'The Story Portraits'",
-    tags: ["Yarn"],
-    complete: true
-  },
-  {
-    id: "maggots",
-    title: "Maggots",
-    description: "That doctor told me Frank's got maggots in his arse, Dot!",
-    publishdate: "2025-06-01",
-    statusText: "Included in the collection 'The Story Portraits'",
-    tags: ["Yarn"],
-    complete: true
-  },
-  {
-    id: "on-the-radio",
-    title: "On the radio",
-    description: "Hearing the song on the radio made her do it",
-    publishdate: "2025-06-01",
-    statusText: "Included in the collection 'The Story Portraits'",
-    tags: ["Yarn"],
-    complete: true
-  },
-  {
-    id: "the-hunter",
-    title: "The Hunter",
-    description: "So have I caught any? It's a bit of a strange question",
-    statusText: "Included in the collection 'The Story Portraits'",
-    publishdate: "2025-06-01",
-    tags: ["Yarn"],
-    complete: true
-  },
-
-
-
-  {
     id: "a-growl-for-sweet-complaint",
     title: "A growl for sweet complaint",
     description: "I have a fear: a loss of wonder glimpsed",
@@ -150,6 +75,15 @@ const poems = [
     publishdate: "2025-06-01",
     statusText: "After 'Soneto de la guirnalda de rosas' by Federico García Lorca",
     tags: ["Translation"],
+    complete: true
+  },
+  {
+    id: "a-little-bit-of-culture",
+    title: "A Little Bit of Culture",
+    description: "John peered through the open door",
+    publishdate: "2025-06-01",
+    statusText: "Included in the collection 'The Story Portraits'",
+    tags: ["Yarn"],
     complete: true
   },
   {
@@ -316,6 +250,15 @@ const poems = [
     complete: true
   },
   {
+    id: "as-the-gloaming-reached-her-street",
+    title: "As the Gloaming Reached Her Street",
+    description: "What did you catch? Oh, Just a bird",
+    publishdate: "2025-06-01",
+    statusText: "Included in the collection 'The Story Portraits'",
+    tags: ["Yarn"],
+    complete: true
+  },
+  {
     id: "attic",
     title: "Attic",
     description: "It takes more than a ladder",
@@ -331,6 +274,15 @@ const poems = [
     publishdate: "1999-08-01",
     statusText: "Included in the collection 'Play Time'",
     tags: ["Embodiment", "Eulogy", "Outsider", "Wonder"],
+    complete: true
+  },
+  {
+    id: "away-with-the-fairies",
+    title: "Away with the Fairies",
+    description: "Snow's melted; that's a good thing",
+    statusText: "Included in the collection 'The Story Portraits'",
+    publishdate: "2025-06-01",
+    tags: ["Yarn"],
     complete: true
   },
   {
@@ -700,6 +652,15 @@ const poems = [
     description: "Each day a fresh terrain: dirt-yellow ants",
     publishdate: "2025-06-01",
     tags: ["Inheritance", "Machine", "Olympic", "Urban"],
+    complete: true
+  },
+  {
+    id: "dentist-monsters",
+    title: "Dentist Monsters",
+    description: "Stand By Your Beds - I think of those words",
+    statusText: "Included in the collection 'Rik's Army Career'",
+    publishdate: "2025-06-01",
+    tags: ["Yarn"],
     complete: true
   },
   {
@@ -1224,6 +1185,15 @@ const poems = [
     complete: false
   },
   {
+    id: "ice-cream-in-havana",
+    title: "Ice Cream in Havana",
+    description: "If you're pregnant, then I'll be pregnant too!",
+    statusText: "Included in the collection 'The Story Portraits'",
+    publishdate: "2025-06-01",
+    tags: ["Yarn"],
+    complete: true
+  },
+  {
     id: "ickyu",
     title: "Ick|yu",
     description: "You can't go far wrong",
@@ -1282,6 +1252,24 @@ const poems = [
     publishdate: "2015-04-01",
     tags: ["Office"],
     complete: false
+  },
+  {
+    id: "jacks-final-contemplation",
+    title: "Jack's Final Contemplation",
+    description: "The first time Jack left his body, he had a revelation",
+    statusText: "Included in the collection 'The Story Portraits'",
+    publishdate: "2025-06-01",
+    tags: ["Yarn"],
+    complete: true
+  },
+  {
+    id: "jacobs-new-game",
+    title: "Jacob's New Game",
+    description: "Jacob, love. Look, I'm sorry",
+    publishdate: "2025-06-01",
+    statusText: "Included in the collection 'The Story Portraits'",
+    tags: ["Yarn"],
+    complete: true
   },
   {
     id: "james",
@@ -1494,6 +1482,15 @@ const poems = [
     complete: true
   },
   {
+    id: "maggots",
+    title: "Maggots",
+    description: "That doctor told me Frank's got maggots in his arse, Dot!",
+    publishdate: "2025-06-01",
+    statusText: "Included in the collection 'The Story Portraits'",
+    tags: ["Yarn"],
+    complete: true
+  },
+  {
     id: "magpies",
     title: "Magpies",
     description: "It's the way they eye you",
@@ -1653,6 +1650,15 @@ const poems = [
     description: "They start already, a !crack! as chrome",
     publishdate: "2025-06-01",
     tags: ["Communication", "Power"],
+    complete: true
+  },
+  {
+    id: "on-the-radio",
+    title: "On the radio",
+    description: "Hearing the song on the radio made her do it",
+    publishdate: "2025-06-01",
+    statusText: "Included in the collection 'The Story Portraits'",
+    tags: ["Yarn"],
     complete: true
   },
   {
@@ -2337,6 +2343,15 @@ const poems = [
     complete: true
   },
   {
+    id: "terror",
+    title: "Terror",
+    description: "It all starts with the word 'terror'",
+    statusText: "Included in the collection 'Rik's Army Career'",
+    publishdate: "2025-06-01",
+    tags: ["Yarn"],
+    complete: true
+  },
+  {
     id: "the-cake",
     title: "The Cake",
     description: "Simnel, it breaks our Lenten fast",
@@ -2407,6 +2422,15 @@ const poems = [
     publishdate: "2012-07-01",
     statusText: "From 'Snowdrop - a story in verse'",
     tags: ["Noir", "Rural", "Surreal"],
+    complete: true
+  },
+  {
+    id: "the-hunter",
+    title: "The Hunter",
+    description: "So have I caught any? It's a bit of a strange question",
+    statusText: "Included in the collection 'The Story Portraits'",
+    publishdate: "2025-06-01",
+    tags: ["Yarn"],
     complete: true
   },
   {
@@ -2707,6 +2731,15 @@ const poems = [
     publishdate: "2006-03-01",
     statusText: "Included in the collection 'Poems to Quote to your Lover'",
     tags: ["Love"],
+    complete: true
+  },
+  {
+    id: "tourist-trapped",
+    title: "Tourist Trapped",
+    description: "Another hot day in Havana. This morning I remember to put on",
+    statusText: "Included in the collection 'The Story Portraits'",
+    publishdate: "2025-06-01",
+    tags: ["Yarn"],
     complete: true
   },
   {
