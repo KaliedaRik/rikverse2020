@@ -30,6 +30,7 @@ Tags:
 - Violence:         Generally physical, sometimes emotional, occasionally spiritual
 - Voyeur:           Generally with a tourist's eye
 - Wonder:           A moment of transformation
+- Yarn:             Prose poems, microfictions, short stories, excerpts, memoir
 */
 
 /*
@@ -54,10 +55,85 @@ Data structure
 
 */
 
-// ["Cat", "Communication", "Culture", "Ekphrasis", "Embodiment", "Eulogy", "Faith", "Family", "Graphic-poems", "Inheritance", "Light", "Love", "Machine", "Noir", "Object", "Office", "Olympic", "Other-published", "Outsider", "Performance", "Power", "Rural", "Sex", "Surreal", "Translation", "Urban", "Violence", "Voyeur", "Wonder"]
+// ["Cat", "Communication", "Culture", "Ekphrasis", "Embodiment", "Eulogy", "Faith", "Family", "Graphic-poems", "Inheritance", "Light", "Love", "Machine", "Noir", "Object", "Office", "Olympic", "Other-published", "Outsider", "Performance", "Power", "Rural", "Sex", "Surreal", "Translation", "Urban", "Violence", "Voyeur", "Wonder", "Yarn"]
 
 
 const poems = [
+  {
+    id: "a-little-bit-of-culture",
+    title: "A Little Bit of Culture",
+    description: "John peered through the open door",
+    publishdate: "2025-06-01",
+    statusText: "Included in the collection 'The Story Portraits'",
+    tags: ["Yarn"],
+    complete: true
+  },
+  {
+    id: "as-the-gloaming-reached-her-street",
+    title: "As the Gloaming Reached Her Street",
+    description: "What did you catch? Oh, Just a bird",
+    publishdate: "2025-06-01",
+    statusText: "Included in the collection 'The Story Portraits'",
+    tags: ["Yarn"],
+    complete: true
+  },
+  {
+    id: "away-with-the-fairies",
+    title: "Away with the Fairies",
+    description: "Snow's melted; that's a good thing",
+    statusText: "Included in the collection 'The Story Portraits'",
+    publishdate: "2025-06-01",
+    tags: ["Yarn"],
+    complete: true
+  },
+  {
+    id: "jacks-final-contemplation",
+    title: "Jack's Final Contemplation",
+    description: "The first time Jack left his body, he had a revelation",
+    statusText: "Included in the collection 'The Story Portraits'",
+    publishdate: "2025-06-01",
+    tags: ["Yarn"],
+    complete: true
+  },
+  {
+    id: "jacobs-new-game",
+    title: "Jacob's New Game",
+    description: "Jacob, love. Look, I'm sorry",
+    publishdate: "2025-06-01",
+    statusText: "Included in the collection 'The Story Portraits'",
+    tags: ["Yarn"],
+    complete: true
+  },
+  {
+    id: "maggots",
+    title: "Maggots",
+    description: "That doctor told me Frank's got maggots in his arse, Dot!",
+    publishdate: "2025-06-01",
+    statusText: "Included in the collection 'The Story Portraits'",
+    tags: ["Yarn"],
+    complete: true
+  },
+  {
+    id: "on-the-radio",
+    title: "On the radio",
+    description: "Hearing the song on the radio made her do it",
+    publishdate: "2025-06-01",
+    statusText: "Included in the collection 'The Story Portraits'",
+    tags: ["Yarn"],
+    complete: true
+  },
+  {
+    id: "the-hunter",
+    title: "The Hunter",
+    description: "So have I caught any? It's a bit of a strange question",
+    statusText: "Included in the collection 'The Story Portraits'",
+    publishdate: "2025-06-01",
+    tags: ["Yarn"],
+    complete: true
+  },
+
+
+
   {
     id: "a-growl-for-sweet-complaint",
     title: "A growl for sweet complaint",
@@ -98,7 +174,7 @@ const poems = [
     title: "A Scene, undated",
     description: "A gargoyle sits in its arch and watches",
     publishdate: "2018-04-01",
-    tags: ["Performance", "Urban", "Voyeur"],
+    tags: ["Performance", "Urban", "Voyeur", "Yarn"],
     complete: false
   },
   {
@@ -350,7 +426,7 @@ const poems = [
     title: "Casework",
     description: "Like all happy things, my commissions come in threes",
     publishdate: "2018-01-01",
-    tags: ["Noir"],
+    tags: ["Noir", "Yarn"],
     complete: false
   },
   {
@@ -589,7 +665,7 @@ const poems = [
     title: "Death of a Poem",
     description: "They dragged it from its rank cell tied to a bookshelf bier",
     publishdate: "2025-06-01",
-    tags: ["Communication", "Culture", "Noir", "Power", "Surreal", "Violence"],
+    tags: ["Communication", "Culture", "Noir", "Power", "Surreal", "Violence", "Yarn"],
     complete: true
   },
   {
@@ -1152,7 +1228,7 @@ const poems = [
     title: "Ick|yu",
     description: "You can't go far wrong",
     publishdate: "2025-06-01",
-    tags: ["Inheritance", "Light"],
+    tags: ["Faith", "Yarn"],
     showcase: true,
     complete: true
   },
@@ -1523,7 +1599,7 @@ const poems = [
     title: "Nocturne",
     description: "I wish for rain",
     publishdate: "2015-04-01",
-    tags: ["Noir", "Urban"],
+    tags: ["Noir", "Urban", "Yarn"],
     complete: false
   },
   {
@@ -2321,7 +2397,7 @@ const poems = [
     title: "The Fire and the Ice",
     description: "Some nights I daydream of a life beyond the City",
     publishdate: "2018-01-01",
-    tags: ["Noir"],
+    tags: ["Noir", "Yarn"],
     complete: false
   },
   {

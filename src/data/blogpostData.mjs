@@ -1,19 +1,5 @@
 const blogpostData = [
     {
-        id: "copyrights",
-        title: "[sticky] The RikVerse Creative Commons licences",
-        tabTitle: "RikVerse blog post",
-        description: "... Using Rik's poems in your own creative work, for free.",
-        publishdate: "Today",
-    },
-    {
-        id: "cookies",
-        title: "[sticky] RikVerse Cookies",
-        tabTitle: "RikVerse blog post",
-        description: "... Paypal, YouTube and Google cookies on the RikVerse site.",
-        publishdate: "Today",
-    },
-    {
         id: "giving-books-away-for-free",
         title: "Why do you give your books away for free, Rik?",
         tabTitle: "RikVerse blog post",
@@ -26,6 +12,13 @@ const blogpostData = [
         tabTitle: "RikVerse blog post",
         description: "... An off-the-cuff list of things I'm currently hating about the publishing scene (with added profanity).",
         publishdate: "2013-07-16",
+    },
+    {
+        id: "copyrights",
+        title: "The RikVerse Creative Commons licences",
+        tabTitle: "RikVerse blog post",
+        description: "... Using Rik's poems in your own creative work, for free.",
+        publishdate: "2012-01-01",
     },
     {
         id: "poet-five-step-plan",
