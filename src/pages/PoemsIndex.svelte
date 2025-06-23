@@ -83,15 +83,15 @@
     <title>{pageMetadata.tabTitle}</title>
 </svelte:head>
 
-<h1>Rik's Poems</h1>
+<h1>Rik's Works</h1>
 
 {#if !filteredPoems.length}
-<p>There are no poems tagged with <b>#{$poemIndexHash}</b> - please search again</p>
+<p>There are no works tagged with <b>#{$poemIndexHash}</b> - please search again</p>
 {:else}
     {#if $poemIndexHash}
-    <p>... Listing poems tagged with <b>#{$poemIndexHash}</b>:</p>
+    <p>... Listing works tagged with <b>#{$poemIndexHash}</b>:</p>
     {:else}
-    <p>... Listing <b>all</b> poems:</p>
+    <p>... Listing <b>all</b> works:</p>
     {/if}
 {/if}
 
@@ -100,7 +100,7 @@
         type="button" 
         on:click={buttonAction} 
         class="{!$poemIndexHash && 'current-filter'}">
-        All poems
+        All works
     </button>
 	{#each taglist as tag}
 		<button 
@@ -116,17 +116,17 @@
 {#if filteredPoems.length}
 
     {#if completedPoems.length}
-        <h2>Completed poems</h2>
+        <h2>Completed works</h2>
 
         {#each completedPoems as listing}
             <PoemListing {listing} />
         {/each}
     {:else}
-        <h2>No completed poems to list at this time</h2>
+        <h2>No completed works to list at this time</h2>
     {/if}
 
     {#if draftPoems.length}
-        <h2>Poems still in draft</h2>
+        <h2>Works still in draft</h2>
 
         {#each draftPoems as listing}
             <PoemListing {listing} />

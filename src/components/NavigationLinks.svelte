@@ -21,7 +21,7 @@
 </style>
 
 <div>
-    <a href="/index">Poems</a>
+    <a href="/index">Works</a>
     <a href="/publications">Books</a>
     <a href="/blog">Blog</a>
     <a href="/about">About Rik</a>
