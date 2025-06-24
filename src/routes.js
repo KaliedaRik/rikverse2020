@@ -15,7 +15,7 @@ import Publications from "./pages/Publications.svelte";
 import Book from "./pages/Book.svelte";
 import ReadBook from "./pages/ReadBook.svelte";
 
-import CookieConsents from "./pages/CookieConsents.svelte";
+import Support from "./pages/Support.svelte";
 import Privacy from "./pages/Privacy.svelte";
 import ErrorPage from "./pages/ErrorPage.svelte";
 
@@ -70,9 +70,9 @@ const routes = [
         component: PoemsIndex
 
     }, {
-        // A dedicated cookie conbsents page, where users can make appropriate choices
-        path: '/cookies',
-        component: CookieConsents
+        // A dedicated support page
+        path: '/support',
+        component: Support
     }, {
         // A dedicated privacy/security page, because every website needs one
         path: '/privacy-and-security',

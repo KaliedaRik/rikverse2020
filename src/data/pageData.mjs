@@ -12,10 +12,10 @@ const pageData = [
         description: 'Blog post listings and links',
     }, 
     {
-        id: 'cookies',
-        title: 'RikVerse Cookie Consents',
-        tabTitle: 'RikVerse Cookie Consents',
-        description: 'User choices for allowing cookie usage on the RikVerse site',
+        id: 'support',
+        title: 'Support the RikVerse',
+        tabTitle: 'RikVerse Support',
+        description: 'Support the RikVerse',
     }, 
     {
         id: 'error',
