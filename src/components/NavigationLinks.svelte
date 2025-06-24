@@ -25,5 +25,5 @@
     <a href="/publications">Books</a>
     <a href="/blog">Blog</a>
     <a href="/about">About Rik</a>
-    <a href="/cookies">Cookies</a>
+    <a href="/support">$MONEY$</a>
 </div>
