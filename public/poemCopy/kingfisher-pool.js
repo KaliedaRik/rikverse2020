@@ -74,6 +74,8 @@ initPoemGraphic = (poemGraphicFunctions) => {
       fillMinimumColor: 'rgb(0 0 160 / 0.5)',
       fillMaximumColor: 'rgb(230 230 255 / 0.5)',
 
+      stampFirst: 'newest',
+
       stampAction: function (artefact, particle, host) {
 
         const history = particle.history;
