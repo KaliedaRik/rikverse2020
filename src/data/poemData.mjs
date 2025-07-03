@@ -124,9 +124,9 @@ const poems = [
     id: "a-walk-in-the-woods",
     title: "A Walk in the Woods",
     description: "This miniature version of man",
-    publishdate: "2005-11-01",
+    publishdate: "2025-07-01",
     tags: ["Family", "Inheritance", "Wonder"],
-    complete: false
+    complete: true
   },
   {
     id: "accessory",
