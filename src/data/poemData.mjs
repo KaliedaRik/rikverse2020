@@ -394,10 +394,10 @@ const poems = [
   {
     id: "caveat-emptor",
     title: "Caveat Emptor",
-    description: "It's the latest must-have accoutrement! Drape back",
-    publishdate: "2005-10-01",
-    tags: ["Communication", "Light", "Power"],
-    complete: false
+    description: "1. An unstrung tennis racket",
+    publishdate: "2025-7-01",
+    tags: ["Communication", "Light"],
+    complete: true
   },
   {
     id: "central-station-islington",
