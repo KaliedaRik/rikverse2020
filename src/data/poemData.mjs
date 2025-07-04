@@ -124,9 +124,9 @@ const poems = [
     id: "a-walk-in-the-woods",
     title: "A Walk in the Woods",
     description: "This miniature version of man",
-    publishdate: "2005-11-01",
+    publishdate: "2025-07-01",
     tags: ["Family", "Inheritance", "Wonder"],
-    complete: false
+    complete: true
   },
   {
     id: "accessory",
@@ -394,10 +394,10 @@ const poems = [
   {
     id: "caveat-emptor",
     title: "Caveat Emptor",
-    description: "It's the latest must-have accoutrement! Drape back",
-    publishdate: "2005-10-01",
-    tags: ["Communication", "Light", "Power"],
-    complete: false
+    description: "1. An unstrung tennis racket",
+    publishdate: "2025-7-01",
+    tags: ["Communication", "Light"],
+    complete: true
   },
   {
     id: "central-station-islington",
@@ -1645,6 +1645,14 @@ const poems = [
     complete: true
   },
   {
+    id: "of-the-fractured-god",
+    title: "Of the Fractured God who loves us still",
+    description: "Beyond love and thought, know this",
+    publishdate: "2025-06-01",
+    tags: ["Faith", "Yarn"],
+    complete: true
+  },
+  {
     id: "on-the-front-door-line",
     title: "On the Front (Door) Line: v2010",
     description: "They start already, a !crack! as chrome",
@@ -2301,10 +2309,10 @@ const poems = [
   {
     id: "sweetness",
     title: "Sweetness",
-    description: "Trauma, know: you're never safe!",
-    publishdate: "2021-12-15",
-    tags: ["Embodiment", "Violence"],
-    complete: false
+    description: "It starts with a touch, a kiss, a sinew stroke",
+    publishdate: "2025-07-01",
+    tags: ["Embodiment", "Power", "Violence"],
+    complete: true
   },
   {
     id: "take-this-man",
@@ -2887,10 +2895,10 @@ const poems = [
   {
     id: "we-added-some-herbs",
     title: "We Added Some Herbs to the Brew",
-    description: "Sharp: a grasp, unseen",
-    publishdate: "2009-04-01",
+    description: "Sharp: a glance of you, bones",
+    publishdate: "2025-07-01",
     tags: ["Embodiment", "Love"],
-    complete: false
+    complete: true
   },
   {
     id: "well-met",
