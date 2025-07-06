@@ -41,6 +41,10 @@
 
 <p>Rik currently lives in London, which he still rather enjoys. His hobbies include <a href="http://rikweb.co.uk/kalieda/index.php">inventing alternative worlds</a> and <a href="https://scrawl-v8.rikweb.org.uk/">developing a Javascript library</a> to help with his <a href="https://codepen.io/collection/RzzMjw?grid_type=GRID">creative coding efforts</a>.</p>
 
+<h2>Rik on writing</h2>
+
+<p><i>"People sometimes ask where the inspiration for my writing comes from. I don't know: a love of language; a fascination with how communication shimmers and aches between flesh, emotion, and wonder. Where others see hierarchies and problems and solutions, I see systems. I see the fractures within those systems and they &ndash; they entrance me. That's where my writing finds form: in those</i> 'feral fractures' <i>that hold and hug everything together. It's probably related to Sr. Lorca's 'duende', which I much admire &hellip; but maybe mine is less fraught, more politely English. Yet still fundamental, at least in my bones."</i></p>
+
 <h2>Rik Roots: published works</h2>
 
 <p>All of Rik's publication output is through an imaginary corporation called <b><i>Rik's Sparky Little Printing Press</i></b>. These books can be downloaded for personal reading in various electronic formats from this website</p>
