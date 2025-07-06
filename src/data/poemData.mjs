@@ -126,6 +126,7 @@ const poems = [
     description: "This miniature version of man",
     publishdate: "2025-07-01",
     tags: ["Family", "Inheritance", "Wonder"],
+    showcase: true,
     complete: true
   },
   {
@@ -144,7 +145,6 @@ const poems = [
     publishdate: "2006-01-01",
     statusText: "Included in the collection 'From Each Skull, A Story'",
     tags: ["Communication", "Faith", "Performance", "Power", "Violence"],
-    showcase: true,
     complete: true
   },
   {
@@ -163,14 +163,6 @@ const poems = [
     description: "She can see faces of loves and lovers",
     publishdate: "1990-05-01",
     tags: ["Eulogy", "Family", "Inheritance", "Outsider"],
-    complete: false
-  },
-  {
-    id: "an-egg-from-the-earth",
-    title: "An Egg from the Earth",
-    description: "You've taken a beating over the years",
-    publishdate: "2017-04-01",
-    tags: ["Ekphrasis", "Object", "Performance"],
     complete: false
   },
   {
@@ -2430,6 +2422,14 @@ const poems = [
     publishdate: "2012-07-01",
     statusText: "From 'Snowdrop - a story in verse'",
     tags: ["Noir", "Rural", "Surreal"],
+    complete: true
+  },
+  {
+    id: "the-helm",
+    title: "The Helm",
+    description: "I dare not stare - those dark sockets demand",
+    publishdate: "2025-07-01",
+    tags: ["Ekphrasis", "Object", "Performance"],
     complete: true
   },
   {
