@@ -158,14 +158,6 @@ const poems = [
     complete: true
   },
   {
-    id: "alice",
-    title: "Alice",
-    description: "She can see faces of loves and lovers",
-    publishdate: "1990-05-01",
-    tags: ["Eulogy", "Family", "Inheritance", "Outsider"],
-    complete: false
-  },
-  {
     id: "an-office-acquaintance",
     title: "An Office Acquaintance Offers Advice",
     description: "He said: love is",
@@ -2520,6 +2512,14 @@ const poems = [
     description: "He knows the mirror lies",
     publishdate: "2025-06-01",
     tags: ["Outsider"],
+    complete: true
+  },
+  {
+    id: "the-night-sky-offers-a-gift",
+    title: "The night sky offers a gift",
+    description: "In the window she sees clouds",
+    publishdate: "2025-07-01",
+    tags: ["Eulogy", "Family", "Inheritance", "Outsider"],
     complete: true
   },
   {
