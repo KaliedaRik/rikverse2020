@@ -952,9 +952,9 @@ const poems = [
     id: "fritz-2006",
     title: "Fritz: Jan 1986 - Mar 2006",
     description: "I cannot sing for you, my cat",
-    publishdate: "2006-03-01",
+    publishdate: "2025-07-01",
     tags: ["Cat", "Eulogy"],
-    complete: false
+    complete: true
   },
   {
     id: "from-the-asss-jaw",
@@ -1209,9 +1209,9 @@ const poems = [
     id: "in-memoriam",
     title: "In memoriam: Rik's upper right molar",
     description: "Chattermay, cattermay",
-    publishdate: "2008-04-01",
+    publishdate: "2025-07-01",
     tags: ["Light"],
-    complete: false
+    complete: true
   },
   {
     id: "in-the-airless-night",
@@ -1369,9 +1369,9 @@ const poems = [
     id: "legend",
     title: "Legend",
     description: "He says: I was not the first superhero",
-    publishdate: "2017-04-01",
+    publishdate: "2025-07-01",
     tags: ["Noir", "Surreal"],
-    complete: false
+    complete: true
   },
   {
     id: "limericks",
@@ -1746,10 +1746,10 @@ const poems = [
     id: "post-murder",
     title: "Post-murder",
     description: "I adore this stinking city. So many ways",
-    publishdate: "2018-01-01",
+    publishdate: "2025-07-01",
     statusText: "",
     tags: ["Noir", "Surreal", "Violence"],
-    complete: false
+    complete: true
   },
   {
     id: "postcard",
@@ -2366,9 +2366,9 @@ const poems = [
     id: "the-case-of-the-man-who-was-dead",
     title: "The Case of the Man Who was Dead",
     description: "Come, she says. I'll show you",
-    publishdate: "2009-04-01",
+    publishdate: "2025-07-01",
     tags: ["Faith", "Noir", "Surreal"],
-    complete: false
+    complete: true
   },
   {
     id: "the-chant-of-summoning",
@@ -2849,14 +2849,6 @@ const poems = [
     complete: false
   },
   {
-    id: "untitled-20180407",
-    title: "Untitled - 2018-04-07",
-    description: "Shimminy jimminy",
-    publishdate: "2018-04-01",
-    tags: ["Light"],
-    complete: false
-  },
-  {
     id: "untitled-20170404",
     title: "Untitled - 2017-04-04",
     description: "That moment between the brown of daffodils",
@@ -2932,6 +2924,14 @@ const poems = [
     publishdate: "2015-04-01",
     tags: ["Power"],
     complete: false
+  },
+  {
+    id: "when-infinity-equals-negative-infinity",
+    title: "When ∞ == -∞",
+    description: "Shimminy jimminy",
+    publishdate: "2025-07-01",
+    tags: ["Light"],
+    complete: true
   },
   {
     id: "when-the-battle-ends",
