@@ -2132,9 +2132,9 @@ const poems = [
     id: "sic-transit-gloria-mundi",
     title: "Sic transit gloria mundi",
     description: "Glorious is the cat who's caught",
-    publishdate: "2009-04-01",
+    publishdate: "2025-07-01",
     tags: ["Cat"],
-    complete: false
+    complete: true
   },
   {
     id: "sirens",
