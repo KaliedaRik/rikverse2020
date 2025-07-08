@@ -60,6 +60,14 @@ Data structure
 
 const poems = [
   {
+    id: "a-change-is-as-good",
+    title: "A Change is as Good as a Riot",
+    description: "This moment, that mark. The time for buds",
+    publishdate: "2025-07-01",
+    tags: ["Power"],
+    complete: true
+  },
+  {
     id: "a-growl-for-sweet-complaint",
     title: "A growl for sweet complaint",
     description: "I have a fear: a loss of wonder glimpsed",
@@ -3029,14 +3037,6 @@ const poems = [
     tags: ["Communication", "Culture", "Graphic-poems"],
     graphicPoem: true,
     complete: true
-  },
-  {
-    id: "x",
-    title: "X",
-    description: "This is the moment, that tick in time when",
-    publishdate: "2015-04-01",
-    tags: ["Power"],
-    complete: false
   },
   {
     id: "youll-never-guess-what",
