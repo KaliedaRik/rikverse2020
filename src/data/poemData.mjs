@@ -695,9 +695,9 @@ const poems = [
     id: "dollpuss",
     title: "Dollpuss",
     description: "A patch of sunshine moves: stripes stretch",
-    publishdate: "2011-04-01",
+    publishdate: "2025-07-01",
     tags: ["Cat"],
-    complete: false
+    complete: true
   },
   {
     id: "drafting",
