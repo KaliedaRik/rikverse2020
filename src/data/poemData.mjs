@@ -807,9 +807,9 @@ const poems = [
     id: "exhale",
     title: "Exhale",
     description: "And on the last day",
-    publishdate: "2008-04-01",
-    tags: ["Wonder"],
-    complete: false
+    publishdate: "2025-07-01",
+    tags: ["Cat", "Eulogy", "Family", "Violence"],
+    complete: true
   },
   {
     id: "exhibits",
