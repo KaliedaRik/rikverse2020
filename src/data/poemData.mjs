@@ -1349,9 +1349,9 @@ const poems = [
     id: "king-worm",
     title: "King Worm",
     description: "You said: we can pop them",
-    publishdate: "2008-04-01",
-    tags: ["Love"],
-    complete: false
+    publishdate: "2025-07-01",
+    tags: ["Communication", "Love"],
+    complete: true
   },
   {
     id: "kingfisher-pool",
@@ -1854,9 +1854,9 @@ const poems = [
     id: "rainbow-fukyus",
     title: "Rainbow Fukyus",
     description: "Red for the surge of",
-    publishdate: "2018-04-01",
+    publishdate: "2025-07-01",
     tags: ["Love", "Sex"],
-    complete: false
+    complete: true
   },
   {
     id: "rapture-v2",
