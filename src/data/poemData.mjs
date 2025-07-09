@@ -166,6 +166,14 @@ const poems = [
     complete: true
   },
   {
+    id: "after-long-winter-laments",
+    title: "After Long Winter Laments",
+    description: "That moment between the brown of daffodils",
+    publishdate: "2025-07-01",
+    tags: ["Love"],
+    complete: true
+  },
+  {
     id: "an-office-acquaintance",
     title: "An Office Acquaintance Offers Advice",
     description: "He said: love is",
@@ -2855,14 +2863,6 @@ const poems = [
     publishdate: "2015-04-01",
     tags: ["Embodiment", "Surreal"],
     complete: false
-  },
-  {
-    id: "after-long-winter-laments",
-    title: "After Long Winter Laments",
-    description: "That moment between the brown of daffodils",
-    publishdate: "2025-07-01",
-    tags: ["Love"],
-    complete: true
   },
   {
     id: "uri",
