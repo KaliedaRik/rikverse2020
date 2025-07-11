@@ -374,12 +374,22 @@ const poems = [
     complete: true
   },
   {
+    id: "case-notes",
+    title: "Case Notes",
+    description: "Like all happy things, my commissions come in threes",
+    publishdate: "2025-07-01",
+    statusText: "Included in the collection 'End Time'",
+    tags: ["Noir", "Yarn"],
+    complete: true
+  },
+  {
     id: "casework",
     title: "Casework",
     description: "Like all happy things, my commissions come in threes",
-    publishdate: "2018-01-01",
+    publishdate: "2025-07-01",
+    statusText: "Included in the collection 'End Time'",
     tags: ["Noir", "Yarn"],
-    complete: false
+    complete: true
   },
   {
     id: "catch",
@@ -522,6 +532,7 @@ const poems = [
     title: "Crime of Passion",
     description: "He is a cold witness, as chill",
     publishdate: "2025-06-01",
+    statusText: "Included in the collection 'End Time'",
     tags: ["Communication", "Faith", "Noir"],
     complete: true
   },
@@ -617,6 +628,7 @@ const poems = [
     title: "Death of a Poem",
     description: "They dragged it from its rank cell tied to a bookshelf bier",
     publishdate: "2025-06-01",
+    statusText: "Included in the collection 'End Time'",
     tags: ["Communication", "Culture", "Noir", "Power", "Surreal", "Violence", "Yarn"],
     complete: true
   },
@@ -977,6 +989,7 @@ const poems = [
     title: "From the Ass's Jaw",
     description: "Do you believe in destiny?",
     publishdate: "2025-06-01",
+    statusText: "Included in the collection 'End Time'",
     tags: ["Faith", "Noir"],
     complete: true
   },
@@ -1154,6 +1167,7 @@ const poems = [
     title: "Hunted",
     description: "She hides in curtains. There's a whiff",
     publishdate: "2025-06-01",
+    statusText: "Included in the collection 'End Time'",
     tags: ["Outsider", "Surreal"],
     complete: true
   },
@@ -1217,6 +1231,7 @@ const poems = [
     title: "In Deo Speramus",
     description: "They say it takes a thief to catch a diamond:",
     publishdate: "2025-06-01",
+    statusText: "Included in the collection 'End Time'",
     tags: ["Faith", "Noir"],
     showcase: true,
     complete: true
@@ -1234,6 +1249,7 @@ const poems = [
     title: "In the Airless Night",
     description: "A man asked me today: did you ever",
     publishdate: "2025-06-01",
+    statusText: "Included in the collection 'End Time'",
     tags: ["Faith", "Noir"],
     complete: true
   },
@@ -1242,6 +1258,7 @@ const poems = [
     title: "Intel",
     description: "Guns do not rattle. They punch through bones",
     publishdate: "2025-06-01",
+    statusText: "Included in the collection 'End Time'",
     tags: ["Faith", "Noir"],
     complete: true
   },
@@ -1293,6 +1310,7 @@ const poems = [
     title: "Joe",
     description: "Joe is invisible today. He's lowered",
     publishdate: "2025-06-01",
+    statusText: "Included in the collection 'End Time'",
     tags: ["Outsider"],
     complete: true
   },
@@ -1386,6 +1404,7 @@ const poems = [
     title: "Legend",
     description: "He says: I was not the first superhero",
     publishdate: "2025-07-01",
+    statusText: "Included in the collection 'End Time'",
     tags: ["Noir", "Surreal"],
     complete: true
   },
@@ -1595,9 +1614,10 @@ const poems = [
     id: "nocturne",
     title: "Nocturne",
     description: "I wish for rain",
-    publishdate: "2015-04-01",
+    publishdate: "2025-07-01",
+    statusText: "Included in the collection 'End Time'",
     tags: ["Noir", "Urban", "Yarn"],
-    complete: false
+    complete: true
   },
   {
     id: "not-a-good-fit",
@@ -1763,7 +1783,7 @@ const poems = [
     title: "Post-murder",
     description: "I adore this stinking city. So many ways",
     publishdate: "2025-07-01",
-    statusText: "",
+    statusText: "Included in the collection 'End Time'",
     tags: ["Noir", "Surreal", "Violence"],
     complete: true
   },
@@ -2036,6 +2056,7 @@ const poems = [
     title: "Second Sin",
     description: "He brings a harsh heat into the room",
     publishdate: "2025-06-01",
+    statusText: "Included in the collection 'End Time'",
     tags: ["Noir", "Surreal"],
     complete: true
   },
@@ -2252,7 +2273,7 @@ const poems = [
     title: "Streetlamp Theatre",
     description: "Maggie stands tall tonight",
     publishdate: "2009-04-01",
-    statusText: "Published in Shit Creek Review Issue 15 (December 2011)",
+    statusText: "Published in Shit Creek Review Issue 15 (December 2011)\nIncluded in the collection 'End Time'",
     tags: ["Noir", "Other-published", "Outsider", "Performance", "Urban", "Violence", "Voyeur"],
     showcase: true,
     complete: true
@@ -2380,9 +2401,10 @@ const poems = [
   },
   {
     id: "the-case-of-the-man-who-was-dead",
-    title: "The Case of the Man Who was Dead",
+    title: "The Case of the Man who was Dead",
     description: "Come, she says. I'll show you",
     publishdate: "2025-07-01",
+    statusText: "Included in the collection 'End Time'",
     tags: ["Faith", "Noir", "Surreal"],
     complete: true
   },
@@ -2410,7 +2432,7 @@ const poems = [
     title: "The Digger",
     description: "I was on the losing end of three hands",
     publishdate: "2011-03-01",
-    statusText: "Published in The Chimaera Issue 8 (July 2011)",
+    statusText: "Published in The Chimaera Issue 8 (July 2011)\nIncluded in the collection 'End Time'",
     tags: ["Noir", "Other-published"],
     showcase: true,
     complete: true
@@ -2419,9 +2441,10 @@ const poems = [
     id: "the-fire-and-the-ice",
     title: "The Fire and the Ice",
     description: "Some nights I daydream of a life beyond the City",
-    publishdate: "2018-01-01",
+    publishdate: "2025-07-01",
+    statusText: "Included in the collection 'End Time'",
     tags: ["Noir", "Yarn"],
-    complete: false
+    complete: true
   },
   {
     id: "the-glamour-through-the-flame",
@@ -2473,6 +2496,7 @@ const poems = [
     title: "The Job",
     description: "Nine strikes chime the length of the hall",
     publishdate: "2025-07-01",
+    statusText: "Included in the collection 'End Time'",
     tags: ["Cat"],
     complete: true
   },
@@ -2527,6 +2551,7 @@ const poems = [
     title: "The Momentary Meanings of Hugh",
     description: "He knows the mirror lies",
     publishdate: "2025-06-01",
+    statusText: "Included in the collection 'End Time'",
     tags: ["Outsider"],
     complete: true
   },
@@ -2631,6 +2656,7 @@ const poems = [
     title: "The Seer",
     description: "Beyond the dock, a shamble of shacks",
     publishdate: "2025-06-01",
+    statusText: "Included in the collection 'End Time'",
     tags: ["Faith", "Noir", "Urban"],
     complete: true
   },
@@ -2657,6 +2683,7 @@ const poems = [
     title: "The Warrior",
     description: "There is no chill to the mists that lap",
     publishdate: "2025-06-01",
+    statusText: "Included in the collection 'End Time'",
     tags: ["Faith", "Noir", "Urban", "Violence"],
     complete: true
   },
@@ -2927,11 +2954,11 @@ const poems = [
   },
   {
     id: "when-i-vote-on-7-may",
-    title: "When I vote on the Seventh of May",
-    description: "Let us remember the",
-    publishdate: "2015-04-01",
+    title: "When I Vote on the Seventh of May",
+    description: "Tyrocrat pyrocrat",
+    publishdate: "2025-07-01",
     tags: ["Power"],
-    complete: false
+    complete: true
   },
   {
     id: "when-infinity-equals-negative-infinity",
