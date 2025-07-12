@@ -65,6 +65,8 @@
 	<li><a href="/book/paleorik">PaleoRik</a> - published September 2017 (<a href="/reports/paleorik.md" target="_BLANK">book metadata</a>)</li>
 	<li><a href="/book/and-still-i-breathe">And Still I Breathe</a> - published October 2017 (<a href="/reports/and-still-i-breathe.md" target="_BLANK">book metadata</a>)</li>
 	<li><a href="/book/more-love-poems-innit">More Love Poems Innit</a> - published January 2019 (<a href="/reports/more-love-poems-innit.md" target="_BLANK">book metadata</a>)</li>
+	<li><a href="/book/sonnets-of-dark-held-love">Sonnets of dark-held love</a> - published July 2025 (<a href="/reports/sonnets-of-dark-held-love.md" target="_BLANK">book metadata</a>)</li>
+	<li><a href="/book/end-time">End Time</a> - published July 2025 (<a href="/reports/end-time.md" target="_BLANK">book metadata</a>)</li>
 </ul>
 
 <h3>Other publications:</h3>
