@@ -171,6 +171,32 @@ const bookData = [
     is_chapbook: true
   },
   {
+    id: "sonnets-of-dark-held-love",
+    title: "Sonnets of dark-held love",
+    tabTitle: "RikVerse Book",
+    description: "A sequence of poems after the 'Sonetos del amor oscuro' by Federico García Lorca",
+    publishdate: "2025-07-01",
+    coverimage: "/images/cover-sonnets-of-dark-held-love.webp",
+    blurb: `<p><i>Sonnets of dark-held love</i> is a sequence of powerful, emotionally charged poems by Rik Roots, written in response to Federico García Lorca’s posthumously published <a href="https://es.wikisource.org/wiki/Sonetos_del_amor_oscuro">Sonetos del amor oscuro</a>. These sonnets channel Lorca’s intense themes of forbidden desire, mortality, longing, and identity, reimagined in a contemporary English idiom both visceral and lyrical. Each piece wrestles with love as both salvation and wound, revealing the enduring ache of queer passion repressed by history, politics, and time. This chapbook is not a translation but an homage: an original, fierce and faithful dialogue with Lorca’s ghost.</p>`,
+    download_epub: "/new-downloads/sonnets-of-dark-held-love.epub",
+    download_pdf: "/new-downloads/sonnets-of-dark-held-love.pdf",
+    report_link: "/reports/sonnets-of-dark-held-love.md",
+    is_chapbook: true
+  },
+  {
+    id: "end-time",
+    title: "End Time",
+    tabTitle: "RikVerse Book",
+    description: "A collection of poems for the last days of the world",
+    publishdate: "2025-07-01",
+    coverimage: "/images/cover-end-time.webp",
+    blurb: `<p><i>End Time</i> is a noir-soaked, genre-melding poetry chapbook that spins hard-boiled private eye tropes into a lyrical meditation on apocalypse, myth, and memory. Rik Roots conjures a fragmented, dreamlike city at the edge of ruin where gods bleed, prophets drink, and antiheroes stalk truth through bullet-scored rain. The voice is sharp, cynical, and frequently tender — threading speculative fiction and theological echoes into a gritty, inventive poetic sequence. Lovers of contemporary poetry with a taste for the speculative, the satirical, and the darkly profound will find this collection an engrossing descent into meaning-making at the end of time.</p>`,
+    download_epub: "/new-downloads/end-time.epub",
+    download_pdf: "/new-downloads/end-time.pdf",
+    report_link: "/reports/end-time.md",
+    is_chapbook: true
+  },
+  {
     id: "the-gods-in-the-jungle",
     title: "The Gods in the Jungle",
     tabTitle: "RikVerse Book",

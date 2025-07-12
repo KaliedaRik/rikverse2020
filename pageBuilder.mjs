@@ -5,7 +5,6 @@ import fs from 'fs';
 // index.html template
 const buildIndexFile = (data) => {
 
-    let domain = 'https://rikverse2020.rikweb.org.uk';
     let indexfileLocation = '`${location.origin}/?p=${location.pathname.substring(1)}`';
 
     return `<!DOCTYPE html>
@@ -14,7 +13,7 @@ const buildIndexFile = (data) => {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>${data.tabTitle}</title>
+    <title>RikVerse: redirect</title>
 
     <!-- to prevent caching -->
     <meta http-equiv="cache-control" content="max-age=0">
@@ -26,22 +25,6 @@ const buildIndexFile = (data) => {
     <!-- general page metadata -->
     <meta name="author" content="Rik Roots">
     <meta name="description" content="${data.title} - ${data.description}">
-
-    <!-- Facebook metadata -->
-    <meta property="fb:app_id" content="210285656772999" />
-    <meta property="og:url" content="${domain}/${data.path}" />
-    <meta property="og:type" content="article" />
-    <meta property="og:title" content="${data.title}" />
-    <meta property="og:description" content="${data.description}" />
-    <meta property="og:image" content="${domain}${data.imageUrl}" />
-
-    <!-- Twitter metadata -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="${data.title}">
-    <meta name="twitter:description" content="${data.description}">
-    <meta name="twitter:image" content="${domain}${data.imageUrl}">
-    <meta name="twitter:image:alt" content="${data.imageText}">
-
 </head>
 <body>
     <script>
