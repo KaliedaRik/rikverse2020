@@ -1163,15 +1163,6 @@ const poems = [
     complete: true
   },
   {
-    id: "hunted",
-    title: "Hunted",
-    description: "She hides in curtains. There's a whiff",
-    publishdate: "2025-06-01",
-    statusText: "Included in the collection 'End Time'",
-    tags: ["Outsider", "Surreal"],
-    complete: true
-  },
-  {
     id: "hunters",
     title: "Hunters",
     description: "From the desert brush a dappled cat",
@@ -1303,6 +1294,15 @@ const poems = [
     description: "For solace, she turns to paper",
     publishdate: "2025-06-01",
     tags: ["Outsider"],
+    complete: true
+  },
+  {
+    id: "joan",
+    title: "Joan",
+    description: "She hides herself in curtains. There's a ruck",
+    publishdate: "2025-06-01",
+    statusText: "Included in the collection 'End Time'",
+    tags: ["Outsider", "Surreal"],
     complete: true
   },
   {
