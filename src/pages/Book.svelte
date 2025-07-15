@@ -113,13 +113,6 @@
                 </a> (for most eBook readers)
             </li>
             {/if}
-            {#if book.download_mobi}
-            <li>
-                <a href="{book.download_mobi}" type="application/vnd.amazon.mobi8-ebook" download>
-                    .mobi format
-                </a> (for Kindle devices)
-            </li>
-            {/if}
             {#if book.download_pdf}
             <li>
                 <a href="{book.download_pdf}" type="application/pdf" download>
@@ -131,35 +124,6 @@
 
         {:else}
         <p>Apologies - the book cannot be downloaded from this site</p>
-        {/if}
-    </section>
-
-    <section>
-
-        <h3>Get this book elsewhere</h3>
-
-        {#if book.link_smashwords || book.link_ibook || book.link_gplay || book.link_amazon || book.link_lulu}
-        <ul>
-            {#if book.link_smashwords}
-            <li>
-                <a href="{book.link_smashwords}">Smashwords</a> (£FREE!)</li>
-            {/if}
-            {#if book.link_ibook}
-                <li><a href="{book.link_ibook}">Apple Books</a> (£FREE!)</li>
-            {/if}
-            {#if book.link_gplay}
-                <li><a href="{book.link_gplay}">Google Play Books</a> (£FREE!)</li>
-            {/if}
-            {#if book.link_amazon}
-                <li><a href="{book.link_amazon}">Amazon</a> (eBook only - £costs-money)</li>
-            {/if}
-            {#if book.link_lulu}
-                <li><a href="{book.link_lulu}">Lulu</a> (for hardcopy version - £costs-money)</li>
-            {/if}
-        </ul>
-
-        {:else}
-        <p>Apologies - the book cannot be downloaded or purchased from other sites</p>
         {/if}
     </section>
 
