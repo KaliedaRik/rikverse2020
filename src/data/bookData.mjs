@@ -72,8 +72,8 @@ const bookData = [
     publishdate: "2012-03-01",
     coverimage: "/images/cover-snowdrop-a-story-in-verse.webp",
     blurb: `<p>Rik Roots' <i>Snowdrop: A Story in Verse</i>, a verse novel drafted between 2004 and 2012, plunges the reader into a Christmas that quickly devolves from festive joy into a chilling odyssey of fear and loss. The narrative unfolds across 79 poems, organized into 14 distinct sections, primarily set on the ancient, mist-shrouded Romney Marshes and the mysterious Lym Hill.</p><p>This chapbook unravels the tale of a young girl, "Snowdrop," whose seemingly ordinary Christmas visit to her Gran's cottage  in the 1980s  morphs into an unsettling encounter with a pagan, timeless realm. The poem navigates themes of displacement, the collision of ancient folklore with contemporary reality, and a protagonist's struggle for sanity amidst surreal transformations of landscape and perception.</p><p>Through evocative imagery and a narrative that blurs the lines between dream and waking, Snowdrop explores the enduring power of myth and the psychological impact of being caught between worlds, ultimately offering a poignant reflection on memory, identity, and the fluid nature of time and place.</p>`,
-    download_epub: "/downloads/snowdrop-a-story-in-verse.epub",
-    download_pdf: "/downloads/snowdrop-a-story-in-verse.pdf",
+    download_epub: "/new-downloads/snowdrop-a-story-in-verse.epub",
+    download_pdf: "/new-downloads/snowdrop-a-story-in-verse.pdf",
     report_link: "/reports/snowdrop-a-story-in-verse.md",
     is_chapbook: true
   },
