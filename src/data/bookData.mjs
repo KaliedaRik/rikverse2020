@@ -150,8 +150,8 @@ const bookData = [
     publishdate: "2011-05-01",
     coverimage: "/images/cover-the-gods-in-the-jungle.webp",
     blurb: `<p><i>The Gods in the Jungle</i> plunges readers into the labyrinthine society of Bassakesh, a city intricately woven into the fabric of a sentient, myth-laden jungle. This novel explores a meticulously constructed world where "Tall Ones" (nobles and freemen) and "Servants" coexist, their lives governed by ancient myths, political machinations, and the tangible presence of "imps" — entities of disease and decay.</p><p>At its core, the narrative follows Delesse, a young noblewoman, as she navigates a politically charged arranged marriage intended to secure her family's wealth and status. Her journey of self-discovery intertwines with a burgeoning plague and a hidden rebellion among the Servants, led by figures like the enigmatic Story Keeper, Maeduul, and the fiercely independent Kebezzu. The novel deftly uses its fantastical elements to interrogate themes of power, freedom, belief, and the narratives that shape collective understanding.</p>`,
-    download_epub: "/downloads/the-gods-in-the-jungle.epub",
-    download_pdf: "/downloads/the-gods-in-the-jungle.pdf",
+    download_epub: "/new-downloads/the-gods-in-the-jungle.epub",
+    download_pdf: "/new-downloads/the-gods-in-the-jungle.pdf",
     report_link: "/reports/the-gods-in-the-jungle.md",
     is_chapbook: false
   },
@@ -163,8 +163,8 @@ const bookData = [
     publishdate: "2011-09-01",
     coverimage: "/images/cover-the-story-portraits.webp",
     blurb: `<p>Rik Roots' <i>The Story Portraits</i> presents a compelling debut collection of micro and short fiction, inviting readers into a diverse array of human experiences, often tinged with the surreal and the subtly unsettling.</p><p>Across settings ranging from an English hospital ward to the vibrant, decaying streets of Havana, Roots crafts narratives that delve into the internal landscapes of his characters. Readers will encounter Frank, grappling with an unusual medical treatment and his family's eccentricities; young Jacob, navigating the complexities of family discord through a striking act of rebellion; and Jack, experiencing a profound, almost detached, post-mortem contemplation.</p><p>The collection skillfully employs varied styles and voices, exploring themes of personal freedom, memory, aging, and the perception of reality, often with an understated wit and a keen eye for the poignant detail. These "story portraits" offer intimate glimpses into moments of vulnerability, epiphany, and quiet defiance, making for an engaging read for those interested in contemporary short-form narrative.</p>`,
-    download_epub: "/downloads/the-story-portraits.epub",
-    download_pdf: "/downloads/the-story-portraits.pdf",
+    download_epub: "/new-downloads/the-story-portraits.epub",
+    download_pdf: "/new-downloads/the-story-portraits.pdf",
     report_link: "/reports/the-story-portraits.md",
     is_chapbook: false
   },
@@ -189,8 +189,8 @@ const bookData = [
     publishdate: "2019-12-01",
     coverimage: "/images/cover-riks-army-career.webp",
     blurb: `<p><i>Rik's Army Career</i> offers a unique and disarmingly honest self-narration of a brief yet formative period of military service, specifically June to December 1988. Far from a typical heroic war memoir, Roots presents a granular, often sardonic, account of British Army basic training through the lens of a young man grappling with pre-existing personal eccentricities, emergent self-awareness, and the unexpected clash between his internal world and the rigid external demands of military life. The narrative is fragmented, reflecting the author's own "P Thing" (prosopagnosia)  and selective memory, as well as the disorienting nature of the training itself.</p><p>Readers will find a compelling exploration of identity formation under duress, the subversion of traditional masculinity through unexpected vulnerabilities (such as a fear of water), and the subtle, often absurd, humor found in regimented environments. Roots's prose is marked by its conversational tone, direct address to the reader, and a refreshing lack of romanticism concerning military life, offering instead a raw and unvarnished perspective on a personal "adventure holiday" that ultimately redefined his understanding of self and belonging.</p>`,
-    download_epub: "/downloads/riks-army-career.epub",
-    download_pdf: "/downloads/riks-army-career.pdf",
+    download_epub: "/new-downloads/riks-army-career.epub",
+    download_pdf: "/new-downloads/riks-army-career.pdf",
     report_link: "/reports/riks-army-career.md",
     is_chapbook: false
   }
