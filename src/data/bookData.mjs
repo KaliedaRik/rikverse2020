@@ -176,8 +176,8 @@ const bookData = [
     publishdate: "2013-06-01",
     coverimage: "/images/cover-spin-trap-the-lonely-city.webp",
     blurb: `<p><i>SpinTrap: The Lonely City</i> introduces Kal, an ancient consciousness, a "rider" inextricably linked to a mysterious artifact known as "the Band." Kal's existence is a cycle of inhabiting human "hosts", navigating the "Outer World" (our contemporary London) and retreating to one of several "stones" or alternate realities. Forced back into the modern world within the body of Sam, a young man grappling with profound grief after the suspicious deaths of his parents, Kal discovers that the fundamental rules governing the Band and the "render" process (exiting a host) have unpredictably shifted.</p><p>As Kal grapples with his diminishing control over Sam, who increasingly asserts his own awareness and fights against Kal's influence, he encounters a clandestine network of "riders" facing their own terror, a hidden sub-species of "vampires" who siphon human energy, and a shadowy organization known as "The Company" that seeks to exploit the Band's power. Roots crafts a compelling, multi-layered narrative that blends ancient mythology with gritty urban realism, probing themes of dislocated identity, the fluid nature of reality, and the unexpected challenges of navigating an evolving human landscape. The novel offers a stark, de-romanticized portrayal of immortality and the often-uncomfortable intimacy between consciousness and flesh.</p>`,
-    download_epub: "/downloads/spintrap-the-lonely-city.epub",
-    download_pdf: "/downloads/spintrap-the-lonely-city.pdf",
+    download_epub: "/new-downloads/spintrap-the-lonely-city.epub",
+    download_pdf: "/new-downloads/spintrap-the-lonely-city.pdf",
     report_link: "/reports/spintrap-the-lonely-city.md",
     is_chapbook: false
   },
