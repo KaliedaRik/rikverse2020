@@ -106,8 +106,9 @@ const poems = [
   {
     id: "a-sassanid-vase",
     title: "A Sassanid Vase, at Rest",
-    description: "Within its clear lattice, a history of hands:",
+    description: "Within its clear lattice, a history of hands",
     publishdate: "2025-05-01",
+    statusText: "Included in the collection 'Beyond my eyes, the show unwinds'",
     tags: ["Culture", "Ekphrasis", "Inheritance", "Object"],
     complete: true
   },
@@ -326,6 +327,7 @@ const poems = [
     title: "Blank Vista",
     description: "The day my shadow left I found a scrape",
     publishdate: "2025-06-01",
+    statusText: "Included in the collection 'Beyond my eyes, the show unwinds'",
     tags: ["Inheritance", "Machine", "Rural", "Violence", "Wonder"],
     complete: true
   },
@@ -370,6 +372,7 @@ const poems = [
     title: "Cap",
     description: "We first met when I threw the ornament",
     publishdate: "2025-06-01",
+    statusText: "Included in the collection 'Beyond my eyes, the show unwinds'",
     tags: ["Ekphrasis", "Eulogy", "Faith", "Object", "Power"],
     complete: true
   },
@@ -602,6 +605,7 @@ const poems = [
     title: "Dear Irene",
     description: "How sweet of your husband to die",
     publishdate: "2025-06-01",
+    statusText: "Included in the collection 'Beyond my eyes, the show unwinds'",
     tags: ["Culture", "Ekphrasis", "Family", "Power"],
     complete: true
   },
@@ -690,6 +694,7 @@ const poems = [
     title: "Dieu Et",
     description: "We knew it would happen; I know that life",
     publishdate: "2025-06-01",
+    statusText: "Included in the collection 'Beyond my eyes, the show unwinds'",
     tags: ["Communication", "Eulogy", "Performance", "Power"],
     complete: true
   },
@@ -863,6 +868,7 @@ const poems = [
     title: "Fall Tide",
     description: "A winter-withered wordman's remains",
     publishdate: "2025-06-01",
+    statusText: "Included in the collection 'Beyond my eyes, the show unwinds'",
     tags: ["Communication", "Power"],
     complete: true
   },
@@ -933,7 +939,7 @@ const poems = [
     title: "Flotsam",
     description: "A parade of waves renders pale fat, salty",
     publishdate: "2017-10-01",
-    statusText: "Included in the collection 'And Still I Breathe'",
+    statusText: "Included in the collection 'And Still I Breathe'\nIncluded in the collection 'Beyond my eyes, the show unwinds'",
     tags: ["Communication", "Ekphrasis", "Eulogy", "Power", "Violence"],
     showcase: true,
     complete: true
@@ -1106,9 +1112,10 @@ const poems = [
   },
   {
     id: "hemmingway-ate-here",
-    title: "Hemmingway Ate Here",
+    title: "Hemingway Ate Here",
     description: "He starts to build the fire before the sun",
     publishdate: "2025-06-01",
+    statusText: "Included in the collection 'Beyond my eyes, the show unwinds'",
     tags: ["Urban", "Voyeur"],
     showcase: true,
     complete: true
@@ -1496,6 +1503,7 @@ const poems = [
     title: "Mädchen",
     description: "She is, above all, a drama of curves",
     publishdate: "2025-06-01",
+    statusText: "Included in the collection 'Beyond my eyes, the show unwinds'",
     tags: ["Culture", "Ekphrasis", "Inheritance", "Object"],
     showcase: true,
     complete: true
@@ -1570,6 +1578,7 @@ const poems = [
     title: "Model",
     description: "Do you know me?",
     publishdate: "2025-06-01",
+    statusText: "Included in the collection 'Beyond my eyes, the show unwinds'",
     tags: ["Communication", "Machine", "Performance"],
     showcase: true,
     complete: true
@@ -1579,6 +1588,7 @@ const poems = [
     title: "Monkey Knows All",
     description: "Somewhere light-less he shakes a page",
     publishdate: "2025-06-01",
+    statusText: "Included in the collection 'Beyond my eyes, the show unwinds'",
     tags: ["Communication", "Culture", "Surreal"],
     complete: true
   },
@@ -1653,15 +1663,8 @@ const poems = [
     title: "Oistins on Friday",
     description: "Fish scales blue as chop sea",
     publishdate: "2025-06-01",
+    statusText: "Included in the collection 'Beyond my eyes, the show unwinds'",
     tags: ["Voyeur"],
-    complete: true
-  },
-  {
-    id: "nonsense",
-    title: "Onas 28 Berk",
-    description: "I crost a manch at sefan dibes",
-    publishdate: "2025-06-01",
-    tags: ["Light"],
     complete: true
   },
   {
@@ -1699,6 +1702,14 @@ const poems = [
     complete: true
   },
   {
+    id: "nonsense",
+    title: "Onas 28 Berk",
+    description: "I crost a manch at sefan dibes",
+    publishdate: "2025-06-01",
+    tags: ["Light"],
+    complete: true
+  },
+  {
     id: "painting",
     title: "Painting",
     description: "Walls are not blank. They soak in lives, each pore",
@@ -1713,7 +1724,7 @@ const poems = [
     title: "Paradise",
     description: "An exile in paradise",
     publishdate: "1992-08-01",
-    statusText: "Included in the collection 'PaleoRik'",
+    statusText: "Included in the collection 'PaleoRik'\nIncluded in the collection 'Beyond my eyes, the show unwinds'",
     tags: ["Outsider", "Performance", "Power", "Violence", "Voyeur"],
     complete: true
   },
@@ -1801,7 +1812,7 @@ const poems = [
     title: "Poverty",
     description: "I want to write of iced desolations",
     publishdate: "2017-10-01",
-    statusText: "Included in the collection 'And Still I Breathe'",
+    statusText: "Included in the collection 'And Still I Breathe'\nIncluded in the collection 'Beyond my eyes, the show unwinds'",
     tags: ["Communication", "Culture", "Performance"],
     complete: true
   },
@@ -2189,7 +2200,7 @@ const poems = [
     title: "Sniper",
     description: "Focus just here - I'll frame you in the street",
     publishdate: "2003-07-01",
-    statusText: "Included in the collection 'From Each Skull, A Story'",
+    statusText: "Included in the collection 'From Each Skull, A Story'\nIncluded in the collection 'Beyond my eyes, the show unwinds'",
     tags: ["Communication", "Power", "Violence"],
     complete: true
   },
@@ -2332,6 +2343,7 @@ const poems = [
     title: "Sweetness",
     description: "It starts with a touch, a kiss, a sinew stroke",
     publishdate: "2025-07-01",
+    statusText: "Included in the collection 'Beyond my eyes, the show unwinds'",
     tags: ["Embodiment", "Power", "Violence"],
     complete: true
   },
@@ -2350,6 +2362,7 @@ const poems = [
     title: "Tamarisk",
     description: "A feather of boughs, sweet as dawnlight",
     publishdate: "2025-06-01",
+    statusText: "Included in the collection 'Beyond my eyes, the show unwinds'",
     tags: ["Ekphrasis", "Object"],
     complete: true
   },
@@ -2460,6 +2473,7 @@ const poems = [
     title: "The Helm",
     description: "I dare not stare - those dark sockets demand",
     publishdate: "2025-07-01",
+    statusText: "Included in the collection 'Beyond my eyes, the show unwinds'",
     tags: ["Ekphrasis", "Object", "Performance"],
     complete: true
   },
@@ -2505,7 +2519,7 @@ const poems = [
     title: "The Knife",
     description: "She's messed me up, again: my shiny blade",
     publishdate: "2006-08-01",
-    statusText: "Included in the collection 'From Each Skull, A Story'",
+    statusText: "Included in the collection 'From Each Skull, A Story'\nIncluded in the collection 'Beyond my eyes, the show unwinds'",
     tags: ["Communication", "Noir", "Object", "Violence"],
     complete: true
   },
@@ -2631,6 +2645,7 @@ const poems = [
     title: "The Practicalities of Hate",
     description: "It has been eight days since the fact",
     publishdate: "2025-06-01",
+    statusText: "Included in the collection 'Beyond my eyes, the show unwinds'",
     tags: ["Performance", "Power", "Violence"],
     complete: true
   },
@@ -2798,6 +2813,7 @@ const poems = [
     title: "Tournesols",
     description: "This image presented, dead as the hand that",
     publishdate: "2025-05-01",
+    statusText: "Included in the collection 'Beyond my eyes, the show unwinds'",
     tags: ["Culture", "Ekphrasis", "Violence"],
     showcase: true,
     complete: true
@@ -2826,6 +2842,7 @@ const poems = [
     title: "Trafalgar Week",
     description: "Dancers on the stage built beside",
     publishdate: "2025-06-01",
+    statusText: "Included in the collection 'Beyond my eyes, the show unwinds'",
     tags: ["Performance", "Urban", "Violence"],
     showcase: true,
     complete: true

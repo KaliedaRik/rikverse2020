@@ -143,6 +143,19 @@ const bookData = [
     is_chapbook: true
   },
   {
+    id: "beyond-my-eyes",
+    title: "Beyond my eyes, the show unwinds",
+    tabTitle: "RikVerse Book",
+    description: "You think you know me?",
+    publishdate: "2025-08-01",
+    coverimage: "/images/cover-beyond-my-eyes.webp",
+    blurb: `<p>"Beyond my eyes, the show unwinds" is a formally diverse and thematically layered poetry collection by Rik Roots, exploring identity, memory, and the ethical complexities of looking - at others, at history, and at oneself. Written in vivid free verse, the collection traverses geographical, historical, and emotional terrains, ranging from post-imperial Britain to Caribbean marketplaces, from archaeological artefacts to AI dialogues.</p><p>These poems engage deeply with themes of personal and collective trauma, political disillusionment, and the legacies of empire. Through voices that are by turns intimate, irreverent, and haunted, Roots challenges conventional lyric subjectivity and resists aesthetic polish in favour of multiplicity, contradiction, and difficult truth-telling.</p>`,
+    download_epub: "/new-downloads/beyond-my-eyes.epub",
+    download_pdf: "/new-downloads/beyond-my-eyes.pdf",
+    report_link: "/reports/beyond-my-eyes.md",
+    is_chapbook: true
+  },
+  {
     id: "the-gods-in-the-jungle",
     title: "The Gods in the Jungle",
     tabTitle: "RikVerse Book",
