@@ -64,7 +64,7 @@ We need two summaries for the book:
 Please confirm you understand and are ready for the PDF upload.
 ```
 
-3. On confirmation, upload the following document to the session: https://rikverse2020.rikweb.org.uk/downloads/and-still-i-breathe.pdf
+3. On confirmation, upload the following document to the session: https://rikverse2020.rikweb.org.uk/new-downloads/and-still-i-breathe.pdf
 
 4. The output from performing the above steps should include a "Short Summary" paragraph, and text forming a more in-depth "academic review".
 

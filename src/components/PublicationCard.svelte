@@ -31,6 +31,7 @@
     }
 
     h3 {
+        font-size: 1.2rem;
         text-align: center;
         padding: 0;
     }

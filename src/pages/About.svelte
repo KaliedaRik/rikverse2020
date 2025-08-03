@@ -41,6 +41,10 @@
 
 <p>Rik currently lives in London, which he still rather enjoys. His hobbies include <a href="http://rikweb.co.uk/kalieda/index.php">inventing alternative worlds</a> and <a href="https://scrawl-v8.rikweb.org.uk/">developing a Javascript library</a> to help with his <a href="https://codepen.io/collection/RzzMjw?grid_type=GRID">creative coding efforts</a>.</p>
 
+<h2>Rik on writing</h2>
+
+<p><i>"People sometimes ask where the inspiration for my writing comes from. I don't know: a love of language; a fascination with how communication shimmers and aches between flesh, emotion, and wonder. Where others see hierarchies and problems and solutions, I see systems. I see the fractures within those systems and they &ndash; they entrance me. That's where my writing finds form: in those</i> 'feral fractures' <i>that hold and hug everything together. It's probably related to Sr. Lorca's 'duende', which I much admire &hellip; but maybe mine is less fraught, more politely English. Yet still fundamental, at least in my bones."</i></p>
+
 <h2>Rik Roots: published works</h2>
 
 <p>All of Rik's publication output is through an imaginary corporation called <b><i>Rik's Sparky Little Printing Press</i></b>. These books can be downloaded for personal reading in various electronic formats from this website</p>
@@ -61,6 +65,9 @@
 	<li><a href="/book/paleorik">PaleoRik</a> - published September 2017 (<a href="/reports/paleorik.md" target="_BLANK">book metadata</a>)</li>
 	<li><a href="/book/and-still-i-breathe">And Still I Breathe</a> - published October 2017 (<a href="/reports/and-still-i-breathe.md" target="_BLANK">book metadata</a>)</li>
 	<li><a href="/book/more-love-poems-innit">More Love Poems Innit</a> - published January 2019 (<a href="/reports/more-love-poems-innit.md" target="_BLANK">book metadata</a>)</li>
+	<li><a href="/book/sonnets-of-dark-held-love">Sonnets of dark-held love</a> - published July 2025 (<a href="/reports/sonnets-of-dark-held-love.md" target="_BLANK">book metadata</a>)</li>
+	<li><a href="/book/end-time">End Time</a> - published July 2025 (<a href="/reports/end-time.md" target="_BLANK">book metadata</a>)</li>
+	<li><a href="/book/beyond-my-eyes">Beyond my eyes, the show unwinds</a> - published August 2025 (<a href="/reports/beyond-my-eyes.md" target="_BLANK">book metadata</a>)</li>
 </ul>
 
 <h3>Other publications:</h3>
