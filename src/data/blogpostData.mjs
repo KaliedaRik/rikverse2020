@@ -1,5 +1,33 @@
 const blogpostData = [
     {
+        id: "riks-sparky-little-rikverse-website",
+        title: "Rik's Sparky Little RikVerse Website",
+        tabTitle: "RikVerse blog post",
+        description: "... Because Poetry is Fun!",
+        publishdate: "2025-10-28",
+    },
+    {
+        id: "most-dangerous-writing-of-all",
+        title: "The most dangerous writing of all",
+        tabTitle: "RikVerse blog post",
+        description: "...There's more than one sort of profit in trauma.",
+        publishdate: "2025-10-27",
+    },
+    {
+        id: "face-writing",
+        title: "Face writing",
+        tabTitle: "RikVerse blog post",
+        description: "... When a disability becomes a strength.",
+        publishdate: "2025-10-26",
+    },
+    {
+        id: "rik-careers",
+        title: "When Rik grows up, what will he be?",
+        tabTitle: "RikVerse blog post",
+        description: "... What is life, if not work?",
+        publishdate: "2025-10-25",
+    },
+    {
         id: "giving-books-away-for-free",
         title: "Why do you give your books away for free, Rik?",
         tabTitle: "RikVerse blog post",
