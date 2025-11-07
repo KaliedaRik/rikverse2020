@@ -379,7 +379,7 @@ const poems = [
   {
     id: "case-notes",
     title: "Case Notes",
-    description: "Like all happy things, my commissions come in threes",
+    description: "The trouble with sobriety is the tendency to think clearly",
     publishdate: "2025-07-01",
     statusText: "Included in the collection 'End Time'",
     tags: ["Noir", "Yarn"],
@@ -1609,6 +1609,14 @@ const poems = [
     publishdate: "2006-03-01",
     statusText: "Included in the collection 'Poems to Quote to your Lover'",
     tags: ["Love", "Performance"],
+    complete: true
+  },
+  {
+    id: "names",
+    title: "Names",
+    description: "This space is nice, bright and roomy",
+    publishdate: "2025-11-01",
+    tags: ["Family", "Yarn"],
     complete: true
   },
   {
