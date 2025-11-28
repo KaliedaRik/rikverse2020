@@ -68,6 +68,7 @@
 	<li><a href="/book/sonnets-of-dark-held-love">Sonnets of dark-held love</a> - published July 2025 (<a href="/reports/sonnets-of-dark-held-love.md" target="_BLANK">book metadata</a>)</li>
 	<li><a href="/book/end-time">End Time</a> - published July 2025 (<a href="/reports/end-time.md" target="_BLANK">book metadata</a>)</li>
 	<li><a href="/book/beyond-my-eyes">Beyond my eyes, the show unwinds</a> - published August 2025 (<a href="/reports/beyond-my-eyes.md" target="_BLANK">book metadata</a>)</li>
+	<li><a href="/book/seeking-constantine">Seeking Constantine</a> - published November 2025 (<a href="/reports/seeking-constantine.md" target="_BLANK">book metadata</a>)</li>
 </ul>
 
 <h3>Other publications:</h3>

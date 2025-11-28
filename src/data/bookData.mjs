@@ -156,6 +156,19 @@ const bookData = [
     is_chapbook: true
   },
   {
+    id: "seeking-constantine",
+    title: "Seeking Constantine",
+    tabTitle: "RikVerse Book",
+    description: "A sequence of poems after Constantine P. Cavafy",
+    publishdate: "2025-11-01",
+    coverimage: "/images/cover-seeking-constantine.webp",
+    blurb: `<p>"Seeking Constantine" is a tightly wrought poetic sequence in dialogue with the work of Constantine P. Cavafy, reimagining his voices, desires, and urban melancholies for a contemporary reader.</p><p>These poems move through memory, erotic longing, historical reverie, poverty, artistic ambition, and the quiet devastations of time. Recurrent figures drift through Alexandria-like streets, rented rooms, cafés, and inner landscapes shaped by regret and defiance. The collection is attentive to fleeting beauty, moments of transgression, and the persistence of selfhood against social constraint. It is a book about what cannot be escaped &ndash; past selves, lost lovers, unfinished desires, and the cities we carry within us.</p>`,
+    download_epub: "/new-downloads/seeking-constantine.epub",
+    download_pdf: "/new-downloads/seeking-constantine.pdf",
+    report_link: "/reports/seeking-constantine.md",
+    is_chapbook: true
+  },
+  {
     id: "the-gods-in-the-jungle",
     title: "The Gods in the Jungle",
     tabTitle: "RikVerse Book",

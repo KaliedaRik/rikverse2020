@@ -368,6 +368,15 @@ const poems = [
     complete: true
   },
   {
+    id: "candles",
+    title: "Candles",
+    description: "The days yet to pass stretch before us",
+    publishdate: "2025-11-01",
+    statusText: "After 'Κεριά' by Constantine Cavafy",
+    tags: ["Translation"],
+    complete: true
+  },
+  {
     id: "cap",
     title: "Cap",
     description: "We first met when I threw the ornament",
@@ -601,6 +610,42 @@ const poems = [
     complete: false
   },
   {
+    id: "days-of-1896",
+    title: "Days of 1896",
+    description: "His humiliation was complete. His interests in love",
+    publishdate: "2025-11-01",
+    statusText: "After 'Μέρες του 1896' by Constantine Cavafy",
+    tags: ["Translation"],
+    complete: true
+  },
+  {
+    id: "days-of-1901",
+    title: "Days of 1901",
+    description: "This was what was notable about him",
+    publishdate: "2025-11-01",
+    statusText: "After 'Μέρες του 1901' by Constantine Cavafy",
+    tags: ["Translation"],
+    complete: true
+  },
+  {
+    id: "days-of-1903",
+    title: "Days of 1903",
+    description: "I don't see them anymore - they're lost already",
+    publishdate: "2025-11-01",
+    statusText: "After 'Μέρες του 1903' by Constantine Cavafy",
+    tags: ["Translation"],
+    complete: true
+  },
+  {
+    id: "days-of-1908",
+    title: "Days of 1908",
+    description: "That year he found himself without work",
+    publishdate: "2025-11-01",
+    statusText: "After 'Μέρες του 1908' by Constantine Cavafy",
+    tags: ["Translation"],
+    complete: true
+  },
+  {
     id: "dear-irene",
     title: "Dear Irene",
     description: "How sweet of your husband to die",
@@ -677,6 +722,15 @@ const poems = [
     statusText: "Included in the collection 'Rik's Army Career'",
     publishdate: "2025-06-01",
     tags: ["Yarn"],
+    complete: true
+  },
+  {
+    id: "desires",
+    title: "Desires",
+    description: "Like beautiful, stilled bodies who failed to age",
+    publishdate: "2025-11-01",
+    statusText: "After 'Επιθυμίες' by Constantine Cavafy",
+    tags: ["Translation"],
     complete: true
   },
   {
@@ -882,6 +936,15 @@ const poems = [
     complete: true
   },
   {
+    id: "far-away",
+    title: "Far Away",
+    description: "I'd like to relate this memory",
+    publishdate: "2025-11-01",
+    statusText: "After 'Μακρυά' by Constantine Cavafy",
+    tags: ["Translation"],
+    complete: true
+  },
+  {
     id: "fiend",
     title: "Fiend",
     description: "Now you have a voice you are a terror",
@@ -961,6 +1024,15 @@ const poems = [
     tags: ["Family"],
     audiofile: "/audio/fool",
     videofile: "/video/fool.mp4",
+    complete: true
+  },
+  {
+    id: "for-the-shop",
+    title: "For the Shop",
+    description: "He wraps them with neatness and care",
+    publishdate: "2025-11-01",
+    statusText: "After 'Του Mαγαζιού' by Constantine Cavafy",
+    tags: ["Translation"],
     complete: true
   },
   {
@@ -1195,6 +1267,15 @@ const poems = [
     publishdate: "2017-04-01",
     tags: ["Power", "Surreal"],
     complete: false
+  },
+  {
+    id: "i-went",
+    title: "I Went",
+    description: "I do not stall. I loosen completely and go",
+    publishdate: "2025-11-01",
+    statusText: "After 'Επήγα' by Constantine Cavafy",
+    tags: ["Translation"],
+    complete: true
   },
   {
     id: "ice-cream-in-havana",
@@ -1706,6 +1787,15 @@ const poems = [
     description: "This searchlight beam, this fire that sears and eats",
     publishdate: "2025-06-01",
     statusText: "After 'Llagas de amor' by Federico García Lorca",
+    tags: ["Translation"],
+    complete: true
+  },
+  {
+    id: "one-night",
+    title: "One Night",
+    description: "The room was poor and filthy",
+    publishdate: "2025-11-01",
+    statusText: "After 'Μια Νύχτα' by Constantine Cavafy",
     tags: ["Translation"],
     complete: true
   },
@@ -2449,6 +2539,24 @@ const poems = [
     complete: true
   },
   {
+    id: "the-city",
+    title: "The City",
+    description: "You said: I will go to another land, another sea",
+    publishdate: "2025-11-01",
+    statusText: "After 'Κεριά' by Constantine Cavafy",
+    tags: ["Translation"],
+    complete: true
+  },
+  {
+    id: "the-dangerous-ones",
+    title: "The Dangerous Ones",
+    description: "Said Myrtías (a student from Syria",
+    publishdate: "2025-11-01",
+    statusText: "After 'Τα επικίνδυνα' by Constantine Cavafy",
+    tags: ["Translation"],
+    complete: true
+  },
+  {
     id: "the-digger",
     title: "The Digger",
     description: "I was on the losing end of three hands",
@@ -2468,6 +2576,15 @@ const poems = [
     complete: true
   },
   {
+    id: "the-first-step",
+    title: "The First Step",
+    description: "Young Eumenes was complaining",
+    publishdate: "2025-11-01",
+    statusText: "After 'Το Πρώτο Σκαλί' by Constantine Cavafy",
+    tags: ["Translation"],
+    complete: true
+  },
+  {
     id: "the-glamour-through-the-flame",
     title: "The Glamour through the Flame",
     description: "Look at the stag! He leaps at the trees",
@@ -2483,6 +2600,15 @@ const poems = [
     publishdate: "2025-07-01",
     statusText: "Included in the collection 'Beyond my eyes, the show unwinds'",
     tags: ["Ekphrasis", "Object", "Performance"],
+    complete: true
+  },
+  {
+    id: "the-hidden-things",
+    title: "The Hidden Things",
+    description: "From all that I've done, from what I have said",
+    publishdate: "2025-11-01",
+    statusText: "After 'Κρυμμένα' by Constantine Cavafy",
+    tags: ["Translation"],
     complete: true
   },
   {
@@ -2716,6 +2842,15 @@ const poems = [
     description: "It is as if it has no floor",
     publishdate: "1990-07-01",
     tags: ["Ekphrasis", "Faith", "Rural"],
+    complete: true
+  },
+  {
+    id: "the-windows",
+    title: "The Windows",
+    description: "In this dark apartment, where I pass",
+    publishdate: "2025-11-01",
+    statusText: "After 'Τα παράθυρα' by Constantine Cavafy",
+    tags: ["Translation"],
     complete: true
   },
   {
