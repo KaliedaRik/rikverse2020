@@ -2483,6 +2483,14 @@ const poems = [
     complete: true
   },
   {
+    id: "template",
+    title: "Template",
+    description: "My mom, [comfortable first name, ethnically appropriate to the target audience]",
+    publishdate: "2025-12-01",
+    tags: ["Communication", "Culture", "Machine", "Performance"],
+    complete: true
+  },
+  {
     id: "terror",
     title: "Terror",
     description: "It all starts with the word 'terror'",
