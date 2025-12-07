@@ -1,5 +1,12 @@
 const blogpostData = [
     {
+        id: "adventures-in-poetry-translation",
+        title: "Adventures in poetry translation",
+        tabTitle: "RikVerse blog post",
+        description: "... Because sometimes I want to read the \"real\" Cavafy.",
+        publishdate: "2025-12-06",
+    },
+    {
         id: "riks-sparky-little-rikverse-website",
         title: "Rik's Sparky Little RikVerse Website",
         tabTitle: "RikVerse blog post",
