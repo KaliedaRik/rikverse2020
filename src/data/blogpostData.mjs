@@ -1,5 +1,12 @@
 const blogpostData = [
     {
+        id: "how-not-to-train-your-reader",
+        title: "How (not) to train your reader",
+        tabTitle: "RikVerse blog post",
+        description: "... The Road Not Taken is taken easier when I trust my audience as equals.",
+        publishdate: "2025-12-14",
+    },
+    {
         id: "adventures-in-poetry-translation",
         title: "Adventures in poetry translation",
         tabTitle: "RikVerse blog post",

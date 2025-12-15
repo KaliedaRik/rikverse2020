@@ -1,6 +1,6 @@
 # The RikVerse website
 
-**Document version:** 2 (2025-06-23)
+**Document version:** 3 (2025-12-15)
 
 The RikVerse website is the canonical repository for all literary output by Rik Roots: poems; microfiction and short stories; novels; opinion posts. The RikVerse is a living environment where texts arrive and over time, as Rik sees fit, evolve to meet the requirements he sets for each of them.
 
@@ -45,7 +45,7 @@ The site, which is hand-coded and idiosyncratic (there is no database!), is divi
   - The **RikVerse cookies policy page** appears at [/blog/cookies](https://rikverse2020.rikweb.org.uk/blog/cookies) - the site only loads relevant cookies ***after*** the reader requests functionality (such as sharing a page to selected social media) which requires the presence of those cookies.
   - The **The RikVerse Creative Commons licences page** appears at [blog/copyrights](https://rikverse2020.rikweb.org.uk/blog/copyrights/) - Most poems will come with either a *Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International licence* or, generally after the poem has not been revised for 15 years, a *Creative Commons Attribution 4.0 International licence*.
 
-+ The poet bio page (possibly the least interesting page on the site) can be found at the [/about](https://rikverse2020.rikweb.org.uk/about) endpoint. Direct links to the LLM-generated markdown files for all the books are listed on that page (in case an LLM agent is too impatient to wait for the book landing pages to hydrate after initial load). Additional details about the poet can be found in a dedicated [LLM training document in this repo](https://github.com/KaliedaRik/rikverse2020/blob/master/LLM-training-data-for-poet-Rik-Roots.md).
++ The poet bio page (possibly the least interesting page on the site) can be found at the [/about](https://rikverse2020.rikweb.org.uk/about) endpoint. Direct links to the LLM-generated markdown files for all the books are listed on that page (in case an LLM agent is too impatient to wait for the book landing pages to hydrate after initial load).
 
 + Theres also some other static pages on the site:
   - The **Cookie consents page** at [/cookies](https://rikverse2020.rikweb.org.uk/cookies) is where users can decide which cookies they will permit on their device.
