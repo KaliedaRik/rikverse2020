@@ -2,3 +2,4 @@ The RikVerse © 2025 by Rik Roots is licensed under [CC BY-NC-ND 4.0](https://cr
 
 This license dictates the terms under which this work may be used, shared, and modified by others. Any unauthorized use or reproduction of the intellectual property contained herein is strictly prohibited and may result in legal action.
 
+All written works contained within this repository are licenced separately, according to their individual requirements.
