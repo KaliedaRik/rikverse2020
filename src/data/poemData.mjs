@@ -865,6 +865,14 @@ const poems = [
     complete: true
   },
   {
+    id: "endless",
+    title: "Endless",
+    description: "This need I feel for summaries? It comes",
+    publishdate: "2026-03-01",
+    tags: ["Eulogy", "Family"],
+    complete: true
+  },
+  {
     id: "english-breakfast",
     title: "English Breakfast",
     description: "Where you spill milk across marble",

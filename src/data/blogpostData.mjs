@@ -1,5 +1,12 @@
 const blogpostData = [
     {
+        id: "truths-tempered-in-doubt",
+        title: "Truths Tempered in Doubt",
+        tabTitle: "RikVerse blog post",
+        description: "... A journey alongside AI to Damascus, and beyond.",
+        publishdate: "2025-12-28",
+    },
+    {
         id: "how-not-to-train-your-reader",
         title: "How (not) to train your reader",
         tabTitle: "RikVerse blog post",
