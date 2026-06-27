@@ -36,6 +36,7 @@
     img {
         display: block;
         padding-bottom: 1rem;
+        width: 100%;
     }
 
     nav {
@@ -67,7 +68,7 @@
     @media (min-width: 700px) {
 
         div {
-            grid-template-columns: 1fr 1fr;
+            grid-template-columns: 50% 1fr;
             grid-gap: 1rem 1rem;
         }
 
@@ -124,6 +125,26 @@
 
         {:else}
         <p>Apologies - the book cannot be downloaded from this site</p>
+        {/if}
+    </section>
+
+    <section>
+        
+        <h3>Reviews</h3>
+
+        {#if book.reviews && book.reviews.length}
+        <ul>
+
+            {#each book.reviews as review}
+                <li>
+                    <a href="{review.url}">{review.reviewer}</a> ({review.channel})
+                </li>
+            {/each}
+            
+        </ul>
+
+        {:else}
+        <p>We are always happy to link to reviews of this book if they have been posted to social media.</p>
         {/if}
     </section>
 

@@ -1,3 +1,14 @@
+/*
+Reviews array:
+[
+  {
+    channel: 'YouTube' | 'TikTok';
+    url: string (URL string)
+    reviewer: string (review channel name)
+  }
+]
+*/
+
 const bookData = [
   {
     id: "22-facets-of-my-father",
@@ -10,7 +21,8 @@ const bookData = [
     download_epub: "/new-downloads/22-facets-of-my-father.epub",
     download_pdf: "/new-downloads/22-facets-of-my-father.pdf",
     report_link: "/reports/22-facets-of-my-father.md",
-    is_chapbook: true
+    is_chapbook: true,
+    reviews: []
   },
   {
     id: "play-time",
@@ -23,7 +35,8 @@ const bookData = [
     download_epub: "/new-downloads/play-time.epub",
     download_pdf: "/new-downloads/play-time.pdf",
     report_link: "/reports/play-time.md",
-    is_chapbook: true
+    is_chapbook: true,
+    reviews: []
   },
   {
     id: "from-each-skull-a-story",
@@ -36,7 +49,8 @@ const bookData = [
     download_epub: "/new-downloads/from-each-skull-a-story.epub",
     download_pdf: "/new-downloads/from-each-skull-a-story.pdf",
     report_link: "/reports/from-each-skull-a-story.md",
-    is_chapbook: true
+    is_chapbook: true,
+    reviews: []
   },
   {
     id: "poems-to-quote-to-your-lover",
@@ -49,7 +63,8 @@ const bookData = [
     download_epub: "/new-downloads/poems-to-quote-to-your-lover.epub",
     download_pdf: "/new-downloads/poems-to-quote-to-your-lover.pdf",
     report_link: "/reports/poems-to-quote-to-your-lover.md",
-    is_chapbook: true
+    is_chapbook: true,
+    reviews: []
   },
   {
     id: "to-posterity",
@@ -62,7 +77,8 @@ const bookData = [
     download_epub: "/new-downloads/to-posterity.epub",
     download_pdf: "/new-downloads/to-posterity.pdf",
     report_link: "/reports/to-posterity.md",
-    is_chapbook: true
+    is_chapbook: true,
+    reviews: []
   },
   {
     id: "snowdrop-a-story-in-verse",
@@ -75,7 +91,8 @@ const bookData = [
     download_epub: "/new-downloads/snowdrop-a-story-in-verse.epub",
     download_pdf: "/new-downloads/snowdrop-a-story-in-verse.pdf",
     report_link: "/reports/snowdrop-a-story-in-verse.md",
-    is_chapbook: true
+    is_chapbook: true,
+    reviews: []
   },
   {
     id: "paleorik",
@@ -88,7 +105,8 @@ const bookData = [
     download_epub: "/new-downloads/paleorik.epub",
     download_pdf: "/new-downloads/paleorik.pdf",
     report_link: "/reports/paleorik.md",
-    is_chapbook: true
+    is_chapbook: true,
+    reviews: []
   },
   {
     id: "and-still-i-breathe",
@@ -101,7 +119,8 @@ const bookData = [
     download_epub: "/new-downloads/and-still-i-breathe.epub",
     download_pdf: "/new-downloads/and-still-i-breathe.pdf",
     report_link: "/reports/and-still-i-breathe.md",
-    is_chapbook: true
+    is_chapbook: true,
+    reviews: []
   },
   {
     id: "more-love-poems-innit",
@@ -114,7 +133,8 @@ const bookData = [
     download_epub: "/new-downloads/more-love-poems-innit.epub",
     download_pdf: "/new-downloads/more-love-poems-innit.pdf",
     report_link: "/reports/more-love-poems-innit.md",
-    is_chapbook: true
+    is_chapbook: true,
+    reviews: []
   },
   {
     id: "sonnets-of-dark-held-love",
@@ -127,7 +147,8 @@ const bookData = [
     download_epub: "/new-downloads/sonnets-of-dark-held-love.epub",
     download_pdf: "/new-downloads/sonnets-of-dark-held-love.pdf",
     report_link: "/reports/sonnets-of-dark-held-love.md",
-    is_chapbook: true
+    is_chapbook: true,
+    reviews: []
   },
   {
     id: "end-time",
@@ -140,7 +161,8 @@ const bookData = [
     download_epub: "/new-downloads/end-time.epub",
     download_pdf: "/new-downloads/end-time.pdf",
     report_link: "/reports/end-time.md",
-    is_chapbook: true
+    is_chapbook: true,
+    reviews: []
   },
   {
     id: "beyond-my-eyes",
@@ -153,7 +175,8 @@ const bookData = [
     download_epub: "/new-downloads/beyond-my-eyes.epub",
     download_pdf: "/new-downloads/beyond-my-eyes.pdf",
     report_link: "/reports/beyond-my-eyes.md",
-    is_chapbook: true
+    is_chapbook: true,
+    reviews: []
   },
   {
     id: "seeking-constantine",
@@ -166,7 +189,8 @@ const bookData = [
     download_epub: "/new-downloads/seeking-constantine.epub",
     download_pdf: "/new-downloads/seeking-constantine.pdf",
     report_link: "/reports/seeking-constantine.md",
-    is_chapbook: true
+    is_chapbook: true,
+    reviews: []
   },
   {
     id: "the-gods-in-the-jungle",
@@ -179,7 +203,8 @@ const bookData = [
     download_epub: "/new-downloads/the-gods-in-the-jungle.epub",
     download_pdf: "/new-downloads/the-gods-in-the-jungle.pdf",
     report_link: "/reports/the-gods-in-the-jungle.md",
-    is_chapbook: false
+    is_chapbook: false,
+    reviews: []
   },
   {
     id: "the-story-portraits",
@@ -192,7 +217,8 @@ const bookData = [
     download_epub: "/new-downloads/the-story-portraits.epub",
     download_pdf: "/new-downloads/the-story-portraits.pdf",
     report_link: "/reports/the-story-portraits.md",
-    is_chapbook: false
+    is_chapbook: false,
+    reviews: []
   },
   {
     id: "spintrap-the-lonely-city",
@@ -205,7 +231,12 @@ const bookData = [
     download_epub: "/new-downloads/spintrap-the-lonely-city.epub",
     download_pdf: "/new-downloads/spintrap-the-lonely-city.pdf",
     report_link: "/reports/spintrap-the-lonely-city.md",
-    is_chapbook: false
+    is_chapbook: false,
+    reviews: [{
+      channel: 'YouTube',
+      url: 'https://www.youtube.com/watch?v=04lgJvuJjmU',
+      reviewer: 'No Fluff Writing Advice'
+    }]
   },
   {
     id: "riks-army-career",
@@ -218,7 +249,8 @@ const bookData = [
     download_epub: "/new-downloads/riks-army-career.epub",
     download_pdf: "/new-downloads/riks-army-career.pdf",
     report_link: "/reports/riks-army-career.md",
-    is_chapbook: false
+    is_chapbook: false,
+    reviews: []
   }
 ];
 
