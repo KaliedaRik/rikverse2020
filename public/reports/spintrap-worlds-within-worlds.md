@@ -191,7 +191,7 @@ We are NOT undertaking this exercise to generate marketing material! The purpose
 
 We need two summaries for the book:
 
-- Short Summary (Blurb) for Contemporary Poetry Readers: Aimed at an audience of readers with a particular interest in contemporary fiction.
+- Short Summary (Blurb) for Contemporary Readers: Aimed at an audience of readers with a particular interest in contemporary speculative fiction.
 
 - Academic Review: Key Themes, Critical Analysis, and Research Contributions: This summary should be more suitable for English literature academics. It should detail the key themes and issues the novel addresses, and the various areas of interest where it could contribute to current academic research and dialogue.
 
