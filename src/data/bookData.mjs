@@ -227,7 +227,7 @@ const bookData = [
     description: "Kal is a man out of his time, out of his depth and - literally - out of his mind",
     publishdate: "2013-06-01",
     coverimage: "/images/cover-spin-trap-the-lonely-city.webp",
-    blurb: `<p>Kal is an entity out of his time, out of his depth and &ndash; literally &ndash; out of his mind.</p><p>Pulled once more into the Outer World, Kal finds himself sharing a body with Sam - a modern gay man living his best life in London. Kal's task should be simple: stay hidden and keep an ancient artefact, called the Band, safe. But something is wrong: there are ruthless forces the Outer World hunting for the device. They know Kal exists; they suspect Sam's family is guarding the gem-studded ring. And they hunger for the rumoured immortality it offers to anyone who posesses it.</p><p>Still, it seems like a straightforward mission, until Kal makes an inexplicable, fateful error which reveals his presence to the one person who should never know he exists - the man in whose mind he resides. Forced together against their wills, two people &ndash; one ancient, one modern &ndash; must learn to work together to stay alive, stay hidden and, above all, stay human!</p>`,
+    blurb: `<p>Kal is an entity out of his time, out of his depth and &ndash; literally &ndash; out of his mind.</p><p>Pulled once more into the Outer World, Kal finds himself sharing a body with Sam - a modern man living his best life in London. Kal's task should be simple: stay hidden and keep an ancient artefact, called the Band, safe. But something is wrong: there are ruthless forces the Outer World hunting for the device. They know Kal exists; they suspect Sam's family is guarding the gem-studded ring. And they hunger for the rumoured immortality it offers to anyone who posesses it.</p><p>Still, it seems like a straightforward mission, until Kal makes an inexplicable, fateful error which reveals his presence to the one person who should never know he exists - the man in whose mind he resides. Forced together against their wills, two people &ndash; one ancient, one modern &ndash; must learn to work together to stay alive, stay hidden and, above all, stay human!</p>`,
     download_epub: "/new-downloads/spintrap-the-lonely-city.epub",
     download_pdf: "/new-downloads/spintrap-the-lonely-city.pdf",
     report_link: "/reports/spintrap-the-lonely-city.md",
@@ -237,6 +237,20 @@ const bookData = [
       url: 'https://www.youtube.com/watch?v=04lgJvuJjmU',
       reviewer: 'No Fluff Writing Advice'
     }]
+  },
+  {
+    id: "spintrap-worlds-within-worlds",
+    title: "SpinTrap: Worlds Within Worlds",
+    tabTitle: "RikVerse Book",
+    description: "In an alien world, where forgetting is survival, is the fight to stay true to yourself worth the cost of remembering everything?",
+    publishdate: "2026-08-01",
+    coverimage: "/images/cover-spin-trap-worlds-within-worlds.webp",
+    blurb: `<p>Kal wakes in a healing pool with a new body, fragments of an old life, and the certainty that he belongs in this world. Death is temporary here. Memories are less reliable. His brothers are missing, the settlements stand empty, and two strangers have appeared who claim to come from somewhere impossible. Worse, they know things that Kal should not know &ndash; words, places and ways of being that stir memories he has spent lifetimes forgetting.</p><p>As the world he knows begins to unravel, Kal must follow those memories into lives he no longer recognises as his own. But remembering who you were is not the same as discovering who you are. In a universe where bodies can be replaced, death can be survived and identity can be worn away one life at a time, Kal must decide how much of his past he can carry without losing the person he needs to become.</p>`,
+    download_epub: "/new-downloads/spintrap-worlds-within-worlds.epub",
+    download_pdf: "/new-downloads/spintrap-worlds-within-worlds.pdf",
+    report_link: "/reports/spintrap-worlds-within-worlds.md",
+    is_chapbook: false,
+    reviews: []
   },
   {
     id: "riks-army-career",
