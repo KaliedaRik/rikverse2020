@@ -1701,6 +1701,14 @@ const poems = [
     complete: true
   },
   {
+    id: "my-mate-ben",
+    title: "My Mate Ben",
+    description: "So there's this bloke I know. Well, I say I know him",
+    publishdate: "2026-08-01",
+    tags: ["Yarn"],
+    complete: true
+  },
+  {
     id: "names",
     title: "Names",
     description: "This space is nice, bright and roomy",
