@@ -1,5 +1,12 @@
 const blogpostData = [
     {
+        id: "anne-margaret-roots",
+        title: "Anne Margaret Roots",
+        tabTitle: "RikVerse blog post",
+        description: "... Rik's eulogy for his mother, Anne.",
+        publishdate: "2026-08-19",
+    },
+    {
         id: "truths-tempered-in-doubt",
         title: "Truths Tempered in Doubt",
         tabTitle: "RikVerse blog post",
