@@ -797,6 +797,14 @@ const poems = [
     complete: true
   },
   {
+    id: "drone",
+    title: "Drone",
+    description: "Assimilation. Become part of. Be less and become more",
+    publishdate: "2026-08-01",
+    tags: ["Yarn", "Violence", "Noir"],
+    complete: true
+  },
+  {
     id: "east-of-islington",
     title: "East of Islington",
     description: "Half-six of an evening and already",
