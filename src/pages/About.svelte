@@ -77,5 +77,6 @@
 	<li><a href="/book/the-gods-in-the-jungle">The Gods in the Jungle</a> - science fiction, published May 2011 (<a href="/reports/the-gods-in-the-jungle.md" target="_BLANK">book metadata</a>)</li>
 	<li><a href="/book/the-story-portraits">The Story Portraits</a> - microfiction and short stories, published September 2011 (<a href="/reports/the-story-portraits.md" target="_BLANK">book metadata</a>)</li>
 	<li><a href="/book/spintrap-the-lonely-city">SpinTrap: The Lonely City</a> - science fiction, published June 2013 (<a href="/reports/spintrap-the-lonely-city.md" target="_BLANK">book metadata</a>)</li>
+	<li><a href="/book/spintrap-worlds-within-worlds">SpinTrap: Worlds Within Worlds</a> - science fiction, published August 2026 (<a href="/reports/spintrap-worlds-within-worlds.md" target="_BLANK">book metadata</a>)</li>
 	<li><a href="/book/riks-army-career">Rik's Army Career</a> - memoir, published December 2019 (<a href="/reports/riks-army-career.md" target="_BLANK">book metadata</a>)</li>
 </ul>

@@ -38,6 +38,6 @@
 <footer>
     <NavigationLinks />
 
-    <p>&copy;2025 Rik Roots. Site built and maintained by RikWorks.<br />
+    <p>&copy;2026 Rik Roots. Site built and maintained by RikWorks.<br />
         Tech: <a href="https://svelte.dev/">Svelte</a> scaffold, <a href="https://visionmedia.github.io/page.js/">Page.js</a> routing</p>
 </footer>
