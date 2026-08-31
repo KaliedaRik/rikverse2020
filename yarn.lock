@@ -166,15 +166,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"acorn@npm:^7.1.0":
-  version: 7.4.1
-  resolution: "acorn@npm:7.4.1"
-  bin:
-    acorn: bin/acorn
-  checksum: 1860f23c2107c910c6177b7b7be71be350db9e1080d814493fae143ae37605189504152d1ba8743ba3178d0b37269ce1ffc42b101547fdc1827078f82671e407
-  languageName: node
-  linkType: hard
-
 "acorn@npm:^8.5.0":
   version: 8.14.1
   resolution: "acorn@npm:8.14.1"
@@ -1229,7 +1220,7 @@ __metadata:
     "@rollup/plugin-commonjs": ^11.0.0
     "@rollup/plugin-node-resolve": ^7.0.0
     page: ^1.11.5
-    rollup: ^1.20.0
+    rollup: ^2.80.0
     rollup-plugin-livereload: ^1.0.0
     rollup-plugin-svelte: ^6.1.1
     rollup-plugin-terser: ^5.1.2
@@ -1286,16 +1277,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rollup@npm:^1.20.0":
-  version: 1.32.1
-  resolution: "rollup@npm:1.32.1"
+"rollup@npm:^2.80.0":
+  version: 2.80.0
+  resolution: "rollup@npm:2.80.0"
   dependencies:
-    "@types/estree": "*"
-    "@types/node": "*"
-    acorn: ^7.1.0
+    fsevents: ~2.3.2
+  dependenciesMeta:
+    fsevents:
+      optional: true
   bin:
     rollup: dist/bin/rollup
-  checksum: 3a02731c20c71321fae647c9c9cab0febee0580c6af029fdcd5dd6f424b8c85119d92c8554c6837327fd323c2458e92d955bbebc90ca6bed87cc626695e7c31f
+  checksum: 3eeef19adb648ac475bb76cc474f5f601c76bc26490282715016b8948ef31ebd65e43df3ca5b4850686542822b73b2254d9a96013d9cc50d4d984c61cb0dac37
   languageName: node
   linkType: hard
 
