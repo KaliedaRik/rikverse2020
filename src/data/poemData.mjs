@@ -2599,6 +2599,14 @@ const poems = [
     complete: true
   },
   {
+    id: "the-dogs",
+    title: "The Dogs",
+    description: "Where are you now? In a safe place",
+    publishdate: "2026-08-01",
+    tags: ["Yarn", "Noir"],
+    complete: true
+  },
+  {
     id: "the-fire-and-the-ice",
     title: "The Fire and the Ice",
     description: "Some nights I daydream of a life beyond the City",
