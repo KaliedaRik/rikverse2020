@@ -1142,6 +1142,14 @@ const poems = [
     complete: true
   },
   {
+    id: "hackney-marshes-two-hours-after-the-news",
+    title: "Hackney Marshes, two hours after the news",
+    description: "Pattern this: a grief that wounds",
+    publishdate: "2026-09-01",
+    tags: ["Family", "Wonder"],
+    complete: true
+  },
+  {
     id: "hangman",
     title: "Hangman",
     description: "I'm hunting you down — drafting a list",
