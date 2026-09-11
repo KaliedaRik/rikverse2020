@@ -1824,6 +1824,14 @@ const poems = [
     complete: true
   },
   {
+    id: "one-thursday-at-half-three",
+    title: "One Thursday at Half Three",
+    description: "Who watches me? Is that you?",
+    publishdate: "2026-09-01",
+    tags: ["Eulogy", "Family"],
+    complete: true
+  },
+  {
     id: "nonsense",
     title: "Onas 28 Berk",
     description: "I crost a manch at sefan dibes",
