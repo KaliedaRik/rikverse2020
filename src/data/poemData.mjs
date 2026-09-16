@@ -2353,6 +2353,14 @@ const poems = [
     complete: true
   },
   {
+    id: "spiralling",
+    title: "Spiralling",
+    description: "This September and midway done with it",
+    publishdate: "2026-09-01",
+    tags: ["Family", "Inheritance"],
+    complete: true
+  },
+  {
     id: "spring-fling",
     title: "Spring Fling",
     description: "We first furled as brown trees blushed pink",
