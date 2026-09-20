@@ -2973,6 +2973,14 @@ const poems = [
     complete: true
   },
   {
+    id: "to-the-great-stone",
+    title: "To the Great Stone of Mabley Green",
+    description: "I do not need to atone, I tell the rock",
+    publishdate: "2026-09-01",
+    tags: ["Family", "Inheritance", "Object"],
+    complete: true
+  },
+  {
     id: "to-the-victors-the-spoils",
     title: "To the Victors, the Spoils",
     description: "Sprinting to work, late like the binmen, I spill",
