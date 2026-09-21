@@ -3298,6 +3298,14 @@ const poems = [
     complete: true
   },
   {
+    id: "wrong-question",
+    title: "Wrong Question",
+    description: "July, beyond school, and the forever wind",
+    publishdate: "2026-09-01",
+    tags: ["Family"],
+    complete: true
+  },
+  {
     id: "youll-never-guess-what",
     title: "You'll Never Guess What",
     description: "I watch his mouth, let the slip of his lips",
