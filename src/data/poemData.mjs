@@ -2281,7 +2281,7 @@ const poems = [
     title: "She Loved Horses",
     description: "Death isn't an end. No, death",
     publishdate: "2026-09-01",
-    tags: ["Elegy", "Family"],
+    tags: ["Eulogy", "Family"],
     complete: true
   },
   {
