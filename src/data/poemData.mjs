@@ -2277,6 +2277,14 @@ const poems = [
     complete: true
   },
   {
+    id: "she-loved-horses",
+    title: "She Loved Horses",
+    description: "Death isn't an end. No, death",
+    publishdate: "2026-09-01",
+    tags: ["Elegy", "Family"],
+    complete: true
+  },
+  {
     id: "shoes-in-the-charity-shop",
     title: "Shoes in the Charity Shop",
     description: "Like a stack of footfalls they pile in tangles",
