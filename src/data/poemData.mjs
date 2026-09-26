@@ -2953,6 +2953,14 @@ const poems = [
     complete: true
   },
   {
+    id: "thoughts-prayers",
+    title: "Thoughts; Prayers",
+    description: "Soon, I shall perform grief. Organisers have determined",
+    publishdate: "2026-09-01",
+    tags: ["Family", "Office", "Power"],
+    complete: true
+  },
+  {
     id: "three-strophes-to-change",
     title: "Three strophes to change your life forever!",
     description: "Shall I lie to you, today",
