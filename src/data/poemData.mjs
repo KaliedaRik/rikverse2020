@@ -2201,6 +2201,14 @@ const poems = [
     complete: true
   },
   {
+    id: "second-equinox",
+    title: "Second Equinox",
+    description: "I would bargain with death, I tell her. She wears",
+    publishdate: "2026-09-01",
+    tags: ["Family", "Surreal", "Wonder"],
+    complete: true
+  },
+  {
     id: "second-sin",
     title: "Second Sin",
     description: "He brings a harsh heat into the room",
