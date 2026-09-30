@@ -2062,6 +2062,14 @@ const poems = [
     complete: true
   },
   {
+    id: "refurbishment",
+    title: "Refurbishment",
+    description: "I took a chisel and hammer to the walls",
+    publishdate: "2026-09-01",
+    tags: ["Culture", "Inheritance", "Light"],
+    complete: true
+  },
+  {
     id: "regents-canal",
     title: "Regent's Canal",
     description: "Dogs walking their owners",
