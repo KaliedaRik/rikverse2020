@@ -2243,6 +2243,14 @@ const poems = [
     complete: true
   },
   {
+    id: "semi-detached",
+    title: "Semi-detached",
+    description: "I fret about next door. There's noises",
+    publishdate: "2026-10-01",
+    tags: ["Communication", "Outsider"],
+    complete: true
+  },
+  {
     id: "serving-the-muse",
     title: "Serving the Muse",
     description: "I chose to dine at A's establishment",
