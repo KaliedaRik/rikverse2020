@@ -1502,6 +1502,14 @@ const poems = [
     complete: true
   },
   {
+    id: "know-this",
+    title: "Know This",
+    description: "The opposite of radiance is - what? An absence?",
+    publishdate: "2026-10-01",
+    tags: ["Eulogy", "Family", "Rural"],
+    complete: true
+  },
+  {
     id: "language",
     title: "Language",
     description: "So when did we begin to evolve",
