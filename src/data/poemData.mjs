@@ -1917,6 +1917,14 @@ const poems = [
     complete: true
   },
   {
+    id: "politics",
+    title: "Politics",
+    description: "It's not often the corpse doesn't turn up",
+    publishdate: "2026-10-01",
+    tags: ["Family", "Performance"],
+    complete: true
+  },
+  {
     id: "poppie",
     title: "Poppie",
     description: "Within the clutter, a clay cat",
