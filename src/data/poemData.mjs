@@ -323,6 +323,14 @@ const poems = [
     complete: true
   },
   {
+    id: "black-dog",
+    title: "Black Dog",
+    description: "When I first crawled I crawled first",
+    publishdate: "2026-10-01",
+    tags: ["Communication", "Family", "Surreal"],
+    complete: true
+  },
+  {
     id: "blank-vista",
     title: "Blank Vista",
     description: "The day my shadow left I found a scrape",
