@@ -2560,6 +2560,14 @@ const poems = [
     complete: true
   },
   {
+    id: "tally",
+    title: "Tally",
+    description: "While the online tests",
+    publishdate: "2026-10-01",
+    tags: ["Communication", "Family", "Performance"],
+    complete: true
+  },
+  {
     id: "tamarisk",
     title: "Tamarisk",
     description: "A feather of boughs, sweet as dawnlight",
