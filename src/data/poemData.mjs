@@ -1545,6 +1545,14 @@ const poems = [
     complete: true
   },
   {
+    id: "let-go",
+    title: "Let Go",
+    description: "So now let sit, let out and close my eyes",
+    publishdate: "2026-10-01",
+    tags: ["Embodiment", "Family", "Violence"],
+    complete: true
+  },
+  {
     id: "limericks",
     title: "Limericks",
     description: "(various and sundry)",
