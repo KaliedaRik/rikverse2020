@@ -813,6 +813,14 @@ const poems = [
     complete: true
   },
   {
+    id: "dust",
+    title: "Dust",
+    description: "Science is certain that when life ends",
+    publishdate: "2026-10-01",
+    tags: ["Embodiment", "Family", "Surreal"],
+    complete: true
+  },
+  {
     id: "east-of-islington",
     title: "East of Islington",
     description: "Half-six of an evening and already",
