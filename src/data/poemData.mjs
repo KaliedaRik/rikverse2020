@@ -1693,6 +1693,14 @@ const poems = [
     complete: true
   },
   {
+    id: "memento",
+    title: "Memento",
+    description: "The best graves I stood before sit in Havana",
+    publishdate: "2026-10-01",
+    tags: ["Eulogy", "Family", "Power"],
+    complete: true
+  },
+  {
     id: "menses",
     title: "Menses",
     description: "A new year: my goodwill drains away with the dregs",
