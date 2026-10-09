@@ -2711,6 +2711,14 @@ const poems = [
     complete: true
   },
   {
+    id: "the-dinner-party",
+    title: "The Dinner Party",
+    description: "In this dream I convene my familiar ghosts",
+    publishdate: "2026-10-01",
+    tags: ["Family", "Surreal"],
+    complete: true
+  },
+  {
     id: "the-dogs",
     title: "The Dogs",
     description: "Where are you now? In a safe place",
