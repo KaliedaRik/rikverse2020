@@ -305,6 +305,14 @@ const poems = [
     complete: true
   },
   {
+    id: "before-i-split-the-tarot-deck",
+    title: "Before I Split the Tarot Deck",
+    description: "Let me tell you my fortune. Not with star",
+    publishdate: "2026-10-01",
+    tags: ["Family", "Inheritance"],
+    complete: true
+  },
+  {
     id: "beko-cda648fs-silver",
     title: "Beko CDA648FS Silver",
     description: "My new box sits in a corner",
