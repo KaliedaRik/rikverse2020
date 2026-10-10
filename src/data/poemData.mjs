@@ -1166,6 +1166,14 @@ const poems = [
     complete: true
   },
   {
+    id: "grateful",
+    title: "Grateful",
+    description: "People get vicious when you fail",
+    publishdate: "2026-10-01",
+    tags: ["Communication", "Performance"],
+    complete: true
+  },
+  {
     id: "hackney-marshes-two-hours-after-the-news",
     title: "Hackney Marshes, two hours after the news",
     description: "Pattern this: a grief that wounds",
