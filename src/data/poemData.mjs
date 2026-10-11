@@ -1389,6 +1389,14 @@ const poems = [
     complete: true
   },
   {
+    id: "in-the-eye",
+    title: "In the Eye",
+    description: "Today I shall not be",
+    publishdate: "2026-10-01",
+    tags: ["Love", "Wonder"],
+    complete: true
+  },
+  {
     id: "intel",
     title: "Intel",
     description: "Guns do not rattle. They punch through bones",
