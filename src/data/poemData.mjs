@@ -3280,6 +3280,14 @@ const poems = [
     complete: false
   },
   {
+    id: "water-dragon-wood-dragon",
+    title: "Water Dragon; Wood Dragon",
+    description: "Because my now is the twenty twenties",
+    publishdate: "2026-10-01",
+    tags: ["Communication", "Eulogy", "Family"],
+    complete: true
+  },
+  {
     id: "we-added-some-herbs",
     title: "We Added Some Herbs to the Brew",
     description: "Sharp: a glance of you, bones",
