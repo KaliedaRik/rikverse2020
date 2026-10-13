@@ -3047,6 +3047,14 @@ const poems = [
     complete: true
   },
   {
+    id: "theyre-not-supposed-to-be-wells",
+    title: "They're not supposed to be wells",
+    description: "I don't like the way eyes sink",
+    publishdate: "2026-10-01",
+    tags: ["Communication", "Embodiment", "Surreal"],
+    complete: true
+  },
+  {
     id: "things-i-love-about-my-bed",
     title: "Things I Love About My Bed",
     description: "The bole of the head post has faces",
