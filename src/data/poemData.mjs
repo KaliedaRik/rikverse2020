@@ -1414,6 +1414,14 @@ const poems = [
     complete: false
   },
   {
+    id: "it-comes-with-instructions",
+    title: "It comes with instructions",
+    description: "I see it written on the shopping bags",
+    publishdate: "2026-10-01",
+    tags: ["Performance", "Power"],
+    complete: true
+  },
+  {
     id: "jacks-final-contemplation",
     title: "Jack's Final Contemplation",
     description: "The first time Jack left his body, he had a revelation",
