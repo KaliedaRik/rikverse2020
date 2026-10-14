@@ -2455,6 +2455,14 @@ const poems = [
     complete: true
   },
   {
+    id: "some-pleasantries-to-start",
+    title: "Some pleasantries to start",
+    description: "If I may, I'll not shake your hand",
+    publishdate: "2026-10-01",
+    tags: ["Communication", "Family"],
+    complete: true
+  },
+  {
     id: "something-watches",
     title: "Something Watches",
     description: "Something watches. The woods are silent",
