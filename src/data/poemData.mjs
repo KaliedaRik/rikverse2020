@@ -241,6 +241,14 @@ const poems = [
     complete: true
   },
   {
+    id: "as-silence",
+    title: "As Silence",
+    description: "We watch as the celebrant calls in the quiet",
+    publishdate: "2026-10-01",
+    tags: ["Family", "Performance"],
+    complete: true
+  },
+  {
     id: "as-silk-strokes-amber",
     title: "As Silk Strokes Amber",
     description: "If the cholera had achieved its aim to drain the last drops",
