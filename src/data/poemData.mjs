@@ -1405,6 +1405,14 @@ const poems = [
     complete: true
   },
   {
+    id: "indulgence",
+    title: "Indulgence",
+    description: "That man, sat in the front pew, quiet and intent",
+    publishdate: "2026-10-01",
+    tags: ["Family", "Performance"],
+    complete: true
+  },
+  {
     id: "intel",
     title: "Intel",
     description: "Guns do not rattle. They punch through bones",
