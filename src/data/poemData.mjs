@@ -2192,6 +2192,14 @@ const poems = [
     complete: true
   },
   {
+    id: "release",
+    title: "Release",
+    description: "What does it even mean, to die?",
+    publishdate: "2026-10-01",
+    tags: ["Eulogy", "Family"],
+    complete: true
+  },
+  {
     id: "renewal",
     title: "Renewal",
     description: "We severed the band together, took a saw",
