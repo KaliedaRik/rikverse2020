@@ -446,6 +446,14 @@ const poems = [
     complete: true
   },
   {
+    id: "celebration",
+    title: "Celebration",
+    description: "Perception and reality dance around the coffin",
+    publishdate: "2026-10-01",
+    tags: ["Eulogy", "Family"],
+    complete: true
+  },
+  {
     id: "central-station-islington",
     title: "Central Station, Islington",
     description: "His walk is a stammer of toe pokes and heel scuffs",
