@@ -1987,6 +1987,14 @@ const poems = [
     complete: true
   },
   {
+    id: "pause",
+    title: "Pause",
+    description: "I'm sitting on a bench that looks over the canal",
+    publishdate: "2026-10-01",
+    tags: ["Eulogy", "Family"],
+    complete: true
+  },
+  {
     id: "perhaps",
     title: "Perhaps",
     description: "The desk sits square on the side of the room",
