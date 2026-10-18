@@ -1592,6 +1592,14 @@ const poems = [
     complete: true
   },
   {
+    id: "leavings",
+    title: "Leavings",
+    description: "I have taken up crayons and cast my will",
+    publishdate: "2026-10-01",
+    tags: ["Eulogy", "Love", "Power"],
+    complete: true
+  },
+  {
     id: "legend",
     title: "Legend",
     description: "He says: I was not the first superhero",
