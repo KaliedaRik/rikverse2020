@@ -2732,6 +2732,14 @@ const poems = [
     complete: true
   },
   {
+    id: "that-time-i-watched",
+    title: "That time I watched one YouTube video too many",
+    description: "Why would God strangle two tigers?",
+    publishdate: "2026-10-01",
+    tags: ["Eulogy", "Family", "Surreal"],
+    complete: true
+  },
+  {
     id: "the-cake",
     title: "The Cake",
     description: "Simnel, it breaks our Lenten fast",
