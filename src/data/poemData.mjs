@@ -2521,6 +2521,14 @@ const poems = [
     complete: true
   },
   {
+    id: "somewhen-along-a-hellenic-road",
+    title: "Somewhen along a Hellenic road",
+    description: "I ask Diogenes: is it enough",
+    publishdate: "2026-10-01",
+    tags: ["Power", "Surreal"],
+    complete: true
+  },
+  {
     id: "spiralling",
     title: "Spiralling",
     description: "This September and midway done with it",
