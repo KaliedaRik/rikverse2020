@@ -2959,6 +2959,14 @@ const poems = [
     complete: true
   },
   {
+    id: "the-model-trader",
+    title: "The Model Trader",
+    description: "Today I have two heads",
+    publishdate: "2026-10-01",
+    tags: ["Culture", "Surreal"],
+    complete: true
+  },
+  {
     id: "the-momentary-meanings-of-hugh",
     title: "The Momentary Meanings of Hugh",
     description: "He knows the mirror lies",
