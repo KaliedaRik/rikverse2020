@@ -1592,6 +1592,14 @@ const poems = [
     complete: true
   },
   {
+    id: "learning-to-read",
+    title: "Learning to read",
+    description: "This is a sharp book",
+    publishdate: "2026-10-01",
+    tags: ["Communication", "Family"],
+    complete: true
+  },
+  {
     id: "leavings",
     title: "Leavings",
     description: "I have taken up crayons and cast my will",
