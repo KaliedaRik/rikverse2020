@@ -1592,6 +1592,14 @@ const poems = [
     complete: true
   },
   {
+    id: "learning-to-play",
+    title: "Learning to play",
+    description: "I had to steal my doll from a neighbour's bin",
+    publishdate: "2026-10-01",
+    tags: ["Communication", "Family"],
+    complete: true
+  },
+  {
     id: "learning-to-read",
     title: "Learning to read",
     description: "This is a sharp book",
