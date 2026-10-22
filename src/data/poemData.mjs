@@ -1305,6 +1305,14 @@ const poems = [
     complete: true
   },
   {
+    id: "hopping-along-the-astral-plane",
+    title: "Hopping along the Astral plane",
+    description: "To dream, to slip from ache; to taste silence",
+    publishdate: "2026-10-01",
+    tags: ["Light", "Surreal"],
+    complete: true
+  },
+  {
     id: "hunt",
     title: "Hunt",
     description: "Beneath the moil of muddied pelts",
@@ -3210,6 +3218,14 @@ const poems = [
     statusText: "Included in the collection 'To Posterity'",
     tags: ["Communication", "Inheritance"],
     showcase: true,
+    complete: true
+  },
+  {
+    id: "to-save-the-marriage",
+    title: "To save the marriage",
+    description: "The gift of a baby can be a fraught concept",
+    publishdate: "2026-10-01",
+    tags: ["Communication", "Family"],
     complete: true
   },
   {
