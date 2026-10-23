@@ -2198,6 +2198,14 @@ const poems = [
     complete: true
   },
   {
+    id: "reading-the-runes",
+    title: "Reading the runes of my YouTube feed algorithm",
+    description: "You are exploring the early",
+    publishdate: "2026-10-01",
+    tags: ["Culture", "Light", "Machine"],
+    complete: true
+  },
+  {
     id: "red-cross",
     title: "Red Cross",
     description: "I met you first on the back of a boot boy",
