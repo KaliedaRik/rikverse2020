@@ -1446,6 +1446,14 @@ const poems = [
     complete: false
   },
   {
+    id: "invicta",
+    title: "Invicta",
+    description: "I don't have a happy place to aim this poem at",
+    publishdate: "2026-10-01",
+    tags: ["Culture", "Performance", "Rural"],
+    complete: true
+  },
+  {
     id: "it-comes-with-instructions",
     title: "It comes with instructions",
     description: "I see it written on the shopping bags",
