@@ -1897,6 +1897,14 @@ const poems = [
     complete: true
   },
   {
+    id: "not-a-poem",
+    title: "Not a poém",
+    description: "Dear Mum. I have tried to write this poém",
+    publishdate: "2026-10-01",
+    tags: ["Communication", "Family"],
+    complete: true
+  },
+  {
     id: "nothing-much",
     title: "Nothing Much",
     description: "Look how quiet the room is: a cat",
