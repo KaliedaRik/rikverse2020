@@ -2814,6 +2814,14 @@ const poems = [
     complete: true
   },
   {
+    id: "the-call",
+    title: "The Call",
+    description: "Light a candle and watch it flame",
+    publishdate: "2026-10-01",
+    tags: ["Communication", "Faith", "Family", "Noir"],
+    complete: true
+  },
+  {
     id: "the-cartographers",
     title: "The Cartographers",
     description: "You promise me treasure, offer",
