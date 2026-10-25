@@ -957,6 +957,14 @@ const poems = [
     complete: true
   },
   {
+    id: "facts-do-not-make-the-poem",
+    title: "Facts do not make the poem",
+    description: "I look good for my age. Strong genes, some would argue",
+    publishdate: "2026-10-01",
+    tags: ["Family", "Performance"],
+    complete: true
+  },
+  {
     id: "fags",
     title: "Fagorettes",
     description: "They, the Authorities, the ones who know",
