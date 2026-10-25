@@ -1924,6 +1924,14 @@ const poems = [
     complete: true
   },
   {
+    id: "october",
+    title: "October",
+    description: "I thought of writing two poems, today",
+    publishdate: "2026-10-01",
+    tags: ["Communication", "Light"],
+    complete: true
+  },
+  {
     id: "oistins-on-friday",
     title: "Oistins on Friday",
     description: "Fish scales blue as chop sea",
@@ -3430,6 +3438,14 @@ const poems = [
     publishdate: "2009-04-01",
     tags: ["Wonder"],
     complete: false
+  },
+  {
+    id: "water-by-spoon",
+    title: "Water by spoon",
+    description: "A hot breeze, today, grit in its teeth",
+    publishdate: "2026-10-01",
+    tags: ["Communication", "Family"],
+    complete: true
   },
   {
     id: "water-dragon-wood-dragon",
