@@ -854,6 +854,14 @@ const poems = [
     complete: true
   },
   {
+    id: "easy",
+    title: "Easy",
+    description: "Dying is easy: surviving is hard",
+    publishdate: "2026-10-01",
+    tags: ["Communication", "Culture"],
+    complete: true
+  },
+  {
     id: "eating-out",
     title: "Eating Out",
     description: "When he laughs his tongue",
