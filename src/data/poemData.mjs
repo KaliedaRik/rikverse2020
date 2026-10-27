@@ -1940,6 +1940,14 @@ const poems = [
     complete: true
   },
   {
+    id: "now-we-are-all-grown-older",
+    title: "Now we are all grown older",
+    description: "I never witnessed the moment",
+    publishdate: "2026-10-01",
+    tags: ["Communication", "Family", "Performance"],
+    complete: true
+  },
+  {
     id: "october",
     title: "October",
     description: "I thought of writing two poems, today",
