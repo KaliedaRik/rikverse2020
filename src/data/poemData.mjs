@@ -3224,6 +3224,14 @@ const poems = [
     complete: true
   },
   {
+    id: "thirteen-ways-to-stir-at-grief",
+    title: "Thirteen ways to stir at grief",
+    description: "If I break the wings",
+    publishdate: "2026-10-01",
+    tags: ["Culture", "Family"],
+    complete: true
+  },
+  {
     id: "this-thing-we-share",
     title: "This thing we share is not that thing",
     description: "We were too drunk, that first time, a mix",
