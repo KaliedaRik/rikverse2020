@@ -519,6 +519,14 @@ const poems = [
     complete: true
   },
   {
+    id: "coda-to-self",
+    title: "Coda to self",
+    description: "So what's this? Another poem about dead relatives?",
+    publishdate: "2026-10-01",
+    tags: ["Culture", "Eulogy", "Family", "Office"],
+    complete: true
+  },
+  {
     id: "communion",
     title: "Communion",
     description: "For my first burlesque in the warm May sun",
@@ -1363,6 +1371,14 @@ const poems = [
     publishdate: "2017-04-01",
     tags: ["Power", "Surreal"],
     complete: false
+  },
+  {
+    id: "i-tried-to-bind-you",
+    title: "I tried to bind you in a villanelle",
+    description: "Yet you deserve far more than playful rhymes",
+    publishdate: "2026-10-01",
+    tags: ["Communication", "Eulogy", "Family"],
+    complete: true
   },
   {
     id: "i-went",
