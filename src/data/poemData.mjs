@@ -3247,6 +3247,14 @@ const poems = [
     complete: true
   },
   {
+    id: "thing-no-thing",
+    title: "Thing No Thing",
+    description: "If death is no thing, what of rocks?",
+    publishdate: "2026-10-01",
+    tags: ["Eulogy", "Family"],
+    complete: true
+  },
+  {
     id: "things-i-love-about-my-bed",
     title: "Things I Love About My Bed",
     description: "The bole of the head post has faces",
