@@ -1381,6 +1381,14 @@ const poems = [
     complete: true
   },
   {
+    id: "i-want-to-believe",
+    title: "I want to believe",
+    description: "There's a cat dead in the canal. Thin mist",
+    publishdate: "2026-10-01",
+    tags: ["Eulogy", "Urban"],
+    complete: true
+  },
+  {
     id: "i-went",
     title: "I Went",
     description: "I do not stall. I loosen completely and go",
