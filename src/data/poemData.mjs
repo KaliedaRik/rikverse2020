@@ -213,6 +213,14 @@ const poems = [
     complete: true
   },
   {
+    id: "apologies",
+    title: "Apologies",
+    description: "I remember that time I came home from school",
+    publishdate: "2026-10-01",
+    tags: ["Family"],
+    complete: true
+  },
+  {
     id: "appreciation",
     title: "Appreciation",
     description: "In the kingdom of time suspended",
