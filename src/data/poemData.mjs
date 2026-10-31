@@ -130,6 +130,14 @@ const poems = [
     complete: true
   },
   {
+    id: "a-vigil",
+    title: "A Vigil",
+    description: "I sit on the eve of the day of the dead",
+    publishdate: "2026-10-01",
+    tags: ["Eulogy", "Family", "Surreal"],
+    complete: true
+  },
+  {
     id: "a-walk-in-the-woods",
     title: "A Walk in the Woods",
     description: "This miniature version of man",
