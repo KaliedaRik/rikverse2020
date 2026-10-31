@@ -1485,6 +1485,14 @@ const poems = [
     complete: true
   },
   {
+    id: "ink",
+    title: "Ink",
+    description: "I love the way my wicked cat",
+    publishdate: "2026-10-01",
+    tags: ["Cat", "Eulogy", "Family"],
+    complete: true
+  },
+  {
     id: "intel",
     title: "Intel",
     description: "Guns do not rattle. They punch through bones",
