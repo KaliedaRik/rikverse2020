@@ -68,6 +68,14 @@ const poems = [
     complete: true
   },
   {
+    id: "a-dymchurch-rite",
+    title: "A Dymchurch Rite",
+    description: "I'm lying when I tell my friends",
+    publishdate: "2026-11-01",
+    tags: ["Family", "Power"],
+    complete: true
+  },
+  {
     id: "a-growl-for-sweet-complaint",
     title: "A growl for sweet complaint",
     description: "I have a fear: a loss of wonder glimpsed",
