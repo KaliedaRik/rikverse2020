@@ -320,6 +320,14 @@ const poems = [
     complete: true
   },
   {
+    id: "be-told",
+    title: "Be Told",
+    description: "If you want it, you earn it",
+    publishdate: "2026-11-01",
+    tags: ["Family", "Power"],
+    complete: true
+  },
+  {
     id: "beachhead",
     title: "Beachhead",
     description: "Here lie brittlestars, evicted from deep-channel muds",
