@@ -3552,6 +3552,14 @@ const poems = [
     complete: false
   },
   {
+    id: "vessels-in-silhouette",
+    title: "Vessels in silhouette, horizoned at dawn",
+    description: "I am not a small boat for a random group of selfish",
+    publishdate: "2026-11-01",
+    tags: ["Family", "Inheritance"],
+    complete: true
+  },
+  {
     id: "water-by-spoon",
     title: "Water by spoon",
     description: "A hot breeze, today, grit in its teeth",
