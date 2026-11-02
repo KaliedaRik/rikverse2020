@@ -1933,6 +1933,14 @@ const poems = [
     complete: true
   },
   {
+    id: "mutatio-est-res",
+    title: "Mutatio Est Res",
+    description: "What if this grief is my pupa?",
+    publishdate: "2026-11-01",
+    tags: ["Eulogy", "Surreal"],
+    complete: true
+  },
+  {
     id: "my-mate-ben",
     title: "My Mate Ben",
     description: "So there's this bloke I know. Well, I say I know him",
@@ -3370,6 +3378,14 @@ const poems = [
     description: "The gift of a baby can be a fraught concept",
     publishdate: "2026-10-01",
     tags: ["Communication", "Family"],
+    complete: true
+  },
+  {
+    id: "to-shirley",
+    title: "To Shirley",
+    description: "By the time you reached my vexed age",
+    publishdate: "2026-11-01",
+    tags: ["Eulogy", "Family"],
     complete: true
   },
   {
