@@ -2219,6 +2219,14 @@ const poems = [
     complete: true
   },
   {
+    id: "prep-asto-thero-like",
+    title: "Prep Asto Thero Like",
+    description: "So I asked the model, yo moddie, why do I sleep so no much?",
+    publishdate: "2026-11-01",
+    tags: ["Communication", "Machine"],
+    complete: true
+  },
+  {
     id: "priestess",
     title: "Priestess",
     description: "A friend of the family had a donkey",
