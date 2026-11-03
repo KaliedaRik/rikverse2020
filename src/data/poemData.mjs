@@ -1397,6 +1397,14 @@ const poems = [
     complete: true
   },
   {
+    id: "i-delve",
+    title: "I Delve",
+    description: "Within the nets, a bed, a history",
+    publishdate: "2026-11-01",
+    tags: ["Family", "Voyeur"],
+    complete: true
+  },
+  {
     id: "i-managed-to-write",
     title: "I Managed to Write that Rant Poem",
     description: "Arthur still sleeps",
