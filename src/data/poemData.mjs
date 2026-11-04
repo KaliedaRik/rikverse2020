@@ -3336,6 +3336,14 @@ const poems = [
     complete: true
   },
   {
+    id: "things-to-do-when-things",
+    title: "Things to do when things are the same",
+    description: "There's moss on my hook",
+    publishdate: "2026-11-01",
+    tags: ["Machine", "Power", "Surreal"],
+    complete: true
+  },
+  {
     id: "thirteen-ways-to-stir-at-grief",
     title: "Thirteen ways to stir at grief",
     description: "If I break the wings",
