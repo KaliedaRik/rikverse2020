@@ -3592,6 +3592,14 @@ const poems = [
     complete: true
   },
   {
+    id: "walking-home-from-an-appointment",
+    title: "Walking home from an appointment",
+    description: "I always feel the urge to eat",
+    publishdate: "2026-11-01",
+    tags: ["Eulogy", "Urban"],
+    complete: true
+  },
+  {
     id: "water-by-spoon",
     title: "Water by spoon",
     description: "A hot breeze, today, grit in its teeth",
