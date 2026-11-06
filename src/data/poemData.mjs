@@ -2614,6 +2614,14 @@ const poems = [
     complete: true
   },
   {
+    id: "shoot",
+    title: "Shoot",
+    description: "It's a time lapse, this hand. Watch how",
+    publishdate: "2026-11-01",
+    tags: ["Eulogy", "Family"],
+    complete: true
+  },
+  {
     id: "shot",
     title: "Shot",
     description: "The fox is shot",
