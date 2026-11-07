@@ -2988,6 +2988,14 @@ const poems = [
     complete: true
   },
   {
+    id: "the-comfort-of-the-wallow",
+    title: "The comfort of the wallow",
+    description: "When I last edited me, I suffered",
+    publishdate: "2026-11-01",
+    tags: ["Communication", "Embodiment"],
+    complete: true
+  },
+  {
     id: "the-dangerous-ones",
     title: "The Dangerous Ones",
     description: "Said Myrtías (a student from Syria",
