@@ -1246,6 +1246,14 @@ const poems = [
     complete: true
   },
   {
+    id: "greatness",
+    title: "Greatness",
+    description: "When does a translation of a poem become",
+    publishdate: "2026-11-01",
+    tags: ["Culture", "Inheritance"],
+    complete: true
+  },
+  {
     id: "hackney-marshes-two-hours-after-the-news",
     title: "Hackney Marshes, two hours after the news",
     description: "Pattern this: a grief that wounds",
