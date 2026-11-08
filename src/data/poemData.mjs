@@ -1628,6 +1628,14 @@ const poems = [
     complete: true
   },
   {
+    id: "joke-therapy",
+    title: "Joke Therapy",
+    description: "Have you heard the one about the four brothers?",
+    publishdate: "2026-11-01",
+    tags: ["Communication", "Family"],
+    complete: true
+  },
+  {
     id: "joy",
     title: "Joy",
     description: "You're fun! Not as funny as the time",
