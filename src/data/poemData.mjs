@@ -2001,6 +2001,14 @@ const poems = [
     complete: true
   },
   {
+    id: "not-a-nice-person",
+    title: "Not a nice person",
+    description: "I have a Box of Hugs. It came with a card",
+    publishdate: "2026-11-01",
+    tags: ["Eulogy", "Performance"],
+    complete: true
+  },
+  {
     id: "not-a-poem",
     title: "Not a poém",
     description: "Dear Mum. I have tried to write this poém",
