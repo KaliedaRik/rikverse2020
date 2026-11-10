@@ -806,6 +806,14 @@ const poems = [
     complete: true
   },
   {
+    id: "developer-diary-nov-10",
+    title: "Developer Diary: Nov 10",
+    description: "This morning I learn about kairos: the measure",
+    publishdate: "2026-11-01",
+    tags: ["Family", "Machine", "Office"],
+    complete: true
+  },
+  {
     id: "devil",
     title: "Devil",
     description: "Wally's World is a wonder of the art",
