@@ -2940,6 +2940,14 @@ const poems = [
     complete: true
   },
   {
+    id: "testament",
+    title: "Testament",
+    description: "I have attended too many funerals this year",
+    publishdate: "2026-11-01",
+    tags: ["Eulogy", "Performance"],
+    complete: true
+  },
+  {
     id: "that-time-i-watched",
     title: "That time I watched one YouTube video too many",
     description: "Why would God strangle two tigers?",
@@ -3653,6 +3661,14 @@ const poems = [
     description: "I always feel the urge to eat",
     publishdate: "2026-11-01",
     tags: ["Eulogy", "Urban"],
+    complete: true
+  },
+  {
+    id: "walking-to-the-care-assessment-home",
+    title: "Walking to the care assessment home on the edge of town",
+    description: "It is not my town, my home. This is mother",
+    publishdate: "2026-11-01",
+    tags: ["Communication", "Family", "Inheritance", "Rural"],
     complete: true
   },
   {
