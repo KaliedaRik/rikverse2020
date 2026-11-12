@@ -1965,6 +1965,14 @@ const poems = [
     complete: true
   },
   {
+    id: "muse-inc",
+    title: "Muse Inc",
+    description: "Hello? Is that the strophe support hotline?",
+    publishdate: "2026-11-01",
+    tags: ["Culture", "Eulogy", "Power", "Surreal"],
+    complete: true
+  },
+  {
     id: "mutatio-est-res",
     title: "Mutatio Est Res",
     description: "What if this grief is my pupa?",
