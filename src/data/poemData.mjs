@@ -2964,6 +2964,14 @@ const poems = [
     complete: true
   },
   {
+    id: "the-awaiting-room",
+    title: "The Awaiting Room",
+    description: "Beyond time, my space glows red",
+    publishdate: "2026-11-01",
+    tags: ["Culture", "Surreal"],
+    complete: true
+  },
+  {
     id: "the-cake",
     title: "The Cake",
     description: "Simnel, it breaks our Lenten fast",
