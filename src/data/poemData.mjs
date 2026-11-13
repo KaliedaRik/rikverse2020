@@ -265,6 +265,14 @@ const poems = [
     complete: true
   },
   {
+    id: "as-i-lean-in-to-farewell-you",
+    title: "As I lean in to farewell you",
+    description: "Why am I thinking of cheeks? Eyes open or closed",
+    publishdate: "2026-11-01",
+    tags: ["Eulogy", "Family", "Inheritance"],
+    complete: true
+  },
+  {
     id: "as-silence",
     title: "As Silence",
     description: "We watch as the celebrant calls in the quiet",
