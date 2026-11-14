@@ -1911,7 +1911,7 @@ const poems = [
   {
     id: "memento",
     title: "Memento",
-    description: "The best graves I stood before sit in Havana",
+    description: "Mausoleums irk me. Pyramids on the horizon struck",
     publishdate: "2026-10-01",
     tags: ["Eulogy", "Family", "Power"],
     complete: true
