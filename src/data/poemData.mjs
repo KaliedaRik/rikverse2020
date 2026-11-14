@@ -2894,6 +2894,14 @@ const poems = [
     complete: true
   },
   {
+    id: "synthetic-rik-a-prompt",
+    title: "Synthetic Rik: A Prompt",
+    description: "These words contain zero me",
+    publishdate: "2026-11-01",
+    tags: ["Communication", "Machine", "Wonder"],
+    complete: true
+  },
+  {
     id: "take-this-man",
     title: "Take this Man",
     description: "I married you on a couch in Clerkenwell",
