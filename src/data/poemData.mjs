@@ -1769,6 +1769,14 @@ const poems = [
     complete: true
   },
   {
+    id: "let-it-simmer",
+    title: "Let It Simmer",
+    description: "I did not give you",
+    publishdate: "2026-11-01",
+    tags: ["Eulogy", "Family"],
+    complete: true
+  },
+  {
     id: "limericks",
     title: "Limericks",
     description: "(various and sundry)",
@@ -2138,7 +2146,7 @@ const poems = [
   {
     id: "one-thursday-at-half-three",
     title: "One Thursday at Half Three",
-    description: "Who watches me? Is that you?",
+    description: "Who watches me? Can that be you?",
     publishdate: "2026-09-01",
     tags: ["Eulogy", "Family"],
     complete: true
