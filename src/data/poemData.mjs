@@ -2408,7 +2408,7 @@ const poems = [
   {
     id: "refurbishment",
     title: "Refurbishment",
-    description: "I took a chisel and hammer to the walls",
+    description: "I took a chisel and hammer to the shapes",
     publishdate: "2026-09-01",
     tags: ["Culture", "Inheritance", "Light"],
     complete: true
@@ -3471,6 +3471,14 @@ const poems = [
     publishdate: "2017-10-01",
     statusText: "Included in the collection 'And Still I Breathe'",
     tags: ["Performance"],
+    complete: true
+  },
+  {
+    id: "thrice-blind",
+    title: "Thrice Blind",
+    description: "My mother's house is haunted: they're cold",
+    publishdate: "2026-11-01",
+    tags: ["Family", "Surreal", "Violence"],
     complete: true
   },
   {
