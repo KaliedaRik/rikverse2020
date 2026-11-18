@@ -60,6 +60,14 @@ Data structure
 
 const poems = [
   {
+    id: "a-balance-to-all-things",
+    title: "A balance to all things",
+    description: "I rearranged the bottles",
+    publishdate: "2026-11-01",
+    tags: ["Eulogy", "Family"],
+    complete: true
+  },
+  {
     id: "a-change-is-as-good",
     title: "A Change is as Good as a Riot",
     description: "This moment, that mark. The time for buds",
@@ -1712,7 +1720,7 @@ const poems = [
   {
     id: "know-this",
     title: "Know This",
-    description: "The opposite of radiance is - what? An absence?",
+    description: "The apposite of radiance is - what? An absence?",
     publishdate: "2026-10-01",
     tags: ["Eulogy", "Family", "Rural"],
     complete: true
