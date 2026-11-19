@@ -1264,7 +1264,7 @@ const poems = [
   {
     id: "grateful",
     title: "Grateful",
-    description: "People get vicious when you fail",
+    description: "That way a dog scrunches its snout",
     publishdate: "2026-10-01",
     tags: ["Communication", "Performance"],
     complete: true
@@ -1576,7 +1576,7 @@ const poems = [
   {
     id: "it-comes-with-instructions",
     title: "It comes with instructions",
-    description: "I see it written on the shopping bags",
+    description: "I see it written on cheap shopping bags",
     publishdate: "2026-10-01",
     tags: ["Performance", "Power"],
     complete: true
@@ -3417,9 +3417,9 @@ const poems = [
   {
     id: "theyre-not-supposed-to-be-wells",
     title: "They're not supposed to be wells",
-    description: "I don't like the way eyes sink",
+    description: "They're supposed to be people. I can see",
     publishdate: "2026-10-01",
-    tags: ["Communication", "Embodiment", "Surreal"],
+    tags: ["Eulogy", "Surreal"],
     complete: true
   },
   {
