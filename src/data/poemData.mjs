@@ -199,6 +199,14 @@ const poems = [
     complete: true
   },
   {
+    id: "alteration",
+    title: "Alteration",
+    description: "I have wool; I have thread. I have",
+    publishdate: "2026-11-01",
+    tags: ["Family", "Inheritance"],
+    complete: true
+  },
+  {
     id: "an-office-acquaintance",
     title: "An Office Acquaintance Offers Advice",
     description: "He said: love is",
