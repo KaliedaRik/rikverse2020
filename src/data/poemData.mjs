@@ -31,6 +31,7 @@ Tags:
 - Voyeur:           Generally with a tourist's eye
 - Wonder:           A moment of transformation
 - Yarn:             Prose poems, microfictions, short stories, excerpts, memoir
+- 2026:             Poems written during 2026
 */
 
 /*
@@ -64,7 +65,7 @@ const poems = [
     title: "A balance to all things",
     description: "I rearranged the bottles",
     publishdate: "2026-11-01",
-    tags: ["Eulogy", "Family"],
+    tags: ["2026", "Eulogy", "Family"],
     complete: true
   },
   {
@@ -80,7 +81,7 @@ const poems = [
     title: "A Dymchurch Rite",
     description: "I'm lying when I tell my friends",
     publishdate: "2026-11-01",
-    tags: ["Family", "Power"],
+    tags: ["2026", "Family", "Power"],
     complete: true
   },
   {
@@ -150,7 +151,7 @@ const poems = [
     title: "A Vigil",
     description: "I sit on the eve of the day of the dead",
     publishdate: "2026-10-01",
-    tags: ["Eulogy", "Family", "Surreal"],
+    tags: ["2026", "Eulogy", "Family", "Surreal"],
     complete: true
   },
   {
@@ -203,7 +204,7 @@ const poems = [
     title: "Alteration",
     description: "I have wool; I have thread. I have",
     publishdate: "2026-11-01",
-    tags: ["Family", "Inheritance"],
+    tags: ["2026", "Family", "Inheritance"],
     complete: true
   },
   {
@@ -249,7 +250,7 @@ const poems = [
     title: "Apologies",
     description: "I remember that time I came home from school",
     publishdate: "2026-10-01",
-    tags: ["Family"],
+    tags: ["2026", "Family"],
     complete: true
   },
   {
@@ -285,7 +286,7 @@ const poems = [
     title: "As I lean in to farewell you",
     description: "Why am I thinking of cheeks? Eyes open or closed",
     publishdate: "2026-11-01",
-    tags: ["Eulogy", "Family", "Inheritance"],
+    tags: ["2026", "Eulogy", "Family", "Inheritance"],
     complete: true
   },
   {
@@ -293,7 +294,7 @@ const poems = [
     title: "As Silence",
     description: "We watch as the celebrant calls in the quiet",
     publishdate: "2026-10-01",
-    tags: ["Family", "Performance"],
+    tags: ["2026", "Family", "Performance"],
     showcase: true,
     complete: true
   },
@@ -357,7 +358,7 @@ const poems = [
     title: "Be Told",
     description: "If you want it, you earn it",
     publishdate: "2026-11-01",
-    tags: ["Family", "Power"],
+    tags: ["2026", "Family", "Power"],
     complete: true
   },
   {
@@ -374,7 +375,7 @@ const poems = [
     title: "Before I Split the Tarot Deck",
     description: "Let me tell you my fortune. Not with star",
     publishdate: "2026-10-01",
-    tags: ["Family", "Inheritance"],
+    tags: ["2026", "Family", "Inheritance"],
     complete: true
   },
   {
@@ -400,7 +401,7 @@ const poems = [
     title: "Black Dog",
     description: "When I first crawled I crawled first",
     publishdate: "2026-10-01",
-    tags: ["Communication", "Family", "Surreal"],
+    tags: ["2026", "Communication", "Family", "Surreal"],
     showcase: true,
     complete: true
   },
@@ -508,7 +509,7 @@ const poems = [
     title: "Celebration",
     description: "Perception and reality dance around the coffin",
     publishdate: "2026-10-01",
-    tags: ["Eulogy", "Family"],
+    tags: ["2026", "Eulogy", "Family"],
     complete: true
   },
   {
@@ -581,7 +582,7 @@ const poems = [
     title: "Coda to self",
     description: "So what's this? Another poem about dead relatives?",
     publishdate: "2026-10-01",
-    tags: ["Culture", "Eulogy", "Family", "Office"],
+    tags: ["2026", "Culture", "Eulogy", "Family", "Office"],
     complete: true
   },
   {
@@ -836,7 +837,7 @@ const poems = [
     title: "Developer Diary: Nov 10",
     description: "This morning I learn about kairos: the measure",
     publishdate: "2026-11-01",
-    tags: ["Family", "Machine", "Office"],
+    tags: ["2026", "Family", "Machine", "Office"],
     complete: true
   },
   {
@@ -907,7 +908,7 @@ const poems = [
     title: "Drone",
     description: "Assimilation. Become part of. Be less and become more",
     publishdate: "2026-08-01",
-    tags: ["Yarn", "Violence", "Noir"],
+    tags: ["2026", "Yarn", "Violence", "Noir"],
     complete: true
   },
   {
@@ -915,7 +916,7 @@ const poems = [
     title: "Dust",
     description: "Science is certain that when life ends",
     publishdate: "2026-10-01",
-    tags: ["Embodiment", "Family", "Surreal"],
+    tags: ["2026", "Embodiment", "Family", "Surreal"],
     complete: true
   },
   {
@@ -932,7 +933,7 @@ const poems = [
     title: "Easy",
     description: "Dying is easy: surviving is hard",
     publishdate: "2026-10-01",
-    tags: ["Communication", "Culture"],
+    tags: ["2026", "Communication", "Culture"],
     complete: true
   },
   {
@@ -999,7 +1000,7 @@ const poems = [
     title: "Endless",
     description: "This need I feel for summaries? It comes",
     publishdate: "2026-03-01",
-    tags: ["Eulogy", "Family"],
+    tags: ["2026", "Eulogy", "Family"],
     complete: true
   },
   {
@@ -1043,7 +1044,7 @@ const poems = [
     title: "Facts do not make the poem",
     description: "I look good for my age. Strong genes, some would argue",
     publishdate: "2026-10-01",
-    tags: ["Family", "Performance"],
+    tags: ["2026", "Family", "Performance"],
     complete: true
   },
   {
@@ -1276,7 +1277,7 @@ const poems = [
     title: "Grateful",
     description: "That way a dog scrunches its snout",
     publishdate: "2026-10-01",
-    tags: ["Communication", "Performance"],
+    tags: ["2026", "Communication", "Performance"],
     complete: true
   },
   {
@@ -1284,7 +1285,7 @@ const poems = [
     title: "Greatness",
     description: "When does a translation of a poem become",
     publishdate: "2026-11-01",
-    tags: ["Culture", "Inheritance"],
+    tags: ["2026", "Culture", "Inheritance"],
     complete: true
   },
   {
@@ -1292,7 +1293,7 @@ const poems = [
     title: "Hackney Marshes, two hours after the news",
     description: "Pattern this: a grief that wounds",
     publishdate: "2026-09-01",
-    tags: ["Family", "Wonder"],
+    tags: ["2026", "Family", "Wonder"],
     showcase: true,
     complete: true
   },
@@ -1408,7 +1409,7 @@ const poems = [
     title: "Hopping along the Astral plane",
     description: "To dream, to slip from ache; to taste silence",
     publishdate: "2026-10-01",
-    tags: ["Light", "Surreal"],
+    tags: ["2026", "Light", "Surreal"],
     complete: true
   },
   {
@@ -1444,7 +1445,7 @@ const poems = [
     title: "I Delve",
     description: "Within the nets, a bed, a history",
     publishdate: "2026-11-01",
-    tags: ["Family", "Voyeur"],
+    tags: ["2026", "Family", "Voyeur"],
     complete: true
   },
   {
@@ -1460,7 +1461,7 @@ const poems = [
     title: "I tried to bind you in a villanelle",
     description: "Yet you deserve far more than playful rhymes",
     publishdate: "2026-10-01",
-    tags: ["Communication", "Eulogy", "Family"],
+    tags: ["2026", "Communication", "Eulogy", "Family"],
     complete: true
   },
   {
@@ -1468,7 +1469,7 @@ const poems = [
     title: "I want to believe",
     description: "There's a cat dead in the canal. Thin mist",
     publishdate: "2026-10-01",
-    tags: ["Eulogy", "Urban"],
+    tags: ["2026", "Eulogy", "Urban"],
     complete: true
   },
   {
@@ -1540,7 +1541,7 @@ const poems = [
     title: "In the Eye",
     description: "Today I shall not be",
     publishdate: "2026-10-01",
-    tags: ["Love", "Wonder"],
+    tags: ["2026", "Love", "Wonder"],
     complete: true
   },
   {
@@ -1548,7 +1549,7 @@ const poems = [
     title: "Indulgence",
     description: "That man, sat in the front pew, quiet and intent",
     publishdate: "2026-10-01",
-    tags: ["Family", "Performance"],
+    tags: ["2026", "Family", "Performance"],
     complete: true
   },
   {
@@ -1556,7 +1557,7 @@ const poems = [
     title: "Ink",
     description: "I love the way my wicked cat",
     publishdate: "2026-10-01",
-    tags: ["Cat", "Eulogy", "Family"],
+    tags: ["2026", "Cat", "Eulogy", "Family"],
     complete: true
   },
   {
@@ -1581,7 +1582,7 @@ const poems = [
     title: "Invicta",
     description: "I don't have a happy place to aim this poem at",
     publishdate: "2026-10-01",
-    tags: ["Culture", "Performance", "Rural"],
+    tags: ["2026", "Culture", "Performance", "Rural"],
     complete: true
   },
   {
@@ -1589,7 +1590,7 @@ const poems = [
     title: "It comes with instructions",
     description: "I see it written on cheap shopping bags",
     publishdate: "2026-10-01",
-    tags: ["Performance", "Power"],
+    tags: ["2026", "Performance", "Power"],
     complete: true
   },
   {
@@ -1667,7 +1668,7 @@ const poems = [
     title: "Joke Therapy",
     description: "Have you heard the one about the four brothers?",
     publishdate: "2026-11-01",
-    tags: ["Communication", "Family"],
+    tags: ["2026", "Communication", "Family"],
     complete: true
   },
   {
@@ -1733,7 +1734,7 @@ const poems = [
     title: "Know This",
     description: "The apposite of radiance is - what? An absence?",
     publishdate: "2026-10-01",
-    tags: ["Eulogy", "Family", "Rural"],
+    tags: ["2026", "Eulogy", "Family", "Rural"],
     complete: true
   },
   {
@@ -1751,7 +1752,7 @@ const poems = [
     title: "Learning to play",
     description: "I had to steal my doll from a neighbour's bin",
     publishdate: "2026-10-01",
-    tags: ["Communication", "Family"],
+    tags: ["2026", "Communication", "Family"],
     complete: true
   },
   {
@@ -1759,7 +1760,7 @@ const poems = [
     title: "Learning to read",
     description: "This is a sharp book",
     publishdate: "2026-10-01",
-    tags: ["Communication", "Family"],
+    tags: ["2026", "Communication", "Family"],
     showcase: true,
     complete: true
   },
@@ -1768,7 +1769,7 @@ const poems = [
     title: "Leavings",
     description: "I have taken up crayons and cast my will",
     publishdate: "2026-10-01",
-    tags: ["Eulogy", "Love", "Power"],
+    tags: ["2026", "Eulogy", "Love", "Power"],
     complete: true
   },
   {
@@ -1785,7 +1786,7 @@ const poems = [
     title: "Let Go",
     description: "So now let sit, let out and close my eyes",
     publishdate: "2026-10-01",
-    tags: ["Embodiment", "Family", "Violence"],
+    tags: ["2026", "Embodiment", "Family", "Violence"],
     complete: true
   },
   {
@@ -1793,7 +1794,7 @@ const poems = [
     title: "Let It Simmer",
     description: "I did not give you",
     publishdate: "2026-11-01",
-    tags: ["Eulogy", "Family"],
+    tags: ["2026", "Eulogy", "Family"],
     complete: true
   },
   {
@@ -1941,7 +1942,7 @@ const poems = [
     title: "Memento",
     description: "Mausoleums irk me. Pyramids on the horizon struck",
     publishdate: "2026-10-01",
-    tags: ["Eulogy", "Family", "Power"],
+    tags: ["2026", "Eulogy", "Family", "Power"],
     complete: true
   },
   {
@@ -2005,7 +2006,7 @@ const poems = [
     title: "Muse Inc",
     description: "Hello? Is that the strophe support hotline?",
     publishdate: "2026-11-01",
-    tags: ["Culture", "Eulogy", "Power", "Surreal"],
+    tags: ["2026", "Culture", "Eulogy", "Power", "Surreal"],
     complete: true
   },
   {
@@ -2013,7 +2014,7 @@ const poems = [
     title: "Mutatio Est Res",
     description: "What if this grief is my pupa?",
     publishdate: "2026-11-01",
-    tags: ["Eulogy", "Surreal"],
+    tags: ["2026", "Eulogy", "Surreal"],
     showcase: true,
     complete: true
   },
@@ -2022,7 +2023,7 @@ const poems = [
     title: "My Mate Ben",
     description: "So there's this bloke I know. Well, I say I know him",
     publishdate: "2026-08-01",
-    tags: ["Yarn"],
+    tags: ["2026", "Yarn"],
     complete: true
   },
   {
@@ -2066,7 +2067,7 @@ const poems = [
     title: "Not a nice person",
     description: "I have a Box of Hugs. It came with a card",
     publishdate: "2026-11-01",
-    tags: ["Eulogy", "Performance"],
+    tags: ["2026", "Eulogy", "Performance"],
     complete: true
   },
   {
@@ -2074,7 +2075,7 @@ const poems = [
     title: "Not a poém",
     description: "Dear Mum. I have tried to write this poém",
     publishdate: "2026-10-01",
-    tags: ["Communication", "Family"],
+    tags: ["2026", "Communication", "Family"],
     complete: true
   },
   {
@@ -2101,7 +2102,7 @@ const poems = [
     title: "Now we are all grown older",
     description: "I never witnessed the moment",
     publishdate: "2026-10-01",
-    tags: ["Communication", "Family", "Performance"],
+    tags: ["2026", "Communication", "Family", "Performance"],
     complete: true
   },
   {
@@ -2109,7 +2110,7 @@ const poems = [
     title: "October",
     description: "I thought of writing two poems, today",
     publishdate: "2026-10-01",
-    tags: ["Communication", "Light"],
+    tags: ["2026", "Communication", "Light"],
     complete: true
   },
   {
@@ -2169,7 +2170,7 @@ const poems = [
     title: "One Thursday at Half Three",
     description: "Who watches me? Can that be you?",
     publishdate: "2026-09-01",
-    tags: ["Eulogy", "Family"],
+    tags: ["2026", "Eulogy", "Family"],
     complete: true
   },
   {
@@ -2220,7 +2221,7 @@ const poems = [
     title: "Pause",
     description: "I'm sitting on a bench that looks over the canal",
     publishdate: "2026-10-01",
-    tags: ["Eulogy", "Family"],
+    tags: ["2026", "Eulogy", "Family"],
     complete: true
   },
   {
@@ -2246,7 +2247,7 @@ const poems = [
     title: "Politics",
     description: "It's not often the corpse doesn't turn up",
     publishdate: "2026-10-01",
-    tags: ["Family", "Performance"],
+    tags: ["2026", "Family", "Performance"],
     complete: true
   },
   {
@@ -2308,7 +2309,7 @@ const poems = [
     title: "Prep Asto Thero Like",
     description: "So I asked the model, yo moddie, why do I sleep so no much?",
     publishdate: "2026-11-01",
-    tags: ["Communication", "Machine"],
+    tags: ["2026", "Communication", "Machine"],
     complete: true
   },
   {
@@ -2407,7 +2408,7 @@ const poems = [
     title: "Reading the runes of my YouTube feed algorithm",
     description: "You are exploring the early",
     publishdate: "2026-10-01",
-    tags: ["Culture", "Light", "Machine"],
+    tags: ["2026", "Culture", "Light", "Machine"],
     complete: true
   },
   {
@@ -2431,7 +2432,7 @@ const poems = [
     title: "Refurbishment",
     description: "I took a chisel and hammer to the shapes",
     publishdate: "2026-09-01",
-    tags: ["Culture", "Inheritance", "Light"],
+    tags: ["2026", "Culture", "Inheritance", "Light"],
     complete: true
   },
   {
@@ -2457,7 +2458,7 @@ const poems = [
     title: "Release",
     description: "What does it even mean, to die?",
     publishdate: "2026-10-01",
-    tags: ["Eulogy", "Family"],
+    tags: ["2026", "Eulogy", "Family"],
     complete: true
   },
   {
@@ -2586,7 +2587,7 @@ const poems = [
     title: "Second Equinox",
     description: "I would bargain with death, I tell her. She wears",
     publishdate: "2026-09-01",
-    tags: ["Family", "Surreal", "Wonder"],
+    tags: ["2026", "Family", "Surreal", "Wonder"],
     complete: true
   },
   {
@@ -2620,7 +2621,7 @@ const poems = [
     title: "Semi-detached",
     description: "I fret about next door. There's noises",
     publishdate: "2026-10-01",
-    tags: ["Communication", "Outsider"],
+    tags: ["2026", "Communication", "Outsider"],
     complete: true
   },
   {
@@ -2676,9 +2677,9 @@ const poems = [
   {
     id: "she-loved-horses",
     title: "She Loved Horses",
-    description: "Death isn't an end. No, death",
+    description: "Death: a strange season, a storm",
     publishdate: "2026-09-01",
-    tags: ["Eulogy", "Family"],
+    tags: ["2026", "Eulogy", "Family"],
     complete: true
   },
   {
@@ -2695,7 +2696,7 @@ const poems = [
     title: "Shoot",
     description: "It's a time lapse, this hand. Watch how",
     publishdate: "2026-11-01",
-    tags: ["Eulogy", "Family"],
+    tags: ["2026", "Eulogy", "Family"],
     complete: true
   },
   {
@@ -2760,7 +2761,7 @@ const poems = [
     title: "Some pleasantries to start",
     description: "If I may, I'll not shake your hand",
     publishdate: "2026-10-01",
-    tags: ["Communication", "Family"],
+    tags: ["2026", "Communication", "Family"],
     complete: true
   },
   {
@@ -2778,7 +2779,7 @@ const poems = [
     title: "Somewhen along a Hellenic road",
     description: "I ask Diogenes: is it enough",
     publishdate: "2026-10-01",
-    tags: ["Power", "Surreal"],
+    tags: ["2026", "Power", "Surreal"],
     complete: true
   },
   {
@@ -2786,7 +2787,7 @@ const poems = [
     title: "Spiralling",
     description: "This September and midway done with it",
     publishdate: "2026-09-01",
-    tags: ["Family", "Inheritance"],
+    tags: ["2026", "Family", "Inheritance"],
     complete: true
   },
   {
@@ -2927,7 +2928,7 @@ const poems = [
     title: "Synthetic Rik: A Prompt",
     description: "These words contain zero me",
     publishdate: "2026-11-01",
-    tags: ["Communication", "Machine", "Wonder"],
+    tags: ["2026", "Communication", "Machine", "Wonder"],
     complete: true
   },
   {
@@ -2945,7 +2946,7 @@ const poems = [
     title: "Tally",
     description: "While the online tests",
     publishdate: "2026-10-01",
-    tags: ["Communication", "Family", "Performance"],
+    tags: ["2026", "Communication", "Family", "Performance"],
     complete: true
   },
   {
@@ -2997,7 +2998,7 @@ const poems = [
     title: "Testament",
     description: "I have attended too many funerals this year",
     publishdate: "2026-11-01",
-    tags: ["Eulogy", "Performance"],
+    tags: ["2026", "Eulogy", "Performance"],
     complete: true
   },
   {
@@ -3005,7 +3006,7 @@ const poems = [
     title: "That time I watched one YouTube video too many",
     description: "Why would God strangle two tigers?",
     publishdate: "2026-10-01",
-    tags: ["Eulogy", "Family", "Surreal"],
+    tags: ["2026", "Eulogy", "Family", "Surreal"],
     complete: true
   },
   {
@@ -3013,7 +3014,7 @@ const poems = [
     title: "The Awaiting Room",
     description: "Beyond time, my space glows red",
     publishdate: "2026-11-01",
-    tags: ["Culture", "Surreal"],
+    tags: ["2026", "Culture", "Surreal"],
     complete: true
   },
   {
@@ -3031,7 +3032,7 @@ const poems = [
     title: "The Call",
     description: "Light a candle and watch it flame",
     publishdate: "2026-10-01",
-    tags: ["Communication", "Faith", "Family", "Noir"],
+    tags: ["2026", "Communication", "Faith", "Family", "Noir"],
     complete: true
   },
   {
@@ -3085,7 +3086,7 @@ const poems = [
     title: "The comfort of the wallow",
     description: "When I last edited me, I suffered",
     publishdate: "2026-11-01",
-    tags: ["Communication", "Embodiment"],
+    tags: ["2026", "Communication", "Embodiment"],
     complete: true
   },
   {
@@ -3112,7 +3113,7 @@ const poems = [
     title: "The Dinner Party",
     description: "In this dream I convene my familiar ghosts",
     publishdate: "2026-10-01",
-    tags: ["Family", "Surreal"],
+    tags: ["2026", "Family", "Surreal"],
     showcase: true,
     complete: true
   },
@@ -3121,7 +3122,7 @@ const poems = [
     title: "The Dogs",
     description: "Where are you now? In a safe place",
     publishdate: "2026-08-01",
-    tags: ["Yarn", "Noir"],
+    tags: ["2026", "Yarn", "Noir"],
     complete: true
   },
   {
@@ -3257,7 +3258,7 @@ const poems = [
     title: "The Model Trader",
     description: "Today I have two heads",
     publishdate: "2026-10-01",
-    tags: ["Culture", "Surreal"],
+    tags: ["2026", "Culture", "Surreal"],
     complete: true
   },
   {
@@ -3433,7 +3434,7 @@ const poems = [
     title: "They're not supposed to be wells",
     description: "They're supposed to be people. I can see",
     publishdate: "2026-10-01",
-    tags: ["Eulogy", "Surreal"],
+    tags: ["2026", "Eulogy", "Surreal"],
     complete: true
   },
   {
@@ -3441,7 +3442,7 @@ const poems = [
     title: "Thing No Thing",
     description: "If death is no thing, what of rocks?",
     publishdate: "2026-10-01",
-    tags: ["Eulogy", "Family"],
+    tags: ["2026", "Eulogy", "Family"],
     complete: true
   },
   {
@@ -3458,7 +3459,7 @@ const poems = [
     title: "Things to do when things are the same",
     description: "There's moss on my hook",
     publishdate: "2026-11-01",
-    tags: ["Machine", "Power", "Surreal"],
+    tags: ["2026", "Machine", "Power", "Surreal"],
     complete: true
   },
   {
@@ -3466,7 +3467,7 @@ const poems = [
     title: "Thirteen ways to stir at grief",
     description: "If I break the wings",
     publishdate: "2026-10-01",
-    tags: ["Culture", "Family"],
+    tags: ["2026", "Culture", "Family"],
     complete: true
   },
   {
@@ -3483,7 +3484,7 @@ const poems = [
     title: "Thoughts; Prayers",
     description: "Soon, I shall perform grief. Organisers have determined",
     publishdate: "2026-09-01",
-    tags: ["Family", "Office", "Power"],
+    tags: ["2026", "Family", "Office", "Power"],
     complete: true
   },
   {
@@ -3500,7 +3501,7 @@ const poems = [
     title: "Thrice Blind",
     description: "My mother's house is haunted: they're cold",
     publishdate: "2026-11-01",
-    tags: ["Family", "Surreal", "Violence"],
+    tags: ["2026", "Family", "Surreal", "Violence"],
     showcase: true,
     complete: true
   },
@@ -3528,7 +3529,7 @@ const poems = [
     title: "To save the marriage",
     description: "The gift of a baby can be a fraught concept",
     publishdate: "2026-10-01",
-    tags: ["Communication", "Family"],
+    tags: ["2026", "Communication", "Family"],
     complete: true
   },
   {
@@ -3536,7 +3537,7 @@ const poems = [
     title: "To Shirley",
     description: "By the time you reached my vexed age",
     publishdate: "2026-11-01",
-    tags: ["Eulogy", "Family"],
+    tags: ["2026", "Eulogy", "Family"],
     showcase: true,
     complete: true
   },
@@ -3545,7 +3546,7 @@ const poems = [
     title: "To the Great Stone of Mabley Green",
     description: "I do not need to atone, I tell the rock",
     publishdate: "2026-09-01",
-    tags: ["Family", "Inheritance", "Object"],
+    tags: ["2026", "Family", "Inheritance", "Object"],
     complete: true
   },
   {
@@ -3724,7 +3725,7 @@ const poems = [
     title: "Vessels in silhouette, horizoned at dawn",
     description: "Dad killed a man, once. He was proud of his lack",
     publishdate: "2026-11-01",
-    tags: ["Family", "Inheritance"],
+    tags: ["2026", "Family", "Inheritance"],
     complete: true
   },
   {
@@ -3732,7 +3733,7 @@ const poems = [
     title: "Walking home from an appointment",
     description: "I always feel the urge to eat",
     publishdate: "2026-11-01",
-    tags: ["Eulogy", "Urban"],
+    tags: ["2026", "Eulogy", "Urban"],
     complete: true
   },
   {
@@ -3740,7 +3741,7 @@ const poems = [
     title: "Walking to the care assessment home on the edge of town",
     description: "It is not my town, my home. This is mother",
     publishdate: "2026-11-01",
-    tags: ["Communication", "Family", "Inheritance", "Rural"],
+    tags: ["2026", "Communication", "Family", "Inheritance", "Rural"],
     complete: true
   },
   {
@@ -3748,7 +3749,7 @@ const poems = [
     title: "Water by spoon",
     description: "A hot breeze, today, grit in its teeth",
     publishdate: "2026-10-01",
-    tags: ["Communication", "Family"],
+    tags: ["2026", "Communication", "Family"],
     showcase: true,
     complete: true
   },
@@ -3757,7 +3758,7 @@ const poems = [
     title: "Water Dragon; Wood Dragon",
     description: "Because my now is the twenty twenties",
     publishdate: "2026-10-01",
-    tags: ["Communication", "Eulogy", "Family"],
+    tags: ["2026", "Communication", "Eulogy", "Family"],
     complete: true
   },
   {
@@ -3911,7 +3912,7 @@ const poems = [
     title: "Wrong Question",
     description: "July, beyond school, and the forever wind",
     publishdate: "2026-09-01",
-    tags: ["Family"],
+    tags: ["2026", "Family"],
     showcase: true,
     complete: true
   },
