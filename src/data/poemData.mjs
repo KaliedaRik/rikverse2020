@@ -294,6 +294,7 @@ const poems = [
     description: "We watch as the celebrant calls in the quiet",
     publishdate: "2026-10-01",
     tags: ["Family", "Performance"],
+    showcase: true,
     complete: true
   },
   {
@@ -400,6 +401,7 @@ const poems = [
     description: "When I first crawled I crawled first",
     publishdate: "2026-10-01",
     tags: ["Communication", "Family", "Surreal"],
+    showcase: true,
     complete: true
   },
   {
@@ -1291,6 +1293,7 @@ const poems = [
     description: "Pattern this: a grief that wounds",
     publishdate: "2026-09-01",
     tags: ["Family", "Wonder"],
+    showcase: true,
     complete: true
   },
   {
@@ -1757,6 +1760,7 @@ const poems = [
     description: "This is a sharp book",
     publishdate: "2026-10-01",
     tags: ["Communication", "Family"],
+    showcase: true,
     complete: true
   },
   {
@@ -2010,6 +2014,7 @@ const poems = [
     description: "What if this grief is my pupa?",
     publishdate: "2026-11-01",
     tags: ["Eulogy", "Surreal"],
+    showcase: true,
     complete: true
   },
   {
@@ -3108,6 +3113,7 @@ const poems = [
     description: "In this dream I convene my familiar ghosts",
     publishdate: "2026-10-01",
     tags: ["Family", "Surreal"],
+    showcase: true,
     complete: true
   },
   {
@@ -3495,6 +3501,7 @@ const poems = [
     description: "My mother's house is haunted: they're cold",
     publishdate: "2026-11-01",
     tags: ["Family", "Surreal", "Violence"],
+    showcase: true,
     complete: true
   },
   {
@@ -3530,6 +3537,7 @@ const poems = [
     description: "By the time you reached my vexed age",
     publishdate: "2026-11-01",
     tags: ["Eulogy", "Family"],
+    showcase: true,
     complete: true
   },
   {
@@ -3714,7 +3722,7 @@ const poems = [
   {
     id: "vessels-in-silhouette",
     title: "Vessels in silhouette, horizoned at dawn",
-    description: "I am not a small boat for a random group of selfish",
+    description: "Dad killed a man, once. He was proud of his lack",
     publishdate: "2026-11-01",
     tags: ["Family", "Inheritance"],
     complete: true
@@ -3741,6 +3749,7 @@ const poems = [
     description: "A hot breeze, today, grit in its teeth",
     publishdate: "2026-10-01",
     tags: ["Communication", "Family"],
+    showcase: true,
     complete: true
   },
   {
@@ -3903,6 +3912,7 @@ const poems = [
     description: "July, beyond school, and the forever wind",
     publishdate: "2026-09-01",
     tags: ["Family"],
+    showcase: true,
     complete: true
   },
   {
