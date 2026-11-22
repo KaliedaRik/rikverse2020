@@ -2031,7 +2031,7 @@ const poems = [
     title: "Names",
     description: "This space is nice, bright and roomy",
     publishdate: "2025-11-01",
-    tags: ["Family", "Yarn"],
+    tags: ["2026", "Family", "Yarn"],
     complete: true
   },
   {
