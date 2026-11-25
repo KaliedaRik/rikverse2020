@@ -3385,6 +3385,14 @@ const poems = [
     complete: true
   },
   {
+    id: "the-song-of-the-ever-man",
+    title: "The Song of the Ever Man",
+    description: "I do not want to live forever. Days",
+    publishdate: "2026-11-01",
+    tags: ["2026", "Communication", "Love", "Outsider"],
+    complete: true
+  },
+  {
     id: "the-tiger-hunts",
     title: "The Tiger Hunts",
     description: "She walks the sods and the soils of the Marsh",
