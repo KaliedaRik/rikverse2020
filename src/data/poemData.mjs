@@ -1946,6 +1946,14 @@ const poems = [
     complete: true
   },
   {
+    id: "mechanical-me",
+    title: "Mechanical Me",
+    description: "I am no golem. The words",
+    publishdate: "2026-11-01",
+    tags: ["2026", "Culture", "Machine"],
+    complete: true
+  },
+  {
     id: "memento",
     title: "Memento",
     description: "Mausoleums irk me. Pyramids on the horizon struck",
