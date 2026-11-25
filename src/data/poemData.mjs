@@ -3090,6 +3090,14 @@ const poems = [
     complete: true
   },
   {
+    id: "the-cross-on-the-wall",
+    title: "The Cross on the Wall",
+    description: "The knots in this recall are a bramble",
+    publishdate: "2026-11-01",
+    tags: ["2026", "Family", "Inheritance"],
+    complete: true
+  },
+  {
     id: "the-dangerous-ones",
     title: "The Dangerous Ones",
     description: "Said Myrtías (a student from Syria",
