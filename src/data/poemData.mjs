@@ -3368,6 +3368,14 @@ const poems = [
     complete: true
   },
   {
+    id: "the-salvationist",
+    title: "The Salvationist",
+    description: "She sits in stockings and sensible Christian",
+    publishdate: "2026-11-01",
+    tags: ["2026", "Family", "Inheritance", "Performance"],
+    complete: true
+  },
+  {
     id: "the-seer",
     title: "The Seer",
     description: "Beyond the dock, a shamble of shacks",
