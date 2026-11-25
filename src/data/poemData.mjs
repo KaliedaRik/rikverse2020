@@ -586,6 +586,14 @@ const poems = [
     complete: true
   },
   {
+    id: "cold-questions",
+    title: "Cold Questions",
+    description: "You loved your dad and he loved you",
+    publishdate: "2026-11-01",
+    tags: ["2026", "Family", "Inheritance"],
+    complete: true
+  },
+  {
     id: "communion",
     title: "Communion",
     description: "For my first burlesque in the warm May sun",
