@@ -46,18 +46,34 @@ const prettifyMonthDate = (inputString) => {
 // - poems not marked as completed excluded from CC licences
 const checkCopyright = (updated, complete) => {
 
+    // if (updated && complete) {
+
+    //     let [y, m, d] = [...updated.split('-')];
+
+    //     let myDate = new Date(y, m, d);
+
+    //     let now = new Date(),
+    //         cy = now.getFullYear() - 15,
+    //         cm = now.getMonth(),
+    //         cd = now.getDate();
+
+    //     let testDate = new Date(cy, cm, cd);
+
+    //     if (testDate > myDate) return '/images/cc-by.webp';
+    //     else return '/images/cc-by_nc_nd.webp';
+    // }
     if (updated && complete) {
 
-        let [y, m, d] = [...updated.split('-')];
+        const [y, m, d] = updated.split('-').map(Number);
 
-        let myDate = new Date(y, m, d);
+        const myDate = new Date(y, m - 1, d);
 
-        let now = new Date(),
+        const now = new Date(),
             cy = now.getFullYear() - 15,
             cm = now.getMonth(),
             cd = now.getDate();
 
-        let testDate = new Date(cy, cm, cd);
+        const testDate = new Date(cy, cm, cd);
 
         if (testDate > myDate) return '/images/cc-by.webp';
         else return '/images/cc-by_nc_nd.webp';

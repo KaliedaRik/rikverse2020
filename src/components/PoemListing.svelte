@@ -3,7 +3,7 @@
 
   export let listing;
 
-  let licence = checkCopyright(listing.publishdate, listing.complete);
+  $: licence = checkCopyright(listing.publishdate, listing.complete);
 </script>
 
 <style>
