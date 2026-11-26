@@ -1980,6 +1980,14 @@ const poems = [
     complete: true
   },
   {
+    id: "milestone",
+    title: "Milestone",
+    description: "I come home from school to find the party",
+    publishdate: "2026-11-01",
+    tags: ["2026", "Family", "Performance", "Wonder"],
+    complete: true
+  },
+  {
     id: "model",
     title: "Model",
     description: "Do you know me?",
