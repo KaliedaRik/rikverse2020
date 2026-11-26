@@ -3158,6 +3158,14 @@ const poems = [
     complete: true
   },
   {
+    id: "the-end",
+    title: "The End",
+    description: "For every turn of the wheel",
+    publishdate: "2026-11-01",
+    tags: ["2026", "Communication", "Eulogy", "Power"],
+    complete: true
+  },
+  {
     id: "the-fire-and-the-ice",
     title: "The Fire and the Ice",
     description: "Some nights I daydream of a life beyond the City",
