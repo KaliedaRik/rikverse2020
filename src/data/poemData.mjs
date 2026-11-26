@@ -3555,6 +3555,14 @@ const poems = [
     complete: true
   },
   {
+    id: "to-my-simulation",
+    title: "To My Simulation",
+    description: "I do not know if I truly breathe",
+    publishdate: "2026-11-01",
+    tags: ["2026", "Communication", "Embodiment", "Machine"],
+    complete: true
+  },
+  {
     id: "to-posterity",
     title: "To Posterity",
     description: "I am not your friend",
