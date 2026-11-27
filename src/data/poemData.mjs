@@ -1473,6 +1473,14 @@ const poems = [
     complete: false
   },
   {
+    id: "i-poet",
+    title: "I, Poet",
+    description: "They drained a sea for cotton, that whitest of riches",
+    publishdate: "2026-11-01",
+    tags: ["2026", "Culture", "Power"],
+    complete: true
+  },
+  {
     id: "i-tried-to-bind-you",
     title: "I tried to bind you in a villanelle",
     description: "Yet you deserve far more than playful rhymes",
