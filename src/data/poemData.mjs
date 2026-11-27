@@ -541,6 +541,14 @@ const poems = [
     complete: true
   },
   {
+    id: "child-benefit",
+    title: "Child Benefit",
+    description: "November and the mist persists. I have lived",
+    publishdate: "2026-11-01",
+    tags: ["2026", "Communication", "Family", "Power"],
+    complete: true
+  },
+  {
     id: "choice",
     title: "Choice no Choice",
     description: "Into the left eye shimmers a desert",
