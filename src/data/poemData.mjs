@@ -2425,6 +2425,14 @@ const poems = [
     complete: false
   },
   {
+    id: "raft",
+    title: "Raft",
+    description: "Knock, knock! No wind, no cloud",
+    publishdate: "2026-11-01",
+    tags: ["2026", "Eulogy", "Family", "Surreal"],
+    complete: true
+  },
+  {
     id: "rain-in-venice",
     title: "Rain in Venice",
     description: "We find her hidden from invaders beyond a tight arched alley",
