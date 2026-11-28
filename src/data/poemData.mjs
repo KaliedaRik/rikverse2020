@@ -1254,6 +1254,14 @@ const poems = [
     complete: true
   },
   {
+    id: "going-home",
+    title: "Going Home",
+    description: "They built a new railway, from me to you. They said",
+    publishdate: "2026-11-01",
+    tags: ["2026", "Inheritance", "Rural"],
+    complete: true
+  },
+  {
     id: "good-friday-1",
     title: "Good Friday #1",
     description: "Two hot spring weeks and already",
